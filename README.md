@@ -29,8 +29,6 @@ nessun framework, nessuna build. Funziona anche offline.
     ├── torino.html          → 36 esperienze · Carlotta
     ├── firenze.html         → 38 esperienze · Lorenzo
     ├── venezia.html         → 38 esperienze · Alvise
-    ├── kit_poliedrico.py    → generatore città 1–3
-    ├── kit_poliedrico_2.py  → generatore città 4–7
     └── README.md
 
 ## 🚀 Come usarlo
