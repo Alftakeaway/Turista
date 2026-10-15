@@ -1,1 +1,1 @@
-{"name":"guide-poliedriche","private":true,"version":"1.0.0","scripts":{"check":"node scripts/check.cjs","build":"node scripts/check.cjs && node scripts/build.cjs"}}
+{"name":"guide-poliedriche","private":true,"version":"2.0.0","engines":{"node":">=22"},"scripts":{"generate":"node scripts/generate.cjs","check":"node scripts/check.cjs","test":"node --test tests/unit.test.cjs","test:browser":"node tests/browser.cjs","build":"npm run generate && npm run check && npm test && node scripts/build.cjs"},"devDependencies":{"playwright":"1.62.1"}}

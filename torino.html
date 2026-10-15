@@ -1,132 +1,42 @@
+<!-- Generated from templates/city.html and data/cities/torino.json -->
 <!DOCTYPE html>
 <html lang="it">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Torino Poliedrica — La guida che si adatta a te</title>
-<meta name="description" content="Guida poliedrica di Torino: Egizio, portici e cioccolato — esperienze e itinerari per 8 profili di viaggiatore. Bilingue IT/EN." />
-<link rel="stylesheet" href="assets/css/guide.css">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Torino Poliedrica — esperienze e itinerari</title>
+<meta name="description" content="Esplora Torino: esperienze, filtri, fonti ufficiali e itinerario personale in italiano e inglese.">
+<link rel="stylesheet" href="assets/css/guide.css"><link rel="stylesheet" href="assets/css/features.css">
 </head>
 <body data-city="torino">
-<a class="skip-link" href="#esperienze">Salta alle esperienze / Skip to experiences</a>
-<a class="city-home" href="index.html">← Tutte le città / All cities</a>
-<noscript>Attiva JavaScript per filtri, itinerari e preferiti. / Enable JavaScript for filters, itineraries and favourites.</noscript>
-
-<header>
-  <div class="nav">
-    <span class="logo">Torino <b>Poliedrica</b></span>
-    <div class="nav-destra">
-      <nav class="menu" aria-label="Navigazione principale">
-        <a href="#profilo">Profili</a>
-        <a href="#esperienze">Esperienze</a>
-        <a href="#itinerario">Itinerario</a>
-        <a href="#info">Info pratiche</a>
-      </nav>
-      <button id="langBtn" aria-label="Switch language / Cambia lingua">EN</button>
-    </div>
-  </div>
-</header>
-
-<section class="hero">
-  <div class="wrap">
-    <span class="kicker">Guida poliedrica · Torino</span>
-    <h1>Ogni viaggio è<br><em>un viaggio diverso</em></h1>
-    <p>Una città, otto viaggiatori: scegli il tuo profilo e la guida si adatta
-       a te — esperienze, consigli e un itinerario su misura.</p>
-    <div class="cta">
-      <a class="btn btn-p" href="#profilo">Trova il tuo profilo ↓</a>
-      <a class="btn btn-s" href="#esperienze">Vedi tutte le esperienze</a>
-    </div>
-    <div class="stats">
-      <div><b>8</b><span>profili di viaggiatore</span></div>
-      <div><b>36</b><span>esperienze selezionate</span></div>
-      <div><b>8</b><span>itinerari pronti</span></div>
-    </div>
-  </div>
-</section>
-
-<section id="profilo">
-  <div class="wrap">
-    <span class="kicker">Passo 1</span>
-    <h2>Che tipo di viaggiatore sei?</h2>
-    <p class="sotto">Tocca un profilo: esperienze e itinerario si filtrano subito.
-       Nessuna selezione = vedi tutto.</p>
-    <div class="chip-grid" id="chipGrid" role="group" aria-label="Selettore profilo viaggiatore"></div>
-  </div>
-</section>
-
-<section id="esperienze" style="background:var(--bianco)">
-  <div class="wrap">
-    <span class="kicker">Passo 2</span>
-    <h2>Esperienze su misura</h2>
-    <div class="info-riga">
-      <div class="selettori">
-        <select id="sottoSelect" class="selettore" aria-label="Filtra per sotto-categoria" disabled>
-          <option value="">Seleziona prima un profilo ↑</option>
-        </select>
-        <select id="tipoSelect" class="selettore" aria-label="Filtra per tipo di locale" style="display:none">
-          <option value="">Tutti i tipi</option>
-        </select>
-      </div>
-      <span class="conteggio" id="conteggio" role="status"></span>
-    </div>
-    <p class="legenda">💡 Le esperienze con più tag appartengono a più profili:
-      nel menu a tendina compaiono sotto la loro sotto-categoria principale.</p>
-    <div class="grid" id="gridEsperienze"></div>
-  </div>
-</section>
-
-<section id="itinerario">
-  <div class="wrap">
-    <span class="kicker">Passo 3</span>
-    <h2>Il tuo giorno ideale</h2>
-    <p class="sotto" id="itinerarioSotto"></p>
-    <div class="itinerario-box" id="itinerarioBox"></div>
-  </div>
-</section>
-
-<section id="info" style="background:var(--bianco)">
-  <div class="wrap">
-    <span class="kicker">Prima di partire</span>
-    <h2>Info pratiche</h2>
-    <div class="info-grid">
-      <div class="info-card"><h3>🚇 Muoversi</h3>
-        <p>Metro A e B coprono i principali hub. Il biglietto dura 100 minuti
-        e include un cambio. Cammina: il centro si attraversa a piedi.</p></div>
-      <div class="info-card alt"><h3>🗓️ Quando andare</h3>
-        <p>Aprile–maggio e ottobre: clima ottimo. Agosto: caldo intenso ma città
-        vuota (molti ristoranti chiusi). Eventi sportivi: primavera.</p></div>
-      <div class="info-card"><h3>🎟️ Prenotare</h3>
-        <p>Colosseo, Musei Vaticani e Galleria Borghese richiedono prenotazione
-        con orario. Prenota tutto almeno 2–3 settimane prima.</p></div>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <div class="wrap">
-    <b>Roma Poliedrica</b> — demo educativa · dati indicativi: verifica sempre
-    orari e prezzi sui siti ufficiali
-  </div>
-</footer>
-
-<button id="chatBtn" aria-expanded="false">🙋 Chiedi a Carlotta</button>
-<div id="chatPanel" role="dialog" aria-label="Chat con Carlotta, amico locale">
-  <div class="chat-head">
-    <b>Carlotta · la tua amica torinese</b>
-    <small>risponde subito · funziona anche offline</small>
-  </div>
-  <div class="chat-msgs" id="chatMsgs" role="log" aria-live="polite"></div>
-  <div class="chat-quick" id="chatQuick"></div>
-  <form class="chat-input" id="chatForm">
-    <input id="chatText" type="text" placeholder="Scrivi una domanda..." autocomplete="off" />
-    <button type="submit" aria-label="Invia domanda">➤</button>
-  </form>
-</div>
-
+<a class="skip-link" href="#esperienze">Salta alle esperienze</a>
+<a class="city-home" href="index.html">← Tutte le città</a>
+<header><div class="nav"><a class="logo" href="torino.html">Torino <b>Poliedrica</b></a><div class="nav-destra">
+<nav class="menu" aria-label="Navigazione principale"><a href="#profilo">Profili</a><a href="#esperienze">Esperienze</a><a href="#itinerario">Itinerario</a><a href="#info">Info pratiche</a></nav>
+<button id="langBtn" aria-label="Cambia lingua / Switch language">EN</button></div></div></header>
+<main>
+<p id="storage-notice" class="notice" role="status" hidden></p>
+<noscript>Attiva JavaScript per filtri, preferiti e itinerario personale. Le schede dettagliate restano consultabili. / Enable JavaScript for filters, favourites and your personal plan.</noscript>
+<section class="hero"><div class="wrap hero-layout"><div><span class="kicker">Guida poliedrica · Torino</span><h1>Ogni viaggio è<br><em>un viaggio diverso</em></h1><p>Una città, otto viaggiatori: scegli il tuo profilo e la guida si adatta a te — dalla Mole ai portici, un itinerario su misura.</p><div class="cta"><a class="btn btn-p" href="#profilo">Trova il tuo profilo</a><a class="btn btn-s" href="#esperienze">Vedi le esperienze</a></div>
+<div class="stats"><div><b>8</b><span>profili di viaggiatore</span></div><div><b>36</b><span>esperienze selezionate</span></div><div><b>8</b><span>itinerari pronti</span></div></div></div><figure class="city-photo"><img src="assets/images/torino.jpg" alt="Mole Antonelliana a Torino" data-alt="Mole Antonelliana a Torino|Mole Antonelliana in Turin" width="1200" height="1848" loading="lazy" decoding="async"><figcaption><span data-text="Fotografia della città, non dell’attività|City photograph, not the activity">Fotografia della città, non dell’attività</span>. Gunnar Klack — <a href="https://commons.wikimedia.org/wiki/File:2026-06-10-Mole-Antonelliana.jpg">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a></figcaption></figure></div></section>
+<section id="profilo"><div class="wrap"><span class="kicker">Passo 1</span><h2>Che tipo di viaggiatore sei?</h2><p class="sotto">Scegli un profilo per filtrare esperienze e itinerari.</p><div class="chip-grid" id="chipGrid" role="group" aria-label="Selettore profilo viaggiatore"></div></div></section>
+<section id="esperienze"><div class="wrap"><span class="kicker">Passo 2</span><h2>Esperienze su misura</h2>
+<div class="advanced-filters"><label for="filter-search">Cerca esperienze</label><input id="filter-search" type="search" maxlength="150" autocomplete="off"><label for="filter-duration">Durata indicativa</label><select id="filter-duration"></select><label for="filter-budget">Costo documentato</label><select id="filter-budget"></select><label for="filter-area">Zona</label><select id="filter-area"></select></div>
+<div class="info-riga"><div class="selettori"><select id="sottoSelect" class="selettore" aria-label="Filtra per sotto-categoria" disabled><option>Seleziona prima un profilo</option></select><select id="tipoSelect" class="selettore" aria-label="Filtra per tipo di locale" style="display:none"><option>Tutti i tipi</option></select></div><span id="conteggio" class="conteggio" role="status" aria-live="polite" aria-atomic="true"></span></div>
+<div class="search-actions"><button id="reset-filters">Azzera filtri</button><button id="share-filters">Condividi ricerca</button><span id="share-status" role="status"></span></div>
+<p class="legenda">Le esperienze possono appartenere a più profili.</p><p class="data-note" data-text="Durate indicative; costo e accessibilità sono indicati solo quando documentati. I dati mancanti sono segnalati nelle schede.|Durations are estimates; costs and accessibility are shown only when documented. Missing information is flagged in the details.">Durate indicative; costo e accessibilità sono indicati solo quando documentati.</p>
+<div class="grid" id="gridEsperienze"></div><noscript><ul><li><a href="esperienze/torino-001.html">Museo Egizio</a></li><li><a href="esperienze/torino-002.html">Mole Antonelliana e Museo del Cinema</a></li><li><a href="esperienze/torino-003.html">MAUTO: il Museo dell&#39;Automobile</a></li><li><a href="esperienze/torino-004.html">Palazzo Reale e Giardini Reali</a></li><li><a href="esperienze/torino-005.html">Palazzo Madama e l&#39;Arte Antica</a></li><li><a href="esperienze/torino-006.html">Lingotto: la pista sul tetto</a></li><li><a href="esperienze/torino-007.html">Lingotto Fiere e congressi</a></li><li><a href="esperienze/torino-008.html">Aperitivo dopo l&#39;ufficio</a></li><li><a href="esperienze/torino-009.html">Bleisure: le Langhe del Barolo</a></li><li><a href="esperienze/torino-010.html">Agnolotti e tajarin</a></li><li><a href="esperienze/torino-011.html">Bagna cauda e bunet</a></li><li><a href="esperienze/torino-012.html">Bicerin al caffè storico</a></li><li><a href="esperienze/torino-013.html">Gianduiotto e cioccolaterie</a></li><li><a href="esperienze/torino-014.html">Vermouth: l&#39;aperitivo di Torino</a></li><li><a href="esperienze/torino-015.html">Apericena e buffet</a></li><li><a href="esperienze/torino-016.html">Porto Palazzo: il grande mercato</a></li><li><a href="esperienze/torino-017.html">Balon e Aurora: il sabato dell&#39;usato</a></li><li><a href="esperienze/torino-018.html">Alta cucina: la Torino creativa</a></li><li><a href="esperienze/torino-019.html">Il Duomo e la Sindone</a></li><li><a href="esperienze/torino-020.html">Superga col tram a dentiera</a></li><li><a href="esperienze/torino-021.html">San Lorenzo: la Torino barocca</a></li><li><a href="esperienze/torino-022.html">La Consolata: il cuore dei torinesi</a></li><li><a href="esperienze/torino-023.html">Spa e hammam storici</a></li><li><a href="esperienze/torino-024.html">Parco del Valentino e Borgo Medievale</a></li><li><a href="esperienze/torino-025.html">La collina e le vigne</a></li><li><a href="esperienze/torino-026.html">Allianz Stadium e J-Museum</a></li><li><a href="esperienze/torino-027.html">Il derby della Mole</a></li><li><a href="esperienze/torino-028.html">PalaAlpitour e i grandi concerti</a></li><li><a href="esperienze/torino-029.html">Corsa e bici lungo il Po</a></li><li><a href="esperienze/torino-030.html">Quadrilatero Romano di sera</a></li><li><a href="esperienze/torino-031.html">San Salvario: il quartiere del mondo</a></li><li><a href="esperienze/torino-032.html">Murazzi: il Po dei torinesi</a></li><li><a href="esperienze/torino-033.html">In bici da Valentino alla Pellerina</a></li><li><a href="esperienze/torino-034.html">Corso di agnolotti</a></li><li><a href="esperienze/torino-035.html">Laboratorio di cioccolato</a></li><li><a href="esperienze/torino-036.html">Torino esoterica: il tour</a></li></ul></noscript></div></section>
+<section id="itinerario"><div class="wrap"><span class="kicker">Passo 3</span><h2>Il tuo giorno ideale</h2><p class="sotto" id="itinerarioSotto"></p><div class="itinerario-box" id="itinerarioBox"></div></div></section>
+<section class="planner-section"><div class="wrap" id="personal-plan"></div></section>
+<section id="info"><div class="wrap"><span class="kicker">Prima di partire</span><h2>Info pratiche</h2><div class="info-grid"><div class="info-card"><h3>Muoversi</h3><p>Pianifica gli spostamenti sul sito ufficiale del trasporto locale: linee, orari, tariffe e accessibilità possono cambiare.</p></div><div class="info-card alt"><h3>Quando andare</h3><p>Controlla meteo, calendario degli eventi e condizioni dei percorsi per le date del viaggio. L’affluenza varia: nessuna fascia oraria garantisce assenza di code.</p></div><div class="info-card"><h3>Prenotare</h3><p>Per musei, spettacoli, corsi e attività scegli prima una data e verifica disponibilità, tariffe e condizioni sul sito del gestore. Gli itinerari sono proposte, non prenotazioni.</p></div></div>
+<div class="official-links"><a href="https://turismotorino.org/" target="_blank" rel="noopener noreferrer" data-text="Portale ufficiale della città|Official city portal">Portale ufficiale della città</a><a href="https://www.gtt.to.it/" target="_blank" rel="noopener noreferrer" data-text="Trasporti locali|Local transport">Trasporti locali</a><a href="https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism" target="_blank" rel="noopener noreferrer" data-text="Informazioni per organizzare una visita accessibile|Information for planning an accessible visit">Informazioni per organizzare una visita accessibile</a></div></div></section>
+</main><footer><div class="wrap">Torino Poliedrica — consulta le fonti ufficiali prima di partire</div><p><a href="crediti.html">Foto, fonti e privacy / Photos, sources and privacy</a></p></footer>
+<button id="chatBtn" aria-expanded="false">Domande frequenti</button><div id="chatPanel" role="dialog" aria-label="Domande frequenti" hidden><div class="chat-head"><b>Domande frequenti</b><small>Risposte predefinite</small></div><div id="chatMsgs" class="chat-msgs" role="log" aria-live="polite"></div><div id="chatQuick" class="chat-quick"></div><form id="chatForm" class="chat-input"><input id="chatText" type="text" maxlength="500" aria-label="Cerca un argomento" autocomplete="off"><button type="submit" aria-label="Invia domanda">➤</button></form></div>
 <script defer src="assets/js/storage.js"></script>
+<script defer src="assets/js/ui.js"></script>
 <script defer src="assets/js/experiences.js"></script>
+<script defer src="assets/js/catalogue.js"></script>
+<script defer src="assets/js/planner.js"></script>
+<script defer src="assets/js/faq.js"></script>
 <script defer src="assets/js/guide.js"></script>
 <script defer src="assets/js/cities/torino.js"></script>
-</body>
-</html>
+</body></html>

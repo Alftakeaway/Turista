@@ -1,0 +1,2632 @@
+{
+  "storageKey": "rp",
+  "pageTitle": "Roma Poliedrica — La guida che si adatta a te|Polyedric Rome — The guide that adapts to you",
+  "TESTI": {
+    "nav1": "Profili|Profiles",
+    "nav2": "Esperienze|Experiences",
+    "nav3": "Itinerario|Itinerary",
+    "nav4": "Info pratiche|Practical info",
+    "heroK": "Guida poliedrica · Roma|The many-sided guide · Rome",
+    "heroH1": "Ogni viaggio è<br><em>un viaggio diverso</em>|Every trip is<br><em>a different trip</em>",
+    "heroP": "Una città, otto viaggiatori: scegli il tuo profilo e la guida si adatta a te — esperienze, consigli e un itinerario su misura.|One city, eight travellers: pick your profile and the guide adapts — experiences, tips and a tailor-made itinerary.",
+    "cta1": "Trova il tuo profilo ↓|Find your profile ↓",
+    "cta2": "Vedi tutte le esperienze|See all experiences",
+    "stat1": "profili di viaggiatore|traveller profiles",
+    "stat2": "esperienze selezionate|curated experiences",
+    "stat3": "itinerari pronti|ready itineraries",
+    "step1k": "Passo 1|Step 1",
+    "step1h": "Che tipo di viaggiatore sei?|What kind of traveller are you?",
+    "step1p": "Tocca un profilo: esperienze e itinerario si filtrano subito. Nessuna selezione = vedi tutto.|Tap a profile: experiences and itinerary filter instantly. No selection = see everything.",
+    "step2k": "Passo 2|Step 2",
+    "step2h": "Esperienze su misura|Tailored experiences",
+    "legenda": "💡 Le esperienze con più tag appartengono a più profili: nel menu a tendina compaiono sotto la loro sotto-categoria principale.|💡 Multi-tag experiences belong to several profiles: they appear under their main subcategory.",
+    "step3k": "Passo 3|Step 3",
+    "step3h": "Il tuo giorno ideale|Your perfect day",
+    "itin1": "Seleziona un profilo qui sopra per comporre la tua giornata perfetta.|Select a profile above to compose your perfect day.",
+    "itin2": "👆 Scegli prima <b>chi sei come viaggiatore</b>: l'itinerario del giorno appare qui.|👆 First choose <b>who you are as a traveller</b>: the day itinerary appears here.",
+    "infoK": "Prima di partire|Before you go",
+    "infoH": "Info pratiche|Practical info",
+    "info1h": "🚇 Muoversi|🚇 Getting around",
+    "info1p": "Pianifica gli spostamenti sul sito ufficiale del trasporto locale: linee, orari, tariffe e accessibilità possono cambiare.|Plan your journeys on the local transport operator’s official website: routes, schedules, fares and accessibility can change.",
+    "info2h": "🗓️ Quando andare|🗓️ When to go",
+    "info2p": "Controlla meteo, calendario degli eventi e condizioni dei percorsi per le date del viaggio. L’affluenza varia: nessuna fascia oraria garantisce assenza di code.|Check weather, event schedules and route conditions for your travel dates. Crowds vary: no time of day guarantees a queue-free visit.",
+    "info3h": "🎟️ Prenotare|🎟️ Booking",
+    "info3p": "Per musei, spettacoli, corsi e attività scegli prima una data e verifica disponibilità, tariffe e condizioni sul sito del gestore. Gli itinerari sono proposte, non prenotazioni.|For museums, performances, classes and activities, choose a date and check availability, prices and terms on the operator’s website. Itineraries are suggestions, not reservations.",
+    "footer": "<b>Roma Poliedrica</b> — demo educativa · dati indicativi: verifica sempre orari e prezzi sui siti ufficiali|<b>Roma Poliedrica</b> — educational demo · indicative data: always check times and prices on official websites",
+    "selProfilo": "Seleziona prima un profilo ↑|Select a profile first ↑",
+    "tutteSotto": "Tutte le sotto-categorie|All subcategories",
+    "tuttiTipi": "Tutti i tipi di locale|All venue types",
+    "parolaEsp": "esperienze|experiences",
+    "comboVuota": "Nessuna esperienza corrisponde ai filtri. Prova un’altra ricerca o scegli Azzera filtri.|No experiences match these filters. Try another search or choose Reset filters.",
+    "etichettaTutti": "tutti i profili|all profiles",
+    "giornata": "Giornata ottimale per il profilo|Optimal day for the profile",
+    "ariaSotto": "Filtra per sotto-categoria|Filter by subcategory",
+    "ariaTipo": "Filtra per tipo di locale|Filter by venue type",
+    "chatTitolo": "FAQ di Roma|Rome FAQ",
+    "chatSotto": "Risposte predefinite e fonti ufficiali|Preset answers and official sources",
+    "chatBtn": "Domande frequenti|Frequently asked questions",
+    "chatChiudi": "✕ Chiudi|✕ Close",
+    "chatPh": "Scrivi una domanda...|Type a question...",
+    "benvenuto": "Questa è una FAQ automatica con risposte predefinite. Cerca un argomento o scegli una domanda. Per informazioni aggiornate consulta i link ufficiali.|This is an automated FAQ with preset answers. Search a topic or choose a question. Use the official links for current information.",
+    "favBtn": "❤ Preferiti|❤ Favorites",
+    "favTitolo": "I tuoi preferiti|Your favorites",
+    "svuota": "Svuota|Clear all",
+    "favVuoto": "Nessun preferito per ora: tocca la stella ☆ su una card per salvarla.|No favorites yet: tap the ☆ star on a card to save it.",
+    "toastAgg": "Aggiunto ai preferiti ★|Added to favorites ★",
+    "toastRim": "Rimosso dai preferiti|Removed from favorites",
+    "salva": "Salva nei preferiti|Save to favorites",
+    "rimuovi": "Rimuovi dai preferiti|Remove from favorites"
+  },
+  "PROFILI": [
+    {
+      "id": "cultura",
+      "emoji": "🏛️",
+      "nome": "Culturale|Cultural",
+      "claim": "Storia viva a ogni angolo|Living history at every corner"
+    },
+    {
+      "id": "business",
+      "emoji": "💼",
+      "nome": "Business & Bleisure|Business & Bleisure",
+      "claim": "Congressi di giorno, dolce vita di sera|Congress by day, la dolce vita by night"
+    },
+    {
+      "id": "food",
+      "emoji": "🍝",
+      "nome": "Enogastronomico|Food & Wine",
+      "claim": "Quartieri, sughi e mercati rionali|Districts, sauces and local markets"
+    },
+    {
+      "id": "religioso",
+      "emoji": "⛪",
+      "nome": "Religioso & Spirituale|Religious & Spiritual",
+      "claim": "La città delle basiliche|The city of basilicas"
+    },
+    {
+      "id": "benessere",
+      "emoji": "🌿",
+      "nome": "Benessere & Medicale|Wellness & Medical",
+      "claim": "Rigenerarsi tra terme e parchi|Recharge among spas and parks"
+    },
+    {
+      "id": "sport",
+      "emoji": "🏟️",
+      "nome": "Sport & Grandi Eventi|Sports & Major Events",
+      "claim": "Stadi, maratone, palchi epici|Stadiums, marathons, epic stages"
+    },
+    {
+      "id": "lento",
+      "emoji": "🚲",
+      "nome": "Lento & Sostenibile|Slow & Sustainable",
+      "claim": "La Roma dei quartieri, a ritmo umano|The Rome of neighborhoods, at human pace"
+    },
+    {
+      "id": "formativo",
+      "emoji": "🎓",
+      "nome": "Formativo|Educational",
+      "claim": "Imparare qualcosa che resta|Learn something that stays"
+    }
+  ],
+  "SOTTO": {
+    "cultura": [
+      {
+        "id": "musei",
+        "emoji": "🖼️",
+        "nome": "Musei e gallerie|Museums & galleries"
+      },
+      {
+        "id": "archeo",
+        "emoji": "🏺",
+        "nome": "Siti archeologici|Archaeological sites"
+      },
+      {
+        "id": "modern",
+        "emoji": "🏗️",
+        "nome": "Arte contemporanea e architettura|Contemporary art & architecture"
+      }
+    ],
+    "business": [
+      {
+        "id": "congressi",
+        "emoji": "🎤",
+        "nome": "Congressi e meeting|Congresses & meetings"
+      },
+      {
+        "id": "bleisure",
+        "emoji": "🧳",
+        "nome": "Estensioni bleisure|Bleisure extensions"
+      },
+      {
+        "id": "networking",
+        "emoji": "🥂",
+        "nome": "Aperitivi e networking|Aperitifs & networking"
+      }
+    ],
+    "food": [
+      {
+        "id": "romana",
+        "emoji": "🍝",
+        "nome": "Cucina tipica romana|Roman & typical cuisine"
+      },
+      {
+        "id": "alta",
+        "emoji": "🍽️",
+        "nome": "Ristoranti e alta cucina|Restaurants & fine dining"
+      },
+      {
+        "id": "sushi",
+        "emoji": "🍣",
+        "nome": "Sushi e ramen|Sushi & ramen"
+      },
+      {
+        "id": "cinese",
+        "emoji": "🥡",
+        "nome": "Cucina cinese|Chinese cuisine"
+      },
+      {
+        "id": "greca",
+        "emoji": "🫒",
+        "nome": "Cucina greca|Greek cuisine"
+      },
+      {
+        "id": "street",
+        "emoji": "🧺",
+        "nome": "Mercati e street food|Markets & street food"
+      },
+      {
+        "id": "dolci",
+        "emoji": "🍨",
+        "nome": "Dolci, caffè e gelati|Sweets, coffee & gelato"
+      }
+    ],
+    "religioso": [
+      {
+        "id": "basiliche",
+        "emoji": "⛪",
+        "nome": "Basiliche papali|Papal basilicas"
+      },
+      {
+        "id": "chiese",
+        "emoji": "🕯️",
+        "nome": "Chiese e siti minori|Churches & minor sites"
+      },
+      {
+        "id": "pellegrini",
+        "emoji": "🥾",
+        "nome": "Percorsi di pellegrinaggio|Pilgrimage routes"
+      }
+    ],
+    "benessere": [
+      {
+        "id": "terme",
+        "emoji": "♨️",
+        "nome": "Terme e acque termali|Thermal baths & waters"
+      },
+      {
+        "id": "spa",
+        "emoji": "💆",
+        "nome": "Spa e massaggi|Spas & massages"
+      },
+      {
+        "id": "verde",
+        "emoji": "🌳",
+        "nome": "Parchi e natura urbana|Parks & urban nature"
+      }
+    ],
+    "sport": [
+      {
+        "id": "calcio",
+        "emoji": "⚽",
+        "nome": "Calcio e stadio|Football & stadium"
+      },
+      {
+        "id": "eventi",
+        "emoji": "🎪",
+        "nome": "Concerti e grandi eventi|Concerts & major events"
+      },
+      {
+        "id": "partecipa",
+        "emoji": "🏃",
+        "nome": "Sport da praticare|Sports to play"
+      }
+    ],
+    "lento": [
+      {
+        "id": "quartieri",
+        "emoji": "🏘️",
+        "nome": "Quartieri autentici|Authentic neighborhoods"
+      },
+      {
+        "id": "parchi",
+        "emoji": "🌿",
+        "nome": "Parchi e natura|Parks & nature"
+      },
+      {
+        "id": "lente",
+        "emoji": "🚲",
+        "nome": "Mobilità dolce|Soft mobility"
+      }
+    ],
+    "formativo": [
+      {
+        "id": "cucina",
+        "emoji": "👩‍🍳",
+        "nome": "Corsi di cucina|Cooking classes"
+      },
+      {
+        "id": "artigianato",
+        "emoji": "🎨",
+        "nome": "Laboratori artigianali|Craft workshops"
+      },
+      {
+        "id": "guide",
+        "emoji": "📣",
+        "nome": "Visite guidate e masterclass|Guided tours & masterclasses"
+      }
+    ]
+  },
+  "TIPI": [
+    {
+      "id": "ristorante",
+      "emoji": "🍽️",
+      "nome": "Ristorante|Restaurant"
+    },
+    {
+      "id": "trattoria",
+      "emoji": "🏠",
+      "nome": "Trattoria|Trattoria"
+    },
+    {
+      "id": "osteria",
+      "emoji": "🍷",
+      "nome": "Osteria|Osteria"
+    },
+    {
+      "id": "taverna",
+      "emoji": "🕯️",
+      "nome": "Taverna|Tavern"
+    },
+    {
+      "id": "bistrot",
+      "emoji": "🥂",
+      "nome": "Bistrò|Bistro"
+    },
+    {
+      "id": "mercato",
+      "emoji": "🧺",
+      "nome": "Mercato|Market"
+    },
+    {
+      "id": "bar",
+      "emoji": "☕",
+      "nome": "Bar e pasticceria|Bar & pastry shop"
+    }
+  ],
+  "ESPERIENZE": [
+    {
+      "t": "Colosseo, Foro e Palatino|Colosseum, Forum & Palatine",
+      "z": "Fori Imperiali|Imperial Fora",
+      "d": "3 ore|3 hrs",
+      "tags": [
+        "cultura"
+      ],
+      "sub": "archeo",
+      "p": "L'anfiteatro più celebre al mondo e il cuore politico dell'Impero in un solo biglietto.|The world's most famous amphitheatre and the political heart of the Empire, one ticket for all.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-001",
+      "legacyId": "Colosseo, Foro e Palatino",
+      "duration": {
+        "minutes": 180,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Fori Imperiali|Imperial Fora",
+        "address": null,
+        "mapQuery": "Colosseo, Foro e Palatino, Roma"
+      },
+      "source": {
+        "url": "https://colosseo.it/",
+        "scope": "operator",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Ostia Antica, la Roma di mare|Ostia Antica, Rome by the sea",
+      "z": "Ostia Antica|Ostia Antica",
+      "d": "mezza giornata|half day",
+      "tags": [
+        "cultura"
+      ],
+      "sub": "archeo",
+      "p": "Scavi tra i meglio conservati d'Italia: teatro, terme e taberne della città-porto dell'Impero.|Some of Italy's best-preserved ruins: theatre, baths and shopfronts of the Empire's port city.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-002",
+      "legacyId": "Ostia Antica, la Roma di mare",
+      "duration": {
+        "minutes": 240,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Ostia Antica|Ostia Antica",
+        "address": null,
+        "mapQuery": "Ostia Antica, la Roma di mare, Roma"
+      },
+      "source": {
+        "url": "https://ostiaantica.cultura.gov.it/",
+        "scope": "operator",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Musei Vaticani e Cappella Sistina|Vatican Museums & Sistine Chapel",
+      "z": "Vaticano|Vatican",
+      "d": "4 ore|4 hrs",
+      "tags": [
+        "cultura",
+        "religioso"
+      ],
+      "sub": "musei",
+      "p": "Chilometri di capolavori, da Raffaello fino allo strabiliante soffitto di Michelangelo.|Kilometres of masterpieces, from Raphael to Michelangelo's breathtaking ceiling.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-003",
+      "legacyId": "Musei Vaticani e Cappella Sistina",
+      "duration": {
+        "minutes": 240,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Vaticano|Vatican",
+        "address": null,
+        "mapQuery": "Musei Vaticani e Cappella Sistina, Roma"
+      },
+      "source": {
+        "url": "https://www.museivaticani.va/",
+        "scope": "operator",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Galleria Borghese|Galleria Borghese",
+      "z": "Pinciano|Pinciano",
+      "d": "2 ore|2 hrs",
+      "tags": [
+        "cultura"
+      ],
+      "sub": "musei",
+      "p": "Bernini e Caravaggio dentro una villa da cartolina, immersa nel parco.|Bernini and Caravaggio inside a postcard villa, set in the park.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-004",
+      "legacyId": "Galleria Borghese",
+      "duration": {
+        "minutes": 120,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Pinciano|Pinciano",
+        "address": null,
+        "mapQuery": "Galleria Borghese, Roma"
+      },
+      "source": {
+        "url": "https://galleriaborghese.cultura.gov.it/info/",
+        "scope": "operator",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "MAXXI e Roma contemporanea|MAXXI & contemporary Rome",
+      "z": "Flaminio|Flaminio",
+      "d": "2 ore|2 hrs",
+      "tags": [
+        "cultura"
+      ],
+      "sub": "modern",
+      "p": "L'avvolgente architettura di Zaha Hadid ospita il meglio dell'arte del presente.|Zaha Hadid's sweeping architecture hosts the best of contemporary art.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-005",
+      "legacyId": "MAXXI e Roma contemporanea",
+      "duration": {
+        "minutes": 120,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Flaminio|Flaminio",
+        "address": null,
+        "mapQuery": "MAXXI e Roma contemporanea, Roma"
+      },
+      "source": {
+        "url": "https://www.maxxi.art/",
+        "scope": "operator",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Quartiere Coppedè|Coppedè district",
+      "z": "Trieste|Trieste",
+      "d": "1,5 ore|1.5 hrs",
+      "tags": [
+        "cultura",
+        "lento"
+      ],
+      "sub": "modern",
+      "p": "Un pugno di palazzi liberty che sembrano usciti da una fiaba, quasi sconosciuti ai turisti.|A handful of Art Nouveau palaces straight out of a fairytale, almost unknown to tourists.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-006",
+      "legacyId": "Quartiere Coppedè",
+      "duration": {
+        "minutes": 90,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Trieste|Trieste",
+        "address": null,
+        "mapQuery": "Quartiere Coppedè, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "EUR e La Nuvola|EUR & La Nuvola",
+      "z": "EUR|EUR",
+      "d": "mezza giornata|half day",
+      "tags": [
+        "business",
+        "cultura"
+      ],
+      "sub": "congressi",
+      "p": "Il razionalismo architettonico incontra il centro congressi di Fuksas, simbolo della Roma business.|Rationalist architecture meets Fuksas's congress centre, symbol of business Rome.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-007",
+      "legacyId": "EUR e La Nuvola",
+      "duration": {
+        "minutes": 240,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "EUR|EUR",
+        "address": null,
+        "mapQuery": "EUR e La Nuvola, Roma"
+      },
+      "source": {
+        "url": "https://romaconventioncenter.it/it/visitatori/",
+        "scope": "operator",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Aperitivo bleisure nel Tridente|Bleisure aperitivo in the Tridente",
+      "z": "Centro|Centre",
+      "d": "2 ore|2 hrs",
+      "tags": [
+        "business",
+        "food"
+      ],
+      "sub": "networking",
+      "p": "Da via Margutta a piazza del Popolo: il rito romano del dopo-lavoro, tra terrazze e wine bar.|From via Margutta to piazza del Popolo: Rome's after-work ritual, between rooftops and wine bars.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-008",
+      "legacyId": "Aperitivo bleisure nel Tridente",
+      "duration": {
+        "minutes": 120,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Centro|Centre",
+        "address": null,
+        "mapQuery": "Aperitivo bleisure nel Tridente, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Tivoli in giornata|Tivoli day trip",
+      "z": "Fuori porta|Out of town",
+      "d": "8 ore|8 hrs",
+      "tags": [
+        "business",
+        "cultura"
+      ],
+      "sub": "bleisure",
+      "p": "Villa d'Este e Villa Adriana: la gita perfetta per chi estende il viaggio di lavoro di un giorno.|Villa d'Este and Villa Adriana: the perfect outing to extend a work trip by one day.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-009",
+      "legacyId": "Tivoli in giornata",
+      "duration": {
+        "minutes": 480,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Fuori porta|Out of town",
+        "address": null,
+        "mapQuery": "Tivoli in giornata, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Il Ghetto e i carciofi alla giudia|The Jewish Ghetto & fried artichokes",
+      "z": "Centro storico|Historic centre",
+      "d": "2 ore|2 hrs",
+      "tags": [
+        "food",
+        "cultura"
+      ],
+      "sub": "romana",
+      "tipo": "trattoria",
+      "p": "La cucina giudeo-romanesca, una delle tradizioni gastronomiche più antiche d'Europa.|Judeo-Roman cuisine, one of Europe's oldest food traditions.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-010",
+      "legacyId": "Il Ghetto e i carciofi alla giudia",
+      "duration": {
+        "minutes": 120,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Centro storico|Historic centre",
+        "address": null,
+        "mapQuery": "Il Ghetto e i carciofi alla giudia, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Carbonara, cacio e pepe, amatriciana|Carbonara, cacio e pepe, amatriciana",
+      "z": "Trastevere / Monti|Trastevere / Monti",
+      "d": "3 ore|3 hrs",
+      "tags": [
+        "food",
+        "lento"
+      ],
+      "sub": "romana",
+      "tipo": "osteria",
+      "p": "Il tris di quartiere: trattorie e osterie vere dove la pasta è tirata a mano e il Pecorino domina.|The district tris: real trattorias and osterie where pasta is hand-rolled and Pecorino rules.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-011",
+      "legacyId": "Carbonara, cacio e pepe, amatriciana",
+      "duration": {
+        "minutes": 180,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Trastevere / Monti|Trastevere / Monti",
+        "address": null,
+        "mapQuery": "Carbonara, cacio e pepe, amatriciana, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Alta cucina e bistrot d'autore|Fine dining & author bistros",
+      "z": "Centro / Prati|Centre / Prati",
+      "d": "sera|evening",
+      "tags": [
+        "food",
+        "business"
+      ],
+      "sub": "alta",
+      "tipo": "ristorante",
+      "p": "Dalla sperimentazione dei bistrot del centro fino alla crema dell'alta cucina italiana.|From the experimental bistros of the centre to the cream of Italian fine dining.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-012",
+      "legacyId": "Alta cucina e bistrot d'autore",
+      "duration": {
+        "minutes": null,
+        "kind": "variable"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Centro / Prati|Centre / Prati",
+        "address": null,
+        "mapQuery": "Alta cucina e bistrot d'autore, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Sushi e ramen d'eccellenza|Excellence in sushi & ramen",
+      "z": "Trieste / Prati|Trieste / Prati",
+      "d": "sera|evening",
+      "tags": [
+        "food"
+      ],
+      "sub": "sushi",
+      "tipo": "ristorante",
+      "p": "Capitale del sushi: ristoranti giapponesi autentici, ramen bar e omakase di livello.|A sushi capital: authentic Japanese restaurants, ramen bars and omakase of real level.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-013",
+      "legacyId": "Sushi e ramen d'eccellenza",
+      "duration": {
+        "minutes": null,
+        "kind": "variable"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Trieste / Prati|Trieste / Prati",
+        "address": null,
+        "mapQuery": "Sushi e ramen d'eccellenza, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Chinatown di Esquilino|Esquilino's Chinatown",
+      "z": "Esquilino|Esquilino",
+      "d": "2 ore|2 hrs",
+      "tags": [
+        "food",
+        "lento"
+      ],
+      "sub": "cinese",
+      "tipo": "ristorante",
+      "p": "Attorno a piazza Vittorio il quartiere cinese: ravioli, dim sum e supermarket da viaggio.|Around piazza Vittorio, the Chinese quarter: dumplings, dim sum and travel-worthy supermarkets.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-014",
+      "legacyId": "Chinatown di Esquilino",
+      "duration": {
+        "minutes": 120,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Esquilino|Esquilino",
+        "address": null,
+        "mapQuery": "Chinatown di Esquilino, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Tavola greca|A Greek table",
+      "z": "Centro / Trastevere|Centre / Trastevere",
+      "d": "sera|evening",
+      "tags": [
+        "food"
+      ],
+      "sub": "greca",
+      "tipo": "taverna",
+      "p": "Moussaka, meze e ouzo: le taverne greche ti mettono nell'Egeo in due portate.|Moussaka, meze and ouzo: Greek tavernas put you in the Aegean within two courses.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-015",
+      "legacyId": "Tavola greca",
+      "duration": {
+        "minutes": null,
+        "kind": "variable"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Centro / Trastevere|Centre / Trastevere",
+        "address": null,
+        "mapQuery": "Tavola greca, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Food tour a Testaccio|Testaccio food tour",
+      "z": "Testaccio|Testaccio",
+      "d": "3 ore|3 hrs",
+      "tags": [
+        "food"
+      ],
+      "sub": "street",
+      "tipo": "mercato",
+      "p": "Il quartiere-madre della cucina popolare romana, tra mercato, porchetta e trapizzini.|The mother district of Roman popular cuisine: market, porchetta and trapizzini.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-016",
+      "legacyId": "Food tour a Testaccio",
+      "duration": {
+        "minutes": 180,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Testaccio|Testaccio",
+        "address": null,
+        "mapQuery": "Food tour a Testaccio, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Mercato Centrale|Mercato Centrale",
+      "z": "Esquilino|Esquilino",
+      "d": "1,5 ore|1.5 hrs",
+      "tags": [
+        "food",
+        "lento"
+      ],
+      "sub": "street",
+      "tipo": "mercato",
+      "p": "Il mercato rionale trasformato in food hall dai migliori artigiani del gusto.|The neighbourhood market turned food hall by the best artisans of taste.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-017",
+      "legacyId": "Mercato Centrale",
+      "duration": {
+        "minutes": 90,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Esquilino|Esquilino",
+        "address": null,
+        "mapQuery": "Mercato Centrale, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Maritozzo e pasticceria romana|Maritozzo & Roman patisserie",
+      "z": "Testaccio / Centro|Testaccio / Centre",
+      "d": "colazione|breakfast",
+      "tags": [
+        "food"
+      ],
+      "sub": "dolci",
+      "tipo": "bar",
+      "p": "Il dolce romano tornato di moda: brioche spaccata e panna fresca. Con il cappuccino è amore.|Rome's comeback sweet: split brioche with fresh cream. With a cappuccino, it's love.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-018",
+      "legacyId": "Maritozzo e pasticceria romana",
+      "duration": {
+        "minutes": null,
+        "kind": "variable"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Testaccio / Centro|Testaccio / Centre",
+        "address": null,
+        "mapQuery": "Maritozzo e pasticceria romana, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "San Pietro e la cupola|St. Peter's & the dome",
+      "z": "Vaticano|Vatican",
+      "d": "3 ore|3 hrs",
+      "tags": [
+        "religioso"
+      ],
+      "sub": "basiliche",
+      "p": "La basilica più grande del mondo e la salita alla cupola per Roma ai tuoi piedi.|The largest basilica in the world and the dome climb for Rome at your feet.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-019",
+      "legacyId": "San Pietro e la cupola",
+      "duration": {
+        "minutes": 180,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Vaticano|Vatican",
+        "address": null,
+        "mapQuery": "San Pietro e la cupola, Roma"
+      },
+      "source": {
+        "url": "https://www.basilicasanpietro.va/",
+        "scope": "operator",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Il tour delle basiliche papali|The papal basilicas tour",
+      "z": "Tutto il centro|All over the centre",
+      "d": "1 giorno|1 day",
+      "tags": [
+        "religioso"
+      ],
+      "sub": "basiliche",
+      "p": "San Giovanni in Laterano, Santa Maria Maggiore e San Paolo: il giro completo.|St. John Lateran, St. Mary Major and St. Paul: the complete tour.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-020",
+      "legacyId": "Il tour delle basiliche papali",
+      "duration": {
+        "minutes": 480,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Tutto il centro|All over the centre",
+        "address": null,
+        "mapQuery": "Il tour delle basiliche papali, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "San Clemente e la Roma sotterranea|San Clemente & underground Rome",
+      "z": "Colosseo / Monti|Colosseum / Monti",
+      "d": "1,5 ore|1.5 hrs",
+      "tags": [
+        "religioso",
+        "cultura"
+      ],
+      "sub": "chiese",
+      "p": "Tre livelli sovrapposti: basilica medievale, chiesa paleocristiana e mitreo romano.|Three stacked levels: medieval basilica, early Christian church and a Roman mithraeum.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-021",
+      "legacyId": "San Clemente e la Roma sotterranea",
+      "duration": {
+        "minutes": 90,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Colosseo / Monti|Colosseum / Monti",
+        "address": null,
+        "mapQuery": "San Clemente e la Roma sotterranea, Roma"
+      },
+      "source": {
+        "url": "https://www.basilicasanclemente.com/",
+        "scope": "operator",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Scala Santa e San Giovanni|Holy Stairs & San Giovanni",
+      "z": "Esquilino|Esquilino",
+      "d": "1,5 ore|1.5 hrs",
+      "tags": [
+        "religioso"
+      ],
+      "sub": "pellegrini",
+      "p": "La scala che secondo la tradizione salì Gesù: percorsa in ginocchio dai pellegrini da secoli.|The staircase Jesus is said to have climbed, walked on knees by pilgrims for centuries.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-022",
+      "legacyId": "Scala Santa e San Giovanni",
+      "duration": {
+        "minutes": 90,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Esquilino|Esquilino",
+        "address": null,
+        "mapQuery": "Scala Santa e San Giovanni, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Terme e acque sulfuree|Thermal baths & sulphurous waters",
+      "z": "Tivoli / Castelli|Tivoli / Castelli",
+      "d": "mezza giornata|half day",
+      "tags": [
+        "benessere"
+      ],
+      "sub": "terme",
+      "p": "Le Acque Albule alimentano piscine termali note fin dall'epoca romana.|The Acque Albule feed thermal pools known since Roman times.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-023",
+      "legacyId": "Terme e acque sulfuree",
+      "duration": {
+        "minutes": 240,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Tivoli / Castelli|Tivoli / Castelli",
+        "address": null,
+        "mapQuery": "Terme e acque sulfuree, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Spa day in centro|Spa day in the centre",
+      "z": "Centro|Centre",
+      "d": "3 ore|3 hrs",
+      "tags": [
+        "benessere",
+        "business"
+      ],
+      "sub": "spa",
+      "p": "Piscine, saune e massaggi nei migliori hotel della città, anche per non ospiti.|Pools, saunas and massages in the city's best hotels, open to non-guests too.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-024",
+      "legacyId": "Spa day in centro",
+      "duration": {
+        "minutes": 180,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Centro|Centre",
+        "address": null,
+        "mapQuery": "Spa day in centro, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Green Rome: Villa Borghese|Green Rome: Villa Borghese",
+      "z": "Pinciano|Pinciano",
+      "d": "2 ore|2 hrs",
+      "tags": [
+        "benessere",
+        "lento"
+      ],
+      "sub": "verde",
+      "p": "Ottanta ettari di parco per camminate rigeneranti, noleggio bici e silenzio.|Eighty hectares of park for regenerating walks, bike rental and silence.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-025",
+      "legacyId": "Green Rome: Villa Borghese",
+      "duration": {
+        "minutes": 120,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Pinciano|Pinciano",
+        "address": null,
+        "mapQuery": "Green Rome: Villa Borghese, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Stadio Olimpico e Foro Italico|Stadio Olimpico & Foro Italico",
+      "z": "Monte Mario|Monte Mario",
+      "d": "3 ore|3 hrs",
+      "tags": [
+        "sport"
+      ],
+      "sub": "calcio",
+      "p": "Roma o Lazio: 70.000 voci e una partita che è sempre anche teatro.|Roma or Lazio: 70,000 voices and a match that is always theatre too.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-026",
+      "legacyId": "Stadio Olimpico e Foro Italico",
+      "duration": {
+        "minutes": 180,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Monte Mario|Monte Mario",
+        "address": null,
+        "mapQuery": "Stadio Olimpico e Foro Italico, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Eventi al Circo Massimo|Events at the Circus Maximus",
+      "z": "Circo Massimo|Circus Maximus",
+      "d": "sera|evening",
+      "tags": [
+        "sport"
+      ],
+      "sub": "eventi",
+      "p": "Il palco più suggestivo d'Italia: concerti e grandi eventi nell'antico circo imperiale.|Italy's most evocative stage: concerts and major events in the ancient imperial circus.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-027",
+      "legacyId": "Eventi al Circo Massimo",
+      "duration": {
+        "minutes": null,
+        "kind": "variable"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Circo Massimo|Circus Maximus",
+        "address": null,
+        "mapQuery": "Eventi al Circo Massimo, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Internazionali di tennis|Italian Open tennis",
+      "z": "Foro Italico|Foro Italico",
+      "d": "1 giorno|1 day",
+      "tags": [
+        "sport"
+      ],
+      "sub": "eventi",
+      "p": "A maggio il Foro Italico si trasforma: i campioni del tennis mondiale su terra rossa.|In May the Foro Italico transforms: world tennis champions on red clay.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-028",
+      "legacyId": "Internazionali di tennis",
+      "duration": {
+        "minutes": 480,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Foro Italico|Foro Italico",
+        "address": null,
+        "mapQuery": "Internazionali di tennis, Roma"
+      },
+      "source": {
+        "url": "https://www.internazionalibnlditalia.com/",
+        "scope": "operator",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Maratona di Roma|Rome Marathon",
+      "z": "Centro → EUR|Centre → EUR",
+      "d": "1 giorno|1 day",
+      "tags": [
+        "sport"
+      ],
+      "sub": "partecipa",
+      "p": "42 chilometri attraverso monumenti duemila anni: una delle corse più scenografiche al mondo.|42 kilometres through 2,000-year-old monuments: one of the most scenic races on Earth.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-029",
+      "legacyId": "Maratona di Roma",
+      "duration": {
+        "minutes": 480,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Centro → EUR|Centre → EUR",
+        "address": null,
+        "mapQuery": "Maratona di Roma, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Garbatella a piedi|Garbatella on foot",
+      "z": "Ostiense|Ostiense",
+      "d": "2 ore|2 hrs",
+      "tags": [
+        "lento"
+      ],
+      "sub": "quartieri",
+      "p": "Lotti romani, orti condivisi e una coralità di paese dentro la capitale.|Roman housing blocks, shared gardens and a village feel inside the capital.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-030",
+      "legacyId": "Garbatella a piedi",
+      "duration": {
+        "minutes": 120,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Ostiense|Ostiense",
+        "address": null,
+        "mapQuery": "Garbatella a piedi, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Pigneto e street art|Pigneto & street art",
+      "z": "Casilino|Casilino",
+      "d": "2 ore|2 hrs",
+      "tags": [
+        "lento"
+      ],
+      "sub": "quartieri",
+      "p": "Murales, archi ferroviari e aperitivi autentici, lontano dai percorsi battuti.|Murals, railway arches and authentic aperitivi, far from the beaten paths.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-031",
+      "legacyId": "Pigneto e street art",
+      "duration": {
+        "minutes": 120,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Casilino|Casilino",
+        "address": null,
+        "mapQuery": "Pigneto e street art, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Villa Pamphilj, polmone verde|Villa Pamphilj, the green lung",
+      "z": "Gianicolo / Monteverde|Janiculum / Monteverde",
+      "d": "2 ore|2 hrs",
+      "tags": [
+        "lento",
+        "benessere"
+      ],
+      "sub": "parchi",
+      "p": "Il parco più grande dentro le mura: corsi d'acqua, pinete e romani che corrono verso il laghetto.|The largest park inside the walls: streams, pine groves and Romans jogging to the little lake.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-032",
+      "legacyId": "Villa Pamphilj, polmone verde",
+      "duration": {
+        "minutes": 120,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Gianicolo / Monteverde|Janiculum / Monteverde",
+        "address": null,
+        "mapQuery": "Villa Pamphilj, polmone verde, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Ciclabile del Tevere|The Tiber cycle path",
+      "z": "Lungotevere|Lungotevere",
+      "d": "2 ore|2 hrs",
+      "tags": [
+        "lento"
+      ],
+      "sub": "lente",
+      "p": "Pedalare da Ponte Milvio verso il centro seguendo il fiume: mobilità dolce al massimo.|Pedal from Ponte Milvio towards the centre following the river: soft mobility at its best.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-033",
+      "legacyId": "Ciclabile del Tevere",
+      "duration": {
+        "minutes": 120,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Lungotevere|Lungotevere",
+        "address": null,
+        "mapQuery": "Ciclabile del Tevere, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Corso di pasta fresca|Fresh pasta class",
+      "z": "Trastevere|Trastevere",
+      "d": "3 ore|3 hrs",
+      "tags": [
+        "formativo",
+        "food"
+      ],
+      "sub": "cucina",
+      "p": "Impara tonnarelli, gnocchi e ravioli con uno chef locale, dalla farina al piatto.|Learn tonnarelli, gnocchi and ravioli with a local chef, from flour to plate.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-034",
+      "legacyId": "Corso di pasta fresca",
+      "duration": {
+        "minutes": 180,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Trastevere|Trastevere",
+        "address": null,
+        "mapQuery": "Corso di pasta fresca, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Laboratorio di mosaico|Mosaic workshop",
+      "z": "Esquilino|Esquilino",
+      "d": "2 ore|2 hrs",
+      "tags": [
+        "formativo",
+        "cultura"
+      ],
+      "sub": "artigianato",
+      "p": "Tecnica romana antica: componi con le tessere il tuo souvenir da portare a casa.|Ancient Roman technique: compose your own souvenir with the tesserae.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-035",
+      "legacyId": "Laboratorio di mosaico",
+      "duration": {
+        "minutes": 120,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Esquilino|Esquilino",
+        "address": null,
+        "mapQuery": "Laboratorio di mosaico, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Tour con archeologo|Tour with an archaeologist",
+      "z": "Fori / Palatino|Forum / Palatine",
+      "d": "2,5 ore|2.5 hrs",
+      "tags": [
+        "formativo",
+        "cultura"
+      ],
+      "sub": "guide",
+      "p": "Visite condotte da archeologi sul campo: la storia raccontata da chi la scava.|Tours led by working archaeologists: history told by those who dig it.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "roma-036",
+      "legacyId": "Tour con archeologo",
+      "duration": {
+        "minutes": 150,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Fori / Palatino|Forum / Palatine",
+        "address": null,
+        "mapQuery": "Tour con archeologo, Roma"
+      },
+      "source": {
+        "url": "https://www.turismoroma.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.turismoroma.it/it/roma-accessibile",
+        "verifiedAt": null
+      }
+    }
+  ],
+  "ITINERARI": {
+    "cultura": [
+      {
+        "ora": "08:30",
+        "t": "Colosseo all'apertura|Colosseum at opening",
+        "p": "Sei dentro prima delle file: luce d'oro sui Fori e sul Palatino.|You're in before the queues: golden light over the Forum and Palatine.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "13:00",
+        "t": "Pranzo a Monti|Lunch in Monti",
+        "p": "Salumeria con tagliere e vino nella via dei Serpenti.|Charcuterie board and wine in via dei Serpenti.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "15:00",
+        "t": "Musei Vaticani e Sistina|Vatican Museums & Sistine",
+        "p": "Tre ore piene: Raffaello prima del gran finale di Michelangelo.|Three full hours: Raphael before Michelangelo's grand finale.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "19:30",
+        "t": "Tramonto dal Pincio|Sunset from the Pincio",
+        "p": "Passeggiata sopra piazza del Popolo, Roma accesa sotto di te.|A stroll above piazza del Popolo, Rome lit up beneath you.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      }
+    ],
+    "business": [
+      {
+        "ora": "09:00",
+        "t": "Meeting in centro o EUR|Meeting in the centre or EUR",
+        "p": "La Nuvola e gli hotel congressuali sono collegatissimi.|La Nuvola and the congress hotels are super connected.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "13:30",
+        "t": "Business lunch veloce|Quick business lunch",
+        "p": "Mercato Centrale: qualità eccellente in venti minuti.|Mercato Centrale: excellent quality in twenty minutes.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "16:00",
+        "t": "Pausa culturale|Cultural break",
+        "p": "Galleria Borghese, due ore: l'antidoto perfetto alle slide.|Galleria Borghese, two hours: the perfect antidote to slides.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "19:30",
+        "t": "Bleisure aperitivo|Bleisure aperitivo",
+        "p": "Terrazza sul tetto nel Tridente e cena senza fretta.|Rooftop terrace in the Tridente and an unhurried dinner.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      }
+    ],
+    "food": [
+      {
+        "ora": "08:00",
+        "t": "Colazione al bancone|Breakfast at the counter",
+        "p": "Cornetto caldo e cappuccino, in piedi come i romani.|Warm croissant and cappuccino, standing like the Romans.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "09:30",
+        "t": "Mercato di Testaccio|Testaccio market",
+        "p": "Porchetta, pecorino e assaggi tra le bancarelle.|Porchetta, pecorino and tastings among the stalls.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "13:00",
+        "t": "Trattoria storica|Historic trattoria",
+        "p": "Carbonara e cacio e pepe nel quartiere giusto.|Carbonara and cacio e pepe in the right district.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "18:00",
+        "t": "Giro dolce|Sweet tour",
+        "p": "Gelato artigianale, trapizzino e passeggiata digestiva.|Artisan gelato, trapizzino and a digestive stroll.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      }
+    ],
+    "religioso": [
+      {
+        "ora": "07:00",
+        "t": "Santa Messa a San Pietro|Holy Mass at St. Peter's",
+        "p": "All'alba la basilica è silenzio puro.|At dawn, the basilica is pure silence.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "09:30",
+        "t": "Salita alla cupola|Climbing the dome",
+        "p": "Oltre 500 gradini che valgono ogni passo: la città ai tuoi piedi.|Over 500 steps worth every step: the city at your feet.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "12:30",
+        "t": "Santa Maria Maggiore|St. Mary Major",
+        "p": "Mosaici bizantini e il presepe più antico.|Byzantine mosaics and the oldest nativity scene.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "16:00",
+        "t": "Scala Santa e San Giovanni|Holy Stairs & San Giovanni",
+        "p": "Chiudi la giornata dove i pellegrini salgono da secoli.|End the day where pilgrims have climbed for centuries.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      }
+    ],
+    "benessere": [
+      {
+        "ora": "08:00",
+        "t": "Yoga o camminata a Villa Borghese|Yoga or walk in Villa Borghese",
+        "p": "Ottanta ettari di verde per iniziare lento.|Eighty hectares of green to start slowly.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "10:30",
+        "t": "Terme o spa|Thermal baths or spa",
+        "p": "Acque sulfuree a Tivoli oppure day pass in un hotel spa in centro.|Sulphurous waters in Tivoli or a day pass at a central hotel spa.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "13:30",
+        "t": "Pranzo leggero|Light lunch",
+        "p": "Verdure, pesce e olio locale: la dieta mediterranea vera.|Vegetables, fish and local oil: the true Mediterranean diet.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "16:00",
+        "t": "Massaggio e idromassaggio|Massage & whirlpool",
+        "p": "Il pomeriggio dedicato alla cura di te, senza meta.|An afternoon dedicated to yourself, no destination needed.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      }
+    ],
+    "sport": [
+      {
+        "ora": "09:00",
+        "t": "Tour dello Stadio Olimpico|Stadio Olimpico tour",
+        "p": "Spogliatoi, campo e museo della squadra.|Dressing rooms, pitch and the team museum.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "11:30",
+        "t": "Foro Italico|Foro Italico",
+        "p": "Le piscine olimpiche e i mosaici del complesso monumentale.|The Olympic pools and mosaics of the monumental complex.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "13:00",
+        "t": "Pranzo sportivo|Athlete's lunch",
+        "p": "Carboidrati seri da atleta: pasta e pane, senza sensi di colpa.|Serious athlete carbs: pasta and bread, guilt-free.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "18:00",
+        "t": "Partita o grande evento|Match or major event",
+        "p": "Curva Sud se vuoi il tifo, Tribuna se vuoi goderti la partita.|Curva Sud for the atmosphere, Tribuna to enjoy the match.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      }
+    ],
+    "lento": [
+      {
+        "ora": "08:30",
+        "t": "Colazione al Pigneto|Breakfast in Pigneto",
+        "p": "Caffè di quartiere, lontano dalle rotte turistiche.|A neighbourhood café, far from the tourist routes.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "10:00",
+        "t": "Mercato rionale|Neighbourhood market",
+        "p": "C'è quello del quartiere dove alloggi: chiedi ai vicini.|There's one in the district you're staying in: ask the locals.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "12:30",
+        "t": "Garbatella a piedi|Garbatella on foot",
+        "p": "L'urbanistica più umana di Roma, tra orti e casette colorate.|Rome's most human urban design, gardens and colourful houses.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "18:00",
+        "t": "Aperitivo sul lungotevere|Aperitivo on the river",
+        "p": "Cena di quartiere, a passo d'uomo, fino a notte.|A neighbourhood dinner, at human pace, into the night.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      }
+    ],
+    "formativo": [
+      {
+        "ora": "09:00",
+        "t": "Corso di cucina|Cooking class",
+        "p": "Pasta fresca con uno chef: mani in farina per tre ore.|Fresh pasta with a chef: hands in flour for three hours.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "13:00",
+        "t": "Mangi la tua creazione|Eat your own creation",
+        "p": "Il pranzo migliore della vacanza è quello che hai fatto tu.|The best lunch of your holiday is the one you made.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "15:30",
+        "t": "Laboratorio di mosaico|Mosaic workshop",
+        "p": "Tecniche romane antiche e un souvenir unico da portare.|Ancient Roman techniques and a unique souvenir to take home.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "18:00",
+        "t": "Tour con archeologo|Tour with an archaeologist",
+        "p": "Chiusura in bellezza: la storia spiegata da chi la dissotterra.|A beautiful closing: history explained by those who unearth it.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      }
+    ]
+  },
+  "FOTO": {
+    "cultura": {
+      "bg": "linear-gradient(135deg,#D9C79E,#B78B4B)",
+      "emo": "🏛️"
+    },
+    "business": {
+      "bg": "linear-gradient(135deg,#9FB4C7,#5B7899)",
+      "emo": "💼"
+    },
+    "food": {
+      "bg": "linear-gradient(135deg,#E8A87C,#B5432C)",
+      "emo": "🍝"
+    },
+    "religioso": {
+      "bg": "linear-gradient(135deg,#F0E6D2,#C9A66B)",
+      "emo": "⛪"
+    },
+    "benessere": {
+      "bg": "linear-gradient(135deg,#B7C9A8,#69704F)",
+      "emo": "🌿"
+    },
+    "sport": {
+      "bg": "linear-gradient(135deg,#E3B7A0,#A03D2E)",
+      "emo": "🏟️"
+    },
+    "lento": {
+      "bg": "linear-gradient(135deg,#CDBF9A,#8F9770)",
+      "emo": "🚲"
+    },
+    "formativo": {
+      "bg": "linear-gradient(135deg,#AFC5C4,#5F807D)",
+      "emo": "🎓"
+    }
+  },
+  "IMMAGINI": {},
+  "MARCO": [
+    {
+      "k": [
+        "coda",
+        "file",
+        "prenot",
+        "bigliett",
+        "queue",
+        "ticket",
+        "book",
+        "skip"
+      ],
+      "a": "Disponibilità e affluenza cambiano con la data. Consulta il gestore attraverso i collegamenti nelle schede esperienza: non possiamo garantire posti o assenza di code.|Availability and crowds vary by date. Use the operator links in the experience pages: places and queue-free entry cannot be guaranteed.",
+      "sourceUrl": "https://www.turismoroma.it/it"
+    },
+    {
+      "k": [
+        "sicur",
+        "sera",
+        "rub",
+        "borsegg",
+        "furto",
+        "safe",
+        "night",
+        "pickpock",
+        "theft"
+      ],
+      "a": "Per spostamenti, biglietti e tariffe consulta il sito ufficiale del trasporto locale. Seleziona data e tratta; controlla anche le condizioni di accessibilità.|For journeys, tickets and fares, use the official local transport website. Select your date and route, and check accessibility conditions.",
+      "sourceUrl": "https://www.atac.roma.it/"
+    },
+    {
+      "k": [
+        "taxi",
+        "aeroporto",
+        "fiumicino",
+        "uber",
+        "nap",
+        "airport",
+        "cab"
+      ],
+      "a": "Per spostamenti, biglietti e tariffe consulta il sito ufficiale del trasporto locale. Seleziona data e tratta; controlla anche le condizioni di accessibilità.|For journeys, tickets and fares, use the official local transport website. Select your date and route, and check accessibility conditions.",
+      "sourceUrl": "https://www.atac.roma.it/"
+    },
+    {
+      "k": [
+        "acqua",
+        "fontanella",
+        "borraccia",
+        "bere",
+        "water",
+        "drink",
+        "fountain"
+      ],
+      "a": "Le fontanelle 'nasoni' sono potabili e ovunque: acqua fresca gratis tutto l'anno. Portati una borraccia — il turista scafato non compra bottiglie da 4€ davanti al Colosseo.|The 'nasoni' fountains are drinkable and everywhere: free fresh water all year. Bring a bottle — savvy travellers don't buy €4 bottles outside the Colosseum.",
+      "sourceUrl": "https://www.turismoroma.it/it"
+    },
+    {
+      "k": [
+        "metro",
+        "bus",
+        "muover",
+        "atac",
+        "tram",
+        "mezz",
+        "subway",
+        "transport",
+        "underground"
+      ],
+      "a": "Per spostamenti, biglietti e tariffe consulta il sito ufficiale del trasporto locale. Seleziona data e tratta; controlla anche le condizioni di accessibilità.|For journeys, tickets and fares, use the official local transport website. Select your date and route, and check accessibility conditions.",
+      "sourceUrl": "https://www.atac.roma.it/"
+    },
+    {
+      "k": [
+        "cena",
+        "orario",
+        "ristorant",
+        "mangiar",
+        "aperto",
+        "dinner",
+        "eat",
+        "restaurant",
+        "lunch"
+      ],
+      "a": "I romani cenano alle 20:30-21:00. Se un ristorante è pieno alle 18:30, è pieno di turisti. E se il menù ha 40 piatti con le foto... cammina due traverse, fidati.|Romans dine at 8:30–9 pm. If a restaurant is packed at 6:30 pm, it's packed with tourists. And if the menu has 40 dishes with photos... walk two streets over, trust me.",
+      "sourceUrl": "https://www.turismoroma.it/it"
+    },
+    {
+      "k": [
+        "mancia",
+        "tip",
+        "camerier",
+        "servizio",
+        "waiter",
+        "gratuit"
+      ],
+      "a": "Non è obbligatoria: al bar si lasciano gli spicci del resto, al ristorante il 5-10% se sei contento. Nessuno si offenderà se non lasci nulla.|Not compulsory: at the bar leave the small change, at the restaurant 5-10% if you're happy. Nobody will be offended if you leave nothing.",
+      "sourceUrl": "https://www.turismoroma.it/it"
+    },
+    {
+      "k": [
+        "bambin",
+        "famiglia",
+        "ragazz",
+        "figli",
+        "kid",
+        "child",
+        "family"
+      ],
+      "a": "Scegli attività compatibili con età, durata e condizioni del percorso. Chiedi al gestore informazioni su passeggini, servizi e supervisione; gli spazi pubblici non garantiscono assenza di rischi.|Choose activities suitable for age, duration and route conditions. Ask about pushchairs, facilities and supervision; public spaces are not risk-free.",
+      "sourceUrl": "https://www.turismoroma.it/it"
+    },
+    {
+      "k": [
+        "piogg",
+        "piov",
+        "rain",
+        "weather",
+        "wet"
+      ],
+      "a": "Piove raramente, ma se capita ripiega al coperto: Musei Capitolini, Galleria Borghese, o una spa per finire in dolcezza. Roma sotto la pioggia è bellissima lo stesso.|It rarely rains, but if it does, go indoors: Capitoline Museums, Galleria Borghese, or a spa to end sweetly. Rome in the rain is beautiful all the same.",
+      "sourceUrl": "https://www.turismoroma.it/it"
+    },
+    {
+      "k": [
+        "chiesa",
+        "vest",
+        "copr",
+        "spalle",
+        "ginocch",
+        "san pietro",
+        "abbigliament",
+        "entrare",
+        "church",
+        "dress",
+        "shoulders",
+        "knees"
+      ],
+      "a": "Per le basiliche servono spalle e ginocchia coperte. D'estate basta una sciarpa leggera in borsa: problema risolto in due secondi.|Basilicas require covered shoulders and knees. In summer a light scarf in your bag solves it in two seconds.",
+      "sourceUrl": "https://www.turismoroma.it/it"
+    },
+    {
+      "k": [
+        "truff",
+        "gladiator",
+        "braccialett",
+        "cordicell",
+        "regal",
+        "scam"
+      ],
+      "a": "Al Colosseo: i 'gladiatori' delle foto si fanno pagare caro e i braccialetti 'regalati' diventano un conto salato. Rifiuta con gentilezza, sorridi e prosegui.|At the Colosseum: the 'gladiators' charge a lot, and 'free' bracelets become a hefty bill. Decline kindly, smile and move on.",
+      "sourceUrl": "https://www.turismoroma.it/it"
+    },
+    {
+      "k": [
+        "cappuccin",
+        "caff",
+        "colazion",
+        "espresso",
+        "bar",
+        "coffee",
+        "breakfast"
+      ],
+      "a": "Regola non scritta: cappuccino a colazione, caffè dopo i pasti. Ordina pure il cappuccino alle 16 — nessuno ti deporta, ma preparati a qualche occhiata. 😉|Unwritten rule: cappuccino at breakfast, coffee after meals. Order a cappuccino at 4 pm — nobody will deport you, but expect a few looks. 😉",
+      "sourceUrl": "https://www.turismoroma.it/it"
+    }
+  ],
+  "MARCO_FALLBACK": "Mmm, non l'ho capita 😅 Prova con parole come: code, sicurezza, taxi, metro, cena, bambini, pioggia, truffe, cappuccino... o clicca una domanda rapida qui sotto.|Hmm, I didn't get that 😅 Try words like: queues, safety, taxi, metro, dinner, kids, rain, scams, cappuccino... or tap a quick question below.",
+  "CHAT_QUICK": [
+    "Come evito le code?|How do I skip the queues?",
+    "È sicura la sera?|Is it safe at night?",
+    "Taxi dall'aeroporto?|Taxi from the airport?",
+    "Acqua potabile?|Drinking water?",
+    "Cena a che ora?|What time is dinner?"
+  ],
+  "city": {
+    "id": "roma",
+    "name": "Roma|Rome",
+    "portal": "https://www.turismoroma.it/it",
+    "accessibilityUrl": "https://www.turismoroma.it/it/roma-accessibile",
+    "transportUrl": "https://www.atac.roma.it/",
+    "sourceReviewedAt": "2026-10-16"
+  }
+}

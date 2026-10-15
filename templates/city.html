@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{name}} Poliedrica — esperienze e itinerari</title>
+<meta name="description" content="Esplora {{name}}: esperienze, filtri, fonti ufficiali e itinerario personale in italiano e inglese.">
+<link rel="stylesheet" href="assets/css/guide.css"><link rel="stylesheet" href="assets/css/features.css">
+</head>
+<body data-city="{{city}}">
+<a class="skip-link" href="#esperienze">Salta alle esperienze</a>
+<a class="city-home" href="index.html">← Tutte le città</a>
+<header><div class="nav"><a class="logo" href="{{city}}.html">{{name}} <b>Poliedrica</b></a><div class="nav-destra">
+<nav class="menu" aria-label="Navigazione principale"><a href="#profilo">Profili</a><a href="#esperienze">Esperienze</a><a href="#itinerario">Itinerario</a><a href="#info">Info pratiche</a></nav>
+<button id="langBtn" aria-label="Cambia lingua / Switch language">EN</button></div></div></header>
+<main>
+<p id="storage-notice" class="notice" role="status" hidden></p>
+<noscript>Attiva JavaScript per filtri, preferiti e itinerario personale. Le schede dettagliate restano consultabili. / Enable JavaScript for filters, favourites and your personal plan.</noscript>
+<section class="hero"><div class="wrap hero-layout"><div><span class="kicker">{{heroK}}</span><h1>{{heroH1}}</h1><p>{{heroP}}</p><div class="cta"><a class="btn btn-p" href="#profilo">Trova il tuo profilo</a><a class="btn btn-s" href="#esperienze">Vedi le esperienze</a></div>
+<div class="stats"><div><b>8</b><span>profili di viaggiatore</span></div><div><b>{{count}}</b><span>esperienze selezionate</span></div><div><b>8</b><span>itinerari pronti</span></div></div></div>{{photo}}</div></section>
+<section id="profilo"><div class="wrap"><span class="kicker">Passo 1</span><h2>Che tipo di viaggiatore sei?</h2><p class="sotto">Scegli un profilo per filtrare esperienze e itinerari.</p><div class="chip-grid" id="chipGrid" role="group" aria-label="Selettore profilo viaggiatore"></div></div></section>
+<section id="esperienze"><div class="wrap"><span class="kicker">Passo 2</span><h2>Esperienze su misura</h2>
+<div class="advanced-filters"><label for="filter-search">Cerca esperienze</label><input id="filter-search" type="search" maxlength="150" autocomplete="off"><label for="filter-duration">Durata indicativa</label><select id="filter-duration"></select><label for="filter-budget">Costo documentato</label><select id="filter-budget"></select><label for="filter-area">Zona</label><select id="filter-area"></select></div>
+<div class="info-riga"><div class="selettori"><select id="sottoSelect" class="selettore" aria-label="Filtra per sotto-categoria" disabled><option>Seleziona prima un profilo</option></select><select id="tipoSelect" class="selettore" aria-label="Filtra per tipo di locale" style="display:none"><option>Tutti i tipi</option></select></div><span id="conteggio" class="conteggio" role="status" aria-live="polite" aria-atomic="true"></span></div>
+<div class="search-actions"><button id="reset-filters">Azzera filtri</button><button id="share-filters">Condividi ricerca</button><span id="share-status" role="status"></span></div>
+<p class="legenda">Le esperienze possono appartenere a più profili.</p><p class="data-note" data-text="Durate indicative; costo e accessibilità sono indicati solo quando documentati. I dati mancanti sono segnalati nelle schede.|Durations are estimates; costs and accessibility are shown only when documented. Missing information is flagged in the details.">Durate indicative; costo e accessibilità sono indicati solo quando documentati.</p>
+<div class="grid" id="gridEsperienze"></div><noscript><ul>{{experienceLinks}}</ul></noscript></div></section>
+<section id="itinerario"><div class="wrap"><span class="kicker">Passo 3</span><h2>Il tuo giorno ideale</h2><p class="sotto" id="itinerarioSotto"></p><div class="itinerario-box" id="itinerarioBox"></div></div></section>
+<section class="planner-section"><div class="wrap" id="personal-plan"></div></section>
+<section id="info"><div class="wrap"><span class="kicker">Prima di partire</span><h2>Info pratiche</h2><div class="info-grid"><div class="info-card"><h3>Muoversi</h3><p>{{info1p}}</p></div><div class="info-card alt"><h3>Quando andare</h3><p>{{info2p}}</p></div><div class="info-card"><h3>Prenotare</h3><p>{{info3p}}</p></div></div>
+<div class="official-links"><a href="{{portal}}" target="_blank" rel="noopener noreferrer" data-text="Portale ufficiale della città|Official city portal">Portale ufficiale della città</a><a href="{{transport}}" target="_blank" rel="noopener noreferrer" data-text="Trasporti locali|Local transport">Trasporti locali</a><a href="{{access}}" target="_blank" rel="noopener noreferrer" data-text="Informazioni per organizzare una visita accessibile|Information for planning an accessible visit">Informazioni per organizzare una visita accessibile</a></div></div></section>
+</main><footer><div class="wrap">{{name}} Poliedrica — consulta le fonti ufficiali prima di partire</div><p><a href="crediti.html">Foto, fonti e privacy / Photos, sources and privacy</a></p></footer>
+<button id="chatBtn" aria-expanded="false">Domande frequenti</button><div id="chatPanel" role="dialog" aria-label="Domande frequenti" hidden><div class="chat-head"><b>Domande frequenti</b><small>Risposte predefinite</small></div><div id="chatMsgs" class="chat-msgs" role="log" aria-live="polite"></div><div id="chatQuick" class="chat-quick"></div><form id="chatForm" class="chat-input"><input id="chatText" type="text" maxlength="500" aria-label="Cerca un argomento" autocomplete="off"><button type="submit" aria-label="Invia domanda">➤</button></form></div>
+{{scripts}}
+</body></html>

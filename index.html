@@ -3,23 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sette città italiane, 260 esperienze e un itinerario personale: guide bilingui con fonti ufficiali.">
 <title>Guide Poliedriche — la guida che si adatta a te</title>
 <link rel="stylesheet" href="assets/css/landing.css">
 </head>
 <body>
+<button id="langBtn" aria-label="Cambia lingua / Switch language">EN</button>
+<main>
   <span class="kicker">Guide poliedriche</span>
-  <h1>Una guida, <em>otto viaggiatori</em></h1>
-  <p class="sotto">Scegli una delle sette città: esperienze, itinerari e consigli si adattano
-     al tuo profilo. Bilingue IT/EN, preferiti salvati, assistente locale.</p>
+  <h1 data-text="Una guida, otto viaggiatori|One guide, eight travellers">Una guida, otto viaggiatori</h1>
+  <p class="sotto" data-text="Scegli una città. Cerca esperienze, consulta le fonti e componi il tuo itinerario personale.|Choose a city. Find experiences, check the sources and create your personal itinerary.">Scegli una città. Cerca esperienze, consulta le fonti e componi il tuo itinerario personale.</p>
   <div class="citta">
-    <a class="card" href="roma.html"><span class="emo">🏛️</span><b>Roma</b><small>La città eterna: arte, fede e dolce vita</small></a>
-    <a class="card" href="napoli.html"><span class="emo">🌋</span><b>Napoli</b><small>Pizza, golfo e vicoli che cantano</small></a>
-    <a class="card" href="milano.html"><span class="emo">🏙️</span><b>Milano</b><small>Design, aperitivi e la città che si reinventa</small></a>
-    <a class="card" href="cagliari.html"><span class="emo">🦩</span><b>Cagliari</b><small>Golfo, castello e fenicotteri in città</small></a>
-    <a class="card" href="torino.html"><span class="emo">🍫</span><b>Torino</b><small>Egizio, portici e cioccolato</small></a>
-    <a class="card" href="firenze.html"><span class="emo">🎨</span><b>Firenze</b><small>Cupola, Rinascimento e artigiani</small></a>
-    <a class="card" href="venezia.html"><span class="emo">🛶</span><b>Venezia</b><small>Canali, bacari e magia lagunare</small></a>
+    <a class="card" data-city-link="roma" href="roma.html"><img src="assets/images/roma.jpg" alt="" width="320" height="180" loading="lazy" decoding="async"><b data-text="Roma|Rome">Roma</b><small data-text="Arte, archeologia e quartieri|Art, archaeology and neighbourhoods">Arte, archeologia e quartieri</small></a>
+    <a class="card" data-city-link="napoli" href="napoli.html"><img src="assets/images/napoli.jpg" alt="" width="320" height="180" loading="lazy" decoding="async"><b data-text="Napoli|Naples">Napoli</b><small data-text="Il golfo, i decumani e la cucina|The gulf, ancient streets and cuisine">Il golfo, i decumani e la cucina</small></a>
+    <a class="card" data-city-link="milano" href="milano.html"><img src="assets/images/milano.jpg" alt="" width="320" height="180" loading="lazy" decoding="async"><b data-text="Milano|Milan">Milano</b><small data-text="Musei, design e vita urbana|Museums, design and city life">Musei, design e vita urbana</small></a>
+    <a class="card" data-city-link="cagliari" href="cagliari.html"><img src="assets/images/cagliari.jpg" alt="" width="320" height="180" loading="lazy" decoding="async"><b data-text="Cagliari|Cagliari">Cagliari</b><small data-text="Castello, mare e paesaggi|Castello, the sea and landscapes">Castello, mare e paesaggi</small></a>
+    <a class="card" data-city-link="torino" href="torino.html"><img src="assets/images/torino.jpg" alt="" width="320" height="180" loading="lazy" decoding="async"><b data-text="Torino|Turin">Torino</b><small data-text="Musei, portici e cioccolato|Museums, arcades and chocolate">Musei, portici e cioccolato</small></a>
+    <a class="card" data-city-link="firenze" href="firenze.html"><img src="assets/images/firenze.jpg" alt="" width="320" height="180" loading="lazy" decoding="async"><b data-text="Firenze|Florence">Firenze</b><small data-text="Rinascimento e botteghe|The Renaissance and artisan workshops">Rinascimento e botteghe</small></a>
+    <a class="card" data-city-link="venezia" href="venezia.html"><img src="assets/images/venezia.jpg" alt="" width="320" height="180" loading="lazy" decoding="async"><b data-text="Venezia|Venice">Venezia</b><small data-text="Arte, isole e vita lagunare|Art, islands and lagoon life">Arte, isole e vita lagunare</small></a>
   </div>
-  <footer>260 esperienze totali · demo educative · verificare sempre fonti ufficiali</footer>
+  </main><footer><span data-text="260 esperienze · verifica le fonti prima di partire|260 experiences · check sources before travelling">260 esperienze · verifica le fonti prima di partire</span><br><a href="crediti.html" data-text="Foto, fonti e privacy|Photos, sources and privacy">Foto, fonti e privacy</a></footer>
+<script defer src="assets/js/storage.js"></script><script defer src="assets/js/simple-page.js"></script>
 </body>
 </html>

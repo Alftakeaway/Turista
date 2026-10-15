@@ -1,0 +1,2762 @@
+{
+  "storageKey": "mil",
+  "pageTitle": "Milano Poliedrica — La guida che si adatta a te|Polyedric Milan — The guide that adapts to you",
+  "TESTI": {
+    "nav1": "Profili|Profiles",
+    "nav2": "Esperienze|Experiences",
+    "nav3": "Itinerario|Itinerary",
+    "nav4": "Info pratiche|Practical info",
+    "heroK": "Guida poliedrica · Milano|The many-sided guide · Milan",
+    "heroH1": "Ogni viaggio è<br><em>un viaggio diverso</em>|Every trip is<br><em>a different trip</em>",
+    "heroP": "Una città, otto viaggiatori: scegli il tuo profilo e la guida si adatta a te — dal Duomo ai Navigli, un itinerario su misura.|One city, eight travellers: pick your profile and the guide adapts — from the Duomo to the Navigli, a tailor-made itinerary.",
+    "cta1": "Trova il tuo profilo ↓|Find your profile ↓",
+    "cta2": "Vedi tutte le esperienze|See all experiences",
+    "stat1": "profili di viaggiatore|traveller profiles",
+    "stat2": "esperienze selezionate|curated experiences",
+    "stat3": "itinerari pronti|ready itineraries",
+    "step1k": "Passo 1|Step 1",
+    "step1h": "Che tipo di viaggiatore sei?|What kind of traveller are you?",
+    "step1p": "Tocca un profilo: esperienze e itinerario si filtrano subito. Nessuna selezione = vedi tutto.|Tap a profile: experiences and itinerary filter instantly. No selection = see everything.",
+    "step2k": "Passo 2|Step 2",
+    "step2h": "Esperienze su misura|Tailored experiences",
+    "legenda": "💡 Le esperienze con più tag appartengono a più profili: nel menu a tendina compaiono sotto la loro sotto-categoria principale.|💡 Multi-tag experiences belong to several profiles: they appear under their main subcategory.",
+    "step3k": "Passo 3|Step 3",
+    "step3h": "Il tuo giorno ideale|Your perfect day",
+    "itin1": "Seleziona un profilo qui sopra per comporre la tua giornata perfetta.|Select a profile above to compose your perfect day.",
+    "itin2": "👆 Scegli prima <b>chi sei come viaggiatore</b>: l'itinerario del giorno appare qui.|👆 First choose <b>who you are as a traveller</b>: the day itinerary appears here.",
+    "infoK": "Prima di partire|Before you go",
+    "infoH": "Info pratiche|Practical info",
+    "info1h": "🚇 Muoversi|🚇 Getting around",
+    "info1p": "Pianifica gli spostamenti sul sito ufficiale del trasporto locale: linee, orari, tariffe e accessibilità possono cambiare.|Plan your journeys on the local transport operator’s official website: routes, schedules, fares and accessibility can change.",
+    "info2h": "🗓️ Quando andare|🗓️ When to go",
+    "info2p": "Controlla meteo, calendario degli eventi e condizioni dei percorsi per le date del viaggio. L’affluenza varia: nessuna fascia oraria garantisce assenza di code.|Check weather, event schedules and route conditions for your travel dates. Crowds vary: no time of day guarantees a queue-free visit.",
+    "info3h": "🎟️ Prenotare|🎟️ Booking",
+    "info3p": "Per musei, spettacoli, corsi e attività scegli prima una data e verifica disponibilità, tariffe e condizioni sul sito del gestore. Gli itinerari sono proposte, non prenotazioni.|For museums, performances, classes and activities, choose a date and check availability, prices and terms on the operator’s website. Itineraries are suggestions, not reservations.",
+    "footer": "<b>Milano Poliedrica</b> — demo educativa · dati indicativi: verifica sempre orari e prezzi sui siti ufficiali|<b>Milano Poliedrica</b> — educational demo · indicative data: always check official sources",
+    "selProfilo": "Seleziona prima un profilo ↑|Select a profile first ↑",
+    "tutteSotto": "Tutte le sotto-categorie|All subcategories",
+    "tuttiTipi": "Tutti i tipi di locale|All venue types",
+    "parolaEsp": "esperienze|experiences",
+    "comboVuota": "Nessuna esperienza corrisponde ai filtri. Prova un’altra ricerca o scegli Azzera filtri.|No experiences match these filters. Try another search or choose Reset filters.",
+    "etichettaTutti": "tutti i profili|all profiles",
+    "giornata": "Giornata ottimale per il profilo|Optimal day for the profile",
+    "ariaSotto": "Filtra per sotto-categoria|Filter by subcategory",
+    "ariaTipo": "Filtra per tipo di locale|Filter by venue type",
+    "chatTitolo": "FAQ di Milano|Milan FAQ",
+    "chatSotto": "Risposte predefinite e fonti ufficiali|Preset answers and official sources",
+    "chatBtn": "Domande frequenti|Frequently asked questions",
+    "chatChiudi": "✕ Chiudi|✕ Close",
+    "chatPh": "Scrivi una domanda...|Type a question...",
+    "benvenuto": "Questa è una FAQ automatica con risposte predefinite. Cerca un argomento o scegli una domanda. Per informazioni aggiornate consulta i link ufficiali.|This is an automated FAQ with preset answers. Search a topic or choose a question. Use the official links for current information.",
+    "favBtn": "❤ Preferiti|❤ Favorites",
+    "favTitolo": "I tuoi preferiti|Your favorites",
+    "svuota": "Svuota|Clear all",
+    "favVuoto": "Nessun preferito per ora: tocca la stella ☆ su una card per salvarla.|No favorites yet: tap the ☆ star on a card to save it.",
+    "toastAgg": "Aggiunto ai preferiti ★|Added to favorites ★",
+    "toastRim": "Rimosso dai preferiti|Removed from favorites",
+    "salva": "Salva nei preferiti|Save to favorites",
+    "rimuovi": "Rimuovi dai preferiti|Remove from favorites"
+  },
+  "PROFILI": [
+    {
+      "id": "cultura",
+      "emoji": "🏛️",
+      "nome": "Culturale|Cultural",
+      "claim": "Storia viva a ogni angolo|Living history at every corner"
+    },
+    {
+      "id": "business",
+      "emoji": "💼",
+      "nome": "Business & Bleisure|Business & Bleisure",
+      "claim": "Congressi di giorno, dolce vita di sera|Congress by day, la dolce vita by night"
+    },
+    {
+      "id": "food",
+      "emoji": "🍝",
+      "nome": "Enogastronomico|Food & Wine",
+      "claim": "Quartieri, sughi e mercati rionali|Districts, sauces and local markets"
+    },
+    {
+      "id": "religioso",
+      "emoji": "⛪",
+      "nome": "Religioso & Spirituale|Religious & Spiritual",
+      "claim": "La città delle basiliche|The city of basilicas"
+    },
+    {
+      "id": "benessere",
+      "emoji": "🌿",
+      "nome": "Benessere & Medicale|Wellness & Medical",
+      "claim": "Rigenerarsi tra terme e parchi|Recharge among spas and parks"
+    },
+    {
+      "id": "sport",
+      "emoji": "🏟️",
+      "nome": "Sport & Grandi Eventi|Sports & Major Events",
+      "claim": "Stadi, maratone, palchi epici|Stadiums, marathons, epic stages"
+    },
+    {
+      "id": "lento",
+      "emoji": "🚲",
+      "nome": "Lento & Sostenibile|Slow & Sustainable",
+      "claim": "La Roma dei quartieri, a ritmo umano|The Rome of neighborhoods, at human pace"
+    },
+    {
+      "id": "formativo",
+      "emoji": "🎓",
+      "nome": "Formativo|Educational",
+      "claim": "Imparare qualcosa che resta|Learn something that stays"
+    }
+  ],
+  "SOTTO": {
+    "cultura": [
+      {
+        "id": "musei",
+        "emoji": "🖼️",
+        "nome": "Musei e pinacoteche|Museums & pinacoteche"
+      },
+      {
+        "id": "monumenti",
+        "emoji": "🏛️",
+        "nome": "Duomo e monumenti|Duomo & monuments"
+      },
+      {
+        "id": "design",
+        "emoji": "🎨",
+        "nome": "Design e contemporaneo|Design & contemporary"
+      }
+    ],
+    "business": [
+      {
+        "id": "congressi",
+        "emoji": "🎤",
+        "nome": "Congressi e fiere|Congresses & trade fairs"
+      },
+      {
+        "id": "bleisure",
+        "emoji": "🧳",
+        "nome": "Estensioni bleisure|Bleisure extensions"
+      },
+      {
+        "id": "networking",
+        "emoji": "🥂",
+        "nome": "Aperitivi e networking|Aperitifs & networking"
+      }
+    ],
+    "food": [
+      {
+        "id": "cucina",
+        "emoji": "🍝",
+        "nome": "Cucina milanese|Milanese cuisine"
+      },
+      {
+        "id": "aperitivo",
+        "emoji": "🥂",
+        "nome": "Aperitivo e apericena|Aperitivo & apericena"
+      },
+      {
+        "id": "pizza",
+        "emoji": "🍕",
+        "nome": "Pizza|Pizza"
+      },
+      {
+        "id": "internazionale",
+        "emoji": "🌏",
+        "nome": "Internazionale e Chinatown|International & Chinatown"
+      },
+      {
+        "id": "street",
+        "emoji": "🧺",
+        "nome": "Mercati e street food|Markets & street food"
+      },
+      {
+        "id": "dolci",
+        "emoji": "🍰",
+        "nome": "Dolci e caffè|Sweets & coffee"
+      },
+      {
+        "id": "alta",
+        "emoji": "🍽️",
+        "nome": "Alta cucina|Fine dining"
+      }
+    ],
+    "religioso": [
+      {
+        "id": "basiliche",
+        "emoji": "⛪",
+        "nome": "Basiliche e cattedrali|Basilicas & cathedrals"
+      },
+      {
+        "id": "chiese",
+        "emoji": "🕯️",
+        "nome": "Chiese e siti minori|Churches & minor sites"
+      },
+      {
+        "id": "pellegrini",
+        "emoji": "🥾",
+        "nome": "Percorsi di pellegrinaggio|Pilgrimage routes"
+      }
+    ],
+    "benessere": [
+      {
+        "id": "terme",
+        "emoji": "♨️",
+        "nome": "Terme e acque termali|Thermal baths & waters"
+      },
+      {
+        "id": "spa",
+        "emoji": "💆",
+        "nome": "Spa e massaggi|Spas & massages"
+      },
+      {
+        "id": "verde",
+        "emoji": "🌳",
+        "nome": "Parchi e natura urbana|Parks & urban nature"
+      }
+    ],
+    "sport": [
+      {
+        "id": "calcio",
+        "emoji": "⚽",
+        "nome": "Calcio e stadio|Football & stadium"
+      },
+      {
+        "id": "eventi",
+        "emoji": "🎪",
+        "nome": "Grandi eventi|Major events"
+      },
+      {
+        "id": "partecipa",
+        "emoji": "🏃",
+        "nome": "Sport da praticare|Sports to play"
+      }
+    ],
+    "lento": [
+      {
+        "id": "quartieri",
+        "emoji": "🏘️",
+        "nome": "Quartieri autentici|Authentic neighborhoods"
+      },
+      {
+        "id": "parchi",
+        "emoji": "🌿",
+        "nome": "Parchi e natura|Parks & nature"
+      },
+      {
+        "id": "lente",
+        "emoji": "🚲",
+        "nome": "Mobilità dolce|Soft mobility"
+      }
+    ],
+    "formativo": [
+      {
+        "id": "cucina",
+        "emoji": "👩‍🍳",
+        "nome": "Corsi di cucina|Cooking classes"
+      },
+      {
+        "id": "artigianato",
+        "emoji": "🎨",
+        "nome": "Laboratori artigianali|Craft workshops"
+      },
+      {
+        "id": "guide",
+        "emoji": "📣",
+        "nome": "Visite guidate e masterclass|Guided tours & masterclasses"
+      }
+    ]
+  },
+  "TIPI": [
+    {
+      "id": "ristorante",
+      "emoji": "🍽️",
+      "nome": "Ristorante|Restaurant"
+    },
+    {
+      "id": "trattoria",
+      "emoji": "🏠",
+      "nome": "Trattoria|Trattoria"
+    },
+    {
+      "id": "osteria",
+      "emoji": "🍷",
+      "nome": "Osteria|Osteria"
+    },
+    {
+      "id": "bistrot",
+      "emoji": "🥂",
+      "nome": "Bistrot|Bistro"
+    },
+    {
+      "id": "pizzeria",
+      "emoji": "🍕",
+      "nome": "Pizzeria|Pizzeria"
+    },
+    {
+      "id": "friggitoria",
+      "emoji": "🍟",
+      "nome": "Friggitoria|Fry shop"
+    },
+    {
+      "id": "bar",
+      "emoji": "☕",
+      "nome": "Bar e caffè|Bar & café"
+    },
+    {
+      "id": "mercato",
+      "emoji": "🧺",
+      "nome": "Mercato|Market"
+    }
+  ],
+  "ESPERIENZE": [
+    {
+      "t": "Duomo e le terrazze|Duomo & the rooftops",
+      "z": "Piazza Duomo|Piazza Duomo",
+      "d": "2,5 ore|2.5 hrs",
+      "tags": [
+        "cultura",
+        "religioso"
+      ],
+      "sub": "monumenti",
+      "p": "La cattedrale gotica e la passeggiata tra le guglie, con la Madonnina a portata di mano.|The Gothic cathedral and a walk among the spires, with the Madonnina at hand's reach.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-001",
+      "legacyId": "Duomo e le terrazze",
+      "duration": {
+        "minutes": 150,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 26,
+        "currency": "EUR",
+        "kind": "paid",
+        "note": "Combo Lift intero, secondo la pagina del gestore del 2025: conferma tariffa e inclusioni per la tua data.|Standard Combo Lift, as listed on the operator’s 2025 page: confirm the price and inclusions for your date.",
+        "verifiedAt": "2026-10-16",
+        "sourceUrl": "https://www.duomomilano.it/aggiornamenti-modalita-di-accesso-complesso-monumentale-2025/"
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Piazza Duomo|Piazza Duomo",
+        "address": "Piazza del Duomo, Milano",
+        "mapQuery": "Duomo e le terrazze, Milano"
+      },
+      "source": {
+        "url": "https://www.duomomilano.it/",
+        "scope": "operator",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": false,
+        "accessibleToilets": true,
+        "difficulty": null,
+        "notes": "Le terrazze sono accessibili in carrozzina solo in parte, con ascensore e passaggi limitati. Sono documentati servizi igienici attrezzati esterni e nel museo. Contatta il gestore per il percorso adatto.|Wheelchair access to the terraces is partial, using a lift and restricted passages. Adapted toilets are documented outside and in the museum. Contact the operator to plan a suitable route.",
+        "sourceUrl": "https://www.duomomilano.it/regolamenti/accessibilita/",
+        "verifiedAt": "2026-10-16"
+      }
+    },
+    {
+      "t": "Il Cenacolo di Leonardo|Leonardo's Last Supper",
+      "z": "Santa Maria delle Grazie|Santa Maria delle Grazie",
+      "d": "15 min|15 min",
+      "tags": [
+        "cultura",
+        "religioso"
+      ],
+      "sub": "musei",
+      "p": "Quindici minuti davanti al capolavoro più famoso al mondo: valgono un viaggio.|Fifteen minutes before the world's most famous masterpiece: worth a trip.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-002",
+      "legacyId": "Il Cenacolo di Leonardo",
+      "duration": {
+        "minutes": 15,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Santa Maria delle Grazie|Santa Maria delle Grazie",
+        "address": null,
+        "mapQuery": "Il Cenacolo di Leonardo, Milano"
+      },
+      "source": {
+        "url": "https://cenacolovinciano.org/",
+        "scope": "operator",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Pinacoteca di Brera|The Brera Gallery",
+      "z": "Brera|Brera",
+      "d": "2,5 ore|2.5 hrs",
+      "tags": [
+        "cultura"
+      ],
+      "sub": "musei",
+      "p": "Raffaello, Caravaggio e Mantegna nel quartiere degli artisti: la pinacoteca che profuma di bottega.|Raphael, Caravaggio and Mantegna in the artists' district: a gallery that smells of the studio.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-003",
+      "legacyId": "Pinacoteca di Brera",
+      "duration": {
+        "minutes": 150,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Brera|Brera",
+        "address": null,
+        "mapQuery": "Pinacoteca di Brera, Milano"
+      },
+      "source": {
+        "url": "https://pinacotecabrera.org/",
+        "scope": "operator",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Castello Sforzesco e musei|Sforza Castle & museums",
+      "z": "Sempione|Sempione",
+      "d": "3 ore|3 hrs",
+      "tags": [
+        "cultura"
+      ],
+      "sub": "monumenti",
+      "p": "Il castello dei duchi: cortili rinascimentali e musei con Michelangelo e Leonardo.|The dukes' castle: Renaissance courtyards and museums with Michelangelo and Leonardo.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-004",
+      "legacyId": "Castello Sforzesco e musei",
+      "duration": {
+        "minutes": 180,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Sempione|Sempione",
+        "address": null,
+        "mapQuery": "Castello Sforzesco e musei, Milano"
+      },
+      "source": {
+        "url": "https://www.milanocastello.it/",
+        "scope": "operator",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Galleria Vittorio Emanuele e il rito del toro|The Galleria & the bull ritual",
+      "z": "Piazza Duomo|Piazza Duomo",
+      "d": "1 ora|1 hr",
+      "tags": [
+        "cultura"
+      ],
+      "sub": "monumenti",
+      "p": "Il 'salotto' ottocentesco di vetro e ferro: botteghe storiche e il mosaico del toro portafortuna.|The 19th-century glass-and-iron 'drawing room': historic shops and the lucky bull mosaic.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-005",
+      "legacyId": "Galleria Vittorio Emanuele e il rito del toro",
+      "duration": {
+        "minutes": 60,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Piazza Duomo|Piazza Duomo",
+        "address": null,
+        "mapQuery": "Galleria Vittorio Emanuele e il rito del toro, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Fondazione Prada e il design|Prada Foundation & design",
+      "z": "Porta Romana|Porta Romana",
+      "d": "3 ore|3 hrs",
+      "tags": [
+        "cultura"
+      ],
+      "sub": "design",
+      "p": "Rem Koolhaas, una torre dorata e mostre d'avanguardia: Milano contemporanea al massimo.|Rem Koolhaas, a golden tower and avant-garde shows: contemporary Milan at its best.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-006",
+      "legacyId": "Fondazione Prada e il design",
+      "duration": {
+        "minutes": 180,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Porta Romana|Porta Romana",
+        "address": null,
+        "mapQuery": "Fondazione Prada e il design, Milano"
+      },
+      "source": {
+        "url": "https://www.fondazioneprada.org/",
+        "scope": "operator",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Teatro alla Scala e museo|La Scala & theatre museum",
+      "z": "Duomo / Brera|Duomo / Brera",
+      "d": "1,5 ore|1.5 hrs",
+      "tags": [
+        "cultura"
+      ],
+      "sub": "musei",
+      "p": "Il tempio dell'opera: museo, palchi e la sala vista dal loggione.|The temple of opera: museum, boxes and the hall seen from the gods.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-007",
+      "legacyId": "Teatro alla Scala e museo",
+      "duration": {
+        "minutes": 90,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Duomo / Brera|Duomo / Brera",
+        "address": null,
+        "mapQuery": "Teatro alla Scala e museo, Milano"
+      },
+      "source": {
+        "url": "https://www.teatroallascala.org/",
+        "scope": "operator",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Fiera Milano Rho e i grandi saloni|Rho Fiera & the great trade fairs",
+      "z": "Rho|Rho",
+      "d": "mezza giornata|half day",
+      "tags": [
+        "business"
+      ],
+      "sub": "congressi",
+      "p": "Il quarto polo fieristico d'Europa: congressi, saloni ed eventi internazionali.|Europe's fourth largest trade fair hub: congresses, fairs and international events.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-008",
+      "legacyId": "Fiera Milano Rho e i grandi saloni",
+      "duration": {
+        "minutes": 240,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Rho|Rho",
+        "address": null,
+        "mapQuery": "Fiera Milano Rho e i grandi saloni, Milano"
+      },
+      "source": {
+        "url": "https://www.fieramilano.it/",
+        "scope": "operator",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Aperitivo nel Quadrilatero|Aperitivo in the Quadrilatero",
+      "z": "Montenapoleone|Montenapoleone",
+      "d": "2 ore|2 hrs",
+      "tags": [
+        "business",
+        "food"
+      ],
+      "sub": "networking",
+      "p": "Il rito elegante del dopo-lavoro: cocktail tra le vetrine della moda.|The elegant after-work ritual: cocktails among the fashion windows.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-009",
+      "legacyId": "Aperitivo nel Quadrilatero",
+      "duration": {
+        "minutes": 120,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Montenapoleone|Montenapoleone",
+        "address": null,
+        "mapQuery": "Aperitivo nel Quadrilatero, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Bleisure: i laghi in treno|Bleisure: the lakes by train",
+      "z": "Fuori porta|Out of town",
+      "d": "1 giorno|1 day",
+      "tags": [
+        "business",
+        "lento"
+      ],
+      "sub": "bleisure",
+      "p": "Il giorno in più dopo il meeting che diventa lago: Como, 40 minuti di treno.|The extra day after the meeting that becomes a lake: Como, 40 minutes by train.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-010",
+      "legacyId": "Bleisure: i laghi in treno",
+      "duration": {
+        "minutes": 480,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Fuori porta|Out of town",
+        "address": null,
+        "mapQuery": "Bleisure: i laghi in treno, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Risotto alla milanese e osso buco|Milanese risotto & osso buco",
+      "z": "Navigli / Brera|Navigli / Brera",
+      "d": "sera|evening",
+      "tags": [
+        "food"
+      ],
+      "sub": "cucina",
+      "tipo": "trattoria",
+      "p": "Zafferano abbondante e il bollito: i due pilastri della cucina meneghina.|Generous saffron and the braised veal: the two pillars of Milanese cooking.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-011",
+      "legacyId": "Risotto alla milanese e osso buco",
+      "duration": {
+        "minutes": null,
+        "kind": "variable"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Navigli / Brera|Navigli / Brera",
+        "address": null,
+        "mapQuery": "Risotto alla milanese e osso buco, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "La cucina meneghina di stagione|Seasonal Milanese cooking",
+      "z": "Porta Romana / Isola|Porta Romana / Isola",
+      "d": "sera|evening",
+      "tags": [
+        "food",
+        "lento"
+      ],
+      "sub": "cucina",
+      "tipo": "osteria",
+      "p": "Mondeghili, rustin negàa e cassoeula: i piatti della tradizione che i menu turistici ignorano.|Mondeghili, rustin negàa and cassoeula: traditional dishes tourist menus ignore.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-012",
+      "legacyId": "La cucina meneghina di stagione",
+      "duration": {
+        "minutes": null,
+        "kind": "variable"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Porta Romana / Isola|Porta Romana / Isola",
+        "address": null,
+        "mapQuery": "La cucina meneghina di stagione, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Apericena sui Navigli|Apericena on the Navigli",
+      "z": "Navigli|Navigli",
+      "d": "sera|evening",
+      "tags": [
+        "food",
+        "lento"
+      ],
+      "sub": "aperitivo",
+      "tipo": "bar",
+      "p": "Il buffet a volontà col drink: l'istituzione milanese che sostituisce la cena.|The all-you-can-eat buffet with your drink: the Milanese institution that replaces dinner.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-013",
+      "legacyId": "Apericena sui Navigli",
+      "duration": {
+        "minutes": null,
+        "kind": "variable"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Navigli|Navigli",
+        "address": null,
+        "mapQuery": "Apericena sui Navigli, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Camparino in Galleria|Camparino in the Galleria",
+      "z": "Piazza Duomo|Piazza Duomo",
+      "d": "30 min|30 min",
+      "tags": [
+        "food",
+        "cultura"
+      ],
+      "sub": "aperitivo",
+      "tipo": "bar",
+      "p": "Il banco storico dove l'aperitivo è diventato arte: Campari nacque qui a Milano.|The historic counter where the aperitivo became art: Campari was born here in Milan.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-014",
+      "legacyId": "Camparino in Galleria",
+      "duration": {
+        "minutes": 30,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Piazza Duomo|Piazza Duomo",
+        "address": null,
+        "mapQuery": "Camparino in Galleria, Milano"
+      },
+      "source": {
+        "url": "https://www.camparino.com/",
+        "scope": "operator",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Pizza in nuova ondata|New-wave pizza",
+      "z": "Isola / Porta Nuova|Isola / Porta Nuova",
+      "d": "sera|evening",
+      "tags": [
+        "food"
+      ],
+      "sub": "pizza",
+      "tipo": "pizzeria",
+      "p": "Milano guida la pizza contemporanea: impasti lunghi, farine antiche, lieviti madri.|Milan leads contemporary pizza: long fermentation, ancient grains, sourdough.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-015",
+      "legacyId": "Pizza in nuova ondata",
+      "duration": {
+        "minutes": null,
+        "kind": "variable"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Isola / Porta Nuova|Isola / Porta Nuova",
+        "address": null,
+        "mapQuery": "Pizza in nuova ondata, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Chinatown di via Sarpi|Sarpi Chinatown",
+      "z": "Isola / Sarpi|Isola / Sarpi",
+      "d": "2 ore|2 hrs",
+      "tags": [
+        "food",
+        "lento"
+      ],
+      "sub": "internazionale",
+      "tipo": "ristorante",
+      "p": "Il quartiere cinese più antico d'Italia: ravioli a pranzo, negozi che profumano di viaggio.|Italy's oldest Chinese quarter: dumplings at lunch, shops smelling of travel.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-016",
+      "legacyId": "Chinatown di via Sarpi",
+      "duration": {
+        "minutes": 120,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Isola / Sarpi|Isola / Sarpi",
+        "address": null,
+        "mapQuery": "Chinatown di via Sarpi, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Mercato Centrale e street food|Central Market & street food",
+      "z": "Stazione Centrale|Central Station",
+      "d": "1,5 ore|1.5 hrs",
+      "tags": [
+        "food"
+      ],
+      "sub": "street",
+      "tipo": "mercato",
+      "p": "La food hall nella stazione: qualità inaspettata per chi parte o arriva.|The food hall in the station: unexpected quality for those leaving or arriving.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-017",
+      "legacyId": "Mercato Centrale e street food",
+      "duration": {
+        "minutes": 90,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Stazione Centrale|Central Station",
+        "address": null,
+        "mapQuery": "Mercato Centrale e street food, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Panzerotti di Luini|Luini's panzerotti",
+      "z": "Duomo|Duomo",
+      "d": "15 min|15 min",
+      "tags": [
+        "food"
+      ],
+      "sub": "street",
+      "tipo": "friggitoria",
+      "p": "Il panzerotto caldo a pochi metri dal Duomo: la fila più costante di Milano.|The hot panzerotto steps from the Duomo: Milan's most constant queue.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-018",
+      "legacyId": "Panzerotti di Luini",
+      "duration": {
+        "minutes": 15,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Duomo|Duomo",
+        "address": null,
+        "mapQuery": "Panzerotti di Luini, Milano"
+      },
+      "source": {
+        "url": "https://www.luini.it/",
+        "scope": "operator",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Panettone e pasticceria storica|Panettone & historic patisserie",
+      "z": "Duomo / Brera|Duomo / Brera",
+      "d": "colazione|breakfast",
+      "tags": [
+        "food"
+      ],
+      "sub": "dolci",
+      "tipo": "bar",
+      "p": "Il dolce di Milano nato qui: pasticcerie storiche dove il panettone si mangia tutto l'anno.|Milan's own sweet born here: historic patisseries where panettone is eaten year-round.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-019",
+      "legacyId": "Panettone e pasticceria storica",
+      "duration": {
+        "minutes": null,
+        "kind": "variable"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Duomo / Brera|Duomo / Brera",
+        "address": null,
+        "mapQuery": "Panettone e pasticceria storica, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Alta cucina: la capitale delle stelle|Fine dining: capital of stars",
+      "z": "Tutta la città|All over the city",
+      "d": "sera|evening",
+      "tags": [
+        "food",
+        "business"
+      ],
+      "sub": "alta",
+      "tipo": "ristorante",
+      "p": "Milano è la città più stellata d'Italia: la cucina d'autore come forma d'arte civica.|Milan is Italy's most-starred city: author cuisine as a civic art form.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-020",
+      "legacyId": "Alta cucina: la capitale delle stelle",
+      "duration": {
+        "minutes": null,
+        "kind": "variable"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Tutta la città|All over the city",
+        "address": null,
+        "mapQuery": "Alta cucina: la capitale delle stelle, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Sant'Ambrogio, cuore della città|Sant'Ambrogio, the city's heart",
+      "z": "Sant'Ambrogio|Sant'Ambrogio",
+      "d": "1,5 ore|1.5 hrs",
+      "tags": [
+        "religioso",
+        "cultura"
+      ],
+      "sub": "basiliche",
+      "p": "La basilica del patrono, più antica del Duomo di mille anni: altare d'oro e il serpente di bronzo.|The patron saint's basilica, a thousand years older than the Duomo: golden altar and the bronze serpent.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-021",
+      "legacyId": "Sant'Ambrogio, cuore della città",
+      "duration": {
+        "minutes": 90,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Sant'Ambrogio|Sant'Ambrogio",
+        "address": null,
+        "mapQuery": "Sant'Ambrogio, cuore della città, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "San Bernardino alle Ossa|San Bernardino alle Ossa",
+      "z": "Duomo|Duomo",
+      "d": "30 min|30 min",
+      "tags": [
+        "religioso",
+        "cultura"
+      ],
+      "sub": "chiese",
+      "p": "La cappella interamente rivestita di ossa: piccola, intensa, indimenticabile.|The chapel entirely covered in bones: small, intense, unforgettable.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-022",
+      "legacyId": "San Bernardino alle Ossa",
+      "duration": {
+        "minutes": 30,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Duomo|Duomo",
+        "address": null,
+        "mapQuery": "San Bernardino alle Ossa, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "San Maurizio, la Sistina di Milano|San Maurizio, Milan's Sistine",
+      "z": "Duomo / Brera|Duomo / Brera",
+      "d": "45 min|45 min",
+      "tags": [
+        "religioso",
+        "cultura"
+      ],
+      "sub": "chiese",
+      "p": "Affreschi che coprono ogni parete, ingresso libero: la chiesa più dipinta della città.|Frescoes covering every wall, free entry: the city's most painted church.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-023",
+      "legacyId": "San Maurizio, la Sistina di Milano",
+      "duration": {
+        "minutes": 45,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Duomo / Brera|Duomo / Brera",
+        "address": null,
+        "mapQuery": "San Maurizio, la Sistina di Milano, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Santuario dei Miracoli a San Celso|San Celso, the miracles sanctuary",
+      "z": "Porta Romana|Porta Romana",
+      "d": "1 ora|1 hr",
+      "tags": [
+        "religioso"
+      ],
+      "sub": "pellegrini",
+      "p": "Il santuario rinascimentale dei miracoli milanesi, con la chiesa paleocristiana accanto.|The Renaissance sanctuary of Milanese miracles, with the early Christian church beside it.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-024",
+      "legacyId": "Santuario dei Miracoli a San Celso",
+      "duration": {
+        "minutes": 60,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Porta Romana|Porta Romana",
+        "address": null,
+        "mapQuery": "Santuario dei Miracoli a San Celso, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "QC Terme, la spa urbana|QC Terme, the urban spa",
+      "z": "Porta Romana|Porta Romana",
+      "d": "mezza giornata|half day",
+      "tags": [
+        "benessere"
+      ],
+      "sub": "terme",
+      "p": "Vasche, saune e rilassamento in un ex deposito di tram: il benessere più originale d'Europa.|Pools, saunas and relaxation in a former tram depot: Europe's most original wellness.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-025",
+      "legacyId": "QC Terme, la spa urbana",
+      "duration": {
+        "minutes": 240,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Porta Romana|Porta Romana",
+        "address": null,
+        "mapQuery": "QC Terme, la spa urbana, Milano"
+      },
+      "source": {
+        "url": "https://www.qcterme.com/",
+        "scope": "operator",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Spa d'autore in centro|Spa day in the centre",
+      "z": "Centro|Centre",
+      "d": "3 ore|3 hrs",
+      "tags": [
+        "benessere",
+        "business"
+      ],
+      "sub": "spa",
+      "p": "Le spa dei grandi hotel di design: piscine silenziose e massaggi d'autore, aperte agli esterni.|Design hotels' spas: silent pools and signature massages, open to outsiders.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-026",
+      "legacyId": "Spa d'autore in centro",
+      "duration": {
+        "minutes": 180,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Centro|Centre",
+        "address": null,
+        "mapQuery": "Spa d'autore in centro, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Bosco Verticale e i giardini di Porta Nuova|Vertical Forest & Porta Nuova gardens",
+      "z": "Porta Nuova|Porta Nuova",
+      "d": "1,5 ore|1.5 hrs",
+      "tags": [
+        "benessere",
+        "lento"
+      ],
+      "sub": "verde",
+      "p": "Due torri abitate da quasi mille alberi: il simbolo della Milano che respira.|Two towers home to nearly a thousand trees: the symbol of Milan breathing.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-027",
+      "legacyId": "Bosco Verticale e i giardini di Porta Nuova",
+      "duration": {
+        "minutes": 90,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Porta Nuova|Porta Nuova",
+        "address": null,
+        "mapQuery": "Bosco Verticale e i giardini di Porta Nuova, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "San Siro: derby e musei|San Siro: derbies & museums",
+      "z": "San Siro|San Siro",
+      "d": "3 ore|3 hrs",
+      "tags": [
+        "sport"
+      ],
+      "sub": "calcio",
+      "p": "Milan o Inter, il Meazza è il tempio del calcio italiano: 80.000 voci e la curva che dipinge.|Milan or Inter, the Meazza is Italian football's temple: 80,000 voices and a painting curve.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-028",
+      "legacyId": "San Siro: derby e musei",
+      "duration": {
+        "minutes": 180,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "San Siro|San Siro",
+        "address": null,
+        "mapQuery": "San Siro: derby e musei, Milano"
+      },
+      "source": {
+        "url": "https://www.sansirostadium.com/",
+        "scope": "operator",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Gran Premio di Monza|Monza F1 Grand Prix",
+      "z": "Monza|Monza",
+      "d": "1 giorno|1 day",
+      "tags": [
+        "sport"
+      ],
+      "sub": "eventi",
+      "p": "Il tempio della velocità: la F1 nel parco più grande d'Europa, a un treno da Milano.|The temple of speed: F1 in Europe's largest park, one train from Milan.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-029",
+      "legacyId": "Gran Premio di Monza",
+      "duration": {
+        "minutes": 480,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Monza|Monza",
+        "address": null,
+        "mapQuery": "Gran Premio di Monza, Milano"
+      },
+      "source": {
+        "url": "https://www.monzanet.it/",
+        "scope": "operator",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Milano City Marathon|Milan City Marathon",
+      "z": "Città|City",
+      "d": "1 giorno|1 day",
+      "tags": [
+        "sport"
+      ],
+      "sub": "partecipa",
+      "p": "42 chilometri attraverso la città che applaude composta: la maratona più elegante d'Italia.|42 kilometres through a city that applauds politely: Italy's most elegant marathon.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-030",
+      "legacyId": "Milano City Marathon",
+      "duration": {
+        "minutes": 480,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Città|City",
+        "address": null,
+        "mapQuery": "Milano City Marathon, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Fashion Week e Design Week|Fashion & Design Weeks",
+      "z": "Tutta la città|All over the city",
+      "d": "1 settimana|1 week",
+      "tags": [
+        "sport",
+        "cultura"
+      ],
+      "sub": "eventi",
+      "p": "Le due settimane in cui Milano cambia pelle: sfilate, saloni e il Fuorisalone in ogni quartiere.|The two weeks when Milan changes skin: runway shows, trade fairs and Fuorisalone in every district.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-031",
+      "legacyId": "Fashion Week e Design Week",
+      "duration": {
+        "minutes": null,
+        "kind": "variable"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Tutta la città|All over the city",
+        "address": null,
+        "mapQuery": "Fashion Week e Design Week, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Navigli a piedi: alzaie e botteghe|Navigli walk: towpaths & studios",
+      "z": "Navigli|Navigli",
+      "d": "2 ore|2 hrs",
+      "tags": [
+        "lento"
+      ],
+      "sub": "quartieri",
+      "p": "Camminare lungo i canali come i barcaioli: botteghe, gallerie e l'acqua che scorre piano.|Walking the canals like the bargees: studios, galleries and slowly flowing water.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-032",
+      "legacyId": "Navigli a piedi: alzaie e botteghe",
+      "duration": {
+        "minutes": 120,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Navigli|Navigli",
+        "address": null,
+        "mapQuery": "Navigli a piedi: alzaie e botteghe, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Isola: il villaggio tra le torri|Isola: the village among towers",
+      "z": "Isola|Isola",
+      "d": "2 ore|2 hrs",
+      "tags": [
+        "lento",
+        "cultura"
+      ],
+      "sub": "quartieri",
+      "p": "Il quartiere 'isolato' dai binari: street art, cortili, caffè e la scala che sale al Bosco.|The district 'isolated' by the railway: street art, courtyards, cafés and the stairs up to the Bosco.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-033",
+      "legacyId": "Isola: il villaggio tra le torri",
+      "duration": {
+        "minutes": 120,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Isola|Isola",
+        "address": null,
+        "mapQuery": "Isola: il villaggio tra le torri, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Parco Sempione, il giardino del Castello|Sempione Park, the castle garden",
+      "z": "Sempione|Sempione",
+      "d": "1,5 ore|1.5 hrs",
+      "tags": [
+        "lento",
+        "benessere"
+      ],
+      "sub": "parchi",
+      "p": "Il polmone verde dietro il Castello: pini secolari, torre Branca e l'Arco della Pace.|The green lung behind the Castle: centuries-old pines, the Branca tower and the Arch of Peace.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-034",
+      "legacyId": "Parco Sempione, il giardino del Castello",
+      "duration": {
+        "minutes": 90,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Sempione|Sempione",
+        "address": null,
+        "mapQuery": "Parco Sempione, il giardino del Castello, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "La Martesana in bici|Cycling the Martesana",
+      "z": "Porta Venezia → Adda|Porta Venezia → Adda",
+      "d": "3 ore|3 hrs",
+      "tags": [
+        "lento"
+      ],
+      "sub": "lente",
+      "p": "La pista ciclabile lungo il canale: dalla città all'aperta campagna senza mai scendere di sella.|The cycle path along the canal: from the city to open country without leaving the saddle.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-035",
+      "legacyId": "La Martesana in bici",
+      "duration": {
+        "minutes": 180,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Porta Venezia → Adda|Porta Venezia → Adda",
+        "address": null,
+        "mapQuery": "La Martesana in bici, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Corso di cucina milanese|Milanese cooking class",
+      "z": "Navigli|Navigli",
+      "d": "3 ore|3 hrs",
+      "tags": [
+        "formativo",
+        "food"
+      ],
+      "sub": "cucina",
+      "p": "Il risotto si impara con il mestolo: tostatura, brodo bollente e mantecatura a freddo.|Risotto is learned with a ladle: toasting, boiling broth and cold buttering.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-036",
+      "legacyId": "Corso di cucina milanese",
+      "duration": {
+        "minutes": 180,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Navigli|Navigli",
+        "address": null,
+        "mapQuery": "Corso di cucina milanese, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Workshop di design e artigianato|Design & craft workshop",
+      "z": "Brera / Isola|Brera / Isola",
+      "d": "2 ore|2 hrs",
+      "tags": [
+        "formativo",
+        "cultura"
+      ],
+      "sub": "artigianato",
+      "p": "Ceramica, tipografia o rilegatura: la città del design insegna con le mani.|Ceramics, typography or bookbinding: the city of design teaches by hand.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-037",
+      "legacyId": "Workshop di design e artigianato",
+      "duration": {
+        "minutes": 120,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Brera / Isola|Brera / Isola",
+        "address": null,
+        "mapQuery": "Workshop di design e artigianato, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/",
+        "scope": "city",
+        "checkedAt": null
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Il Cenacolo con lo storico dell'arte|The Last Supper with an art historian",
+      "z": "Santa Maria delle Grazie|Santa Maria delle Grazie",
+      "d": "1 ora|1 hr",
+      "tags": [
+        "formativo",
+        "cultura"
+      ],
+      "sub": "guide",
+      "p": "Quindici minuti di capolavoro raccontati da chi li ha studiati per anni: cambiano per sempre.|Fifteen minutes of masterpiece explained by those who studied it for years: changed forever.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "milano-038",
+      "legacyId": "Il Cenacolo con lo storico dell'arte",
+      "duration": {
+        "minutes": 60,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Santa Maria delle Grazie|Santa Maria delle Grazie",
+        "address": null,
+        "mapQuery": "Il Cenacolo con lo storico dell'arte, Milano"
+      },
+      "source": {
+        "url": "https://cenacolovinciano.org/",
+        "scope": "operator",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
+        "verifiedAt": null
+      }
+    }
+  ],
+  "ITINERARI": {
+    "cultura": [
+      {
+        "ora": "08:30",
+        "t": "Duomo all'apertura|Duomo at opening time",
+        "p": "Terrazze quasi vuote e la città che si sveglia sotto le guglie.|Near-empty rooftops and a city waking below the spires.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "13:00",
+        "t": "Pranzo in Brera|Lunch in Brera",
+        "p": "Osteria nel quartiere degli artisti: risotto e gente del mestiere.|Osteria in the artists' district: risotto and people of the trade.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "15:00",
+        "t": "Cenacolo (slot prenotato)|The Last Supper (booked time slot)",
+        "p": "Quindici minuti che si ricordano per sempre.|Fifteen minutes remembered forever.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "19:30",
+        "t": "Aperitivo in Galleria|Aperitivo in the Galleria",
+        "p": "Il Camparino al banco: chiudere come un milanese.|Camparino at the counter: closing like a Milanese.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      }
+    ],
+    "business": [
+      {
+        "ora": "09:00",
+        "t": "Fiera o meeting|Trade fair or meeting",
+        "p": "Rho Fiera o CityLife: entrambe a colpo di metro.|Rho Fiera or CityLife: both one metro ride away.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "13:30",
+        "t": "Business lunch rapido|Quick business lunch",
+        "p": "Bistrot d'autore: qualità in trenta minuti.|Author bistro: quality in thirty minutes.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "16:00",
+        "t": "Pausa: Pinacoteca di Brera|Break at the Brera Art Gallery",
+        "p": "Due ore d'arte come antidoto alle slide.|Two hours of art as the antidote to slides.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "19:30",
+        "t": "Aperitivo Quadrilatero|Aperitivo in the fashion district",
+        "p": "Montenapoleone e cena senza fretta.|Montenapoleone and an unhurried dinner.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      }
+    ],
+    "food": [
+      {
+        "ora": "08:00",
+        "t": "Colazione in pasticceria storica|Breakfast at a historic pastry shop",
+        "p": "Brioche e cappuccino al banco, come i milanesi.|Brioche and cappuccino at the counter, like the Milanese.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "10:30",
+        "t": "Giro di via Sarpi|Explore Via Sarpi",
+        "p": "Chinatown e i suoi negozi: si apre lo stomaco e la mente.|Chinatown and its shops: stomach and mind open.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "13:00",
+        "t": "Risotto in trattoria|Risotto in a trattoria",
+        "p": "Giallo brillante e mantecato a regola d'arte.|Brilliant yellow and buttered to perfection.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "18:30",
+        "t": "Apericena sui Navigli|Aperitivo and dinner on the Navigli",
+        "p": "Il buffet che sostituisce la cena: istituzione locale.|The buffet that replaces dinner: a local institution.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      }
+    ],
+    "religioso": [
+      {
+        "ora": "07:45",
+        "t": "Messa in Duomo|Mass in the Duomo",
+        "p": "All'alba la cattedrale è silenzio e pietra.|At dawn the cathedral is silence and stone.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "09:30",
+        "t": "Sant'Ambrogio|Sant’Ambrogio Basilica",
+        "p": "La basilica del patrono e il suo serpente di bronzo.|The patron's basilica and its bronze serpent.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "12:30",
+        "t": "Santa Maria delle Grazie|Santa Maria delle Grazie",
+        "p": "La chiesa che custodisce il Cenacolo: architettura e mistero.|The church guarding the Last Supper: architecture and mystery.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "16:00",
+        "t": "San Maurizio e San Bernardino|San Maurizio and San Bernardino",
+        "p": "La 'Sistina' di Milano e la cappella d'ossa: doppia meraviglia.|Milan's 'Sistine' and the ossuary chapel: a double wonder.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      }
+    ],
+    "benessere": [
+      {
+        "ora": "08:30",
+        "t": "Camminata al Parco Sempione|Walk in Parco Sempione",
+        "p": "Pini, castello e silenzio: partire lento.|Pines, castle and silence: starting slow.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "10:30",
+        "t": "QC Terme|QC Terme spa",
+        "p": "Saune e vasche nell'ex deposito di tram: due ore volano.|Saunas and pools in the former tram depot: two hours fly.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "13:30",
+        "t": "Pranzo leggero a Isola|Light lunch in Isola",
+        "p": "Cortili e cucina pulita: la Milano che si rigenera.|Courtyards and clean cooking: the Milan that regenerates.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "16:00",
+        "t": "Massaggio e relax|Massage and relaxation",
+        "p": "Il pomeriggio dedicato a te: nessuna meta, nessuna fretta.|The afternoon for yourself: no destination, no hurry.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      }
+    ],
+    "sport": [
+      {
+        "ora": "09:00",
+        "t": "Tour di San Siro|San Siro stadium tour",
+        "p": "Spogliatoi, campo e musei: il Meazza a porte chiuse.|Dressing rooms, pitch and museums: the Meazza behind closed doors.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "11:30",
+        "t": "Passeggiata pre-partita|Pre-match walk",
+        "p": "Sempione e un panzerotto da Luini: rito d'avvicinamento.|Sempione and a Luini panzerotto: the approach ritual.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "13:00",
+        "t": "Pranzo sportivo|Lunch before the match",
+        "p": "Carboidrati da atleta: la città li cucina bene.|Athlete carbs: the city cooks them well.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "18:00",
+        "t": "Partita al Meazza|Football match at the Meazza",
+        "p": "Milan o Inter, non importa: il teatro è lo stesso.|Milan or Inter, doesn't matter: the theatre is the same.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      }
+    ],
+    "lento": [
+      {
+        "ora": "08:30",
+        "t": "Colazione a Isola|Breakfast in Isola",
+        "p": "Caffè di quartiere, lontano dalle rotte turistiche.|A neighbourhood café, far from tourist routes.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "10:00",
+        "t": "Mercato rionale|Neighbourhood market",
+        "p": "Quello del tuo quartiere: chiedi ai vicini.|The one in your district: ask the neighbours.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "12:30",
+        "t": "Navigli a piedi|Walk along the Navigli",
+        "p": "Alzaie, botteghe e l'acqua che scorre piano.|Towpaths, studios and slowly flowing water.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "18:00",
+        "t": "Aperitivo sull'alzaia|Aperitivo by the canal",
+        "p": "Il tramonto sul canale: la Milano migliore.|Sunset on the canal: Milan at its best.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      }
+    ],
+    "formativo": [
+      {
+        "ora": "09:00",
+        "t": "Corso di cucina milanese|Milanese cooking class",
+        "p": "Risotto e osso buco: le mani nel mestiere.|Risotto and osso buco: hands on the trade.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "13:00",
+        "t": "Mangi il tuo risotto|Enjoy the risotto you made",
+        "p": "Il pranzo migliore è quello che hai fatto tu.|The best lunch is the one you made.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "15:30",
+        "t": "Workshop di design|Design workshop",
+        "p": "Ceramica o tipografia: la città che insegna.|Ceramics or typography: the city that teaches.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "18:00",
+        "t": "Brera di sera|Brera in the evening",
+        "p": "Il quartiere degli artisti al tramonto: gallerie e vintage.|The artists' district at dusk: galleries and vintage.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      }
+    ]
+  },
+  "FOTO": {
+    "cultura": {
+      "bg": "linear-gradient(135deg,#D9C79E,#B78B4B)",
+      "emo": "🏛️"
+    },
+    "business": {
+      "bg": "linear-gradient(135deg,#9FB4C7,#5B7899)",
+      "emo": "💼"
+    },
+    "food": {
+      "bg": "linear-gradient(135deg,#E8A87C,#B5432C)",
+      "emo": "🍝"
+    },
+    "religioso": {
+      "bg": "linear-gradient(135deg,#F0E6D2,#C9A66B)",
+      "emo": "⛪"
+    },
+    "benessere": {
+      "bg": "linear-gradient(135deg,#B7C9A8,#69704F)",
+      "emo": "🌿"
+    },
+    "sport": {
+      "bg": "linear-gradient(135deg,#E3B7A0,#A03D2E)",
+      "emo": "🏟️"
+    },
+    "lento": {
+      "bg": "linear-gradient(135deg,#CDBF9A,#8F9770)",
+      "emo": "🚲"
+    },
+    "formativo": {
+      "bg": "linear-gradient(135deg,#AFC5C4,#5F807D)",
+      "emo": "🎓"
+    }
+  },
+  "IMMAGINI": {},
+  "MARCO": [
+    {
+      "k": [
+        "coda",
+        "file",
+        "prenot",
+        "bigliett",
+        "queue",
+        "ticket",
+        "book",
+        "skip",
+        "cenacolo",
+        "last supper",
+        "leonardo"
+      ],
+      "a": "Per spostamenti, biglietti e tariffe consulta il sito ufficiale del trasporto locale. Seleziona data e tratta; controlla anche le condizioni di accessibilità.|For journeys, tickets and fares, use the official local transport website. Select your date and route, and check accessibility conditions.",
+      "sourceUrl": "https://www.atm.it/"
+    },
+    {
+      "k": [
+        "sicur",
+        "sera",
+        "rub",
+        "borsegg",
+        "furto",
+        "safe",
+        "night",
+        "pickpock",
+        "theft"
+      ],
+      "a": "Per spostamenti, biglietti e tariffe consulta il sito ufficiale del trasporto locale. Seleziona data e tratta; controlla anche le condizioni di accessibilità.|For journeys, tickets and fares, use the official local transport website. Select your date and route, and check accessibility conditions.",
+      "sourceUrl": "https://www.atm.it/"
+    },
+    {
+      "k": [
+        "taxi",
+        "aeroporto",
+        "malpensa",
+        "linate",
+        "orio",
+        "bergamo",
+        "uber",
+        "nap",
+        "airport",
+        "cab"
+      ],
+      "a": "Per spostamenti, biglietti e tariffe consulta il sito ufficiale del trasporto locale. Seleziona data e tratta; controlla anche le condizioni di accessibilità.|For journeys, tickets and fares, use the official local transport website. Select your date and route, and check accessibility conditions.",
+      "sourceUrl": "https://www.atm.it/"
+    },
+    {
+      "k": [
+        "acqua",
+        "fontanella",
+        "vedovella",
+        "borraccia",
+        "bere",
+        "water",
+        "drink",
+        "fountain"
+      ],
+      "a": "Le 'vedovelle', le fontanelle con la leonessa, distribuiscono acqua potabile da oltre un secolo. Porta la borraccia: l'acqua di Milano è buona.|The 'vedovelle', lioness fountains, have poured drinkable water for over a century. Bring a bottle: Milan's water is good.",
+      "sourceUrl": "https://www.yesmilano.it/"
+    },
+    {
+      "k": [
+        "metro",
+        "bus",
+        "muover",
+        "atm",
+        "tram",
+        "mezz",
+        "subway",
+        "transport",
+        "underground",
+        "navigli"
+      ],
+      "a": "Per spostamenti, biglietti e tariffe consulta il sito ufficiale del trasporto locale. Seleziona data e tratta; controlla anche le condizioni di accessibilità.|For journeys, tickets and fares, use the official local transport website. Select your date and route, and check accessibility conditions.",
+      "sourceUrl": "https://www.atm.it/"
+    },
+    {
+      "k": [
+        "cena",
+        "orario",
+        "ristorant",
+        "mangiar",
+        "aperto",
+        "aperitiv",
+        "apericena",
+        "negroni",
+        "dinner",
+        "eat",
+        "restaurant",
+        "lunch"
+      ],
+      "a": "Disponibilità e affluenza cambiano con la data. Consulta il gestore attraverso i collegamenti nelle schede esperienza: non possiamo garantire posti o assenza di code.|Availability and crowds vary by date. Use the operator links in the experience pages: places and queue-free entry cannot be guaranteed.",
+      "sourceUrl": "https://www.yesmilano.it/"
+    },
+    {
+      "k": [
+        "mancia",
+        "tip",
+        "camerier",
+        "servizio",
+        "waiter",
+        "gratuit"
+      ],
+      "a": "Non obbligatoria: al bar gli spicci del resto, al ristorante il 5-10% se sei contento. In molti locali il 'servizio' è già in conto.|Not compulsory: small change at the bar, 5-10% at the restaurant if happy. In many places 'servizio' is already on the bill.",
+      "sourceUrl": "https://www.yesmilano.it/"
+    },
+    {
+      "k": [
+        "bambin",
+        "famiglia",
+        "ragazz",
+        "figli",
+        "kid",
+        "child",
+        "family",
+        "muba"
+      ],
+      "a": "Scegli attività compatibili con età, durata e condizioni del percorso. Chiedi al gestore informazioni su passeggini, servizi e supervisione; gli spazi pubblici non garantiscono assenza di rischi.|Choose activities suitable for age, duration and route conditions. Ask about pushchairs, facilities and supervision; public spaces are not risk-free.",
+      "sourceUrl": "https://www.yesmilano.it/"
+    },
+    {
+      "k": [
+        "piogg",
+        "piov",
+        "rain",
+        "weather",
+        "wet",
+        "ombrell"
+      ],
+      "a": "A Milano piove sul serio: l'ombrello va in borsa quasi sempre. Se piove: Pinacoteca di Brera, Museo del Novecento, gallerie d'arte o un pomeriggio alle terme QC.|In Milan it really rains: the umbrella belongs in your bag most days. If it rains: Brera, the Museo del Novecento, art galleries or an afternoon at QC Terme.",
+      "sourceUrl": "https://www.yesmilano.it/"
+    },
+    {
+      "k": [
+        "chiesa",
+        "vest",
+        "copr",
+        "spalle",
+        "ginocch",
+        "duomo",
+        "ambrogio",
+        "abbigliament",
+        "entrare",
+        "church",
+        "dress",
+        "shoulders",
+        "knees"
+      ],
+      "a": "Per Duomo e Sant'Ambrogio servono spalle e ginocchia coperte. D'estate una sciarpa leggera in borsa: risolto in due secondi.|The Duomo and Sant'Ambrogio require covered shoulders and knees. In summer a light scarf in your bag: solved in two seconds.",
+      "sourceUrl": "https://www.yesmilano.it/"
+    },
+    {
+      "k": [
+        "truff",
+        "petizion",
+        "braccialett",
+        "cordicell",
+        "regal",
+        "scam"
+      ],
+      "a": "Occhio alle 'petizioni' finte in Galleria e attorno al Duomo: cartellina, sorriso, poi chiedono soldi. Un 'no grazie' gentile e si prosegue. Stesso per i braccialetti 'regalati'.|Watch for fake 'petitions' in the Galleria and around the Duomo: clipboard, smile, then they ask for money. A kind 'no thanks' and move on. Same for 'free' bracelets.",
+      "sourceUrl": "https://www.yesmilano.it/"
+    },
+    {
+      "k": [
+        "cappuccin",
+        "caff",
+        "colazion",
+        "espresso",
+        "bar",
+        "coffee",
+        "breakfast",
+        "camparino",
+        "negroni"
+      ],
+      "a": "Cappuccino fino a metà mattina, espresso dopo: regola valida anche qui. E il momento giusto per il Camparino in Galleria è l'aperitivo: Negroni o Americano, in piedi al banco.|Cappuccino until mid-morning, espresso after: the rule applies here too. And the right time for Camparino in the Galleria is aperitivo: Negroni or Americano, standing at the bar.",
+      "sourceUrl": "https://www.yesmilano.it/"
+    }
+  ],
+  "MARCO_FALLBACK": "Mmm, non l'ho capita 😅 Prova con: Cenacolo, prenotare, taxi, metro, aperitivo, pioggia, bambini, truffe... o clicca una domanda rapida.|Hmm, I didn't get that 😅 Try: Last Supper, booking, taxi, metro, aperitivo, rain, kids, scams... or tap a quick question.",
+  "CHAT_QUICK": [
+    "Il Cenacolo come si prenota?|How do I book the Last Supper?",
+    "È sicura la sera?|Is it safe at night?",
+    "Taxi da Malpensa?|Taxi from Malpensa?",
+    "Piove spesso?|Does it rain often?",
+    "Dove faccio aperitivo?|Where for aperitivo?"
+  ],
+  "city": {
+    "id": "milano",
+    "name": "Milano|Milan",
+    "portal": "https://www.yesmilano.it/",
+    "accessibilityUrl": "https://www.yesmilano.it/milano-accessibile",
+    "transportUrl": "https://www.atm.it/",
+    "sourceReviewedAt": "2026-10-16"
+  }
+}

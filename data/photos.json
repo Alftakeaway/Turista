@@ -1,0 +1,79 @@
+{
+  "roma": {
+    "src": "assets/images/roma.jpg",
+    "alt": "Fontana di Trevi a Roma|Trevi Fountain in Rome",
+    "author": "Diliff",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Trevi_Fountain,_Rome,_Italy_2_-_May_2007.jpg",
+    "width": 1200,
+    "height": 797,
+    "scope": "city"
+  },
+  "napoli": {
+    "src": "assets/images/napoli.jpg",
+    "alt": "Castel Nuovo a Napoli|Castel Nuovo in Naples",
+    "author": "Richard Nevell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Napoli_-_Maschio_Angioino_-_202209302342_3.jpg",
+    "width": 1200,
+    "height": 675,
+    "scope": "city"
+  },
+  "milano": {
+    "src": "assets/images/milano.jpg",
+    "alt": "Duomo di Milano|Milan Cathedral",
+    "author": "Jiuguang Wang",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Milan_Cathedral_from_Piazza_del_Duomo.jpg",
+    "width": 1200,
+    "height": 902,
+    "scope": "city"
+  },
+  "cagliari": {
+    "src": "assets/images/cagliari.jpg",
+    "alt": "Spiaggia del Poetto a Cagliari|Poetto beach in Cagliari",
+    "author": "Daniela",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lungomare_Poetto_-_Cagliari.jpg",
+    "width": 1200,
+    "height": 900,
+    "scope": "city"
+  },
+  "torino": {
+    "src": "assets/images/torino.jpg",
+    "alt": "Mole Antonelliana a Torino|Mole Antonelliana in Turin",
+    "author": "Gunnar Klack",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2026-06-10-Mole-Antonelliana.jpg",
+    "width": 1200,
+    "height": 1848,
+    "scope": "city"
+  },
+  "firenze": {
+    "src": "assets/images/firenze.jpg",
+    "alt": "Cattedrale di Santa Maria del Fiore a Firenze|Florence Cathedral",
+    "author": "Gary Campbell-Hall",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cattedrale_di_Santa_Maria_del_Fiore_%E2%80%93_Il_Duomo_di_Firenze.jpg",
+    "width": 1200,
+    "height": 803,
+    "scope": "city"
+  },
+  "venezia": {
+    "src": "assets/images/venezia.jpg",
+    "alt": "Canal Grande a Venezia|Grand Canal in Venice",
+    "author": "Didier Descouens",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:View_of_the_Grand_Canal_from_Rialto_to_Ca%27Foscari.jpg",
+    "width": 1200,
+    "height": 656,
+    "scope": "city"
+  }
+}

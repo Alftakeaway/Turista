@@ -1,0 +1,2680 @@
+{
+  "storageKey": "cag",
+  "pageTitle": "Cagliari Poliedrica — La guida che si adatta a te|Polyedric Cagliari — The guide that adapts to you",
+  "TESTI": {
+    "nav1": "Profili|Profiles",
+    "nav2": "Esperienze|Experiences",
+    "nav3": "Itinerario|Itinerary",
+    "nav4": "Info pratiche|Practical info",
+    "heroK": "Guida poliedrica · Cagliari|The many-sided guide · Cagliari",
+    "heroH1": "Ogni viaggio è<br><em>un viaggio diverso</em>|Every trip is<br><em>a different trip</em>",
+    "heroP": "Una città, otto viaggiatori: scegli il tuo profilo e la guida si adatta a te — dal golfo al Castello, un itinerario su misura.|One city, eight travellers: pick your profile and the guide adapts — from the gulf to the Castello, a tailor-made itinerary.",
+    "cta1": "Trova il tuo profilo ↓|Find your profile ↓",
+    "cta2": "Vedi tutte le esperienze|See all experiences",
+    "stat1": "profili di viaggiatore|traveller profiles",
+    "stat2": "esperienze selezionate|curated experiences",
+    "stat3": "itinerari pronti|ready itineraries",
+    "step1k": "Passo 1|Step 1",
+    "step1h": "Che tipo di viaggiatore sei?|What kind of traveller are you?",
+    "step1p": "Tocca un profilo: esperienze e itinerario si filtrano subito. Nessuna selezione = vedi tutto.|Tap a profile: experiences and itinerary filter instantly. No selection = see everything.",
+    "step2k": "Passo 2|Step 2",
+    "step2h": "Esperienze su misura|Tailored experiences",
+    "legenda": "💡 Le esperienze con più tag appartengono a più profili: nel menu a tendina compaiono sotto la loro sotto-categoria principale.|💡 Multi-tag experiences belong to several profiles: they appear under their main subcategory.",
+    "step3k": "Passo 3|Step 3",
+    "step3h": "Il tuo giorno ideale|Your perfect day",
+    "itin1": "Seleziona un profilo qui sopra per comporre la tua giornata perfetta.|Select a profile above to compose your perfect day.",
+    "itin2": "👆 Scegli prima <b>chi sei come viaggiatore</b>: l'itinerario del giorno appare qui.|👆 First choose <b>who you are as a traveller</b>: the day itinerary appears here.",
+    "infoK": "Prima di partire|Before you go",
+    "infoH": "Info pratiche|Practical info",
+    "info1h": "🚇 Muoversi|🚇 Getting around",
+    "info1p": "Pianifica gli spostamenti sul sito ufficiale del trasporto locale: linee, orari, tariffe e accessibilità possono cambiare.|Plan your journeys on the local transport operator’s official website: routes, schedules, fares and accessibility can change.",
+    "info2h": "🗓️ Quando andare|🗓️ When to go",
+    "info2p": "Controlla meteo, calendario degli eventi e condizioni dei percorsi per le date del viaggio. L’affluenza varia: nessuna fascia oraria garantisce assenza di code.|Check weather, event schedules and route conditions for your travel dates. Crowds vary: no time of day guarantees a queue-free visit.",
+    "info3h": "🎟️ Prenotare|🎟️ Booking",
+    "info3p": "Per musei, spettacoli, corsi e attività scegli prima una data e verifica disponibilità, tariffe e condizioni sul sito del gestore. Gli itinerari sono proposte, non prenotazioni.|For museums, performances, classes and activities, choose a date and check availability, prices and terms on the operator’s website. Itineraries are suggestions, not reservations.",
+    "footer": "<b>Cagliari Poliedrica</b> — demo educativa · dati indicativi: verifica sempre orari e prezzi sui siti ufficiali|<b>Cagliari Poliedrica</b> — educational demo · indicative data: always check official sources",
+    "selProfilo": "Seleziona prima un profilo ↑|Select a profile first ↑",
+    "tutteSotto": "Tutte le sotto-categorie|All subcategories",
+    "tuttiTipi": "Tutti i tipi di locale|All venue types",
+    "parolaEsp": "esperienze|experiences",
+    "comboVuota": "Nessuna esperienza corrisponde ai filtri. Prova un’altra ricerca o scegli Azzera filtri.|No experiences match these filters. Try another search or choose Reset filters.",
+    "etichettaTutti": "tutti i profili|all profiles",
+    "giornata": "Giornata ottimale per il profilo|Optimal day for the profile",
+    "ariaSotto": "Filtra per sotto-categoria|Filter by subcategory",
+    "ariaTipo": "Filtra per tipo di locale|Filter by venue type",
+    "chatTitolo": "FAQ di Cagliari|Cagliari FAQ",
+    "chatSotto": "Risposte predefinite e fonti ufficiali|Preset answers and official sources",
+    "chatBtn": "Domande frequenti|Frequently asked questions",
+    "chatChiudi": "✕ Chiudi|✕ Close",
+    "chatPh": "Scrivi una domanda...|Type a question...",
+    "benvenuto": "Questa è una FAQ automatica con risposte predefinite. Cerca un argomento o scegli una domanda. Per informazioni aggiornate consulta i link ufficiali.|This is an automated FAQ with preset answers. Search a topic or choose a question. Use the official links for current information.",
+    "favBtn": "❤ Preferiti|❤ Favorites",
+    "favTitolo": "I tuoi preferiti|Your favorites",
+    "svuota": "Svuota|Clear all",
+    "favVuoto": "Nessun preferito per ora: tocca la stella ☆ su una card per salvarla.|No favorites yet: tap the ☆ star on a card to save it.",
+    "toastAgg": "Aggiunto ai preferiti ★|Added to favorites ★",
+    "toastRim": "Rimosso dai preferiti|Removed from favorites",
+    "salva": "Salva nei preferiti|Save to favorites",
+    "rimuovi": "Rimuovi dai preferiti|Remove from favorites"
+  },
+  "PROFILI": [
+    {
+      "id": "cultura",
+      "emoji": "🏛️",
+      "nome": "Culturale|Cultural",
+      "claim": "Storia viva a ogni angolo|Living history at every corner"
+    },
+    {
+      "id": "business",
+      "emoji": "💼",
+      "nome": "Business & Bleisure|Business & Bleisure",
+      "claim": "Congressi di giorno, dolce vita di sera|Congress by day, la dolce vita by night"
+    },
+    {
+      "id": "food",
+      "emoji": "🍝",
+      "nome": "Enogastronomico|Food & Wine",
+      "claim": "Quartieri, sughi e mercati rionali|Districts, sauces and local markets"
+    },
+    {
+      "id": "religioso",
+      "emoji": "⛪",
+      "nome": "Religioso & Spirituale|Religious & Spiritual",
+      "claim": "La città delle basiliche|The city of basilicas"
+    },
+    {
+      "id": "benessere",
+      "emoji": "🌿",
+      "nome": "Benessere & Medicale|Wellness & Medical",
+      "claim": "Rigenerarsi tra terme e parchi|Recharge among spas and parks"
+    },
+    {
+      "id": "sport",
+      "emoji": "🏟️",
+      "nome": "Sport & Grandi Eventi|Sports & Major Events",
+      "claim": "Stadi, maratone, palchi epici|Stadiums, marathons, epic stages"
+    },
+    {
+      "id": "lento",
+      "emoji": "🚲",
+      "nome": "Lento & Sostenibile|Slow & Sustainable",
+      "claim": "La Roma dei quartieri, a ritmo umano|The Rome of neighborhoods, at human pace"
+    },
+    {
+      "id": "formativo",
+      "emoji": "🎓",
+      "nome": "Formativo|Educational",
+      "claim": "Imparare qualcosa che resta|Learn something that stays"
+    }
+  ],
+  "SOTTO": {
+    "cultura": [
+      {
+        "id": "musei",
+        "emoji": "🏛️",
+        "nome": "Musei e tesori|Museums & treasures"
+      },
+      {
+        "id": "antico",
+        "emoji": "🏺",
+        "nome": "Siti antichi e domus|Ancient sites & ruins"
+      },
+      {
+        "id": "torri",
+        "emoji": "🗼",
+        "nome": "Fortezze e panorami|Fortresses & viewpoints"
+      }
+    ],
+    "business": [
+      {
+        "id": "congressi",
+        "emoji": "🎤",
+        "nome": "Congressi e meeting|Congresses & meetings"
+      },
+      {
+        "id": "bleisure",
+        "emoji": "🧳",
+        "nome": "Estensioni bleisure|Bleisure extensions"
+      },
+      {
+        "id": "networking",
+        "emoji": "🥂",
+        "nome": "Aperitivi e networking|Aperitifs & networking"
+      }
+    ],
+    "food": [
+      {
+        "id": "sarda",
+        "emoji": "🍝",
+        "nome": "Cucina sarda tipica|Typical Sardinian cuisine"
+      },
+      {
+        "id": "pesce",
+        "emoji": "🦐",
+        "nome": "Pesce e cucina di mare|Fish & seafood"
+      },
+      {
+        "id": "pane",
+        "emoji": "🍞",
+        "nome": "Pane e formaggi|Bread & cheeses"
+      },
+      {
+        "id": "street",
+        "emoji": "🧺",
+        "nome": "Street food e mercati|Street food & markets"
+      },
+      {
+        "id": "dolci",
+        "emoji": "🍨",
+        "nome": "Dolci e vernaccia|Sweets & vernaccia"
+      }
+    ],
+    "religioso": [
+      {
+        "id": "basiliche",
+        "emoji": "⛪",
+        "nome": "Basiliche e santuari|Basilicas & sanctuaries"
+      },
+      {
+        "id": "chiese",
+        "emoji": "🕯️",
+        "nome": "Chiese e cripte|Churches & crypts"
+      },
+      {
+        "id": "pellegrini",
+        "emoji": "🥾",
+        "nome": "Riti e pellegrinaggi|Rites & pilgrimages"
+      }
+    ],
+    "benessere": [
+      {
+        "id": "mare",
+        "emoji": "🏖️",
+        "nome": "Mare e spiagge|Sea & beaches"
+      },
+      {
+        "id": "spa",
+        "emoji": "💆",
+        "nome": "Spa e massaggi|Spas & massages"
+      },
+      {
+        "id": "verde",
+        "emoji": "🌳",
+        "nome": "Parchi e giardini|Parks & gardens"
+      }
+    ],
+    "sport": [
+      {
+        "id": "calcio",
+        "emoji": "⚽",
+        "nome": "Calcio e stadio|Football & stadium"
+      },
+      {
+        "id": "eventi",
+        "emoji": "🎪",
+        "nome": "Concerti e grandi eventi|Concerts & major events"
+      },
+      {
+        "id": "partecipa",
+        "emoji": "🏃",
+        "nome": "Sport da praticare|Sports to play"
+      }
+    ],
+    "lento": [
+      {
+        "id": "quartieri",
+        "emoji": "🏘️",
+        "nome": "Quartieri autentici|Authentic neighborhoods"
+      },
+      {
+        "id": "parchi",
+        "emoji": "🦩",
+        "nome": "Parchi e saline|Parks & salt pans"
+      },
+      {
+        "id": "lente",
+        "emoji": "🚲",
+        "nome": "Camminate e sentieri|Walks & trails"
+      }
+    ],
+    "formativo": [
+      {
+        "id": "cucina",
+        "emoji": "👩‍🍳",
+        "nome": "Corsi di cucina|Cooking classes"
+      },
+      {
+        "id": "artigianato",
+        "emoji": "🎨",
+        "nome": "Laboratori artigianali|Craft workshops"
+      },
+      {
+        "id": "guide",
+        "emoji": "📣",
+        "nome": "Visite guidate e masterclass|Guided tours & masterclasses"
+      }
+    ]
+  },
+  "TIPI": [
+    {
+      "id": "ristorante",
+      "emoji": "🍽️",
+      "nome": "Ristorante|Restaurant"
+    },
+    {
+      "id": "trattoria",
+      "emoji": "🏠",
+      "nome": "Trattoria|Trattoria"
+    },
+    {
+      "id": "osteria",
+      "emoji": "🍷",
+      "nome": "Osteria|Osteria"
+    },
+    {
+      "id": "agriturismo",
+      "emoji": "🌾",
+      "nome": "Agriturismo|Farm restaurant"
+    },
+    {
+      "id": "panificio",
+      "emoji": "🥖",
+      "nome": "Panificio|Bakery"
+    },
+    {
+      "id": "bar",
+      "emoji": "☕",
+      "nome": "Bar e caffè|Bar & café"
+    },
+    {
+      "id": "mercato",
+      "emoji": "🧺",
+      "nome": "Mercato|Market"
+    }
+  ],
+  "ESPERIENZE": [
+    {
+      "t": "Quartiere Castello e le torri pisane|The Castello district & the Pisan towers",
+      "z": "Castello|Castello",
+      "d": "2 ore|2 hrs",
+      "tags": [
+        "cultura"
+      ],
+      "sub": "torri",
+      "p": "La città alta medievale: vicoli di pietra, bastioni e le torri di San Pancrazio e dell'Elefante.|The medieval upper town: stone alleys, bastions and the towers of San Pancrazio and the Elephant.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-001",
+      "legacyId": "Quartiere Castello e le torri pisane",
+      "duration": {
+        "minutes": 120,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Castello|Castello",
+        "address": null,
+        "mapQuery": "Quartiere Castello e le torri pisane, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Bastione Saint Remy al tramonto|Bastion Saint Remy at sunset",
+      "z": "Castello|Castello",
+      "d": "1 ora|1 hr",
+      "tags": [
+        "cultura"
+      ],
+      "sub": "torri",
+      "p": "La terrazza-simbolo: quando il sole scende, il golfo si accende e il salone si riempie.|The symbol terrace: as the sun drops, the gulf lights up and the salon fills.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-002",
+      "legacyId": "Bastione Saint Remy al tramonto",
+      "duration": {
+        "minutes": 60,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Castello|Castello",
+        "address": null,
+        "mapQuery": "Bastione Saint Remy al tramonto, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Anfiteatro romano|The Roman amphitheatre",
+      "z": "Buoncammino|Buoncammino",
+      "d": "45 min|45 min",
+      "tags": [
+        "cultura"
+      ],
+      "sub": "antico",
+      "p": "L'anfiteatro del II secolo scavato nella roccia: duemila anni di spettacolo davanti al golfo.|The 2nd-century amphitheatre carved into rock: two thousand years of shows before the gulf.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-003",
+      "legacyId": "Anfiteatro romano",
+      "duration": {
+        "minutes": 45,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Buoncammino|Buoncammino",
+        "address": null,
+        "mapQuery": "Anfiteatro romano, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Nora: la città sul mare|Nora: the city by the sea",
+      "z": "Pula (fuori porta)|Pula (out of town)",
+      "d": "mezza giornata|half day",
+      "tags": [
+        "cultura",
+        "religioso"
+      ],
+      "sub": "antico",
+      "p": "Fenici, punici e romani sulla stessa penisola: mosaici a due passi dalle onde e il santuario di Efisio.|Phoenicians, Punics and Romans on one peninsula: mosaics by the waves and the sanctuary of Efisio.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-004",
+      "legacyId": "Nora: la città sul mare",
+      "duration": {
+        "minutes": 240,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Pula (fuori porta)|Pula (out of town)",
+        "address": null,
+        "mapQuery": "Nora: la città sul mare, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Tuvixeddu, la necropoli punica|Tuvixeddu, the Punic necropolis",
+      "z": "Colle Tuvixeddu|Tuvixeddu hill",
+      "d": "1,5 ore|1.5 hrs",
+      "tags": [
+        "cultura"
+      ],
+      "sub": "antico",
+      "p": "La più grande necropoli punica del Mediterraneo: ipogei scavati nella roccia calcarea.|The largest Punic necropolis in the Mediterranean: hypogea carved into limestone.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-005",
+      "legacyId": "Tuvixeddu, la necropoli punica",
+      "duration": {
+        "minutes": 90,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Colle Tuvixeddu|Tuvixeddu hill",
+        "address": null,
+        "mapQuery": "Tuvixeddu, la necropoli punica, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Cittadella dei Musei|The Museums Citadel",
+      "z": "Stampace|Stampace",
+      "d": "3 ore|3 hrs",
+      "tags": [
+        "cultura"
+      ],
+      "sub": "musei",
+      "p": "I bronzetti nuragici, la Pinacoteca e le inquietanti cere anatomiche: tre musei in una piazzetta.|The nuragic bronzes, the Pinacoteca and the unsettling anatomical waxes: three museums in one square.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-006",
+      "legacyId": "Cittadella dei Musei",
+      "duration": {
+        "minutes": 180,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Stampace|Stampace",
+        "address": null,
+        "mapQuery": "Cittadella dei Musei, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "La Fiera e i congressi|The trade fair & congresses",
+      "z": "Centro|Centre",
+      "d": "mezza giornata|half day",
+      "tags": [
+        "business"
+      ],
+      "sub": "congressi",
+      "p": "Il punto d'incontro degli eventi professionistici: fiere, meeting e congressi internazionali.|The meeting point of professional events: trade fairs, meetings and international congresses.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-007",
+      "legacyId": "La Fiera e i congressi",
+      "duration": {
+        "minutes": 240,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Centro|Centre",
+        "address": null,
+        "mapQuery": "La Fiera e i congressi, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Aperitivo in Marina|Aperitivo in the Marina district",
+      "z": "Marina|Marina",
+      "d": "2 ore|2 hrs",
+      "tags": [
+        "business",
+        "food"
+      ],
+      "sub": "networking",
+      "p": "Il rito del dopo-lavoro nel quartiere del porto: cocktail, conoscenze e il mare dietro l'angolo.|The after-work ritual in the port district: cocktails, connections and the sea around the corner.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-008",
+      "legacyId": "Aperitivo in Marina",
+      "duration": {
+        "minutes": 120,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Marina|Marina",
+        "address": null,
+        "mapQuery": "Aperitivo in Marina, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Bleisure: Villasimius o Chia|Bleisure: Villasimius or Chia",
+      "z": "Fuori porta|Out of town",
+      "d": "1 giorno|1 day",
+      "tags": [
+        "business",
+        "lento"
+      ],
+      "sub": "bleisure",
+      "p": "Il giorno in più dopo il meeting diventa spiaggia: sabbia bianca e acqua trasparente.|The extra day after the meeting becomes beach: white sand and transparent water.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-009",
+      "legacyId": "Bleisure: Villasimius o Chia",
+      "duration": {
+        "minutes": 480,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Fuori porta|Out of town",
+        "address": null,
+        "mapQuery": "Bleisure: Villasimius o Chia, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Culurgiones e malloreddus|Culurgiones & malloreddus",
+      "z": "Centro|Centre",
+      "d": "pranzo|lunch",
+      "tags": [
+        "food"
+      ],
+      "sub": "sarda",
+      "tipo": "trattoria",
+      "p": "I ravioli 'a spiga' di patate e menta e i malloreddus alla campidanese: zafferano e salsiccia.|The 'wheat-ear' ravioli of potato and mint and malloreddus alla campidanese: saffron and sausage.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-010",
+      "legacyId": "Culurgiones e malloreddus",
+      "duration": {
+        "minutes": null,
+        "kind": "variable"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Centro|Centre",
+        "address": null,
+        "mapQuery": "Culurgiones e malloreddus, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Porceddu in agriturismo|Suckling pig at an agriturismo",
+      "z": "Fuori porta|Out of town",
+      "d": "sera|evening",
+      "tags": [
+        "food"
+      ],
+      "sub": "sarda",
+      "tipo": "agriturismo",
+      "p": "Il rito della brace sarda: porceddu croccante, pane carasau e vino del contadino.|The Sardinian grill ritual: crisp suckling pig, carasau bread and the farmer's wine.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-011",
+      "legacyId": "Porceddu in agriturismo",
+      "duration": {
+        "minutes": null,
+        "kind": "variable"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Fuori porta|Out of town",
+        "address": null,
+        "mapQuery": "Porceddu in agriturismo, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Fregola con arselle|Fregola with clams",
+      "z": "Marina|Marina",
+      "d": "sera|evening",
+      "tags": [
+        "food"
+      ],
+      "sub": "pesce",
+      "tipo": "ristorante",
+      "p": "La pasta sarda di semola tostata: chicchi dorati che sposano le arselle e il sapore di mare.|Sardinian toasted semolina pasta: golden grains marrying clams and the taste of the sea.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-012",
+      "legacyId": "Fregola con arselle",
+      "duration": {
+        "minutes": null,
+        "kind": "variable"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Marina|Marina",
+        "address": null,
+        "mapQuery": "Fregola con arselle, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Bottarga e ricci di mare|Bottarga & sea urchins",
+      "z": "Marina|Marina",
+      "d": "inverno|winter",
+      "tags": [
+        "food"
+      ],
+      "sub": "pesce",
+      "tipo": "ristorante",
+      "p": "Il caviale sardo: bottarga di muggine grattugiata e ricci aperti al momento, dolci di acqua di mare.|Sardinian caviar: grated mullet bottarga and urchins opened to order, sweet as seawater.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-013",
+      "legacyId": "Bottarga e ricci di mare",
+      "duration": {
+        "minutes": null,
+        "kind": "variable"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Marina|Marina",
+        "address": null,
+        "mapQuery": "Bottarga e ricci di mare, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Pane carasau, guttiau e pistoccu|Carasau, guttiau & pistoccu",
+      "z": "Centro|Centre",
+      "d": "merenda|snack time",
+      "tags": [
+        "food"
+      ],
+      "sub": "pane",
+      "tipo": "panificio",
+      "p": "Il pane dei pastori: carasau croccante, guttiau unto d'olio e sale, pistoccu che accompagna tutto.|The shepherds' bread: crisp carasau, guttiau brushed with oil and salt, pistoccu that goes with everything.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-014",
+      "legacyId": "Pane carasau, guttiau e pistoccu",
+      "duration": {
+        "minutes": null,
+        "kind": "variable"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Centro|Centre",
+        "address": null,
+        "mapQuery": "Pane carasau, guttiau e pistoccu, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Pecorini e casizolu|Pecorinos & casizolu",
+      "z": "Fuori porta|Out of town",
+      "d": "2 ore|2 hrs",
+      "tags": [
+        "food"
+      ],
+      "sub": "pane",
+      "tipo": "agriturismo",
+      "p": "Pecorini a ogni stagionatura e il casizolu, il formaggio a forma di pera: latte, tempo e mani.|Pecorinos of every age and casizolu, the pear-shaped cheese: milk, time and hands.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-015",
+      "legacyId": "Pecorini e casizolu",
+      "duration": {
+        "minutes": 120,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Fuori porta|Out of town",
+        "address": null,
+        "mapQuery": "Pecorini e casizolu, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Mercato di San Benedetto|The San Benedetto market",
+      "z": "San Benedetto|San Benedetto",
+      "d": "1,5 ore|1.5 hrs",
+      "tags": [
+        "food",
+        "lento"
+      ],
+      "sub": "street",
+      "tipo": "mercato",
+      "p": "Il grande mercato coperto: pesce al piano di sotto, ortaggi e formaggi sopra, voci che si rincorrono.|The great covered market: fish downstairs, vegetables and cheeses above, voices chasing each other.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-016",
+      "legacyId": "Mercato di San Benedetto",
+      "duration": {
+        "minutes": 90,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "San Benedetto|San Benedetto",
+        "address": null,
+        "mapQuery": "Mercato di San Benedetto, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Fainè: la cecina cagliaritana|Fainè: Cagliari's chickpea flatbread",
+      "z": "Marina|Marina",
+      "d": "merenda|snack time",
+      "tags": [
+        "food"
+      ],
+      "sub": "street",
+      "tipo": "bar",
+      "p": "La focaccia di ceci che i marinai portarono via mare: croccante ai bordi, morbida al cuore.|The chickpea flatbread sailors brought by sea: crisp at the edges, soft at the heart.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-017",
+      "legacyId": "Fainè: la cecina cagliaritana",
+      "duration": {
+        "minutes": null,
+        "kind": "variable"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Marina|Marina",
+        "address": null,
+        "mapQuery": "Fainè: la cecina cagliaritana, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Sebadas e vernaccia|Sebadas & vernaccia",
+      "z": "Centro|Centre",
+      "d": "dolce|dessert",
+      "tags": [
+        "food"
+      ],
+      "sub": "dolci",
+      "tipo": "bar",
+      "p": "Ravioli fritti ripieni di formaggio, affogati nel miele amaro, con un bicchiere di vernaccia.|Fried ravioli filled with cheese, drowned in bitter honey, with a glass of vernaccia.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-018",
+      "legacyId": "Sebadas e vernaccia",
+      "duration": {
+        "minutes": null,
+        "kind": "variable"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Centro|Centre",
+        "address": null,
+        "mapQuery": "Sebadas e vernaccia, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Santuario di Bonaria|The Bonaria sanctuary",
+      "z": "Bonaria|Bonaria",
+      "d": "1,5 ore|1.5 hrs",
+      "tags": [
+        "religioso"
+      ],
+      "sub": "basiliche",
+      "p": "Il santuario che domina il porto: la Madonna patrona della Sardegna e dei naviganti.|The sanctuary overlooking the port: the Madonna patroness of Sardinia and seafarers.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-019",
+      "legacyId": "Santuario di Bonaria",
+      "duration": {
+        "minutes": 90,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Bonaria|Bonaria",
+        "address": null,
+        "mapQuery": "Santuario di Bonaria, Cagliari"
+      },
+      "source": {
+        "url": "https://www.bonaria.eu/",
+        "scope": "operator",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Il Duomo di Castello|The Castello cathedral",
+      "z": "Castello|Castello",
+      "d": "1 ora|1 hr",
+      "tags": [
+        "religioso"
+      ],
+      "sub": "basiliche",
+      "p": "La cattedrale della città alta: romanico pisano fuori, quiete e cripta sotto.|The upper town's cathedral: Pisan Romanesque outside, silence and a crypt below.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-020",
+      "legacyId": "Il Duomo di Castello",
+      "duration": {
+        "minutes": 60,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Castello|Castello",
+        "address": null,
+        "mapQuery": "Il Duomo di Castello, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Cripta di Santa Restituta|The crypt of Santa Restituta",
+      "z": "Stampace|Stampace",
+      "d": "45 min|45 min",
+      "tags": [
+        "religioso"
+      ],
+      "sub": "chiese",
+      "p": "Sotto la chiesa di Sant'Efisio: una necropoli romana che la tradizione lega alla santa.|Beneath the church of Sant'Efisio: a Roman necropolis tradition links to the saint.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-021",
+      "legacyId": "Cripta di Santa Restituta",
+      "duration": {
+        "minutes": 45,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Stampace|Stampace",
+        "address": null,
+        "mapQuery": "Cripta di Santa Restituta, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Sant'Efisio: il voto del 1° maggio|Sant'Efisio: the 1 May vow",
+      "z": "Da Stampace a Nora|From Stampace to Nora",
+      "d": "1 giorno|1 day",
+      "tags": [
+        "religioso",
+        "cultura"
+      ],
+      "sub": "pellegrini",
+      "p": "Il voto del 1656, rinnovato ogni anno: traccas, cavalli e il simulacro che viaggia fino a Nora.|The 1656 vow, renewed yearly: traccas, horses and the statue travelling all the way to Nora.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-022",
+      "legacyId": "Sant'Efisio: il voto del 1° maggio",
+      "duration": {
+        "minutes": 480,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Da Stampace a Nora|From Stampace to Nora",
+        "address": null,
+        "mapQuery": "Sant'Efisio: il voto del 1° maggio, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Poetto: la spiaggia dei cagliaritani|Poetto: the locals' beach",
+      "z": "Poetto|Poetto",
+      "d": "tutto il giorno|all day",
+      "tags": [
+        "benessere"
+      ],
+      "sub": "mare",
+      "p": "Otto chilometri tra sabbia e scoglio: la spiaggia-istituzione, con la Sella del Diavolo a fare da quinta.|Eight kilometres of sand and rock: the institution-beach, the Sella del Diavolo as backdrop.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-023",
+      "legacyId": "Poetto: la spiaggia dei cagliaritani",
+      "duration": {
+        "minutes": 480,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Poetto|Poetto",
+        "address": null,
+        "mapQuery": "Poetto: la spiaggia dei cagliaritani, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Calamosca e il faro|Calamosca & the lighthouse",
+      "z": "Calamosca|Calamosca",
+      "d": "2 ore|2 hrs",
+      "tags": [
+        "benessere"
+      ],
+      "sub": "mare",
+      "p": "La caletta ai piedi del faro: acqua trasparente, scogli e la camminata fino al promontorio.|The cove at the foot of the lighthouse: clear water, rocks and the walk to the headland.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-024",
+      "legacyId": "Calamosca e il faro",
+      "duration": {
+        "minutes": 120,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Calamosca|Calamosca",
+        "address": null,
+        "mapQuery": "Calamosca e il faro, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Giardini pubblici e Orto Botanico|Public gardens & the Botanical Garden",
+      "z": "Centro|Centre",
+      "d": "1,5 ore|1.5 hrs",
+      "tags": [
+        "benessere"
+      ],
+      "sub": "verde",
+      "p": "Pini storici, collezioni botaniche e un orto che profuma di macchia mediterranea nel cuore della città.|Historic pines, botanical collections and a garden smelling of Mediterranean scrub in the city's heart.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-025",
+      "legacyId": "Giardini pubblici e Orto Botanico",
+      "duration": {
+        "minutes": 90,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Centro|Centre",
+        "address": null,
+        "mapQuery": "Giardini pubblici e Orto Botanico, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Spa vista golfo|Gulf-view spa",
+      "z": "Poetto|Poetto",
+      "d": "3 ore|3 hrs",
+      "tags": [
+        "benessere",
+        "business"
+      ],
+      "sub": "spa",
+      "p": "Piscine, saune e massaggi con il golfo in fondo alla vasca: il day pass dei grandi hotel.|Pools, saunas and massages with the gulf at the end of the pool: the big hotels' day pass.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-026",
+      "legacyId": "Spa vista golfo",
+      "duration": {
+        "minutes": 180,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Poetto|Poetto",
+        "address": null,
+        "mapQuery": "Spa vista golfo, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Partita del Cagliari|A Cagliari match",
+      "z": "Unipol Domus|Unipol Domus",
+      "d": "3 ore|3 hrs",
+      "tags": [
+        "sport"
+      ],
+      "sub": "calcio",
+      "p": "Il Cagliari e il suo pubblico caldo: il calcio come si vive nelle isole.|Cagliari and its warm crowd: football as the islands live it.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-027",
+      "legacyId": "Partita del Cagliari",
+      "duration": {
+        "minutes": 180,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Unipol Domus|Unipol Domus",
+        "address": null,
+        "mapQuery": "Partita del Cagliari, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliaricalcio.com/",
+        "scope": "operator",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Concerti all'Anfiteatro romano|Concerts at the Roman amphitheatre",
+      "z": "Buoncammino|Buoncammino",
+      "d": "sera|evening",
+      "tags": [
+        "sport"
+      ],
+      "sub": "eventi",
+      "p": "Il palco più antico della città: concerti sotto le stelle, dentro pietre duemila anni.|The city's oldest stage: concerts under the stars, inside two-thousand-year-old stones.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-028",
+      "legacyId": "Concerti all'Anfiteatro romano",
+      "duration": {
+        "minutes": null,
+        "kind": "variable"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Buoncammino|Buoncammino",
+        "address": null,
+        "mapQuery": "Concerti all'Anfiteatro romano, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "SUP e kayak a Calamosca|SUP & kayak at Calamosca",
+      "z": "Calamosca|Calamosca",
+      "d": "3 ore|3 hrs",
+      "tags": [
+        "sport"
+      ],
+      "sub": "partecipa",
+      "p": "Pagaiare nella baia sotto il faro, con la Sella del Diavolo a guardia: il mare come palestra.|Paddle in the bay below the lighthouse, the Sella del Diavolo standing guard: the sea as a gym.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-029",
+      "legacyId": "SUP e kayak a Calamosca",
+      "duration": {
+        "minutes": 180,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Calamosca|Calamosca",
+        "address": null,
+        "mapQuery": "SUP e kayak a Calamosca, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Vela nel golfo degli Angeli|Sailing in the Gulf of Angels",
+      "z": "Marina|Marina",
+      "d": "mezza giornata|half day",
+      "tags": [
+        "sport"
+      ],
+      "sub": "partecipa",
+      "p": "Uscire dal porto e guardare Cagliari dall'acqua: la città si legge meglio dal mare.|Leaving the harbour and watching Cagliari from the water: the city reads better from the sea.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-030",
+      "legacyId": "Vela nel golfo degli Angeli",
+      "duration": {
+        "minutes": 240,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Marina|Marina",
+        "address": null,
+        "mapQuery": "Vela nel golfo degli Angeli, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Marina: il quartiere del porto|Marina: the port district",
+      "z": "Marina|Marina",
+      "d": "2 ore|2 hrs",
+      "tags": [
+        "lento"
+      ],
+      "sub": "quartieri",
+      "p": "Il quartiere dei mercanti, oggi dei cocktail: strade dritte, botteghe e porto a due passi.|The merchants' district, today's cocktails: straight streets, shops and the port steps away.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-031",
+      "legacyId": "Marina: il quartiere del porto",
+      "duration": {
+        "minutes": 120,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Marina|Marina",
+        "address": null,
+        "mapQuery": "Marina: il quartiere del porto, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Villanova tra orti e vicoli|Villanova among gardens & alleys",
+      "z": "Villanova|Villanova",
+      "d": "2 ore|2 hrs",
+      "tags": [
+        "lento"
+      ],
+      "sub": "quartieri",
+      "p": "Il quartiere dei contadini diventato il più tranquillo del centro: vicoli, orti e chiese piccole.|The farmers' district turned the quietest in the centre: alleys, gardens and small churches.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-032",
+      "legacyId": "Villanova tra orti e vicoli",
+      "duration": {
+        "minutes": 120,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Villanova|Villanova",
+        "address": null,
+        "mapQuery": "Villanova tra orti e vicoli, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Molentargius: fenicotteri in città|Molentargius: flamingos in town",
+      "z": "Molentargius|Molentargius",
+      "d": "2 ore|2 hrs",
+      "tags": [
+        "lento",
+        "benessere"
+      ],
+      "sub": "parchi",
+      "p": "Il parco delle saline: fenicotteri rosa a un passo dal centro, tra pile e canne.|The salt-marsh park: pink flamingos steps from the centre, among pools and reeds.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-033",
+      "legacyId": "Molentargius: fenicotteri in città",
+      "duration": {
+        "minutes": 120,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Molentargius|Molentargius",
+        "address": null,
+        "mapQuery": "Molentargius: fenicotteri in città, Cagliari"
+      },
+      "source": {
+        "url": "https://www.parcomolentargius.it/",
+        "scope": "operator",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Sella del Diavolo: trekking urbano|Sella del Diavolo: urban trekking",
+      "z": "Calamosca|Calamosca",
+      "d": "3 ore|3 hrs",
+      "tags": [
+        "lento"
+      ],
+      "sub": "lente",
+      "p": "Il promontorio a forma di sella: archeologia, macchia mediterranea e strapiombo sul mare.|The saddle-shaped headland: archaeology, Mediterranean scrub and cliffs over the sea.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-034",
+      "legacyId": "Sella del Diavolo: trekking urbano",
+      "duration": {
+        "minutes": 180,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Calamosca|Calamosca",
+        "address": null,
+        "mapQuery": "Sella del Diavolo: trekking urbano, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Corso di culurgiones|A culurgiones class",
+      "z": "Centro|Centre",
+      "d": "3 ore|3 hrs",
+      "tags": [
+        "formativo",
+        "food"
+      ],
+      "sub": "cucina",
+      "p": "Impara a chiudere i ravioli 'a spiga': un gesto antico che le dita non dimenticano.|Learn to seal the 'wheat-ear' ravioli: an old gesture your fingers won't forget.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-035",
+      "legacyId": "Corso di culurgiones",
+      "duration": {
+        "minutes": 180,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Centro|Centre",
+        "address": null,
+        "mapQuery": "Corso di culurgiones, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Laboratorio di pane carasau|Carasau bread workshop",
+      "z": "Fuori porta|Out of town",
+      "d": "2 ore|2 hrs",
+      "tags": [
+        "formativo",
+        "cultura"
+      ],
+      "sub": "artigianato",
+      "p": "Impastare, stendere fino al velo e vedere il pane gonfiarsi nel forno a legna.|Kneading, rolling to a veil and watching the bread puff up in the wood oven.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-036",
+      "legacyId": "Laboratorio di pane carasau",
+      "duration": {
+        "minutes": 120,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Fuori porta|Out of town",
+        "address": null,
+        "mapQuery": "Laboratorio di pane carasau, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it",
+        "scope": "city",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    },
+    {
+      "t": "Barumini: la civiltà nuragica|Barumini: the nuragic civilisation",
+      "z": "Su Nuraxi (fuori porta)|Su Nuraxi (out of town)",
+      "d": "mezza giornata|half day",
+      "tags": [
+        "formativo",
+        "cultura"
+      ],
+      "sub": "guide",
+      "p": "Su Nuraxi, patrimonio UNESCO: la fortezza di pietra della Sardegna che venne prima di tutti.|UNESCO-listed Su Nuraxi: the stone fortress of the Sardinia that came before everyone.",
+      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "id": "cagliari-037",
+      "legacyId": "Barumini: la civiltà nuragica",
+      "duration": {
+        "minutes": 240,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "unknown",
+        "note": "Da verificare con il gestore|Check with the operator",
+        "verifiedAt": null
+      },
+      "booking": {
+        "status": "unknown",
+        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
+        "verifiedAt": null
+      },
+      "location": {
+        "area": "Su Nuraxi (fuori porta)|Su Nuraxi (out of town)",
+        "address": null,
+        "mapQuery": "Barumini: la civiltà nuragica, Cagliari"
+      },
+      "source": {
+        "url": "https://www.fondazionebarumini.it/",
+        "scope": "operator",
+        "checkedAt": "2026-10-16"
+      },
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+        "verifiedAt": null
+      }
+    }
+  ],
+  "ITINERARI": {
+    "cultura": [
+      {
+        "ora": "08:30",
+        "t": "Castello all'apertura|Castello in the morning",
+        "p": "Le torri prima delle file, il golfo che si sveglia sotto le mura.|The towers before the queues, the gulf waking below the walls.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "13:00",
+        "t": "Pranzo a Marina|Lunch in Marina",
+        "p": "Culurgiones in trattoria: la meridiana delle papille.|Culurgiones in a trattoria: the taste buds' sundial.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "15:30",
+        "t": "Cittadella dei Musei|Citadel of Museums",
+        "p": "Bronzetti e papiri: tre musei in una piazza.|Bronzes and papyri: three museums in one square.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "19:30",
+        "t": "Bastione Saint Remy|Saint Remy Bastion",
+        "p": "Il tramonto dal salone: il golfo acceso e la città che applaude.|Sunset from the salon: the gulf aglow and the city applauding.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      }
+    ],
+    "business": [
+      {
+        "ora": "09:00",
+        "t": "Meeting alla Fiera o in centro|Meeting at the fairgrounds or downtown",
+        "p": "Tutto a un quarto d'ora da tutto: la città del lavoro comodo.|Everything fifteen minutes from everything: the city of easy work.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "13:30",
+        "t": "Pranzo rapido in Marina|Quick lunch in Marina",
+        "p": "Fainè e via: dieci minuti, qualità piena.|Fainè and off you go: ten minutes, full quality.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "16:00",
+        "t": "Pausa al Bastione|Break at the Bastion",
+        "p": "La vista come antidoto alle slide.|The view as the antidote to slides.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "19:30",
+        "t": "Aperitivo vista golfo|Aperitivo overlooking the gulf",
+        "p": "Terrazza, vermentino e il lavoro già lontano.|Terrace, vermentino and work already far away.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      }
+    ],
+    "food": [
+      {
+        "ora": "08:00",
+        "t": "Caffè e dolcetto al banco|Coffee and a pastry at the counter",
+        "p": "In piedi, come i cagliaritani.|Standing up, like the locals.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "10:00",
+        "t": "Mercato di San Benedetto|San Benedetto market",
+        "p": "Il banco del pesce: guarda, annusa, domanda.|The fish counter: look, sniff, ask.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "13:00",
+        "t": "Culurgiones in trattoria|Culurgiones in a trattoria",
+        "p": "La spiga si chiude davanti a te, se sei fortunato.|The wheat-ear is sealed before you, if you're lucky.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "18:30",
+        "t": "Fainè e tramonto al Poetto|Fainè and sunset at Poetto",
+        "p": "Cecina calda e la Sella che diventa viola.|Warm chickpea flatbread and the Sella turning purple.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      }
+    ],
+    "religioso": [
+      {
+        "ora": "07:00",
+        "t": "Messa a Bonaria|Mass at Bonaria",
+        "p": "Il santuario dei naviganti, prima delle autopendolari.|The seafarers' sanctuary, before the commuters.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "09:00",
+        "t": "Duomo e giro di Castello|Cathedral and Castello walk",
+        "p": "La cattedrale dentro la cittadella di pietra.|The cathedral inside the stone citadel.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "12:30",
+        "t": "Pranzo a Stampace|Lunch in Stampace",
+        "p": "Poco turistico, tutto vero: mangia dove mangiano i vicoli.|Few tourists, all real: eat where the alleys eat.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "16:00",
+        "t": "Cripta di Santa Restituta|Crypt of Santa Restituta",
+        "p": "Chiudi sotto la città, nel silenzio di Sant'Efisio.|End beneath the city, in the silence of Sant'Efisio.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      }
+    ],
+    "benessere": [
+      {
+        "ora": "08:00",
+        "t": "Alba e bagno al Poetto|Sunrise and swim at Poetto",
+        "p": "Il mattino ha l'acqua piatta: nuota prima di tutto.|Morning has flat water: swim before anything.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "10:30",
+        "t": "Spa vista golfo|Spa overlooking the gulf",
+        "p": "Saune e massaggi con il mare in fondo alla vasca.|Saunas and massages with the sea at the end of the pool.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "13:30",
+        "t": "Pranzo di pesce a Marina|Fish lunch in Marina",
+        "p": "Leggero e locale: quello che è arrivato stamattina.|Light and local: what came in this morning.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "17:00",
+        "t": "Orto Botanico|Botanical Garden",
+        "p": "Ombra, palme e profumo di macchia: la discesa dolce.|Shade, palms and scrub-scent: the sweet descent.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      }
+    ],
+    "sport": [
+      {
+        "ora": "09:00",
+        "t": "Tour dello stadio|Stadium tour",
+        "p": "Unipol Domus a porte chiuse: spogliatoi e tribune.|Unipol Domus behind closed doors: dressing rooms and stands.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "11:30",
+        "t": "Vela nel golfo|Sailing in the gulf",
+        "p": "Due ore di vento e la città vista dall'acqua.|Two hours of wind and the city seen from the water.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "13:00",
+        "t": "Pranzo veloce in Marina|Quick lunch in Marina",
+        "p": "Frittura da asporto: carburante da curva.|Fried takeaway: terrace-grade fuel.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "18:00",
+        "t": "Partita del Cagliari|Cagliari football match",
+        "p": "Il pubblico isolano: caldo anche a dicembre.|The island crowd: warm even in December.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      }
+    ],
+    "lento": [
+      {
+        "ora": "08:30",
+        "t": "Caffè a Villanova|Coffee in Villanova",
+        "p": "Il quartiere che si sveglia tra orti e campane.|The district waking among gardens and bells.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "10:00",
+        "t": "Molentargius e fenicotteri|Molentargius and flamingos",
+        "p": "Rosa shocking a un passo dal centro: la passeggiata che non ti aspetti.|Shocking pink steps from the centre: the walk you don't expect.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "12:30",
+        "t": "Marina a piedi|Walk around Marina",
+        "p": "Il quartiere del porto, piano, salutando.|The port district, slowly, greeting people.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "18:00",
+        "t": "Sella del Diavolo al tramonto|Sella del Diavolo at sunset",
+        "p": "La camminata che finisce a strapiombo sul mare.|The walk that ends on a cliff over the sea.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      }
+    ],
+    "formativo": [
+      {
+        "ora": "09:00",
+        "t": "Corso di culurgiones|Culurgiones cooking class",
+        "p": "Farina, patate, menta e le dita che imparano la spiga.|Flour, potatoes, mint and fingers learning the wheat-ear.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "13:00",
+        "t": "Mangi la tua pasta|Enjoy the pasta you made",
+        "p": "Il pranzo migliore è quello che hai chiuso tu.|The best lunch is the one you sealed yourself.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "15:30",
+        "t": "Laboratorio di pane carasau|Pane carasau workshop",
+        "p": "Stendere fino al velo: la stessa fatica dei pastori.|Rolling to a veil: the shepherds' same effort.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      },
+      {
+        "ora": "18:00",
+        "t": "Sebadas e vernaccia|Sebadas and vernaccia",
+        "p": "Dolce fritto e vino ambrato: chiudi da persona istruita.|Fried sweets and amber wine: end like an educated person.",
+        "note": "Verifica apertura, spostamenti e disponibilità; eventi e attività dipendono dal calendario.|Check opening times, travel time and availability; events and activities depend on the schedule."
+      }
+    ]
+  },
+  "FOTO": {
+    "cultura": {
+      "bg": "linear-gradient(135deg,#D9C79E,#B78B4B)",
+      "emo": "🏛️"
+    },
+    "business": {
+      "bg": "linear-gradient(135deg,#9FB4C7,#5B7899)",
+      "emo": "💼"
+    },
+    "food": {
+      "bg": "linear-gradient(135deg,#E8A87C,#B5432C)",
+      "emo": "🍝"
+    },
+    "religioso": {
+      "bg": "linear-gradient(135deg,#F0E6D2,#C9A66B)",
+      "emo": "⛪"
+    },
+    "benessere": {
+      "bg": "linear-gradient(135deg,#B7C9A8,#69704F)",
+      "emo": "🌿"
+    },
+    "sport": {
+      "bg": "linear-gradient(135deg,#E3B7A0,#A03D2E)",
+      "emo": "🏟️"
+    },
+    "lento": {
+      "bg": "linear-gradient(135deg,#CDBF9A,#8F9770)",
+      "emo": "🚲"
+    },
+    "formativo": {
+      "bg": "linear-gradient(135deg,#AFC5C4,#5F807D)",
+      "emo": "🎓"
+    }
+  },
+  "IMMAGINI": {},
+  "MARCO": [
+    {
+      "k": [
+        "coda",
+        "file",
+        "prenot",
+        "bigliett",
+        "queue",
+        "ticket",
+        "book",
+        "skip"
+      ],
+      "a": "Disponibilità e affluenza cambiano con la data. Consulta il gestore attraverso i collegamenti nelle schede esperienza: non possiamo garantire posti o assenza di code.|Availability and crowds vary by date. Use the operator links in the experience pages: places and queue-free entry cannot be guaranteed.",
+      "sourceUrl": "https://cagliariturismo.comune.cagliari.it/it"
+    },
+    {
+      "k": [
+        "fenicotter",
+        "flamingo",
+        "molentargius"
+      ],
+      "a": "Per spostamenti, biglietti e tariffe consulta il sito ufficiale del trasporto locale. Seleziona data e tratta; controlla anche le condizioni di accessibilità.|For journeys, tickets and fares, use the official local transport website. Select your date and route, and check accessibility conditions.",
+      "sourceUrl": "https://www.ctmcagliari.it/"
+    },
+    {
+      "k": [
+        "sicur",
+        "sera",
+        "rub",
+        "borsegg",
+        "furto",
+        "safe",
+        "night",
+        "pickpock",
+        "theft"
+      ],
+      "a": "Il centro è tranquillo anche di notte. Occhio alle borse lasciate sull'asciugamano al Poetto e agli scooter in corsa nei vicoli: il resto è relax.|The centre is quiet at night too. Watch bags left on towels at the Poetto and scooters racing the alleys: the rest is relaxation.",
+      "sourceUrl": "https://cagliariturismo.comune.cagliari.it/it"
+    },
+    {
+      "k": [
+        "taxi",
+        "aeroporto",
+        "elmas",
+        "uber",
+        "nap",
+        "airport",
+        "cab"
+      ],
+      "a": "Per spostamenti, biglietti e tariffe consulta il sito ufficiale del trasporto locale. Seleziona data e tratta; controlla anche le condizioni di accessibilità.|For journeys, tickets and fares, use the official local transport website. Select your date and route, and check accessibility conditions.",
+      "sourceUrl": "https://www.ctmcagliari.it/"
+    },
+    {
+      "k": [
+        "acqua",
+        "fontanella",
+        "borraccia",
+        "bere",
+        "water",
+        "drink",
+        "fountain"
+      ],
+      "a": "L'acqua del rubinetto è buona: arriva dai monti. Fontanelle pubbliche nei giardini e lungo le mura: porta la borraccia, d'estate il sole non perdona.|Tap water is good: it comes from the mountains. Public fountains in the gardens and along the walls: bring a bottle, in summer the sun shows no mercy.",
+      "sourceUrl": "https://cagliariturismo.comune.cagliari.it/it"
+    },
+    {
+      "k": [
+        "metro",
+        "bus",
+        "muover",
+        "ctm",
+        "tram",
+        "mezz",
+        "subway",
+        "transport",
+        "nora",
+        "arst",
+        "vesuvio"
+      ],
+      "a": "Per spostamenti, biglietti e tariffe consulta il sito ufficiale del trasporto locale. Seleziona data e tratta; controlla anche le condizioni di accessibilità.|For journeys, tickets and fares, use the official local transport website. Select your date and route, and check accessibility conditions.",
+      "sourceUrl": "https://www.ctmcagliari.it/"
+    },
+    {
+      "k": [
+        "cena",
+        "orario",
+        "ristorant",
+        "mangiar",
+        "aperto",
+        "dinner",
+        "eat",
+        "restaurant",
+        "lunch"
+      ],
+      "a": "Disponibilità e affluenza cambiano con la data. Consulta il gestore attraverso i collegamenti nelle schede esperienza: non possiamo garantire posti o assenza di code.|Availability and crowds vary by date. Use the operator links in the experience pages: places and queue-free entry cannot be guaranteed.",
+      "sourceUrl": "https://cagliariturismo.comune.cagliari.it/it"
+    },
+    {
+      "k": [
+        "mancia",
+        "tip",
+        "camerier",
+        "servizio",
+        "waiter",
+        "gratuit"
+      ],
+      "a": "Non obbligatoria: al bar gli spicci del resto, al ristorante il 5-10% se sei contento. Nessuno si offende se non lasci nulla.|Not compulsory: small change at the bar, 5-10% at the restaurant if happy. Nobody is offended if you leave nothing.",
+      "sourceUrl": "https://cagliariturismo.comune.cagliari.it/it"
+    },
+    {
+      "k": [
+        "bambin",
+        "famiglia",
+        "ragazz",
+        "figli",
+        "kid",
+        "child",
+        "family"
+      ],
+      "a": "Scegli attività compatibili con età, durata e condizioni del percorso. Chiedi al gestore informazioni su passeggini, servizi e supervisione; gli spazi pubblici non garantiscono assenza di rischi.|Choose activities suitable for age, duration and route conditions. Ask about pushchairs, facilities and supervision; public spaces are not risk-free.",
+      "sourceUrl": "https://cagliariturismo.comune.cagliari.it/it"
+    },
+    {
+      "k": [
+        "piogg",
+        "piov",
+        "rain",
+        "weather",
+        "wet"
+      ],
+      "a": "Piove poco, ma se capita: Cittadella dei Musei, cripte di Stampace e il mercato coperto di San Benedetto. Il resto della città si fa anche con l'ombrello.|It rarely rains, but if it does: the Museums Citadel, the crypts of Stampace and the covered market of San Benedetto. The rest of the city can be done with an umbrella.",
+      "sourceUrl": "https://cagliariturismo.comune.cagliari.it/it"
+    },
+    {
+      "k": [
+        "chiesa",
+        "vest",
+        "copr",
+        "spalle",
+        "ginocch",
+        "duomo",
+        "bonaria",
+        "abbigliament",
+        "entrare",
+        "church",
+        "dress",
+        "shoulders",
+        "knees"
+      ],
+      "a": "Per Bonaria, il Duomo e le chiese servono spalle e ginocchia coperte. D'estate una sciarpa leggera in borsa: risolto.|For Bonaria, the Cathedral and churches, covered shoulders and knees. In summer a light scarf in your bag: solved.",
+      "sourceUrl": "https://cagliariturismo.comune.cagliari.it/it"
+    },
+    {
+      "k": [
+        "truff",
+        "regal",
+        "scam",
+        "parchegg",
+        "barca"
+      ],
+      "a": "Per spostamenti, biglietti e tariffe consulta il sito ufficiale del trasporto locale. Seleziona data e tratta; controlla anche le condizioni di accessibilità.|For journeys, tickets and fares, use the official local transport website. Select your date and route, and check accessibility conditions.",
+      "sourceUrl": "https://www.ctmcagliari.it/"
+    },
+    {
+      "k": [
+        "cappuccin",
+        "caff",
+        "colazion",
+        "espresso",
+        "bar",
+        "coffee",
+        "breakfast",
+        "filu",
+        "vermentino"
+      ],
+      "a": "Il caffè si beve al banco, veloce, e costa poco. Cappuccino solo a colazione, regola ferrea. E se vuoi chiudere da vero sardo: un goccio di filu 'e ferru dopo cena, che nessuno ti obbliga ad apprezzare.|Coffee is drunk at the counter, fast, and costs little. Cappuccino only at breakfast, iron rule. And to end like a true Sardinian: a drop of filu 'e ferru after dinner, which nobody obliges you to enjoy.",
+      "sourceUrl": "https://cagliariturismo.comune.cagliari.it/it"
+    }
+  ],
+  "MARCO_FALLBACK": "Mmm, non l'ho capita 😅 Prova con: code, fenicotteri, taxi, Elmas, cena, bambini, pioggia, parcheggi, caffè... o clicca una domanda rapida.|Hmm, I didn't get that 😅 Try: queues, flamingos, taxi, Elmas, dinner, kids, rain, parking, coffee... or tap a quick question.",
+  "CHAT_QUICK": [
+    "Come evito le code?|How do I skip the queues?",
+    "È sicura la sera?|Is it safe at night?",
+    "Taxi da Elmas?|Taxi from Elmas?",
+    "Dove vedo i fenicotteri?|Where can I see flamingos?",
+    "Cena a che ora?|What time is dinner?"
+  ],
+  "city": {
+    "id": "cagliari",
+    "name": "Cagliari|Cagliari",
+    "portal": "https://cagliariturismo.comune.cagliari.it/it",
+    "accessibilityUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+    "transportUrl": "https://www.ctmcagliari.it/",
+    "sourceReviewedAt": "2026-10-16"
+  }
+}
