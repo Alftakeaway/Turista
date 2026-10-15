@@ -143,15 +143,16 @@ function render(){
     c.className = "card";
     c.style.animationDelay = (i*35)+"ms";
     const f = FOTO[e.tags[0]];
-    const url = IMMAGINI[e.id];
+    const photo = data.PHOTOS[e.id];
     const salvato = preferiti.some(x => x.id === e.id);
     const etichetta = salvato ? TESTI.rimuovi : TESTI.salva;
     c.innerHTML = `
       <div class="foto" style="background:var(--sabbia)">
-        ${url ? `<img src="${url}" alt="${tr(e.t)}">` : `<span aria-hidden="true">${f.emo}</span>`}
+        ${GuidePhotos.image(photo,tr)}
         <button class="fav${salvato ? " salvato" : ""}" data-id="${e.id}"
           title="${tr(etichetta)}" aria-label="${tr(etichetta)}">${salvato ? "★" : "☆"}</button>
       </div>
+      <div class="card-photo-caption">${GuidePhotos.caption(photo,tr)}</div>
       <span class="experience-kind">${tr(e.kind === "editorial" ? "Idea autonoma della redazione|Self-directed editorial idea" : "Luogo e fonti|Place and sources")}</span>
       <h3>${tr(e.t)}</h3>
       <div class="meta"><span>📍 ${tr(e.z)}</span><span>⏱️ ${tr(e.d)}</span></div>

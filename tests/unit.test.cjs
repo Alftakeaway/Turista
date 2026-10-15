@@ -15,6 +15,13 @@ test('tour preferences respect time, interest and indoor options',()=>{
  assert.equal(GuideTourRules.select(tours,{time:180,weather:'mixed'})[0].shortened,false);
 });
 
+test('photo rendering escapes captions and preserves linked attribution',()=>{
+ const {GuideUI}=component('ui');const {GuidePhotos}=component('photos',{GuideUI});
+ const photo={src:'assets/images/place.jpg',alt:'A "place" <view>|A view',author:'A & B',source:'https://commons.wikimedia.org/wiki/File:Test.jpg',license:'CC BY-SA 4.0',licenseUrl:'https://creativecommons.org/licenses/by-sa/4.0/',width:960,height:640};
+ const figure=GuidePhotos.figure(photo,value=>value.split('|')[0],'../');
+ assert(figure.includes('src="../assets/images/place.jpg"'));assert(figure.includes('&lt;view&gt;'));assert(figure.includes('A &amp; B'));assert(figure.includes('CC BY-SA 4.0'));assert(figure.includes('loading="lazy"'));
+});
+
 test('trip exports handle leap dates, UTF-8 folding, escaped content and missing prices',()=>{
  const {GuideTrip}=component('trip',{TextEncoder,URLSearchParams,document:{documentElement:{lang:'it'}},GuideUI:{safeUrl:v=>v}});
  assert(GuideTrip.validDate('2028-02-29'));assert(!GuideTrip.validDate('2026-02-29'));

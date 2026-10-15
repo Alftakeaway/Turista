@@ -1,0 +1,17 @@
+.card .foto{height:210px;overflow:hidden}
+.card .foto img{display:block}
+.item-photo{margin:0;min-width:0}
+.item-photo>img{display:block;width:100%;height:auto;max-height:540px;object-fit:contain;background:var(--sabbia)}
+.item-photo figcaption,.card-photo-caption{font-size:.72rem;line-height:1.55;color:var(--muted);overflow-wrap:anywhere}
+.item-photo figcaption{padding:10px 0 18px}
+.card-photo-caption{padding:9px 0 12px;border-bottom:1px solid var(--sabbia);margin-bottom:12px}
+.photo-subject,.photo-attribution{display:block}
+.photo-attribution{margin-top:3px}
+.photo-attribution a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+.tour-card .item-photo{margin:16px 0 8px;max-width:560px}
+.tour-card .item-photo>img{max-height:280px}
+.item-photo-credits{padding-left:20px}
+.item-photo-credits li{margin:20px 0;overflow-wrap:anywhere}
+.item-photo-credits .photo-attribution{font-size:.85rem}
+@media(max-width:540px){.card .foto{height:190px}.item-photo>img{max-height:360px}}
+@media print{.item-photo,.card-photo-caption{display:none!important}}

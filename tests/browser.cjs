@@ -21,6 +21,9 @@ const server=http.createServer((request,response)=>{
  for(const [city,count] of Object.entries(expected)){
   await page.goto(base+'/'+city+'.html');await page.waitForFunction(()=>window.guideReady);
   assert.equal(await page.locator('#gridEsperienze article').count(),count);
+  assert.equal(await page.locator('#gridEsperienze .foto img').count(),count);
+  assert.equal(await page.locator('#gridEsperienze .card-photo-caption').count(),count);
+  await page.locator('#gridEsperienze .foto img').evaluateAll(async images=>{await Promise.all(images.map(image=>{image.loading='eager';return image.decode();}));});
   await page.locator('.city-photo img').evaluate(image => image.decode());
   const chips=page.locator('.chip');
   for(let i=0;i<8;i++){await chips.nth(i).click();assert(await page.locator('.timeline .step').count()>0);const values=await page.locator('#sottoSelect option').evaluateAll(options=>options.map(o=>o.value));for(const value of values)await page.locator('#sottoSelect').selectOption(value);await chips.nth(i).click();}
@@ -52,6 +55,9 @@ const server=http.createServer((request,response)=>{
   await travel.goto(base+'/'+city+'.html');await travel.waitForFunction(()=>window.guideReady);
   palette.add(await travel.evaluate(()=>getComputedStyle(document.body).getPropertyValue('--terra').trim()));
   assert.equal(await travel.locator('.tour-card').count(),3);
+  await travel.locator('.tour-card details').evaluateAll(nodes=>nodes.forEach(node=>node.open=true));
+  assert.equal(await travel.locator('.tour-card .item-photo img').count(),9);
+  await travel.locator('.tour-card .item-photo img').evaluateAll(async images=>{await Promise.all(images.map(image=>{image.loading='eager';return image.decode();}));});
   for(let i=0;i<3;i++){
    await travel.locator('[data-tour-add]').nth(i).click();assert.equal(await travel.locator('#personal-plan li').count(),3);
    await travel.locator('[data-tour-add]').nth(i).click();assert.equal(await travel.locator('#personal-plan li').count(),3);

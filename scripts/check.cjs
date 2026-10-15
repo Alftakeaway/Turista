@@ -2,14 +2,17 @@ const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
 const assert = require('node:assert/strict');
+const crypto = require('node:crypto');
 const root = path.resolve(__dirname, '..');
 const bilingual = text => typeof text === 'string' && text.split('|').length === 2 && text.split('|').every(s=>s.trim());
+const itemPhotos=JSON.parse(fs.readFileSync(path.join(root,'data/item-photos.json'),'utf8'));
 const ids = new Set(); let total = 0;
 for(const file of fs.readdirSync(path.join(root,'data/cities')).filter(f=>f.endsWith('.json'))){
  const data=JSON.parse(fs.readFileSync(path.join(root,'data/cities',file),'utf8'));
  const profiles=new Set(data.PROFILI.map(p=>p.id));
  let generated;vm.runInNewContext(fs.readFileSync(path.join(root,'assets/js/cities',file.replace('.json','.js')),'utf8'),{Guide:{init(value){generated=value;}}});
- assert.equal(JSON.stringify(generated),JSON.stringify(data),'Generated data is stale: '+file);
+ const expectedPhotos=Object.fromEntries([...data.ESPERIENZE,...data.TOUR_STOPS].map(e=>[e.id,itemPhotos[e.id]]));
+ assert.equal(JSON.stringify(generated),JSON.stringify({...data,PHOTOS:expectedPhotos}),'Generated data is stale: '+file);
  assert.equal(data.TOURS.length,3);
  const allItems=[...data.ESPERIENZE,...data.TOUR_STOPS];
  for(const tour of data.TOURS){assert(tour.original);assert(tour.stops.length>=3);assert(tour.stops.every(id=>allItems.some(e=>e.id===id)));assert(bilingual(tour.title));}
@@ -27,6 +30,15 @@ for(const file of fs.readdirSync(path.join(root,'data/cities')).filter(f=>f.ends
  }
  for(const profile of profiles){assert(data.SOTTO[profile]?.length);assert(data.ITINERARI[profile]?.length);for(const step of data.ITINERARI[profile]){assert(bilingual(step.t),file+'/'+step.t);assert(bilingual(step.p));}}
  for(const answer of data.MARCO){assert(bilingual(answer.a));assert(answer.sourceUrl);}
+}
+assert.equal(Object.keys(itemPhotos).length,total,'Every item needs its own photo mapping');
+for(const [id,p] of Object.entries(itemPhotos)){
+ assert(ids.has(id));assert(fs.existsSync(path.join(root,p.src)),id+' image missing');
+ assert(bilingual(p.alt),id+' photo caption translation');assert(p.author&&p.source&&p.licenseUrl);
+ assert.match(p.license,/^(CC BY(?:-SA)? [1-4]\.\d|CC0(?: 1\.0)?|Public domain)$/);
+ assert(new URL(p.source).hostname==='commons.wikimedia.org');
+ assert(p.width>=600&&p.height>=200);assert.match(p.sha256,/^[a-f0-9]{64}$/);
+ assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,p.src))).digest('hex'),p.sha256,id+' image checksum');
 }
 const photos=JSON.parse(fs.readFileSync(path.join(root,'data/photos.json'),'utf8'));
 for(const photo of Object.values(photos)){assert(fs.existsSync(path.join(root,photo.src)));assert(photo.author&&photo.license&&photo.source&&photo.licenseUrl);}

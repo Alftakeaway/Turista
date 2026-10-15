@@ -28,6 +28,8 @@ Su Windows puoi usare il browser installato impostando `PLAYWRIGHT_EXECUTABLE_PA
 - `data/cities/*.json`: unica fonte dei testi, cataloghi, itinerari e FAQ.
 - `data/experience.schema.json`: contratto dei dati, con campi nullable per informazioni non verificate.
 - `data/photos.json`: immagini, autore, fonte e licenza.
+- `data/photo-subjects.json`: soggetto fotografico scelto per ciascuna delle 364 schede; distingue luogo, tema e contesto.
+- `data/item-photos.json`: fotografia locale, autore, licenza, originale Wikimedia, dimensioni e impronta SHA-256 per ogni scheda e tappa tour. Le foto di temi generici e di eventi passati sono identificate nelle didascalie. Il codice MIT non cambia la licenza delle fotografie.
 - `data/themes.json`: otto palette complete; il controllo dati verifica unicità e contrasto dei testi.
 - `data/research-sources.json`: fonti specifiche dei nuovi percorsi.
 - `templates/city.html`, `templates/landing.html`: template delle otto guide e della home.
@@ -35,6 +37,7 @@ Su Windows puoi usare il browser installato impostando `PLAYWRIGHT_EXECUTABLE_PA
 - `assets/js/guide.js`: coordinamento della guida.
 - `assets/js/catalogue.js`, `experiences.js`, `planner.js`, `faq.js`, `detail.js`, `ui.js`, `storage.js`: componenti condivisi per singola responsabilità.
 - `assets/js/travel.js`, `tour-rules.js`, `trip.js`: strumenti viaggio, selezione tour ed esportazioni calendario/offline.
+- `assets/js/photos.js`, `assets/css/photos.css`: foto e attribuzioni condivise da catalogo, schede e tour. Le immagini del catalogo e dei tour sono caricate in modo differito; la foto principale del dettaglio è caricata subito. File locali, nessuna richiesta ai server fotografici durante la visita.
 - `assets/js/cities/*.js`, le pagine città, le schede esperienza e `crediti.html` sono generati: modifica dati/template/generatore, poi esegui `npm run generate`.
 - `tests/`: test unitari e flussi browser su tutte le città.
 - `.github/workflows/verify.yml`: build e test automatici sui push e sulle pull request.

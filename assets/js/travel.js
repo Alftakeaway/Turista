@@ -27,7 +27,7 @@ window.GuideTravel = {
         const stops = tour.stops.map(id => all.find(item => item.id === id));
         return `<article class="tour-card" data-tour="${tour.id}"><div class="tour-heading"><p>${escape(tr(labels[tour.mood]))}</p><h3>${escape(tr(tour.title))}</h3><span>${tour.minutes} ${tr('min proposti|suggested min')}${tour.shortened?' · '+tr('versione breve|short version'):''}</span></div>
           <p>${escape(tr(tour.focus))}</p><p class="route-note">${escape(tr(tour.terrain))}</p>
-          <details ${active?'open':''}><summary>${tr('Apri tappe e fonti|Open stops and sources')}</summary><ol>${stops.map(stop => `<li><h4>${escape(tr(stop.t))}</h4><p>${escape(tr(stop.p))}</p>${GuideUI.external(stop.source.url,tr('Luogo documentato: fonte|Documented place: source'))}</li>`).join('')}</ol></details>
+          <details ${active?'open':''}><summary>${tr('Apri tappe e fonti|Open stops and sources')}</summary><ol>${stops.map(stop => `<li><h4>${escape(tr(stop.t))}</h4>${GuidePhotos.figure(data.PHOTOS[stop.id],tr)}<p>${escape(tr(stop.p))}</p>${GuideUI.external(stop.source.url,tr('Luogo documentato: fonte|Documented place: source'))}</li>`).join('')}</ol></details>
           <p class="authorship">${escape(tr(tour.authorship))} ${tr('Durata stimata, accessi e trasferimenti da controllare per la data scelta.|Estimated duration; check access and travel for your chosen date.')}</p>
           <div class="tour-actions"><button data-tour-add="${tour.id}">${tr('Aggiungi queste tappe|Add these stops')}</button>${GuideUI.external(GuideTrip.directions(stops),tr('Percorso a piedi sulla mappa|Walking route on map'))}<button data-tour-share="${tour.id}">${tr('Condividi tour|Share tour')}</button></div></article>`;
       });
