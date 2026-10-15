@@ -4,16 +4,16 @@
   "TESTI": {
     "nav1": "Profili|Profiles",
     "nav2": "Esperienze|Experiences",
-    "nav3": "Itinerario|Itinerary",
-    "nav4": "Info pratiche|Practical info",
-    "heroK": "Guida poliedrica · Venezia|The many-sided guide · Venice",
-    "heroH1": "Ogni viaggio è<br><em>un viaggio diverso</em>|Every trip is<br><em>a different trip</em>",
+    "nav3": "Tour originali|Original tours",
+    "nav4": "In viaggio|On the go",
+    "heroK": "Venezia|Venice",
+    "heroH1": "Ascolta la città che lavora|Listen to the working city",
     "heroP": "Una città, otto viaggiatori: scegli il tuo profilo e la guida si adatta a te — da San Marco alla laguna, un itinerario su misura.|One city, eight travellers: pick your profile and the guide adapts — from San Marco to the lagoon, a tailor-made itinerary.",
-    "cta1": "Trova il tuo profilo ↓|Find your profile ↓",
-    "cta2": "Vedi tutte le esperienze|See all experiences",
+    "cta1": "Crea il tuo tour|Find your tour",
+    "cta2": "Esplora le esperienze|Explore experiences",
     "stat1": "profili di viaggiatore|traveller profiles",
     "stat2": "esperienze selezionate|curated experiences",
-    "stat3": "itinerari pronti|ready itineraries",
+    "stat3": "tour originali|original tours",
     "step1k": "Passo 1|Step 1",
     "step1h": "Che tipo di viaggiatore sei?|What kind of traveller are you?",
     "step1p": "Tocca un profilo: esperienze e itinerario si filtrano subito. Nessuna selezione = vedi tutto.|Tap a profile: experiences and itinerary filter instantly. No selection = see everything.",
@@ -32,7 +32,7 @@
     "info2p": "Controlla meteo, calendario degli eventi e condizioni dei percorsi per le date del viaggio. L’affluenza varia: nessuna fascia oraria garantisce assenza di code.|Check weather, event schedules and route conditions for your travel dates. Crowds vary: no time of day guarantees a queue-free visit.",
     "info3h": "🎟️ Prenotare|🎟️ Booking",
     "info3p": "Per musei, spettacoli, corsi e attività scegli prima una data e verifica disponibilità, tariffe e condizioni sul sito del gestore. Gli itinerari sono proposte, non prenotazioni.|For museums, performances, classes and activities, choose a date and check availability, prices and terms on the operator’s website. Itineraries are suggestions, not reservations.",
-    "footer": "<b>Venezia Poliedrica</b> — demo educativa · dati indicativi: verifica sempre orari e prezzi sui siti ufficiali|<b>Venezia Poliedrica</b> — educational demo · indicative data: always check official sources",
+    "footer": "<b>Venezia Poliedrica</b> — percorsi originali e fonti consultabili|<b>Venice Poliedrica</b> — original routes and consultable sources",
     "selProfilo": "Seleziona prima un profilo ↑|Select a profile first ↑",
     "tutteSotto": "Tutte le sotto-categorie|All subcategories",
     "tuttiTipi": "Tutti i tipi di locale|All venue types",
@@ -312,13 +312,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -340,20 +340,31 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://palazzoducale.visitmuve.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Ca' d'Oro e il Canal Grande|Ca' d'Oro & the Grand Canal",
+      "t": "Ca’ d’Oro: facciata e Canal Grande|Ca’ d’Oro: façade and Grand Canal",
       "z": "Cannaregio|Cannaregio",
       "d": "1,5 ore|1.5 hrs",
       "tags": [
-        "cultura"
+        "cultura",
+        "lento"
       ],
       "sub": "palazzi",
-      "p": "Il palazzo gotico fiorito sul Canal Grande: una facciata che sembra merletto.|The flowering Gothic palace on the Grand Canal: a façade like lace.",
+      "p": "La Direzione Musei Veneto documenta lavori avviati nel 2026. Questa proposta riguarda la lettura degli esterni: un eventuale ingresso alla galleria va scelto solo dal calendario corrente.|Veneto Museums documents works begun in 2026. This suggestion concerns reading the exterior: choose any gallery admission only from the current schedule.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "venezia-002",
       "legacyId": "Ca' d'Oro e il Canal Grande",
@@ -362,15 +373,16 @@
         "kind": "estimate"
       },
       "cost": {
-        "amount": null,
+        "amount": 0,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
-        "verifiedAt": null
+        "kind": "free",
+        "note": "Percorso esterno della redazione senza quota; ingressi e acquisti opzionali esclusi.|No fee for the editorial outdoor route; optional admission and purchases excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -382,8 +394,8 @@
         "mapQuery": "Ca' d'Oro e il Canal Grande, Venezia"
       },
       "source": {
-        "url": "https://www.cadoro.org/",
-        "scope": "operator",
+        "url": "https://museiveneto.cultura.gov.it/eventi-e-mostre/la-galleria-giorgio-franchetti-alla-ca-doro-%C3%A8-chiusa-lavori",
+        "scope": "place",
         "checkedAt": "2026-10-16"
       },
       "reviewedAt": "2026-10-16",
@@ -392,10 +404,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "self-guided",
+      "sources": [
+        {
+          "url": "https://museiveneto.cultura.gov.it/eventi-e-mostre/la-galleria-giorgio-franchetti-alla-ca-doro-%C3%A8-chiusa-lavori",
+          "scope": "Luogo e contesto documentati|Documented place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Le Gallerie dell'Accademia|The Accademia Galleries",
@@ -416,13 +438,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -444,10 +466,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.gallerieaccademia.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Peggy Guggenheim|The Peggy Guggenheim Collection",
@@ -466,19 +498,22 @@
         "kind": "estimate"
       },
       "cost": {
-        "amount": null,
+        "amount": 17,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
-        "verifiedAt": null
+        "kind": "paid",
+        "note": "Intero della Collezione Peggy Guggenheim; audioguida e visite private separate.|Standard Peggy Guggenheim Collection admission; audio guide and private visits are separate.",
+        "verifiedAt": "2026-10-16",
+        "sourceUrl": "https://www.guggenheim-venice.it/it/visita/",
+        "basis": "operator"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
-        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
-        "verifiedAt": null
+        "text": "10–18; chiuso martedì e 25 dicembre; ultimo ingresso e biglietteria ore 17.|10–18; closed Tuesdays and 25 December; last admission and ticket office at 17:00.",
+        "verifiedAt": "2026-10-16",
+        "sourceUrl": "https://www.guggenheim-venice.it/it/visita/"
       },
       "location": {
         "area": "Dorsoduro|Dorsoduro",
@@ -496,10 +531,28 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.guggenheim-venice.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        },
+        {
+          "url": "https://www.guggenheim-venice.it/it/visita/",
+          "scope": "Tariffa del prodotto indicato|Price of the stated product",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": [
+        "cost",
+        "openingHours"
+      ]
     },
     {
       "t": "Murano: le fornaci del vetro|Murano: the glass furnaces",
@@ -521,13 +574,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -549,10 +602,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Burano: l'isola dei colori|Burano: the island of colours",
@@ -574,13 +637,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -602,10 +665,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Torcello: la cattedrale del silenzio|Torcello: the cathedral of silence",
@@ -627,13 +700,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -655,10 +728,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "La Biennale: l'agenda della città|The Biennale: the city's calendar",
@@ -680,13 +763,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -708,10 +791,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.labiennale.org/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Aperitivo e networking in bacaro|Aperitivo & networking in a bacaro",
@@ -733,13 +826,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -761,10 +854,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Bleisure: le colline del Prosecco|Bleisure: the Prosecco hills",
@@ -786,13 +889,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -814,10 +917,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Il giro dei bacari|The bacaro crawl",
@@ -840,13 +953,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -868,10 +981,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Sarde in saor e baccalà mantecato|Sarde in saor & whipped baccalà",
@@ -893,13 +1016,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -921,10 +1044,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Risi e bisi: il piatto del Doge|Risi e bisi: the Doge's dish",
@@ -946,13 +1079,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -974,10 +1107,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Rialto: il mercato e la pescheria|Rialto: the market & the fish market",
@@ -1000,13 +1143,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1028,10 +1171,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Granseola e moleche: frutti di Laguna|Granseola & moleche: fruits of the Lagoon",
@@ -1053,13 +1206,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1081,10 +1234,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "L'ora dello spritz|Spritz o'clock",
@@ -1107,13 +1270,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1135,10 +1298,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Caffè Florian: il salotto delle corti|Caffè Florian: the courts' salon",
@@ -1150,7 +1323,7 @@
       ],
       "sub": "dolci",
       "tipo": "caffè",
-      "p": "Il caffè più antico d'Italia (1720): specchi, sale affrescate e la piazza come salone.|Italy's oldest café (1720): mirrors, frescoed rooms and the square as a salon.",
+      "p": "Il Caffè Florian in Piazza San Marco: osserva le sale e consulta il listino prima di sederti, comprese eventuali maggiorazioni per la musica.|Caffè Florian in St Mark’s Square: observe the rooms and consult prices before sitting, including any music surcharge.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "venezia-017",
       "legacyId": "Caffè Florian: il salotto delle corti",
@@ -1161,13 +1334,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1189,10 +1362,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Fritole e galani|Fritole & galani",
@@ -1214,13 +1397,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1242,13 +1425,23 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Alta cucina: la nuova Laguna|Fine dining: the new Lagoon",
+      "t": "Taccuino: raccontare la laguna a tavola|Notebook: the lagoon on the menu",
       "z": "Tutta la città|All over the city",
       "d": "sera|evening",
       "tags": [
@@ -1257,8 +1450,8 @@
       ],
       "sub": "alta",
       "tipo": "ristorante",
-      "p": "La cucina d'autore che guarda alla Laguna: pesce, erbe di barena e fermentazioni.|Author cuisine looking to the Lagoon: fish, marsh herbs and fermentations.",
-      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "p": "Proposta autonoma a Tutta la città. Confronta tre menu esposti: annota un ingrediente ricorrente, una parola nuova e una differenza di prezzo. Eventuali consumazioni si scelgono e pagano separatamente. Nessun corso o servizio guidato incluso.|Self-directed idea in All over the city. Compare three displayed menus: note a recurring ingredient, a new word and a price difference. Any food or drink is chosen and paid for separately. No class or guided service included.",
+      "tip": "Porta un taccuino; rispetta privacy, proprietà private e passaggio dei residenti.|Bring a notebook; respect privacy, private property and residents’ passage.",
       "id": "venezia-019",
       "legacyId": "Alta cucina: la nuova Laguna",
       "duration": {
@@ -1266,15 +1459,16 @@
         "kind": "variable"
       },
       "cost": {
-        "amount": null,
+        "amount": 0,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
-        "verifiedAt": null
+        "kind": "free",
+        "note": "Attività di osservazione creata dalla redazione, senza quota. Acquisti e servizi eventuali esclusi.|An editorial observation activity with no fee. Optional purchases and services are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1283,7 +1477,7 @@
       "location": {
         "area": "Tutta la città|All over the city",
         "address": null,
-        "mapQuery": "Alta cucina: la nuova Laguna, Venezia"
+        "mapQuery": "Tutta la città, Venezia"
       },
       "source": {
         "url": "https://www.veneziaunica.it/",
@@ -1296,10 +1490,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "La Basilica di San Marco|St Mark's Basilica",
@@ -1321,13 +1525,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1349,10 +1553,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.basilicasanmarco.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "I Frari: Tiziano e Canova|The Frari: Titian & Canova",
@@ -1374,13 +1588,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1402,10 +1616,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.basilicadeifrari.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "San Rocco: la Sistina di Tintoretto|San Rocco: Tintoretto's Sistine",
@@ -1427,13 +1651,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1455,10 +1679,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.scuolagrandesanrocco.org/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "La Salute e la festa del 21 novembre|The Salute & the 21 November feast",
@@ -1479,13 +1713,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1507,10 +1741,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Il Lido: spiaggia e biciclette|The Lido: beach & bicycles",
@@ -1531,13 +1775,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1559,21 +1803,31 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Spa vista Laguna|Lagoon-view spa",
+      "t": "Giardini di Viale Garibaldi: ombra, acqua e sosta|Viale Garibaldi Gardens: shade, water and a break",
       "z": "Tutta la città|All over the city",
       "d": "3 ore|3 hrs",
       "tags": [
         "benessere",
-        "business"
+        "lento"
       ],
-      "sub": "spa",
-      "p": "Le spa degli hotel storici: vasche affacciate sull'acqua e silenzio che nessuna città concede.|Historic hotels' spas: pools overlooking the water and a silence no city allows.",
+      "sub": "mare",
+      "p": "La scheda Venezia Unica segnala panchine, due fontane potabili e servizi Veritas nelle vicinanze: controlla sul posto manutenzione e apertura.|The Venezia Unica page lists benches, two drinking-water fountains and nearby Veritas toilets: check maintenance and opening on site.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "venezia-025",
       "legacyId": "Spa vista Laguna",
@@ -1582,15 +1836,16 @@
         "kind": "estimate"
       },
       "cost": {
-        "amount": null,
+        "amount": 0,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
-        "verifiedAt": null
+        "kind": "free",
+        "note": "Percorso esterno della redazione senza quota; ingressi e acquisti opzionali esclusi.|No fee for the editorial outdoor route; optional admission and purchases excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1602,8 +1857,8 @@
         "mapQuery": "Spa vista Laguna, Venezia"
       },
       "source": {
-        "url": "https://www.veneziaunica.it/",
-        "scope": "city",
+        "url": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/giardini-parchi-oasi-naturali/giardini-di-viale-garibaldi",
+        "scope": "place",
         "checkedAt": "2026-10-16"
       },
       "reviewedAt": "2026-10-16",
@@ -1612,10 +1867,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "self-guided",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/giardini-parchi-oasi-naturali/giardini-di-viale-garibaldi",
+          "scope": "Luogo e contesto documentati|Documented place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "I Giardini Reali: la pausa verde|The Royal Gardens: the green pause",
@@ -1637,13 +1902,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1665,10 +1930,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.venicegardensfoundation.org/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Venezia FC allo stadio Penzo|Venezia FC at the Penzo stadium",
@@ -1689,13 +1964,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1717,10 +1992,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.veneziafc.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "La Regata Storica|The Historical Regatta",
@@ -1742,13 +2027,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1770,10 +2055,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.regatastoricavenezia.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Il Carnevale di Venezia|The Venice Carnival",
@@ -1795,13 +2090,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1823,13 +2118,23 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://carnevale.venezia.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Corso di voga veneta|A Venetian rowing class",
+      "t": "Taccuino: remi e imbarcazioni|Notebook: oars and boats",
       "z": "Cannaregio / Bacino|Cannaregio / Basin",
       "d": "2 ore|2 hrs",
       "tags": [
@@ -1837,8 +2142,8 @@
         "formativo"
       ],
       "sub": "partecipa",
-      "p": "Impara a remare in piedi, guardando avanti: la voga veneziana su batela tradizionale.|Learn to row standing, facing forward: Venetian voga on a traditional batela.",
-      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "p": "Proposta autonoma a Cannaregio / Bacino. Da una fondamenta pubblica, osserva le diverse imbarcazioni e disegna la posizione dei remi. Non entrare nei cantieri e non fermarti su ponti o passaggi stretti. Nessun corso o servizio guidato incluso.|Self-directed idea in Cannaregio / Basin. From a public canal-side street, observe different boats and sketch the positions of their oars. Stay out of boatyards and keep bridges and narrow passages clear. No class or guided service included.",
+      "tip": "Porta un taccuino; rispetta privacy, proprietà private e passaggio dei residenti.|Bring a notebook; respect privacy, private property and residents’ passage.",
       "id": "venezia-030",
       "legacyId": "Corso di voga veneta",
       "duration": {
@@ -1846,15 +2151,16 @@
         "kind": "estimate"
       },
       "cost": {
-        "amount": null,
+        "amount": 0,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
-        "verifiedAt": null
+        "kind": "free",
+        "note": "Attività di osservazione creata dalla redazione, senza quota. Acquisti e servizi eventuali esclusi.|An editorial observation activity with no fee. Optional purchases and services are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1863,7 +2169,7 @@
       "location": {
         "area": "Cannaregio / Bacino|Cannaregio / Basin",
         "address": null,
-        "mapQuery": "Corso di voga veneta, Venezia"
+        "mapQuery": "Cannaregio, Venezia"
       },
       "source": {
         "url": "https://www.veneziaunica.it/",
@@ -1876,10 +2182,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Cannaregio: la Venezia dei veneziani|Cannaregio: the Venetians' Venice",
@@ -1889,7 +2205,7 @@
         "lento"
       ],
       "sub": "quartieri",
-      "p": "Il sestiere dove la città vive: il Ghetto più antico del mondo, bacari e fondamenta con affluenza variabile.|The sestiere where the city lives: the world's oldest Ghetto, bacari and with varying visitor numbers fondamenta.",
+      "p": "Cannaregio fra Ghetto, fondamenta e bacari: osserva il quartiere rispettando i luoghi di culto e la vita dei residenti.|Cannaregio among the Ghetto, canal-side streets and bacari: observe the neighbourhood while respecting places of worship and residents.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "venezia-031",
       "legacyId": "Cannaregio: la Venezia dei veneziani",
@@ -1900,13 +2216,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1928,10 +2244,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Dorsoduro e le Zattere|Dorsoduro & the Zattere",
@@ -1952,13 +2278,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1980,10 +2306,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Castello e via Garibaldi|Castello & via Garibaldi",
@@ -2004,13 +2340,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2032,10 +2368,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Il traghetto a remi del Canal Grande|The Grand Canal rowing ferry",
@@ -2056,13 +2402,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2084,10 +2430,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "La sera: la città ai veneziani|The evening: the city of the Venetians",
@@ -2108,13 +2464,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2136,13 +2492,23 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Corso di cucina veneziana|A Venetian cooking class",
+      "t": "Taccuino: ingredienti veneziani|Notebook: Venetian ingredients",
       "z": "Cannaregio|Cannaregio",
       "d": "3 ore|3 hrs",
       "tags": [
@@ -2150,8 +2516,8 @@
         "food"
       ],
       "sub": "cucina",
-      "p": "Risi e bisi, sarde in saor e baccalà: la cucina di Laguna si impara ai fornelli.|Risi e bisi, sarde in saor and baccalà: Lagoon cooking learned at the stove.",
-      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "p": "Proposta autonoma a Cannaregio. Confronta tre menu esposti: annota un ingrediente ricorrente, una parola nuova e una differenza di prezzo. Eventuali consumazioni si scelgono e pagano separatamente. Nessun corso o servizio guidato incluso.|Self-directed idea in Cannaregio. Compare three displayed menus: note a recurring ingredient, a new word and a price difference. Any food or drink is chosen and paid for separately. No class or guided service included.",
+      "tip": "Porta un taccuino; rispetta privacy, proprietà private e passaggio dei residenti.|Bring a notebook; respect privacy, private property and residents’ passage.",
       "id": "venezia-036",
       "legacyId": "Corso di cucina veneziana",
       "duration": {
@@ -2159,15 +2525,16 @@
         "kind": "estimate"
       },
       "cost": {
-        "amount": null,
+        "amount": 0,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
-        "verifiedAt": null
+        "kind": "free",
+        "note": "Attività di osservazione creata dalla redazione, senza quota. Acquisti e servizi eventuali esclusi.|An editorial observation activity with no fee. Optional purchases and services are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2176,7 +2543,7 @@
       "location": {
         "area": "Cannaregio|Cannaregio",
         "address": null,
-        "mapQuery": "Corso di cucina veneziana, Venezia"
+        "mapQuery": "Cannaregio, Venezia"
       },
       "source": {
         "url": "https://www.veneziaunica.it/",
@@ -2189,13 +2556,23 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Laboratorio di maschere|A mask-making workshop",
+      "t": "Taccuino: figure e maschere|Notebook: figures and masks",
       "z": "Castello / Cannaregio|Castello / Cannaregio",
       "d": "2 ore|2 hrs",
       "tags": [
@@ -2203,8 +2580,8 @@
         "cultura"
       ],
       "sub": "artigianato",
-      "p": "Cartapesta e tempera: la tua maschera nasce dalle mani di un maestro mascheraro.|Papier-mâché and paint: your mask is born from a mask-maker's hands.",
-      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "p": "Proposta autonoma a Castello / Cannaregio. Scegli tre forme o materiali visibili nelle vetrine e negli spazi pubblici; disegnali e confronta i dettagli. Chiedi il permesso prima di fotografare dentro una bottega. Nessun corso o servizio guidato incluso.|Self-directed idea in Castello / Cannaregio. Choose three shapes or materials visible in shop windows and public spaces; sketch and compare their details. Ask permission before photographing inside a workshop. No class or guided service included.",
+      "tip": "Porta un taccuino; rispetta privacy, proprietà private e passaggio dei residenti.|Bring a notebook; respect privacy, private property and residents’ passage.",
       "id": "venezia-037",
       "legacyId": "Laboratorio di maschere",
       "duration": {
@@ -2212,15 +2589,16 @@
         "kind": "estimate"
       },
       "cost": {
-        "amount": null,
+        "amount": 0,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
-        "verifiedAt": null
+        "kind": "free",
+        "note": "Attività di osservazione creata dalla redazione, senza quota. Acquisti e servizi eventuali esclusi.|An editorial observation activity with no fee. Optional purchases and services are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2229,7 +2607,7 @@
       "location": {
         "area": "Castello / Cannaregio|Castello / Cannaregio",
         "address": null,
-        "mapQuery": "Laboratorio di maschere, Venezia"
+        "mapQuery": "Castello, Venezia"
       },
       "source": {
         "url": "https://www.veneziaunica.it/",
@@ -2242,10 +2620,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "La Fenice: il teatro che risorge|La Fenice: the theatre that rises again",
@@ -2267,13 +2655,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2295,10 +2683,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.teatrolafenice.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     }
   ],
   "ITINERARI": {
@@ -2759,5 +3157,673 @@
     "accessibilityUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
     "transportUrl": "https://actv.avmspa.it/",
     "sourceReviewedAt": "2026-10-16"
+  },
+  "TOURS": [
+    {
+      "id": "venezia-tour-1",
+      "title": "La città che costruiva la laguna|The city that built the lagoon",
+      "mood": "architecture",
+      "minutes": 150,
+      "weather": "outdoor",
+      "terrain": "Ponti e gradini lungo il percorso; Arsenale osservato dall’esterno, senza accesso riservato.|Bridges and steps along the way; the Arsenale is viewed from outside, with no restricted access.",
+      "stops": [
+        "venezia-101",
+        "venezia-102",
+        "venezia-103"
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
+      "focus": "Dall’Arsenale a via Garibaldi e San Pietro, cerca tracce della città che costruisce e abita. Il percorso resta negli spazi pubblici, senza accessi all’Arsenale promessi.|From the Arsenale to Via Garibaldi and San Pietro, find traces of a city that builds and lives. Stay in public spaces; no Arsenale admission is promised.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "venezia-tour-2",
+      "title": "Dorsoduro: il suono del legno e dell’acqua|Dorsoduro: the sound of wood and water",
+      "mood": "art",
+      "minutes": 120,
+      "weather": "outdoor",
+      "terrain": "Solo spazi pubblici; lo squero è un luogo di lavoro, non un ingresso libero.|Public spaces only; the boatyard is a workplace, not a free-entry attraction.",
+      "stops": [
+        "venezia-104",
+        "venezia-105",
+        "venezia-106"
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
+      "focus": "Osserva lo squero dalla fondamenta pubblica, poi ascolta il cambiamento della riva verso Zattere e Mendicoli. Rispetta il lavoro dei cantieri e il passaggio dei residenti.|Observe the squero from the public canal-side street, then listen to changes along Zattere and Mendicoli. Respect boatyard work and residents’ passage.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "venezia-tour-3",
+      "title": "Cannaregio: soglie, memoria e rive|Cannaregio: thresholds, memory and banks",
+      "mood": "memory",
+      "minutes": 150,
+      "weather": "outdoor",
+      "terrain": "Ponti e selciato; rispetta luoghi di culto e abitazioni. Accessi interni esclusi.|Bridges and paving; respect places of worship and homes. Interior access is excluded.",
+      "stops": [
+        "venezia-107",
+        "venezia-108",
+        "venezia-109"
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
+      "focus": "Dal Ghetto alla Misericordia e a Sant’Alvise, confronta soglie, ponti e rive. Gli spazi di culto e di memoria richiedono attenzione e visite interne organizzate separatamente.|From the Ghetto to Misericordia and Sant’Alvise, compare thresholds, bridges and banks. Places of worship and memory require care and separately arranged indoor visits.",
+      "createdAt": "2026-10-16"
+    }
+  ],
+  "TOUR_STOPS": [
+    {
+      "id": "venezia-101",
+      "legacyId": "Porta di Terra dell’Arsenale",
+      "t": "Porta di Terra dell’Arsenale|Arsenale land gate",
+      "z": "Campo de l’Arsenal|Campo de l’Arsenal",
+      "d": "35 min|35 min",
+      "p": "Parti dagli esterni: scegli un dettaglio che parli di lavoro anziché di rappresentanza.|Start outside: choose a detail that speaks of work rather than ceremony.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/sestieri/castello"
+      },
+      "location": {
+        "area": "Campo de l’Arsenal|Campo de l’Arsenal",
+        "address": "Campo de l’Arsenal",
+        "mapQuery": "Campo de l’Arsenal, Venezia"
+      },
+      "source": {
+        "url": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/sestieri/castello",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/sestieri/castello",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/sestieri/castello",
+        "verifiedAt": null
+      },
+      "sourceKey": "veneziacastello",
+      "verifiedFields": []
+    },
+    {
+      "id": "venezia-102",
+      "legacyId": "Via Garibaldi",
+      "t": "Via Garibaldi|Via Garibaldi",
+      "z": "Via Garibaldi|Via Garibaldi",
+      "d": "35 min|35 min",
+      "p": "Rallenta senza bloccare i passaggi e cerca tre usi quotidiani dello spazio.|Slow down without blocking passage and look for three everyday uses of space.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/sestieri/castello"
+      },
+      "location": {
+        "area": "Via Garibaldi|Via Garibaldi",
+        "address": "Via Garibaldi",
+        "mapQuery": "Via Garibaldi, Venezia"
+      },
+      "source": {
+        "url": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/sestieri/castello",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/sestieri/castello",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/sestieri/castello",
+        "verifiedAt": null
+      },
+      "sourceKey": "veneziacastello",
+      "verifiedFields": []
+    },
+    {
+      "id": "venezia-103",
+      "legacyId": "San Pietro di Castello, campo",
+      "t": "San Pietro di Castello, campo|San Pietro di Castello square",
+      "z": "Campo San Pietro di Castello|Campo San Pietro di Castello",
+      "d": "35 min|35 min",
+      "p": "Concludi sul campo: osserva il rapporto fra prato, acqua e abitazioni.|Finish in the square and observe the relationship between grass, water and homes.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/sestieri/castello"
+      },
+      "location": {
+        "area": "Campo San Pietro di Castello|Campo San Pietro di Castello",
+        "address": "Campo San Pietro di Castello",
+        "mapQuery": "Campo San Pietro di Castello, Venezia"
+      },
+      "source": {
+        "url": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/sestieri/castello",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/sestieri/castello",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/sestieri/castello",
+        "verifiedAt": null
+      },
+      "sourceKey": "veneziacastello",
+      "verifiedFields": []
+    },
+    {
+      "id": "venezia-104",
+      "legacyId": "Squero di San Trovaso, vista esterna",
+      "t": "Squero di San Trovaso, vista esterna|San Trovaso boatyard, exterior view",
+      "z": "Fondamenta Nani|Fondamenta Nani",
+      "d": "35 min|35 min",
+      "p": "Osserva lo squero dalla riva pubblica senza entrare o interrompere il lavoro.|Observe the boatyard from the public bank without entering or interrupting work.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/itinerari/dorsoduro-sestiere-d-arte"
+      },
+      "location": {
+        "area": "Fondamenta Nani|Fondamenta Nani",
+        "address": "Fondamenta Nani",
+        "mapQuery": "Fondamenta Nani, Venezia"
+      },
+      "source": {
+        "url": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/itinerari/dorsoduro-sestiere-d-arte",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/itinerari/dorsoduro-sestiere-d-arte",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/itinerari/dorsoduro-sestiere-d-arte",
+        "verifiedAt": null
+      },
+      "sourceKey": "veneziadorsoduro",
+      "verifiedFields": []
+    },
+    {
+      "id": "venezia-105",
+      "legacyId": "Zattere",
+      "t": "Zattere|Zattere",
+      "z": "Fondamenta delle Zattere|Fondamenta delle Zattere",
+      "d": "35 min|35 min",
+      "p": "Fai una mappa di tre suoni dell’acqua, fermandoti fuori dal flusso pedonale.|Map three water sounds, stopping outside the pedestrian flow.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/itinerari/dorsoduro-sestiere-d-arte"
+      },
+      "location": {
+        "area": "Fondamenta delle Zattere|Fondamenta delle Zattere",
+        "address": "Fondamenta delle Zattere",
+        "mapQuery": "Fondamenta delle Zattere, Venezia"
+      },
+      "source": {
+        "url": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/itinerari/dorsoduro-sestiere-d-arte",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/itinerari/dorsoduro-sestiere-d-arte",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/itinerari/dorsoduro-sestiere-d-arte",
+        "verifiedAt": null
+      },
+      "sourceKey": "veneziadorsoduro",
+      "verifiedFields": []
+    },
+    {
+      "id": "venezia-106",
+      "legacyId": "San Nicolò dei Mendicoli, esterni",
+      "t": "San Nicolò dei Mendicoli, esterni|San Nicolò dei Mendicoli, exterior",
+      "z": "Campo San Nicolò|Campo San Nicolò",
+      "d": "35 min|35 min",
+      "p": "Chiudi cercando dettagli minuti, senza presumere che la chiesa sia aperta.|Finish by looking for small details, without assuming the church is open.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/itinerari/dorsoduro-sestiere-d-arte"
+      },
+      "location": {
+        "area": "Campo San Nicolò|Campo San Nicolò",
+        "address": "Campo San Nicolò",
+        "mapQuery": "Campo San Nicolò, Venezia"
+      },
+      "source": {
+        "url": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/itinerari/dorsoduro-sestiere-d-arte",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/itinerari/dorsoduro-sestiere-d-arte",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/itinerari/dorsoduro-sestiere-d-arte",
+        "verifiedAt": null
+      },
+      "sourceKey": "veneziadorsoduro",
+      "verifiedFields": []
+    },
+    {
+      "id": "venezia-107",
+      "legacyId": "Campo del Ghetto Nuovo",
+      "t": "Campo del Ghetto Nuovo|Ghetto Nuovo square",
+      "z": "Campo del Ghetto Nuovo|Campo del Ghetto Nuovo",
+      "d": "35 min|35 min",
+      "p": "Leggi le testimonianze pubbliche del campo con attenzione e senza trasformare i residenti in soggetti fotografici.|Read the square’s public testimonies carefully without turning residents into photographic subjects.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/sestieri/cannaregio"
+      },
+      "location": {
+        "area": "Campo del Ghetto Nuovo|Campo del Ghetto Nuovo",
+        "address": "Campo del Ghetto Nuovo",
+        "mapQuery": "Campo del Ghetto Nuovo, Venezia"
+      },
+      "source": {
+        "url": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/sestieri/cannaregio",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/sestieri/cannaregio",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/sestieri/cannaregio",
+        "verifiedAt": null
+      },
+      "sourceKey": "veneziacannaregio",
+      "verifiedFields": []
+    },
+    {
+      "id": "venezia-108",
+      "legacyId": "Fondamenta della Misericordia",
+      "t": "Fondamenta della Misericordia|Misericordia canal bank",
+      "z": "Fondamenta della Misericordia|Fondamenta della Misericordia",
+      "d": "35 min|35 min",
+      "p": "Osserva come cambiano larghezza e uso delle rive; consumazioni facoltative.|Observe changes in the width and use of the banks; refreshments are optional.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/sestieri/cannaregio"
+      },
+      "location": {
+        "area": "Fondamenta della Misericordia|Fondamenta della Misericordia",
+        "address": "Fondamenta della Misericordia",
+        "mapQuery": "Fondamenta della Misericordia, Venezia"
+      },
+      "source": {
+        "url": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/sestieri/cannaregio",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/sestieri/cannaregio",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/sestieri/cannaregio",
+        "verifiedAt": null
+      },
+      "sourceKey": "veneziacannaregio",
+      "verifiedFields": []
+    },
+    {
+      "id": "venezia-109",
+      "legacyId": "Sant’Alvise, campo",
+      "t": "Sant’Alvise, campo|Sant’Alvise square",
+      "z": "Campo Sant’Alvise|Campo Sant’Alvise",
+      "d": "35 min|35 min",
+      "p": "Concludi con una sosta breve, lasciando liberi gli accessi alle abitazioni.|Finish with a short break, keeping residential entrances clear.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/sestieri/cannaregio"
+      },
+      "location": {
+        "area": "Campo Sant’Alvise|Campo Sant’Alvise",
+        "address": "Campo Sant’Alvise",
+        "mapQuery": "Campo Sant’Alvise, Venezia"
+      },
+      "source": {
+        "url": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/sestieri/cannaregio",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/sestieri/cannaregio",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/sestieri/cannaregio",
+        "verifiedAt": null
+      },
+      "sourceKey": "veneziacannaregio",
+      "verifiedFields": []
+    }
+  ],
+  "TRAVEL": {
+    "airportUrl": "https://www.veneziaairport.it/",
+    "weatherUrl": "https://www.meteoam.it/it/home",
+    "emergencyUrl": "https://digital-strategy.ec.europa.eu/en/policies/112",
+    "transportUrl": "https://actv.avmspa.it/",
+    "toiletsUrl": "https://www.comune.venezia.it/it/node/65842",
+    "waterUrl": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/giardini-parchi-oasi-naturali/giardini-di-viale-garibaldi",
+    "accessibilityUrl": "https://www.veneziaunica.it/it/organizza-il-tuo-viaggio/venezia-accessibile",
+    "checkedAt": "2026-10-16"
   }
 }

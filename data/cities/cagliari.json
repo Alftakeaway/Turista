@@ -4,16 +4,16 @@
   "TESTI": {
     "nav1": "Profili|Profiles",
     "nav2": "Esperienze|Experiences",
-    "nav3": "Itinerario|Itinerary",
-    "nav4": "Info pratiche|Practical info",
-    "heroK": "Guida poliedrica · Cagliari|The many-sided guide · Cagliari",
-    "heroH1": "Ogni viaggio è<br><em>un viaggio diverso</em>|Every trip is<br><em>a different trip</em>",
+    "nav3": "Tour originali|Original tours",
+    "nav4": "In viaggio|On the go",
+    "heroK": "Cagliari|Cagliari",
+    "heroH1": "Tra quartieri, sale e vento|Between neighbourhoods, salt and wind",
     "heroP": "Una città, otto viaggiatori: scegli il tuo profilo e la guida si adatta a te — dal golfo al Castello, un itinerario su misura.|One city, eight travellers: pick your profile and the guide adapts — from the gulf to the Castello, a tailor-made itinerary.",
-    "cta1": "Trova il tuo profilo ↓|Find your profile ↓",
-    "cta2": "Vedi tutte le esperienze|See all experiences",
+    "cta1": "Crea il tuo tour|Find your tour",
+    "cta2": "Esplora le esperienze|Explore experiences",
     "stat1": "profili di viaggiatore|traveller profiles",
     "stat2": "esperienze selezionate|curated experiences",
-    "stat3": "itinerari pronti|ready itineraries",
+    "stat3": "tour originali|original tours",
     "step1k": "Passo 1|Step 1",
     "step1h": "Che tipo di viaggiatore sei?|What kind of traveller are you?",
     "step1p": "Tocca un profilo: esperienze e itinerario si filtrano subito. Nessuna selezione = vedi tutto.|Tap a profile: experiences and itinerary filter instantly. No selection = see everything.",
@@ -32,7 +32,7 @@
     "info2p": "Controlla meteo, calendario degli eventi e condizioni dei percorsi per le date del viaggio. L’affluenza varia: nessuna fascia oraria garantisce assenza di code.|Check weather, event schedules and route conditions for your travel dates. Crowds vary: no time of day guarantees a queue-free visit.",
     "info3h": "🎟️ Prenotare|🎟️ Booking",
     "info3p": "Per musei, spettacoli, corsi e attività scegli prima una data e verifica disponibilità, tariffe e condizioni sul sito del gestore. Gli itinerari sono proposte, non prenotazioni.|For museums, performances, classes and activities, choose a date and check availability, prices and terms on the operator’s website. Itineraries are suggestions, not reservations.",
-    "footer": "<b>Cagliari Poliedrica</b> — demo educativa · dati indicativi: verifica sempre orari e prezzi sui siti ufficiali|<b>Cagliari Poliedrica</b> — educational demo · indicative data: always check official sources",
+    "footer": "<b>Cagliari Poliedrica</b> — percorsi originali e fonti consultabili|<b>Cagliari Poliedrica</b> — original routes and consultable sources",
     "selProfilo": "Seleziona prima un profilo ↑|Select a profile first ↑",
     "tutteSotto": "Tutte le sotto-categorie|All subcategories",
     "tuttiTipi": "Tutti i tipi di locale|All venue types",
@@ -312,13 +312,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -340,10 +340,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Bastione Saint Remy al tramonto|Bastion Saint Remy at sunset",
@@ -364,13 +374,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -392,10 +402,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Anfiteatro romano|The Roman amphitheatre",
@@ -416,13 +436,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -444,10 +464,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Nora: la città sul mare|Nora: the city by the sea",
@@ -469,13 +499,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -497,10 +527,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Tuvixeddu, la necropoli punica|Tuvixeddu, the Punic necropolis",
@@ -510,7 +550,7 @@
         "cultura"
       ],
       "sub": "antico",
-      "p": "La più grande necropoli punica del Mediterraneo: ipogei scavati nella roccia calcarea.|The largest Punic necropolis in the Mediterranean: hypogea carved into limestone.",
+      "p": "Una necropoli punica con ipogei scavati nella roccia calcarea: scegli il percorso visitabile indicato dal gestore.|A Punic necropolis with hypogea carved into limestone: choose a route currently open to visitors.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "cagliari-005",
       "legacyId": "Tuvixeddu, la necropoli punica",
@@ -521,13 +561,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -549,20 +589,30 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Cittadella dei Musei|The Museums Citadel",
+      "t": "Musei Nazionali: archeologia e Pinacoteca|National Museums: archaeology and picture gallery",
       "z": "Stampace|Stampace",
       "d": "3 ore|3 hrs",
       "tags": [
         "cultura"
       ],
       "sub": "musei",
-      "p": "I bronzetti nuragici, la Pinacoteca e le inquietanti cere anatomiche: tre musei in una piazzetta.|The nuragic bronzes, the Pinacoteca and the unsettling anatomical waxes: three museums in one square.",
+      "p": "Il biglietto unico documentato comprende Museo archeologico e Pinacoteca, nella Cittadella dei Musei. Le altre sedi hanno accessi da distinguere.|The documented combined ticket includes the Archaeological Museum and Picture Gallery in the museum citadel. Distinguish access to other venues.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "cagliari-006",
       "legacyId": "Cittadella dei Musei",
@@ -571,28 +621,31 @@
         "kind": "estimate"
       },
       "cost": {
-        "amount": null,
+        "amount": 10,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
-        "verifiedAt": null
+        "kind": "paid",
+        "note": "Biglietto unico intero dei Musei Nazionali di Cagliari: Museo archeologico + Pinacoteca. Riduzioni e gratuità secondo la fonte.|Standard combined National Museums of Cagliari ticket: Archaeological Museum + Picture Gallery. Concessions and free admission follow the source.",
+        "verifiedAt": "2026-10-16",
+        "sourceUrl": "https://museinazionalicagliari.cultura.gov.it/visita/orari-e-biglietteria/",
+        "basis": "operator"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
-        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
-        "verifiedAt": null
+        "text": "Aperto lunedì–domenica 8:30–19:30; biglietteria fino alle 18:45, salvo avvisi.|Open Monday–Sunday 8:30–19:30; ticket office until 18:45, subject to notices.",
+        "verifiedAt": "2026-10-16",
+        "sourceUrl": "https://museinazionalicagliari.cultura.gov.it/visita/orari-e-biglietteria/"
       },
       "location": {
         "area": "Stampace|Stampace",
-        "address": null,
-        "mapQuery": "Cittadella dei Musei, Cagliari"
+        "address": "Piazza Arsenale 1",
+        "mapQuery": "Piazza Arsenale 1, Cagliari"
       },
       "source": {
-        "url": "https://cagliariturismo.comune.cagliari.it/it",
-        "scope": "city",
+        "url": "https://museinazionalicagliari.cultura.gov.it/visita/orari-e-biglietteria/",
+        "scope": "place",
         "checkedAt": "2026-10-16"
       },
       "reviewedAt": "2026-10-16",
@@ -601,10 +654,36 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://museinazionalicagliari.cultura.gov.it/visita/orari-e-biglietteria/",
+          "scope": "Identità e informazioni del luogo|Place identity and information",
+          "consultedAt": "2026-10-16"
+        },
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        },
+        {
+          "url": "https://museinazionalicagliari.cultura.gov.it/visita/orari-e-biglietteria/",
+          "scope": "Tariffa del prodotto indicato|Price of the stated product",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": [
+        "cost",
+        "openingHours",
+        "identity",
+        "description",
+        "address"
+      ]
     },
     {
       "t": "La Fiera e i congressi|The trade fair & congresses",
@@ -625,13 +704,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -653,10 +732,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Aperitivo in Marina|Aperitivo in the Marina district",
@@ -678,13 +767,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -706,10 +795,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Bleisure: Villasimius o Chia|Bleisure: Villasimius or Chia",
@@ -731,13 +830,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -759,10 +858,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Culurgiones e malloreddus|Culurgiones & malloreddus",
@@ -784,13 +893,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -812,10 +921,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Porceddu in agriturismo|Suckling pig at an agriturismo",
@@ -837,13 +956,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -865,10 +984,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Fregola con arselle|Fregola with clams",
@@ -890,13 +1019,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -918,10 +1047,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Bottarga e ricci di mare|Bottarga & sea urchins",
@@ -943,13 +1082,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -971,10 +1110,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Pane carasau, guttiau e pistoccu|Carasau, guttiau & pistoccu",
@@ -996,13 +1145,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1024,10 +1173,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Pecorini e casizolu|Pecorinos & casizolu",
@@ -1049,13 +1208,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1077,13 +1236,23 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Mercato di San Benedetto|The San Benedetto market",
+      "t": "Mercato di San Benedetto, sede di piazza Nazzari|San Benedetto Market, Piazza Nazzari location",
       "z": "San Benedetto|San Benedetto",
       "d": "1,5 ore|1.5 hrs",
       "tags": [
@@ -1092,7 +1261,7 @@
       ],
       "sub": "street",
       "tipo": "mercato",
-      "p": "Il grande mercato coperto: pesce al piano di sotto, ortaggi e formaggi sopra, voci che si rincorrono.|The great covered market: fish downstairs, vegetables and cheeses above, voices chasing each other.",
+      "p": "Il mercato è temporaneamente trasferito in piazza Amedeo Nazzari durante i lavori della sede storica. Per la visita usa questa sede, confermata anche dal portale comunale.|The market is temporarily in Piazza Amedeo Nazzari while the historic building is restored. Use this location, also confirmed by the municipal portal.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "cagliari-016",
       "legacyId": "Mercato di San Benedetto",
@@ -1103,13 +1272,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1117,12 +1286,12 @@
       },
       "location": {
         "area": "San Benedetto|San Benedetto",
-        "address": null,
-        "mapQuery": "Mercato di San Benedetto, Cagliari"
+        "address": "Piazza Amedeo Nazzari",
+        "mapQuery": "Piazza Amedeo Nazzari, Cagliari"
       },
       "source": {
-        "url": "https://cagliariturismo.comune.cagliari.it/it",
-        "scope": "city",
+        "url": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/mercato-civico-di-san-benedetto-piazza-nazzari",
+        "scope": "place",
         "checkedAt": "2026-10-16"
       },
       "reviewedAt": "2026-10-16",
@@ -1131,10 +1300,34 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/mercato-civico-di-san-benedetto-piazza-nazzari",
+          "scope": "Identità e informazioni del luogo|Place identity and information",
+          "consultedAt": "2026-10-16"
+        },
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        },
+        {
+          "url": "https://www.comune.cagliari.it/portale/page/it/mercato_civico_san_benedetto?contentId=LGO11814",
+          "scope": "Trasferimento temporaneo|Temporary relocation",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": [
+        "identity",
+        "description",
+        "address"
+      ]
     },
     {
       "t": "Fainè: la cecina cagliaritana|Fainè: Cagliari's chickpea flatbread",
@@ -1156,13 +1349,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1184,10 +1377,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Sebadas e vernaccia|Sebadas & vernaccia",
@@ -1209,13 +1412,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1237,10 +1440,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Santuario di Bonaria|The Bonaria sanctuary",
@@ -1261,13 +1474,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1289,10 +1502,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.bonaria.eu/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Il Duomo di Castello|The Castello cathedral",
@@ -1313,13 +1536,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1341,10 +1564,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Cripta di Santa Restituta|The crypt of Santa Restituta",
@@ -1365,13 +1598,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1393,10 +1626,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Sant'Efisio: il voto del 1° maggio|Sant'Efisio: the 1 May vow",
@@ -1418,13 +1661,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1446,10 +1689,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Poetto: la spiaggia dei cagliaritani|Poetto: the locals' beach",
@@ -1470,13 +1723,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1498,10 +1751,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Calamosca e il faro|Calamosca & the lighthouse",
@@ -1522,13 +1785,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1550,10 +1813,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Giardini pubblici e Orto Botanico|Public gardens & the Botanical Garden",
@@ -1574,13 +1847,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1602,21 +1875,31 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Spa vista golfo|Gulf-view spa",
+      "t": "Giardini Pubblici: una pausa nel verde|Public Gardens: a green break",
       "z": "Poetto|Poetto",
       "d": "3 ore|3 hrs",
       "tags": [
         "benessere",
-        "business"
+        "lento"
       ],
-      "sub": "spa",
-      "p": "Piscine, saune e massaggi con il golfo in fondo alla vasca: il day pass dei grandi hotel.|Pools, saunas and massages with the gulf at the end of the pool: the big hotels' day pass.",
+      "sub": "mare",
+      "p": "Una pausa ai Giardini Pubblici: osserva il rapporto fra passeggiate, vegetazione e Galleria Comunale. L’eventuale visita alla galleria ha condizioni proprie.|Take a break in the Public Gardens and observe the relationship between paths, greenery and the Municipal Gallery. Optional gallery admission has separate conditions.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "cagliari-026",
       "legacyId": "Spa vista golfo",
@@ -1625,15 +1908,16 @@
         "kind": "estimate"
       },
       "cost": {
-        "amount": null,
+        "amount": 0,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
-        "verifiedAt": null
+        "kind": "free",
+        "note": "Percorso esterno della redazione senza quota; ingressi e acquisti opzionali esclusi.|No fee for the editorial outdoor route; optional admission and purchases excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1645,8 +1929,8 @@
         "mapQuery": "Spa vista golfo, Cagliari"
       },
       "source": {
-        "url": "https://cagliariturismo.comune.cagliari.it/it",
-        "scope": "city",
+        "url": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/giardini-pubblici",
+        "scope": "place",
         "checkedAt": "2026-10-16"
       },
       "reviewedAt": "2026-10-16",
@@ -1655,10 +1939,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "self-guided",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/giardini-pubblici",
+          "scope": "Luogo e contesto documentati|Documented place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Partita del Cagliari|A Cagliari match",
@@ -1679,13 +1973,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1707,20 +2001,31 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://cagliaricalcio.com/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Concerti all'Anfiteatro romano|Concerts at the Roman amphitheatre",
+      "t": "Poetto: camminata sul lungomare|Poetto: a promenade walk",
       "z": "Buoncammino|Buoncammino",
       "d": "sera|evening",
       "tags": [
-        "sport"
+        "sport",
+        "benessere"
       ],
-      "sub": "eventi",
-      "p": "Il palco più antico della città: concerti sotto le stelle, dentro pietre duemila anni.|The city's oldest stage: concerts under the stars, inside two-thousand-year-old stones.",
+      "sub": "calcio",
+      "p": "Il portale comunale documenta la spiaggia e il lungomare del Poetto. La nostra proposta è una camminata, non un concerto all’Anfiteatro o un servizio balneare.|The municipal portal documents Poetto beach and promenade. Our suggestion is a walk, not an Amphitheatre concert or a beach service.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "cagliari-028",
       "legacyId": "Concerti all'Anfiteatro romano",
@@ -1729,15 +2034,16 @@
         "kind": "variable"
       },
       "cost": {
-        "amount": null,
+        "amount": 0,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
-        "verifiedAt": null
+        "kind": "free",
+        "note": "Percorso esterno della redazione senza quota; ingressi e acquisti opzionali esclusi.|No fee for the editorial outdoor route; optional admission and purchases excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1749,8 +2055,8 @@
         "mapQuery": "Concerti all'Anfiteatro romano, Cagliari"
       },
       "source": {
-        "url": "https://cagliariturismo.comune.cagliari.it/it",
-        "scope": "city",
+        "url": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/spiaggia-del-poetto",
+        "scope": "place",
         "checkedAt": "2026-10-16"
       },
       "reviewedAt": "2026-10-16",
@@ -1759,10 +2065,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "self-guided",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/spiaggia-del-poetto",
+          "scope": "Luogo e contesto documentati|Documented place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "SUP e kayak a Calamosca|SUP & kayak at Calamosca",
@@ -1783,13 +2099,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1811,10 +2127,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Vela nel golfo degli Angeli|Sailing in the Gulf of Angels",
@@ -1835,13 +2161,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1863,10 +2189,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Marina: il quartiere del porto|Marina: the port district",
@@ -1887,13 +2223,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1915,10 +2251,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Villanova tra orti e vicoli|Villanova among gardens & alleys",
@@ -1939,13 +2285,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1967,10 +2313,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Molentargius: fenicotteri in città|Molentargius: flamingos in town",
@@ -1992,13 +2348,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2020,10 +2376,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.parcomolentargius.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Sella del Diavolo: trekking urbano|Sella del Diavolo: urban trekking",
@@ -2044,13 +2410,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2072,13 +2438,23 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Corso di culurgiones|A culurgiones class",
+      "t": "Taccuino: forme dei culurgiones|Notebook: culurgiones shapes",
       "z": "Centro|Centre",
       "d": "3 ore|3 hrs",
       "tags": [
@@ -2086,8 +2462,8 @@
         "food"
       ],
       "sub": "cucina",
-      "p": "Impara a chiudere i ravioli 'a spiga': un gesto antico che le dita non dimenticano.|Learn to seal the 'wheat-ear' ravioli: an old gesture your fingers won't forget.",
-      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "p": "Proposta autonoma a Centro. Confronta tre menu esposti: annota un ingrediente ricorrente, una parola nuova e una differenza di prezzo. Eventuali consumazioni si scelgono e pagano separatamente. Nessun corso o servizio guidato incluso.|Self-directed idea in Centre. Compare three displayed menus: note a recurring ingredient, a new word and a price difference. Any food or drink is chosen and paid for separately. No class or guided service included.",
+      "tip": "Porta un taccuino; rispetta privacy, proprietà private e passaggio dei residenti.|Bring a notebook; respect privacy, private property and residents’ passage.",
       "id": "cagliari-035",
       "legacyId": "Corso di culurgiones",
       "duration": {
@@ -2095,15 +2471,16 @@
         "kind": "estimate"
       },
       "cost": {
-        "amount": null,
+        "amount": 0,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
-        "verifiedAt": null
+        "kind": "free",
+        "note": "Attività di osservazione creata dalla redazione, senza quota. Acquisti e servizi eventuali esclusi.|An editorial observation activity with no fee. Optional purchases and services are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2112,7 +2489,7 @@
       "location": {
         "area": "Centro|Centre",
         "address": null,
-        "mapQuery": "Corso di culurgiones, Cagliari"
+        "mapQuery": "Centro, Cagliari"
       },
       "source": {
         "url": "https://cagliariturismo.comune.cagliari.it/it",
@@ -2125,13 +2502,23 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Laboratorio di pane carasau|Carasau bread workshop",
+      "t": "Taccuino: geometrie del pane|Notebook: bread geometry",
       "z": "Fuori porta|Out of town",
       "d": "2 ore|2 hrs",
       "tags": [
@@ -2139,8 +2526,8 @@
         "cultura"
       ],
       "sub": "artigianato",
-      "p": "Impastare, stendere fino al velo e vedere il pane gonfiarsi nel forno a legna.|Kneading, rolling to a veil and watching the bread puff up in the wood oven.",
-      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "p": "Proposta autonoma a Fuori porta. Scegli tre forme o materiali visibili nelle vetrine e negli spazi pubblici; disegnali e confronta i dettagli. Chiedi il permesso prima di fotografare dentro una bottega. Nessun corso o servizio guidato incluso.|Self-directed idea in Out of town. Choose three shapes or materials visible in shop windows and public spaces; sketch and compare their details. Ask permission before photographing inside a workshop. No class or guided service included.",
+      "tip": "Porta un taccuino; rispetta privacy, proprietà private e passaggio dei residenti.|Bring a notebook; respect privacy, private property and residents’ passage.",
       "id": "cagliari-036",
       "legacyId": "Laboratorio di pane carasau",
       "duration": {
@@ -2148,15 +2535,16 @@
         "kind": "estimate"
       },
       "cost": {
-        "amount": null,
+        "amount": 0,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
-        "verifiedAt": null
+        "kind": "free",
+        "note": "Attività di osservazione creata dalla redazione, senza quota. Acquisti e servizi eventuali esclusi.|An editorial observation activity with no fee. Optional purchases and services are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2165,7 +2553,7 @@
       "location": {
         "area": "Fuori porta|Out of town",
         "address": null,
-        "mapQuery": "Laboratorio di pane carasau, Cagliari"
+        "mapQuery": "Fuori porta, Cagliari"
       },
       "source": {
         "url": "https://cagliariturismo.comune.cagliari.it/it",
@@ -2178,10 +2566,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Barumini: la civiltà nuragica|Barumini: the nuragic civilisation",
@@ -2192,7 +2590,7 @@
         "cultura"
       ],
       "sub": "guide",
-      "p": "Su Nuraxi, patrimonio UNESCO: la fortezza di pietra della Sardegna che venne prima di tutti.|UNESCO-listed Su Nuraxi: the stone fortress of the Sardinia that came before everyone.",
+      "p": "Su Nuraxi a Barumini: esplora il complesso nuragico con le modalità di visita del sito. È un’escursione fuori Cagliari, con trasferimento da pianificare.|Su Nuraxi in Barumini: explore the nuragic complex under the site’s visiting arrangements. This is a trip outside Cagliari requiring travel planning.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "cagliari-037",
       "legacyId": "Barumini: la civiltà nuragica",
@@ -2203,13 +2601,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2231,10 +2629,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.fondazionebarumini.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     }
   ],
   "ITINERARI": {
@@ -2676,5 +3084,673 @@
     "accessibilityUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
     "transportUrl": "https://www.ctmcagliari.it/",
     "sourceReviewedAt": "2026-10-16"
+  },
+  "TOURS": [
+    {
+      "id": "cagliari-tour-1",
+      "title": "Villanova a altezza di portone|Villanova at doorway height",
+      "mood": "art",
+      "minutes": 90,
+      "weather": "outdoor",
+      "terrain": "Vie residenziali: rispetta soglie, silenzio e passaggi. Alcuni tratti sono in pendenza.|Residential streets: respect doorways, quiet and access. Some sections slope.",
+      "stops": [
+        "cagliari-101",
+        "cagliari-102",
+        "cagliari-103"
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
+      "focus": "Esplora Villanova all’altezza dei portoni: cerca tre diversi rapporti fra casa, strada e vegetazione, poi rileggili dalla pausa nei giardini.|Explore Villanova at doorway height: find three relationships between homes, streets and plants, then reconsider them during a garden break.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "cagliari-tour-2",
+      "title": "Il bordo del sale: città, stagno e spiaggia|The edge of salt: city, lagoon and beach",
+      "mood": "nature",
+      "minutes": 210,
+      "weather": "outdoor",
+      "terrain": "Cammino lungo e poco riparato; osserva gli animali da lontano e usa solo percorsi autorizzati.|Long, exposed walk; observe wildlife from a distance and use authorised paths only.",
+      "stops": [
+        "cagliari-104",
+        "cagliari-105",
+        "cagliari-106"
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
+      "focus": "Confronta il paesaggio del sale con quello della spiaggia fra Molentargius e Poetto. Osserva da sentieri autorizzati, senza avvicinarti agli animali.|Compare salt and beach landscapes between Molentargius and Poetto. Observe from permitted paths without approaching wildlife.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "cagliari-tour-3",
+      "title": "Stampace: sotto la città, sopra le foglie|Stampace: below the city, above the leaves",
+      "mood": "memory",
+      "minutes": 150,
+      "weather": "mixed",
+      "terrain": "Cripta e orto hanno accessi propri; verifica i passaggi adatti alle tue esigenze.|The crypt and garden have separate access arrangements; check routes suitable for your needs.",
+      "stops": [
+        "cagliari-107",
+        "cagliari-108",
+        "cagliari-109"
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
+      "focus": "Dalla memoria sotterranea alla vegetazione: accosta Stampace, la cripta e l’Orto Botanico cercando differenze di luce, temperatura e materiali.|From underground memory to vegetation: connect Stampace, the crypt and the Botanical Garden through changes in light, temperature and materials.",
+      "createdAt": "2026-10-16"
+    }
+  ],
+  "TOUR_STOPS": [
+    {
+      "id": "cagliari-101",
+      "legacyId": "Piazza San Giacomo",
+      "t": "Piazza San Giacomo|Piazza San Giacomo",
+      "z": "Piazza San Giacomo|Piazza San Giacomo",
+      "d": "35 min|35 min",
+      "p": "Inizia con tre colori del quartiere e prova a ritrovarli nelle tappe seguenti.|Start with three neighbourhood colours and look for them at the next stops.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/quartiere-villanova"
+      },
+      "location": {
+        "area": "Piazza San Giacomo|Piazza San Giacomo",
+        "address": "Piazza San Giacomo",
+        "mapQuery": "Piazza San Giacomo, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/quartiere-villanova",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/quartiere-villanova",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/quartiere-villanova",
+        "verifiedAt": null
+      },
+      "sourceKey": "cagliarivillanova",
+      "verifiedFields": []
+    },
+    {
+      "id": "cagliari-102",
+      "legacyId": "Via San Giovanni",
+      "t": "Via San Giovanni|Via San Giovanni",
+      "z": "Via San Giovanni|Via San Giovanni",
+      "d": "35 min|35 min",
+      "p": "Osserva piante, insegne e portoni senza affacciarti negli interni.|Observe plants, signs and doorways without looking into private interiors.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/quartiere-villanova"
+      },
+      "location": {
+        "area": "Via San Giovanni|Via San Giovanni",
+        "address": "Via San Giovanni",
+        "mapQuery": "Via San Giovanni, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/quartiere-villanova",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/quartiere-villanova",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/quartiere-villanova",
+        "verifiedAt": null
+      },
+      "sourceKey": "cagliarivillanova",
+      "verifiedFields": []
+    },
+    {
+      "id": "cagliari-103",
+      "legacyId": "Giardini Pubblici",
+      "t": "Giardini Pubblici|Public Gardens",
+      "z": "Largo Giuseppe Dessì|Largo Giuseppe Dessì",
+      "d": "35 min|35 min",
+      "p": "Chiudi confrontando il verde dei giardini con quello dei piccoli vasi di Villanova.|Finish by comparing the garden greenery with Villanova’s small plant pots.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/giardini-pubblici"
+      },
+      "location": {
+        "area": "Largo Giuseppe Dessì|Largo Giuseppe Dessì",
+        "address": "Largo Giuseppe Dessì",
+        "mapQuery": "Largo Giuseppe Dessì, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/giardini-pubblici",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/giardini-pubblici",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/giardini-pubblici",
+        "verifiedAt": null
+      },
+      "sourceKey": "cagliarigiardini",
+      "verifiedFields": []
+    },
+    {
+      "id": "cagliari-104",
+      "legacyId": "Molentargius, ingresso di via La Palma",
+      "t": "Molentargius, ingresso di via La Palma|Molentargius, Via La Palma entrance",
+      "z": "Via La Palma|Via La Palma",
+      "d": "35 min|35 min",
+      "p": "Parti dalle informazioni del parco e scegli il percorso effettivamente aperto.|Start with the park information and choose a path that is actually open.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.parcomolentargius.it/"
+      },
+      "location": {
+        "area": "Via La Palma|Via La Palma",
+        "address": "Via La Palma",
+        "mapQuery": "Via La Palma, Cagliari"
+      },
+      "source": {
+        "url": "https://www.parcomolentargius.it/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.parcomolentargius.it/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.parcomolentargius.it/",
+        "verifiedAt": null
+      },
+      "sourceKey": "cagliarisale",
+      "verifiedFields": []
+    },
+    {
+      "id": "cagliari-105",
+      "legacyId": "Edificio Sali Scelti, esterni",
+      "t": "Edificio Sali Scelti, esterni|Sali Scelti building, exterior",
+      "z": "Edificio Sali Scelti|Edificio Sali Scelti",
+      "d": "35 min|35 min",
+      "p": "Metti a confronto le tracce della produzione del sale con il paesaggio dell’acqua.|Compare traces of salt production with the waterscape.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.parcomolentargius.it/"
+      },
+      "location": {
+        "area": "Edificio Sali Scelti|Edificio Sali Scelti",
+        "address": "Edificio Sali Scelti",
+        "mapQuery": "Edificio Sali Scelti, Cagliari"
+      },
+      "source": {
+        "url": "https://www.parcomolentargius.it/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.parcomolentargius.it/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.parcomolentargius.it/",
+        "verifiedAt": null
+      },
+      "sourceKey": "cagliarisale",
+      "verifiedFields": []
+    },
+    {
+      "id": "cagliari-106",
+      "legacyId": "Poetto, passeggiata",
+      "t": "Poetto, passeggiata|Poetto promenade",
+      "z": "Lungomare Poetto|Lungomare Poetto",
+      "d": "35 min|35 min",
+      "p": "Concludi sul lungomare; balneazione e servizi non sono inclusi nel percorso.|Finish on the promenade; swimming and beach services are not part of the route.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/spiaggia-del-poetto"
+      },
+      "location": {
+        "area": "Lungomare Poetto|Lungomare Poetto",
+        "address": "Lungomare Poetto",
+        "mapQuery": "Lungomare Poetto, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/spiaggia-del-poetto",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/spiaggia-del-poetto",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/spiaggia-del-poetto",
+        "verifiedAt": null
+      },
+      "sourceKey": "cagliaripoetto",
+      "verifiedFields": []
+    },
+    {
+      "id": "cagliari-107",
+      "legacyId": "Sant’Efisio, esterni",
+      "t": "Sant’Efisio, esterni|Sant’Efisio, exterior",
+      "z": "Via Sant’Efisio|Via Sant’Efisio",
+      "d": "35 min|35 min",
+      "p": "Individua un segno della festa nelle vie del quartiere, senza aspettarti una processione quotidiana.|Look for a trace of the festival in the streets, without expecting a daily procession.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/quartiere-stampace"
+      },
+      "location": {
+        "area": "Via Sant’Efisio|Via Sant’Efisio",
+        "address": "Via Sant’Efisio",
+        "mapQuery": "Via Sant’Efisio, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/quartiere-stampace",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/quartiere-stampace",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/quartiere-stampace",
+        "verifiedAt": null
+      },
+      "sourceKey": "cagliaristampace",
+      "verifiedFields": []
+    },
+    {
+      "id": "cagliari-108",
+      "legacyId": "Cripta di Santa Restituta",
+      "t": "Cripta di Santa Restituta|Crypt of Santa Restituta",
+      "z": "Via Sant’Efisio|Via Sant’Efisio",
+      "d": "35 min|35 min",
+      "p": "Scegli se aggiungere la visita al sottosuolo: il biglietto è separato dal percorso.|Choose whether to add the underground visit; admission is separate from the walk.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/cripta-di-santa-restituta"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/cripta-di-santa-restituta"
+      },
+      "location": {
+        "area": "Via Sant’Efisio|Via Sant’Efisio",
+        "address": "Via Sant’Efisio",
+        "mapQuery": "Via Sant’Efisio, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/cripta-di-santa-restituta",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/cripta-di-santa-restituta",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/it/vivicagliari/cripta-di-santa-restituta",
+        "verifiedAt": null
+      },
+      "sourceKey": "cagliarirestituta",
+      "verifiedFields": []
+    },
+    {
+      "id": "cagliari-109",
+      "legacyId": "Orto Botanico di Cagliari",
+      "t": "Orto Botanico di Cagliari|Cagliari Botanical Garden",
+      "z": "Viale Sant’Ignazio da Laconi|Viale Sant’Ignazio da Laconi",
+      "d": "35 min|35 min",
+      "p": "Cambia scala: dalla pietra del quartiere alle forme delle foglie.|Change scale, from neighbourhood stonework to leaf shapes.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/orto-botanico"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/orto-botanico"
+      },
+      "location": {
+        "area": "Viale Sant’Ignazio da Laconi|Viale Sant’Ignazio da Laconi",
+        "address": "Viale Sant’Ignazio da Laconi",
+        "mapQuery": "Viale Sant’Ignazio da Laconi, Cagliari"
+      },
+      "source": {
+        "url": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/orto-botanico",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/orto-botanico",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/orto-botanico",
+        "verifiedAt": null
+      },
+      "sourceKey": "cagliariorto",
+      "verifiedFields": []
+    }
+  ],
+  "TRAVEL": {
+    "airportUrl": "https://www.sogaer.it/",
+    "weatherUrl": "https://www.meteoam.it/it/home",
+    "emergencyUrl": "https://digital-strategy.ec.europa.eu/en/policies/112",
+    "transportUrl": "https://www.ctmcagliari.it/",
+    "toiletsUrl": null,
+    "waterUrl": null,
+    "accessibilityUrl": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/ufficio-turistico",
+    "checkedAt": "2026-10-16"
   }
 }

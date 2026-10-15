@@ -6,7 +6,7 @@ window.GuideStorage = {
     try {
       const value = localStorage.getItem(key);
       if (value === null) return this.memory.has(key) ? this.memory.get(key) : fallback;
-      try { return key.endsWith('_lingua') ? value : JSON.parse(value); } catch { return fallback; }
+      try { return key.endsWith('_lingua') || key.endsWith('_trip_date') ? value : JSON.parse(value); } catch { return fallback; }
     } catch { this.failed(); return this.memory.has(key) ? this.memory.get(key) : fallback; }
   },
   write(key, value) {

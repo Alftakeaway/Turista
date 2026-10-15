@@ -4,16 +4,16 @@
   "TESTI": {
     "nav1": "Profili|Profiles",
     "nav2": "Esperienze|Experiences",
-    "nav3": "Itinerario|Itinerary",
-    "nav4": "Info pratiche|Practical info",
-    "heroK": "Guida poliedrica · Torino|The many-sided guide · Turin",
-    "heroH1": "Ogni viaggio è<br><em>un viaggio diverso</em>|Every trip is<br><em>a different trip</em>",
+    "nav3": "Tour originali|Original tours",
+    "nav4": "In viaggio|On the go",
+    "heroK": "Torino|Turin",
+    "heroH1": "Entra nel disegno della città|Step into the city’s design",
     "heroP": "Una città, otto viaggiatori: scegli il tuo profilo e la guida si adatta a te — dalla Mole ai portici, un itinerario su misura.|One city, eight travellers: pick your profile and the guide adapts — from the Mole to the portici, a tailor-made itinerary.",
-    "cta1": "Trova il tuo profilo ↓|Find your profile ↓",
-    "cta2": "Vedi tutte le esperienze|See all experiences",
+    "cta1": "Crea il tuo tour|Find your tour",
+    "cta2": "Esplora le esperienze|Explore experiences",
     "stat1": "profili di viaggiatore|traveller profiles",
     "stat2": "esperienze selezionate|curated experiences",
-    "stat3": "itinerari pronti|ready itineraries",
+    "stat3": "tour originali|original tours",
     "step1k": "Passo 1|Step 1",
     "step1h": "Che tipo di viaggiatore sei?|What kind of traveller are you?",
     "step1p": "Tocca un profilo: esperienze e itinerario si filtrano subito. Nessuna selezione = vedi tutto.|Tap a profile: experiences and itinerary filter instantly. No selection = see everything.",
@@ -32,7 +32,7 @@
     "info2p": "Controlla meteo, calendario degli eventi e condizioni dei percorsi per le date del viaggio. L’affluenza varia: nessuna fascia oraria garantisce assenza di code.|Check weather, event schedules and route conditions for your travel dates. Crowds vary: no time of day guarantees a queue-free visit.",
     "info3h": "🎟️ Prenotare|🎟️ Booking",
     "info3p": "Per musei, spettacoli, corsi e attività scegli prima una data e verifica disponibilità, tariffe e condizioni sul sito del gestore. Gli itinerari sono proposte, non prenotazioni.|For museums, performances, classes and activities, choose a date and check availability, prices and terms on the operator’s website. Itineraries are suggestions, not reservations.",
-    "footer": "<b>Torino Poliedrica</b> — demo educativa · dati indicativi: verifica sempre orari e prezzi sui siti ufficiali|<b>Torino Poliedrica</b> — educational demo · indicative data: always check official sources",
+    "footer": "<b>Torino Poliedrica</b> — percorsi originali e fonti consultabili|<b>Turin Poliedrica</b> — original routes and consultable sources",
     "selProfilo": "Seleziona prima un profilo ↑|Select a profile first ↑",
     "tutteSotto": "Tutte le sotto-categorie|All subcategories",
     "tuttiTipi": "Tutti i tipi di locale|All venue types",
@@ -296,7 +296,7 @@
         "cultura"
       ],
       "sub": "musei",
-      "p": "Il museo egizio più antico del mondo: la Galleria del Re, sarcofagi e papiri.|The world's oldest Egyptian museum: the Gallery of the King, sarcophagi and papyri.",
+      "p": "Il Museo Egizio conserva collezioni dedicate all’antico Egitto: pianifica le sale e prenota l’ingresso dal sito ufficiale.|Museo Egizio holds collections dedicated to ancient Egypt: plan your galleries and book admission through the official website.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "torino-001",
       "legacyId": "Museo Egizio",
@@ -305,19 +305,22 @@
         "kind": "estimate"
       },
       "cost": {
-        "amount": null,
+        "amount": 18,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
-        "verifiedAt": null
+        "kind": "paid",
+        "note": "Intero indicato nelle FAQ ufficiali; acquisto online obbligatorio, riduzioni e visite guidate separati.|Standard admission listed in the official FAQ; online purchase required, concessions and guided visits separate.",
+        "verifiedAt": "2026-10-16",
+        "sourceUrl": "https://www.museoegizio.it/info/domande-frequenti",
+        "basis": "operator"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
-        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
-        "verifiedAt": null
+        "text": "Lunedì 9–14; martedì–venerdì e domenica 9–18:30; sabato 9–20. Il calendario indica eventuali aperture speciali.|Monday 9–14; Tuesday–Friday and Sunday 9–18:30; Saturday 9–20. Check the calendar for special openings.",
+        "verifiedAt": "2026-10-16",
+        "sourceUrl": "https://www.museoegizio.it/info/orari"
       },
       "location": {
         "area": "Centro|Centre",
@@ -338,7 +341,25 @@
         "notes": "Il museo dichiara sale senza barriere e piani raggiungibili in ascensore; per alcuni passaggi può servire il personale. Conferma eventuali variazioni prima della visita.|The museum reports barrier-free galleries and lift access to every floor; staff assistance may be needed for some sections. Confirm any changes before visiting.",
         "sourceUrl": "https://www.museoegizio.it/info/accessibilita/",
         "verifiedAt": "2026-10-16"
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.museoegizio.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        },
+        {
+          "url": "https://www.museoegizio.it/info/domande-frequenti",
+          "scope": "Tariffa del prodotto indicato|Price of the stated product",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": [
+        "cost",
+        "openingHours"
+      ]
     },
     {
       "t": "Mole Antonelliana e Museo del Cinema|The Mole & the Cinema Museum",
@@ -359,13 +380,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -387,10 +408,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.museocinema.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "MAUTO: il Museo dell'Automobile|MAUTO: the Automobile Museum",
@@ -411,13 +442,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -439,10 +470,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.museoauto.com/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Palazzo Reale e Giardini Reali|The Royal Palace & Gardens",
@@ -463,13 +504,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -491,10 +532,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://museireali.beniculturali.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Palazzo Madama e l'Arte Antica|Palazzo Madama & Ancient Art",
@@ -515,13 +566,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -543,10 +594,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.palazzomadamatorino.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Lingotto: la pista sul tetto|Lingotto: the rooftop track",
@@ -568,13 +629,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -596,10 +657,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.pinacoteca-agnelli.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Lingotto Fiere e congressi|Lingotto fairs & congresses",
@@ -620,13 +691,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -648,10 +719,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.lingottofiere.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Aperitivo dopo l'ufficio|The after-office aperitivo",
@@ -662,7 +743,7 @@
         "food"
       ],
       "sub": "networking",
-      "p": "La città che ha inventato l'aperitivo: vermouth sotto i portici, prima di cena.|The city that invented the aperitivo: vermouth under the portici, before dinner.",
+      "p": "Una pausa dedicata al vermouth e alla cultura dell’aperitivo torinese. Scegli il locale e controlla formula, prezzo e opzioni analcoliche.|A pause devoted to vermouth and Turin’s aperitivo culture. Choose a venue and check its format, price and alcohol-free options.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "torino-008",
       "legacyId": "Aperitivo dopo l'ufficio",
@@ -673,13 +754,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -701,10 +782,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Bleisure: le Langhe del Barolo|Bleisure: the Barolo Langhe",
@@ -726,13 +817,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -754,10 +845,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Agnolotti e tajarin|Agnolotti & tajarin",
@@ -779,13 +880,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -807,10 +908,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Bagna cauda e bunet|Bagna cauda & bunet",
@@ -832,13 +943,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -860,10 +971,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Bicerin al caffè storico|Bicerin at a historic café",
@@ -886,13 +1007,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -914,10 +1035,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Gianduiotto e cioccolaterie|Gianduiotto & chocolate shops",
@@ -939,13 +1070,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -967,10 +1098,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Vermouth: l'aperitivo di Torino|Vermouth: Turin's aperitivo",
@@ -993,13 +1134,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1021,10 +1162,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Apericena e buffet|Apericena & buffets",
@@ -1036,7 +1187,7 @@
       ],
       "sub": "aperitivo",
       "tipo": "bar",
-      "p": "L'aperitivo che diventa cena: buffet a volontà con il drink d'accompagnamento.|The aperitivo that becomes dinner: all-you-can-eat buffet with your drink.",
+      "p": "Un aperitivo prima di cena: quantità di cibo, buffet e bevande incluse dipendono dal locale. Leggi la formula prima di ordinare.|An aperitivo before dinner: food quantities, buffets and included drinks depend on the venue. Read the terms before ordering.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "torino-015",
       "legacyId": "Apericena e buffet",
@@ -1047,13 +1198,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1075,10 +1226,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Porto Palazzo: il grande mercato|Porto Palazzo: the great market",
@@ -1090,7 +1251,7 @@
       ],
       "sub": "street",
       "tipo": "mercato",
-      "p": "Il più grande mercato all'aperto d'Europa: colori, bancarelle e il mondo in una piazza.|Europe's largest open-air market: colours, stalls and the world in one square.",
+      "p": "Il mercato di Porta Palazzo: una passeggiata fra banchi e piazza della Repubblica. Controlla giorni e settori attivi per la tua visita.|Porta Palazzo market: a walk among stalls and Piazza della Repubblica. Check days and active sections for your visit.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "torino-016",
       "legacyId": "Porto Palazzo: il grande mercato",
@@ -1101,13 +1262,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1129,10 +1290,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Balon e Aurora: il sabato dell'usato|Balon & Aurora: the Saturday flea market",
@@ -1155,13 +1326,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1183,13 +1354,23 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Alta cucina: la Torino creativa|Fine dining: creative Turin",
+      "t": "Taccuino: menu creativi|Notebook: creative menus",
       "z": "Centro|Centre",
       "d": "sera|evening",
       "tags": [
@@ -1198,8 +1379,8 @@
       ],
       "sub": "alta",
       "tipo": "ristorante",
-      "p": "Tra le capitali della cucina d'autore in Italia: tecnica, territorio e i vini delle colline.|Among Italy's author-cuisine capitals: technique, territory and the wines of the hills.",
-      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "p": "Proposta autonoma a Centro. Confronta tre menu esposti: annota un ingrediente ricorrente, una parola nuova e una differenza di prezzo. Eventuali consumazioni si scelgono e pagano separatamente. Nessun corso o servizio guidato incluso.|Self-directed idea in Centre. Compare three displayed menus: note a recurring ingredient, a new word and a price difference. Any food or drink is chosen and paid for separately. No class or guided service included.",
+      "tip": "Porta un taccuino; rispetta privacy, proprietà private e passaggio dei residenti.|Bring a notebook; respect privacy, private property and residents’ passage.",
       "id": "torino-018",
       "legacyId": "Alta cucina: la Torino creativa",
       "duration": {
@@ -1207,15 +1388,16 @@
         "kind": "variable"
       },
       "cost": {
-        "amount": null,
+        "amount": 0,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
-        "verifiedAt": null
+        "kind": "free",
+        "note": "Attività di osservazione creata dalla redazione, senza quota. Acquisti e servizi eventuali esclusi.|An editorial observation activity with no fee. Optional purchases and services are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1224,7 +1406,7 @@
       "location": {
         "area": "Centro|Centre",
         "address": null,
-        "mapQuery": "Alta cucina: la Torino creativa, Torino"
+        "mapQuery": "Centro, Torino"
       },
       "source": {
         "url": "https://turismotorino.org/",
@@ -1237,10 +1419,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Il Duomo e la Sindone|The Cathedral & the Shroud",
@@ -1262,13 +1454,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1290,10 +1482,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Superga col tram a dentiera|Superga by cog railway",
@@ -1315,13 +1517,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1343,10 +1545,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "San Lorenzo: la Torino barocca|San Lorenzo: baroque Turin",
@@ -1368,13 +1580,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1396,10 +1608,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "La Consolata: il cuore dei torinesi|The Consolata: Turin's heart",
@@ -1420,13 +1642,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1448,21 +1670,31 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Spa e hammam storici|Spas & historic hammams",
+      "t": "MAcA: una pausa dedicata all’ambiente|MAcA: a pause for the environment",
       "z": "Centro|Centre",
       "d": "3 ore|3 hrs",
       "tags": [
-        "benessere",
-        "business"
+        "formativo",
+        "benessere"
       ],
-      "sub": "spa",
-      "p": "Hammam d'epoca e spa d'autore: vapore, quiete e il rumore della città che resta fuori.|Historic hammams and design spas: steam, quiet and the city's noise left outside.",
+      "sub": "cucina",
+      "p": "Il Museo A come Ambiente offre un punto di partenza per esplorare temi ambientali; scegli la visita sul programma ufficiale.|The environmental museum offers a starting point for exploring environmental topics; choose a visit from its official programme.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "torino-023",
       "legacyId": "Spa e hammam storici",
@@ -1473,13 +1705,14 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
-        "verifiedAt": null
+        "kind": "variable",
+        "note": "Visita interna facoltativa secondo tariffario del gestore.|Optional interior visit under the operator’s price list.",
+        "verifiedAt": null,
+        "basis": "operator"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1491,8 +1724,8 @@
         "mapQuery": "Spa e hammam storici, Torino"
       },
       "source": {
-        "url": "https://turismotorino.org/",
-        "scope": "city",
+        "url": "https://www.acomeambiente.org/",
+        "scope": "place",
         "checkedAt": "2026-10-16"
       },
       "reviewedAt": "2026-10-16",
@@ -1501,13 +1734,23 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.acomeambiente.org/",
+          "scope": "Luogo e contesto documentati|Documented place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Parco del Valentino e Borgo Medievale|The Valentino park & Medieval village",
+      "t": "Valentino: parco e Borgo Medievale dall’esterno|Valentino: park and Medieval Village from outside",
       "z": "Valentino|Valentino",
       "d": "2 ore|2 hrs",
       "tags": [
@@ -1515,7 +1758,7 @@
         "lento"
       ],
       "sub": "verde",
-      "p": "Il parco romantico lungo il Po, con il castello e il Borgo Medievale ricostruito nel 1884.|The romantic park along the Po, with the castle and the 1884-rebuilt Medieval village.",
+      "p": "Il gestore indica il Borgo Medievale chiuso al pubblico per riqualificazione. Il suggerimento riguarda il parco e l’osservazione esterna, senza ingresso al Borgo o alla Rocca.|The operator lists the Medieval Village as closed for redevelopment. This suggestion concerns the park and exterior views, without entry to the village or fortress.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "torino-024",
       "legacyId": "Parco del Valentino e Borgo Medievale",
@@ -1526,13 +1769,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1544,8 +1787,8 @@
         "mapQuery": "Parco del Valentino e Borgo Medievale, Torino"
       },
       "source": {
-        "url": "https://turismotorino.org/",
-        "scope": "city",
+        "url": "https://www.borgomedievaletorino.it/la-tua-visita/",
+        "scope": "place",
         "checkedAt": "2026-10-16"
       },
       "reviewedAt": "2026-10-16",
@@ -1554,10 +1797,33 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.borgomedievaletorino.it/la-tua-visita/",
+          "scope": "Identità e informazioni del luogo|Place identity and information",
+          "consultedAt": "2026-10-16"
+        },
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        },
+        {
+          "url": "https://turismotorino.org/it/visita/cosa-fare-e-vedere/musei-e-cultura/borgo-e-rocca-medievale/",
+          "scope": "Conferma della chiusura|Closure corroboration",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": [
+        "identity",
+        "description"
+      ]
     },
     {
       "t": "La collina e le vigne|The hill & the vineyards",
@@ -1579,13 +1845,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1607,10 +1873,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Allianz Stadium e J-Museum|Allianz Stadium & the J-Museum",
@@ -1631,13 +1907,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1659,10 +1935,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.juventus.com/it/allianz-stadium/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Il derby della Mole|The Derby della Mole",
@@ -1683,13 +1969,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1711,10 +1997,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.torinofc.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "PalaAlpitour e i grandi concerti|PalaAlpitour & the big concerts",
@@ -1735,13 +2031,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1763,10 +2059,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.inalpiarena.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Corsa e bici lungo il Po|Running & cycling by the Po",
@@ -1788,13 +2094,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1816,10 +2122,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Quadrilatero Romano di sera|The Quadrilatero Romano by night",
@@ -1841,13 +2157,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1869,10 +2185,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "San Salvario: il quartiere del mondo|San Salvario: the world's district",
@@ -1893,13 +2219,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1921,10 +2247,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Murazzi: il Po dei torinesi|Murazzi: the locals' Po",
@@ -1945,13 +2281,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1973,10 +2309,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "In bici da Valentino alla Pellerina|Cycling from Valentino to La Pellerina",
@@ -1997,13 +2343,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2025,13 +2371,23 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Corso di agnolotti|An agnolotti class",
+      "t": "Taccuino: parole degli agnolotti|Notebook: agnolotti words",
       "z": "Centro|Centre",
       "d": "3 ore|3 hrs",
       "tags": [
@@ -2039,8 +2395,8 @@
         "food"
       ],
       "sub": "cucina",
-      "p": "Il gesto del 'plin': imparare a pizzicare la pasta come le nonne piemontesi.|The 'plin' gesture: learning to pinch pasta like Piedmont grandmothers.",
-      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "p": "Proposta autonoma a Centro. Confronta tre menu esposti: annota un ingrediente ricorrente, una parola nuova e una differenza di prezzo. Eventuali consumazioni si scelgono e pagano separatamente. Nessun corso o servizio guidato incluso.|Self-directed idea in Centre. Compare three displayed menus: note a recurring ingredient, a new word and a price difference. Any food or drink is chosen and paid for separately. No class or guided service included.",
+      "tip": "Porta un taccuino; rispetta privacy, proprietà private e passaggio dei residenti.|Bring a notebook; respect privacy, private property and residents’ passage.",
       "id": "torino-034",
       "legacyId": "Corso di agnolotti",
       "duration": {
@@ -2048,15 +2404,16 @@
         "kind": "estimate"
       },
       "cost": {
-        "amount": null,
+        "amount": 0,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
-        "verifiedAt": null
+        "kind": "free",
+        "note": "Attività di osservazione creata dalla redazione, senza quota. Acquisti e servizi eventuali esclusi.|An editorial observation activity with no fee. Optional purchases and services are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2065,7 +2422,7 @@
       "location": {
         "area": "Centro|Centre",
         "address": null,
-        "mapQuery": "Corso di agnolotti, Torino"
+        "mapQuery": "Centro, Torino"
       },
       "source": {
         "url": "https://turismotorino.org/",
@@ -2078,13 +2435,23 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Laboratorio di cioccolato|A chocolate workshop",
+      "t": "Taccuino: forme del cioccolato|Notebook: chocolate shapes",
       "z": "Centro|Centre",
       "d": "2 ore|2 hrs",
       "tags": [
@@ -2092,8 +2459,8 @@
         "cultura"
       ],
       "sub": "artigianato",
-      "p": "Temperare, modellare e incartare: nasce il tuo gianduiotto.|Tempering, moulding, wrapping: your own gianduiotto is born.",
-      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "p": "Proposta autonoma a Centro. Scegli tre forme o materiali visibili nelle vetrine e negli spazi pubblici; disegnali e confronta i dettagli. Chiedi il permesso prima di fotografare dentro una bottega. Nessun corso o servizio guidato incluso.|Self-directed idea in Centre. Choose three shapes or materials visible in shop windows and public spaces; sketch and compare their details. Ask permission before photographing inside a workshop. No class or guided service included.",
+      "tip": "Porta un taccuino; rispetta privacy, proprietà private e passaggio dei residenti.|Bring a notebook; respect privacy, private property and residents’ passage.",
       "id": "torino-035",
       "legacyId": "Laboratorio di cioccolato",
       "duration": {
@@ -2101,15 +2468,16 @@
         "kind": "estimate"
       },
       "cost": {
-        "amount": null,
+        "amount": 0,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
-        "verifiedAt": null
+        "kind": "free",
+        "note": "Attività di osservazione creata dalla redazione, senza quota. Acquisti e servizi eventuali esclusi.|An editorial observation activity with no fee. Optional purchases and services are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2118,7 +2486,7 @@
       "location": {
         "area": "Centro|Centre",
         "address": null,
-        "mapQuery": "Laboratorio di cioccolato, Torino"
+        "mapQuery": "Centro, Torino"
       },
       "source": {
         "url": "https://turismotorino.org/",
@@ -2131,10 +2499,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Torino esoterica: il tour|Esoteric Turin: the tour",
@@ -2156,13 +2534,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2184,10 +2562,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://turismotorino.org/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     }
   ],
   "ITINERARI": {
@@ -2636,5 +3024,673 @@
     "accessibilityUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
     "transportUrl": "https://www.gtt.to.it/",
     "sourceReviewedAt": "2026-10-16"
+  },
+  "TOURS": [
+    {
+      "id": "torino-tour-1",
+      "title": "Liberty senza salotti|Liberty without drawing rooms",
+      "mood": "architecture",
+      "minutes": 120,
+      "weather": "outdoor",
+      "terrain": "Solo facciate e strade; gli edifici residenziali non sono visitabili con questo itinerario.|Façades and streets only; this itinerary does not provide access to residential buildings.",
+      "stops": [
+        "torino-101",
+        "torino-102",
+        "torino-103"
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
+      "focus": "Guarda il Liberty dalla strada: confronta portoni, ferri e decorazioni senza entrare negli edifici residenziali. Componi un alfabeto di cinque forme.|Look at Liberty architecture from the street: compare doors, ironwork and ornament without entering residential buildings. Create an alphabet of five shapes.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "torino-tour-2",
+      "title": "Dora: il retro della cartolina|Dora: the other side of the postcard",
+      "mood": "memory",
+      "minutes": 180,
+      "weather": "outdoor",
+      "terrain": "Percorso urbano; i cortili e i locali aprono secondo i propri programmi.|Urban route; courtyards and venues follow their own schedules.",
+      "stops": [
+        "torino-104",
+        "torino-105",
+        "torino-106"
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
+      "focus": "Dal Maglio ai Docks lungo il paesaggio della Dora, segui la trasformazione del lavoro in spazi di quartiere. Scegli una traccia industriale per ogni sosta.|From the Maglio to the Docks along the Dora landscape, follow work spaces becoming neighbourhood spaces. Pick one industrial trace at each stop.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "torino-tour-3",
+      "title": "Ecologie urbane: gioco, acciaio e verde|Urban ecologies: play, steel and green",
+      "mood": "nature",
+      "minutes": 150,
+      "weather": "mixed",
+      "terrain": "Museo facoltativo con calendario proprio; nel parco resta sui percorsi aperti.|Optional museum with its own schedule; stay on open park paths.",
+      "stops": [
+        "torino-107",
+        "torino-108",
+        "torino-109"
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
+      "focus": "Accosta il MAcA al Parco Dora: osserva come scienza, strutture industriali e vegetazione possono diventare strumenti per leggere l’ambiente urbano.|Connect MAcA with Parco Dora: observe how science, industrial structures and vegetation help read the urban environment.",
+      "createdAt": "2026-10-16"
+    }
+  ],
+  "TOUR_STOPS": [
+    {
+      "id": "torino-101",
+      "legacyId": "Casa Fenoglio-Lafleur, esterni",
+      "t": "Casa Fenoglio-Lafleur, esterni|Casa Fenoglio-Lafleur, exterior",
+      "z": "Corso Francia 8|Corso Francia 8",
+      "d": "35 min|35 min",
+      "p": "Scegli una curva del ferro battuto e usala come motivo del tuo taccuino.|Choose one wrought-iron curve as the motif for your sketchbook.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/cit-turin-san-donato-e-campidoglio/"
+      },
+      "location": {
+        "area": "Corso Francia 8|Corso Francia 8",
+        "address": "Corso Francia 8",
+        "mapQuery": "Corso Francia 8, Torino"
+      },
+      "source": {
+        "url": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/cit-turin-san-donato-e-campidoglio/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/cit-turin-san-donato-e-campidoglio/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/cit-turin-san-donato-e-campidoglio/",
+        "verifiedAt": null
+      },
+      "sourceKey": "torinoliberty",
+      "verifiedFields": []
+    },
+    {
+      "id": "torino-102",
+      "legacyId": "Via Principi d’Acaja",
+      "t": "Via Principi d’Acaja|Via Principi d’Acaja",
+      "z": "Via Principi d’Acaja|Via Principi d’Acaja",
+      "d": "35 min|35 min",
+      "p": "Cerca la stessa curva trasformata in balcone, finestra o portone.|Look for the same curve transformed into a balcony, window or doorway.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/cit-turin-san-donato-e-campidoglio/"
+      },
+      "location": {
+        "area": "Via Principi d’Acaja|Via Principi d’Acaja",
+        "address": "Via Principi d’Acaja",
+        "mapQuery": "Via Principi d’Acaja, Torino"
+      },
+      "source": {
+        "url": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/cit-turin-san-donato-e-campidoglio/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/cit-turin-san-donato-e-campidoglio/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/cit-turin-san-donato-e-campidoglio/",
+        "verifiedAt": null
+      },
+      "sourceKey": "torinoliberty",
+      "verifiedFields": []
+    },
+    {
+      "id": "torino-103",
+      "legacyId": "Palazzo della Vittoria, esterni",
+      "t": "Palazzo della Vittoria, esterni|Palazzo della Vittoria, exterior",
+      "z": "Corso Francia 23|Corso Francia 23",
+      "d": "35 min|35 min",
+      "p": "Confronta il disegno delle facciate, senza entrare negli androni privati.|Compare façade designs without entering private entrance halls.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/cit-turin-san-donato-e-campidoglio/"
+      },
+      "location": {
+        "area": "Corso Francia 23|Corso Francia 23",
+        "address": "Corso Francia 23",
+        "mapQuery": "Corso Francia 23, Torino"
+      },
+      "source": {
+        "url": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/cit-turin-san-donato-e-campidoglio/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/cit-turin-san-donato-e-campidoglio/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/cit-turin-san-donato-e-campidoglio/",
+        "verifiedAt": null
+      },
+      "sourceKey": "torinoliberty",
+      "verifiedFields": []
+    },
+    {
+      "id": "torino-104",
+      "legacyId": "Ponte Mosca",
+      "t": "Ponte Mosca|Ponte Mosca",
+      "z": "Ponte Mosca|Ponte Mosca",
+      "d": "35 min|35 min",
+      "p": "Usa il fiume come filo del racconto e cerca le tracce dei diversi usi delle rive.|Use the river as the thread of the story and look for traces of changing riverbank uses.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/quadrilatero-porta-palazzo-borgo-dora-e-barriera"
+      },
+      "location": {
+        "area": "Ponte Mosca|Ponte Mosca",
+        "address": "Ponte Mosca",
+        "mapQuery": "Ponte Mosca, Torino"
+      },
+      "source": {
+        "url": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/quadrilatero-porta-palazzo-borgo-dora-e-barriera",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/quadrilatero-porta-palazzo-borgo-dora-e-barriera",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/quadrilatero-porta-palazzo-borgo-dora-e-barriera",
+        "verifiedAt": null
+      },
+      "sourceKey": "torinodora",
+      "verifiedFields": []
+    },
+    {
+      "id": "torino-105",
+      "legacyId": "Cortile del Maglio, ingresso esterno",
+      "t": "Cortile del Maglio, ingresso esterno|Cortile del Maglio, external approach",
+      "z": "Via Vittorio Andreis|Via Vittorio Andreis",
+      "d": "35 min|35 min",
+      "p": "Osserva gli spazi pubblicamente aperti; mercati e manifestazioni sono eventuali.|Observe publicly open spaces; markets and events are optional occurrences.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/quadrilatero-porta-palazzo-borgo-dora-e-barriera"
+      },
+      "location": {
+        "area": "Via Vittorio Andreis|Via Vittorio Andreis",
+        "address": "Via Vittorio Andreis",
+        "mapQuery": "Via Vittorio Andreis, Torino"
+      },
+      "source": {
+        "url": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/quadrilatero-porta-palazzo-borgo-dora-e-barriera",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/quadrilatero-porta-palazzo-borgo-dora-e-barriera",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/quadrilatero-porta-palazzo-borgo-dora-e-barriera",
+        "verifiedAt": null
+      },
+      "sourceKey": "torinodora",
+      "verifiedFields": []
+    },
+    {
+      "id": "torino-106",
+      "legacyId": "Docks Dora, esterni",
+      "t": "Docks Dora, esterni|Docks Dora, exterior",
+      "z": "Via Valprato 68|Via Valprato 68",
+      "d": "35 min|35 min",
+      "p": "Concludi leggendo la facciata come un archivio del lavoro, senza accedere alle attività private.|Finish by reading the façade as an archive of work, without entering private businesses.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/quadrilatero-porta-palazzo-borgo-dora-e-barriera"
+      },
+      "location": {
+        "area": "Via Valprato 68|Via Valprato 68",
+        "address": "Via Valprato 68",
+        "mapQuery": "Via Valprato 68, Torino"
+      },
+      "source": {
+        "url": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/quadrilatero-porta-palazzo-borgo-dora-e-barriera",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/quadrilatero-porta-palazzo-borgo-dora-e-barriera",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/quadrilatero-porta-palazzo-borgo-dora-e-barriera",
+        "verifiedAt": null
+      },
+      "sourceKey": "torinodora",
+      "verifiedFields": []
+    },
+    {
+      "id": "torino-107",
+      "legacyId": "MAcA, Museo A come Ambiente",
+      "t": "MAcA, Museo A come Ambiente|MAcA, environmental museum",
+      "z": "Corso Umbria 90|Corso Umbria 90",
+      "d": "35 min|35 min",
+      "p": "Aggiungi una visita al museo se aperto; scegli una domanda ambientale da portare nella passeggiata.|Add a museum visit if open; choose an environmental question to carry into the walk.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.acomeambiente.org/"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.acomeambiente.org/"
+      },
+      "location": {
+        "area": "Corso Umbria 90|Corso Umbria 90",
+        "address": "Corso Umbria 90",
+        "mapQuery": "Corso Umbria 90, Torino"
+      },
+      "source": {
+        "url": "https://www.acomeambiente.org/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.acomeambiente.org/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.acomeambiente.org/",
+        "verifiedAt": null
+      },
+      "sourceKey": "torinoambiente",
+      "verifiedFields": []
+    },
+    {
+      "id": "torino-108",
+      "legacyId": "Parco Dora, area di via Borgaro",
+      "t": "Parco Dora, area di via Borgaro|Parco Dora, Via Borgaro area",
+      "z": "Parco Dora Via Borgaro|Parco Dora Via Borgaro",
+      "d": "35 min|35 min",
+      "p": "Cerca dove le strutture industriali incontrano il verde; non salire sugli impianti.|Look for where industrial structures meet greenery; do not climb equipment.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/quadrilatero-porta-palazzo-borgo-dora-e-barriera"
+      },
+      "location": {
+        "area": "Parco Dora Via Borgaro|Parco Dora Via Borgaro",
+        "address": "Parco Dora Via Borgaro",
+        "mapQuery": "Parco Dora Via Borgaro, Torino"
+      },
+      "source": {
+        "url": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/quadrilatero-porta-palazzo-borgo-dora-e-barriera",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/quadrilatero-porta-palazzo-borgo-dora-e-barriera",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/quadrilatero-porta-palazzo-borgo-dora-e-barriera",
+        "verifiedAt": null
+      },
+      "sourceKey": "torinodora",
+      "verifiedFields": []
+    },
+    {
+      "id": "torino-109",
+      "legacyId": "Parco Dora, passerelle pubbliche",
+      "t": "Parco Dora, passerelle pubbliche|Parco Dora, public walkways",
+      "z": "Parco Dora Torino|Parco Dora Torino",
+      "d": "35 min|35 min",
+      "p": "Chiudi con un confronto di materiali e una pausa, senza presumere aperture di aree recintate.|Finish by comparing materials and taking a break, without assuming fenced areas are open.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/quadrilatero-porta-palazzo-borgo-dora-e-barriera"
+      },
+      "location": {
+        "area": "Parco Dora Torino|Parco Dora Torino",
+        "address": "Parco Dora Torino",
+        "mapQuery": "Parco Dora Torino, Torino"
+      },
+      "source": {
+        "url": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/quadrilatero-porta-palazzo-borgo-dora-e-barriera",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/quadrilatero-porta-palazzo-borgo-dora-e-barriera",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://turismotorino.org/en/visit/territory/torino-metropoli/torino/discover-the-disctricts-in-torino/quadrilatero-porta-palazzo-borgo-dora-e-barriera",
+        "verifiedAt": null
+      },
+      "sourceKey": "torinodora",
+      "verifiedFields": []
+    }
+  ],
+  "TRAVEL": {
+    "airportUrl": "https://www.aeroportoditorino.it/",
+    "weatherUrl": "https://www.meteoam.it/it/home",
+    "emergencyUrl": "https://digital-strategy.ec.europa.eu/en/policies/112",
+    "transportUrl": "https://www.gtt.to.it/",
+    "toiletsUrl": null,
+    "waterUrl": null,
+    "accessibilityUrl": "https://turismotorino.org/en/visit/plan-your-trip/accessible-tourism",
+    "checkedAt": "2026-10-16"
   }
 }

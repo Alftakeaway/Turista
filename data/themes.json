@@ -1,0 +1,90 @@
+{
+  "roma": {
+    "name": "Porfido e rosa",
+    "brand": "#9F1839",
+    "dark": "#71102B",
+    "paper": "#FFF4F6",
+    "surface": "#FFFCFD",
+    "border": "#E6C7D0",
+    "accent": "#654345",
+    "ink": "#331923",
+    "muted": "#66515A"
+  },
+  "napoli": {
+    "name": "Blu smaltato e tufo",
+    "brand": "#1752A0",
+    "dark": "#123C72",
+    "paper": "#F0F6FF",
+    "surface": "#FBFDFF",
+    "border": "#C6D9F0",
+    "accent": "#79580B",
+    "ink": "#182B48",
+    "muted": "#4D607B"
+  },
+  "milano": {
+    "name": "Grafite e segnaletica",
+    "brand": "#34434E",
+    "dark": "#202C35",
+    "paper": "#F1F4F6",
+    "surface": "#FCFDFE",
+    "border": "#C8D2DA",
+    "accent": "#526800",
+    "ink": "#1E2B33",
+    "muted": "#53636D"
+  },
+  "cagliari": {
+    "name": "Lentisco e saline",
+    "brand": "#006A50",
+    "dark": "#004D3A",
+    "paper": "#F0FAF5",
+    "surface": "#FCFFFD",
+    "border": "#BBDCCD",
+    "accent": "#7A405C",
+    "ink": "#153B30",
+    "muted": "#4B665C"
+  },
+  "torino": {
+    "name": "Velluto e ottone",
+    "brand": "#6A317C",
+    "dark": "#4C205C",
+    "paper": "#FAF2FF",
+    "surface": "#FEFCFF",
+    "border": "#DDC8E7",
+    "accent": "#70542B",
+    "ink": "#32203E",
+    "muted": "#68556F"
+  },
+  "firenze": {
+    "name": "Oro e pietra",
+    "brand": "#835700",
+    "dark": "#5F3E00",
+    "paper": "#FFF9E8",
+    "surface": "#FFFEF9",
+    "border": "#E6D7AA",
+    "accent": "#51482C",
+    "ink": "#342C16",
+    "muted": "#6A5E3F"
+  },
+  "venezia": {
+    "name": "Petrolio lagunare",
+    "brand": "#006477",
+    "dark": "#004858",
+    "paper": "#EDF9FC",
+    "surface": "#FAFEFF",
+    "border": "#B9DBE4",
+    "accent": "#5C475D",
+    "ink": "#16333D",
+    "muted": "#4B626A"
+  },
+  "palermo": {
+    "name": "Agrumi e maioliche",
+    "brand": "#A53208",
+    "dark": "#762404",
+    "paper": "#FFF2E9",
+    "surface": "#FFFCF9",
+    "border": "#EDCAB7",
+    "accent": "#61366B",
+    "ink": "#402519",
+    "muted": "#71574B"
+  }
+}

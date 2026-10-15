@@ -3,8 +3,9 @@ const { storageKey, pageTitle, TESTI, PROFILI, SOTTO, TIPI, ESPERIENZE, ITINERAR
 const params = new URLSearchParams(location.search);
 let LINGUA = params.get("lang") || GuideStorage.read(storageKey + "_lingua", "it");
 if (!["it", "en"].includes(LINGUA)) LINGUA = "it";
+const allItems = [...ESPERIENZE, ...(data.TOUR_STOPS || [])];
 const saved = GuideStorage.read(storageKey + "_preferiti", []);
-let preferiti = Array.isArray(saved) ? ESPERIENZE.filter(e => saved.some(f => f && (f.id === e.id || f.id === e.legacyId))).map(e => ({id:e.id,t:e.t,z:e.z,emo:FOTO[e.tags[0]].emo})) : [];
+let preferiti = Array.isArray(saved) ? allItems.filter(e => saved.some(f => f && (f.id === e.id || f.id === e.legacyId))).map(e => ({id:e.id,t:e.t,z:e.z,emo:FOTO[e.tags[0]].emo})) : [];
 let profiloAttivo = PROFILI.some(p => p.id === params.get("profile")) ? params.get("profile") : null;
 let sottoAttivo = SOTTO[profiloAttivo]?.some(s => s.id === params.get("category")) ? params.get("category") : null;
 let tipoAttivo = TIPI.some(t => t.id === params.get("type")) ? params.get("type") : null;
@@ -146,11 +147,12 @@ function render(){
     const salvato = preferiti.some(x => x.id === e.id);
     const etichetta = salvato ? TESTI.rimuovi : TESTI.salva;
     c.innerHTML = `
-      <div class="foto" style="background:${f.bg}">
+      <div class="foto" style="background:var(--sabbia)">
         ${url ? `<img src="${url}" alt="${tr(e.t)}">` : `<span aria-hidden="true">${f.emo}</span>`}
         <button class="fav${salvato ? " salvato" : ""}" data-id="${e.id}"
           title="${tr(etichetta)}" aria-label="${tr(etichetta)}">${salvato ? "★" : "☆"}</button>
       </div>
+      <span class="experience-kind">${tr(e.kind === "editorial" ? "Idea autonoma della redazione|Self-directed editorial idea" : "Luogo e fonti|Place and sources")}</span>
       <h3>${tr(e.t)}</h3>
       <div class="meta"><span>📍 ${tr(e.z)}</span><span>⏱️ ${tr(e.d)}</span></div>
       <div class="tags">${e.tags.map(t=>
@@ -201,7 +203,7 @@ function salvaStorage(){
   GuideStorage.write(storageKey + "_preferiti", preferiti);
 }
 function togglePref(id){
-  const e = ESPERIENZE.find(x => x.id === id);
+  const e = allItems.find(x => x.id === id);
   if(!e) return;
   const pos = preferiti.findIndex(f => f.id === id);
   const aggiunto = pos < 0;
@@ -259,8 +261,9 @@ function toast(msg){
 }
 
 const faq = GuideFAQ.create({answers: MARCO, quick: CHAT_QUICK, tr, sourceUrl: data.city.portal, texts: TESTI});
-const planner = GuidePlanner.create({items: ESPERIENZE, storageKey, tr, initial: params, changed: syncUrl});
+const planner = GuidePlanner.create({items: allItems, storageKey, tr, city:data.city.name, transportUrl:data.city.transportUrl, initial: params, changed: syncUrl});
 const catalogue = GuideCatalogue.create({items: ESPERIENZE, tr, initial: params, changed: render});
+const travel = GuideTravel.create({data, tr, planner});
 function syncUrl() {
   const url = new URL(location.href);
   for (const [key, value] of [["profile", profiloAttivo], ["category", sottoAttivo], ["type", tipoAttivo], ["lang", LINGUA]]) {
@@ -325,7 +328,7 @@ function applicaTesti(){
   document.getElementById("reset-filters").textContent = tr("Azzera filtri|Reset filters");
   document.querySelectorAll("[data-text]").forEach(node => { node.textContent = tr(node.dataset.text); });
   favPanel.setAttribute("aria-label", tr(TESTI.favTitolo));
-  catalogue.translate(); planner.render();
+  catalogue.translate(); planner.render(); travel.translate();
   if (GuideStorage.unavailable) GuideUI.storageWarning(tr);
 }
 function applicaTutto(){

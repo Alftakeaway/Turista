@@ -4,16 +4,16 @@
   "TESTI": {
     "nav1": "Profili|Profiles",
     "nav2": "Esperienze|Experiences",
-    "nav3": "Itinerario|Itinerary",
-    "nav4": "Info pratiche|Practical info",
-    "heroK": "Guida poliedrica · Napoli|The many-sided guide · Naples",
-    "heroH1": "Ogni viaggio è<br><em>un viaggio diverso</em>|Every trip is<br><em>a different trip</em>",
+    "nav3": "Tour originali|Original tours",
+    "nav4": "In viaggio|On the go",
+    "heroK": "Napoli|Naples",
+    "heroH1": "Segui le scale, cambia prospettiva|Follow the stairs, change perspective",
     "heroP": "Una città, otto viaggiatori: scegli il tuo profilo e la guida si adatta a te — dal golfo ai vicoli, un itinerario su misura.|One city, eight travellers: pick your profile and the guide adapts — from the gulf to the alleys, a tailor-made itinerary.",
-    "cta1": "Trova il tuo profilo ↓|Find your profile ↓",
-    "cta2": "Vedi tutte le esperienze|See all experiences",
+    "cta1": "Crea il tuo tour|Find your tour",
+    "cta2": "Esplora le esperienze|Explore experiences",
     "stat1": "profili di viaggiatore|traveller profiles",
     "stat2": "esperienze selezionate|curated experiences",
-    "stat3": "itinerari pronti|ready itineraries",
+    "stat3": "tour originali|original tours",
     "step1k": "Passo 1|Step 1",
     "step1h": "Che tipo di viaggiatore sei?|What kind of traveller are you?",
     "step1p": "Tocca un profilo: esperienze e itinerario si filtrano subito. Nessuna selezione = vedi tutto.|Tap a profile: experiences and itinerary filter instantly. No selection = see everything.",
@@ -32,7 +32,7 @@
     "info2p": "Controlla meteo, calendario degli eventi e condizioni dei percorsi per le date del viaggio. L’affluenza varia: nessuna fascia oraria garantisce assenza di code.|Check weather, event schedules and route conditions for your travel dates. Crowds vary: no time of day guarantees a queue-free visit.",
     "info3h": "🎟️ Prenotare|🎟️ Booking",
     "info3p": "Per musei, spettacoli, corsi e attività scegli prima una data e verifica disponibilità, tariffe e condizioni sul sito del gestore. Gli itinerari sono proposte, non prenotazioni.|For museums, performances, classes and activities, choose a date and check availability, prices and terms on the operator’s website. Itineraries are suggestions, not reservations.",
-    "footer": "<b>Napoli Poliedrica</b> — demo educativa · dati indicativi: verifica sempre orari e prezzi sui siti ufficiali|<b>Napoli Poliedrica</b> — educational demo · indicative data: always check official sources",
+    "footer": "<b>Napoli Poliedrica</b> — percorsi originali e fonti consultabili|<b>Naples Poliedrica</b> — original routes and consultable sources",
     "selProfilo": "Seleziona prima un profilo ↑|Select a profile first ↑",
     "tutteSotto": "Tutte le sotto-categorie|All subcategories",
     "tuttiTipi": "Tutti i tipi di locale|All venue types",
@@ -312,13 +312,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -340,10 +340,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.napolisotterranea.org/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Pompei ed Ercolano in treno|Pompeii & Herculaneum by train",
@@ -364,13 +374,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -392,10 +402,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://pompeiisites.org/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Museo Archeologico Nazionale|National Archaeological Museum",
@@ -416,13 +436,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -444,10 +464,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.museoarcheologiconapoli.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Cappella Sansevero e il Cristo Velato|Sansevero Chapel & the Veiled Christ",
@@ -467,19 +497,22 @@
         "kind": "estimate"
       },
       "cost": {
-        "amount": null,
+        "amount": 12,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
-        "verifiedAt": null
+        "kind": "paid",
+        "note": "Biglietto ordinario del Museo Cappella Sansevero; audioguida e altre opzioni separate.|Standard Sansevero Chapel Museum admission; audio guide and other options are separate.",
+        "verifiedAt": "2026-10-16",
+        "sourceUrl": "https://www.museosansevero.it/pianifica-la-visita/orari-e-tariffe",
+        "basis": "operator"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
-        "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
-        "verifiedAt": null
+        "text": "Orario ordinario 9–19; chiuso martedì; ultimo ingresso 30 minuti prima. Consulta le eccezioni del calendario.|Regular hours 9–19; closed Tuesdays; last entry 30 minutes earlier. Check calendar exceptions.",
+        "verifiedAt": "2026-10-16",
+        "sourceUrl": "https://www.museosansevero.it/pianifica-la-visita/orari-e-tariffe"
       },
       "location": {
         "area": "Centro storico|Historic centre",
@@ -497,10 +530,28 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.museosansevero.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        },
+        {
+          "url": "https://www.museosansevero.it/pianifica-la-visita/orari-e-tariffe",
+          "scope": "Tariffa del prodotto indicato|Price of the stated product",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": [
+        "cost",
+        "openingHours"
+      ]
     },
     {
       "t": "Certosa e Castel Sant'Elmo|Certosa & Castel Sant'Elmo",
@@ -510,7 +561,7 @@
         "cultura"
       ],
       "sub": "storia",
-      "p": "Museo nazionale alla Certosa e il castello con il migliore panorama sul golfo.|National museum in the Certosa and the castle with the finest gulf panorama.",
+      "p": "Due visite distinte sulla collina del Vomero: Certosa e Museo di San Martino e Castel Sant’Elmo. Controlla biglietti e accessi di ciascun complesso.|Two separate visits on Vomero hill: Certosa and Museum of San Martino, and Castel Sant’Elmo. Check each complex’s tickets and access.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "napoli-005",
       "legacyId": "Certosa e Castel Sant'Elmo",
@@ -521,13 +572,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -549,10 +600,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Spaccanapoli e i decumani|Spaccanapoli & the decumani",
@@ -574,13 +635,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -602,20 +663,30 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Castel dell'Ovo e Borgo Marinaro|Castel dell'Ovo & the Marinaro",
+      "t": "Borgo Marinari e Castel dell’Ovo, solo esterni|Borgo Marinari and Castel dell’Ovo, exteriors only",
       "z": "Santa Lucia|Santa Lucia",
       "d": "1,5 ore|1.5 hrs",
       "tags": [
         "cultura"
       ],
       "sub": "storia",
-      "p": "Il castello sul mare e la leggenda dell'uovo di Virgilio: finché regge l'uovo, regge Napoli.|The castle on the sea and the legend of Virgil's egg: as long as the egg holds, Naples holds.",
+      "p": "La passeggiata si svolge sul lungomare e al Borgo Marinari: non promette ingresso al castello, la cui apertura è stata oggetto di lavori e comunicazioni discordanti.|This walk covers the waterfront and Borgo Marinari: it does not promise castle admission, which has been subject to works and conflicting notices.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "napoli-007",
       "legacyId": "Castel dell'Ovo e Borgo Marinaro",
@@ -626,13 +697,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -645,7 +716,7 @@
       },
       "source": {
         "url": "https://napoliforme.comune.napoli.it/",
-        "scope": "city",
+        "scope": "place",
         "checkedAt": "2026-10-16"
       },
       "reviewedAt": "2026-10-16",
@@ -654,10 +725,28 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Identità e informazioni del luogo|Place identity and information",
+          "consultedAt": "2026-10-16"
+        },
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": [
+        "identity",
+        "description"
+      ]
     },
     {
       "t": "Mostra d'Oltremare e congressi|Mostra d'Oltremare congress centre",
@@ -678,13 +767,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -706,10 +795,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.mostradoltremare.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Aperitivo a Chiaia|Aperitivo in Chiaia",
@@ -731,13 +830,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -759,10 +858,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Bleisure: Sorrento e la costiera|Bleisure: Sorrento & the coast",
@@ -784,13 +893,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -812,10 +921,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "La via della pizza: Tribunali e Sanità|The pizza trail: Tribunali & Sanità",
@@ -838,13 +957,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -866,10 +985,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Da Michele: la margherita canonica|Da Michele: the canonical margherita",
@@ -891,13 +1020,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -919,10 +1048,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://damichele.net/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Pizza fritta e montanara|Fried pizza & montanara",
@@ -944,13 +1083,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -972,10 +1111,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Pesce e cucina del golfo a Mergellina|Gulf fish & seafood in Mergellina",
@@ -997,13 +1146,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1025,10 +1174,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Sfogliatella e babà|Sfogliatella & babà",
@@ -1050,13 +1209,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1078,10 +1237,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Caffè e sospeso allo Gambrinus|Coffee & the 'sospeso' at Gambrinus",
@@ -1104,13 +1273,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1132,10 +1301,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Mercato di Porta Nolana|Porta Nolana market",
@@ -1158,13 +1337,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1186,10 +1365,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Rosticceria: frittatina e crocchè|Rosticceria: frittatina & crocchè",
@@ -1211,13 +1400,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1239,13 +1428,23 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Cene stellate sul golfo|Starred dinners over the gulf",
+      "t": "Taccuino: menu e paesaggio|Notebook: menus and landscape",
       "z": "Chiaia / Posillipo|Chiaia / Posillipo",
       "d": "sera|evening",
       "tags": [
@@ -1254,8 +1453,8 @@
       ],
       "sub": "alta",
       "tipo": "ristorante",
-      "p": "La nuova Napoli creativa: chef che guardano al golfo e rivisitano la tradizione.|Creative new Naples: chefs who look at the gulf and reinvent tradition.",
-      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "p": "Proposta autonoma a Chiaia / Posillipo. Confronta tre menu esposti: annota un ingrediente ricorrente, una parola nuova e una differenza di prezzo. Eventuali consumazioni si scelgono e pagano separatamente. Nessun corso o servizio guidato incluso.|Self-directed idea in Chiaia / Posillipo. Compare three displayed menus: note a recurring ingredient, a new word and a price difference. Any food or drink is chosen and paid for separately. No class or guided service included.",
+      "tip": "Porta un taccuino; rispetta privacy, proprietà private e passaggio dei residenti.|Bring a notebook; respect privacy, private property and residents’ passage.",
       "id": "napoli-019",
       "legacyId": "Cene stellate sul golfo",
       "duration": {
@@ -1263,15 +1462,16 @@
         "kind": "variable"
       },
       "cost": {
-        "amount": null,
+        "amount": 0,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
-        "verifiedAt": null
+        "kind": "free",
+        "note": "Attività di osservazione creata dalla redazione, senza quota. Acquisti e servizi eventuali esclusi.|An editorial observation activity with no fee. Optional purchases and services are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1280,7 +1480,7 @@
       "location": {
         "area": "Chiaia / Posillipo|Chiaia / Posillipo",
         "address": null,
-        "mapQuery": "Cene stellate sul golfo, Napoli"
+        "mapQuery": "Chiaia, Napoli"
       },
       "source": {
         "url": "https://napoliforme.comune.napoli.it/",
@@ -1293,10 +1493,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Duomo e il Tesoro di San Gennaro|Cathedral & San Gennaro's Treasury",
@@ -1317,13 +1527,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1345,10 +1555,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Il chiostro maiolicato di Santa Chiara|The majolica cloister of Santa Chiara",
@@ -1370,13 +1590,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1398,10 +1618,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Gesù Nuovo, la facciata a diamante|Gesù Nuovo, the diamond façade",
@@ -1422,13 +1652,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1450,10 +1680,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Catacombe di San Gennaro|San Gennaro Catacombs",
@@ -1464,7 +1704,7 @@
         "cultura"
       ],
       "sub": "pellegrini",
-      "p": "La catacomba più grande del Sud: due livelli sotterranei e le più antiche immagini del santo.|Southern Italy's largest catacomb: two underground levels and the oldest images of the saint.",
+      "p": "Le Catacombe di San Gennaro offrono una visita al patrimonio sotterraneo del rione. Scegli il turno dal calendario del gestore.|The Catacombs of San Gennaro offer a visit to the neighbourhood’s underground heritage. Choose a slot from the operator’s calendar.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "napoli-023",
       "legacyId": "Catacombe di San Gennaro",
@@ -1475,13 +1715,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1503,10 +1743,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://catacombedinapoli.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Stufe di Nerone ai Campi Flegrei|Stufe di Nerone, Phlegraean Fields",
@@ -1527,13 +1777,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1555,10 +1805,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.stufedinerone.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Ischia terme in giornata|Ischia thermal day",
@@ -1579,13 +1839,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1607,10 +1867,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Parco Virgiliano, il golfo dall'alto|Virgiliano park, the gulf from above",
@@ -1632,13 +1902,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1660,10 +1930,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Stadio Diego Armando Maradona|Maradona Stadium",
@@ -1684,13 +1964,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1712,10 +1992,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://sscnapoli.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Murales di Maradona nei Quartieri|Maradona murals in the Quarters",
@@ -1737,13 +2027,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1765,10 +2055,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Grandi eventi a Piazza del Plebiscito|Major events at Piazza del Plebiscito",
@@ -1789,13 +2089,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1817,10 +2117,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Napoli City Half Marathon|Naples City Half Marathon",
@@ -1841,13 +2151,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1869,10 +2179,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Lungomare Caracciolo a piedi|The Caracciolo seafront on foot",
@@ -1893,13 +2213,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1921,10 +2241,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Quartieri Spagnoli senza fretta|Spanish Quarters, no hurry",
@@ -1946,13 +2276,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1974,13 +2304,23 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Rione Sanità e le Fontanelle|Sanità district & the Fontanelle",
+      "t": "Rione Sanità e Fontanelle, notizia di riapertura|Rione Sanità and Fontanelle, reopening notice",
       "z": "Sanità|Sanità",
       "d": "3 ore|3 hrs",
       "tags": [
@@ -1988,7 +2328,7 @@
         "cultura"
       ],
       "sub": "quartieri",
-      "p": "Il rione della vera Napoli: basilica, porte borboniche e l'ossario delle anime pezzentelle.|The district of true Naples: basilica, Bourbon gates and the ossuary of the 'pezzentelle' souls.",
+      "p": "Il comunicato comunale dell’8 aprile 2026 annuncia la riapertura delle Fontanelle il 18 aprile. Sostituisce la vecchia indicazione di chiusura nella scheda turistica; le modalità della visita restano legate al programma corrente.|The municipal notice of 8 April 2026 announces the Fontanelle reopening on 18 April. It supersedes the old tourism-page closure notice; visit arrangements still follow the current programme.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "napoli-033",
       "legacyId": "Rione Sanità e le Fontanelle",
@@ -1999,13 +2339,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2013,12 +2353,12 @@
       },
       "location": {
         "area": "Sanità|Sanità",
-        "address": null,
-        "mapQuery": "Rione Sanità e le Fontanelle, Napoli"
+        "address": "Via Fontanelle 80",
+        "mapQuery": "Via Fontanelle 80, Napoli"
       },
       "source": {
-        "url": "https://napoliforme.comune.napoli.it/",
-        "scope": "city",
+        "url": "https://static-www.comune.napoli.it/wp-content/uploads/2026/04/CS_Il-Cimitero-delle-Fontanelle-apre-alla-citta_-1.pdf",
+        "scope": "place",
         "checkedAt": "2026-10-16"
       },
       "reviewedAt": "2026-10-16",
@@ -2027,10 +2367,29 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://static-www.comune.napoli.it/wp-content/uploads/2026/04/CS_Il-Cimitero-delle-Fontanelle-apre-alla-citta_-1.pdf",
+          "scope": "Identità e informazioni del luogo|Place identity and information",
+          "consultedAt": "2026-10-16"
+        },
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": [
+        "identity",
+        "description",
+        "address"
+      ]
     },
     {
       "t": "Borgo di Santa Lucia|The Santa Lucia village",
@@ -2051,13 +2410,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2079,13 +2438,23 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Corso di pizza napoletana|Neapolitan pizza class",
+      "t": "Taccuino: la pizza raccontata dai menu|Notebook: pizza through menus",
       "z": "Centro storico|Historic centre",
       "d": "3 ore|3 hrs",
       "tags": [
@@ -2093,8 +2462,8 @@
         "food"
       ],
       "sub": "cucina",
-      "p": "Impastare, stendere e infornare nel forno a legna: la pizza si impara con le mani.|Knead, stretch and bake in the wood-fired oven: pizza is learned by hand.",
-      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "p": "Proposta autonoma a Centro storico. Confronta tre menu esposti: annota un ingrediente ricorrente, una parola nuova e una differenza di prezzo. Eventuali consumazioni si scelgono e pagano separatamente. Nessun corso o servizio guidato incluso.|Self-directed idea in Historic centre. Compare three displayed menus: note a recurring ingredient, a new word and a price difference. Any food or drink is chosen and paid for separately. No class or guided service included.",
+      "tip": "Porta un taccuino; rispetta privacy, proprietà private e passaggio dei residenti.|Bring a notebook; respect privacy, private property and residents’ passage.",
       "id": "napoli-035",
       "legacyId": "Corso di pizza napoletana",
       "duration": {
@@ -2102,15 +2471,16 @@
         "kind": "estimate"
       },
       "cost": {
-        "amount": null,
+        "amount": 0,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
-        "verifiedAt": null
+        "kind": "free",
+        "note": "Attività di osservazione creata dalla redazione, senza quota. Acquisti e servizi eventuali esclusi.|An editorial observation activity with no fee. Optional purchases and services are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2119,7 +2489,7 @@
       "location": {
         "area": "Centro storico|Historic centre",
         "address": null,
-        "mapQuery": "Corso di pizza napoletana, Napoli"
+        "mapQuery": "Centro storico, Napoli"
       },
       "source": {
         "url": "https://napoliforme.comune.napoli.it/",
@@ -2132,13 +2502,23 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Presepe: laboratorio a San Gregorio Armeno|Nativity: workshop on San Gregorio Armeno",
+      "t": "Taccuino: figure di San Gregorio Armeno|Notebook: figures of San Gregorio Armeno",
       "z": "Centro storico|Historic centre",
       "d": "2 ore|2 hrs",
       "tags": [
@@ -2146,8 +2526,8 @@
         "cultura"
       ],
       "sub": "artigianato",
-      "p": "La via dei presepi: maestri che modellano pastori a mano come da quattro secoli.|The street of nativities: masters hand-modelling figures as they have for four centuries.",
-      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "p": "Proposta autonoma a Centro storico. Scegli tre forme o materiali visibili nelle vetrine e negli spazi pubblici; disegnali e confronta i dettagli. Chiedi il permesso prima di fotografare dentro una bottega. Nessun corso o servizio guidato incluso.|Self-directed idea in Historic centre. Choose three shapes or materials visible in shop windows and public spaces; sketch and compare their details. Ask permission before photographing inside a workshop. No class or guided service included.",
+      "tip": "Porta un taccuino; rispetta privacy, proprietà private e passaggio dei residenti.|Bring a notebook; respect privacy, private property and residents’ passage.",
       "id": "napoli-036",
       "legacyId": "Presepe: laboratorio a San Gregorio Armeno",
       "duration": {
@@ -2155,15 +2535,16 @@
         "kind": "estimate"
       },
       "cost": {
-        "amount": null,
+        "amount": 0,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
-        "verifiedAt": null
+        "kind": "free",
+        "note": "Attività di osservazione creata dalla redazione, senza quota. Acquisti e servizi eventuali esclusi.|An editorial observation activity with no fee. Optional purchases and services are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2172,7 +2553,7 @@
       "location": {
         "area": "Centro storico|Historic centre",
         "address": null,
-        "mapQuery": "Presepe: laboratorio a San Gregorio Armeno, Napoli"
+        "mapQuery": "Centro storico, Napoli"
       },
       "source": {
         "url": "https://napoliforme.comune.napoli.it/",
@@ -2185,10 +2566,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Tour con l'archeologo a Pompei|Archaeologist tour at Pompeii",
@@ -2210,13 +2601,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2238,10 +2629,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://napoliforme.comune.napoli.it/",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://pompeiisites.org/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     }
   ],
   "ITINERARI": {
@@ -2677,5 +3078,673 @@
     "accessibilityUrl": "https://napoliforme.comune.napoli.it/",
     "transportUrl": "https://www.anm.it/",
     "sourceReviewedAt": "2026-10-16"
+  },
+  "TOURS": [
+    {
+      "id": "napoli-tour-1",
+      "title": "La città in discesa: un atlante di soglie|The descending city: an atlas of thresholds",
+      "mood": "architecture",
+      "minutes": 150,
+      "weather": "outdoor",
+      "terrain": "Molte scale e dislivelli: non è un itinerario senza gradini. Evitalo su fondo bagnato.|Many steps and slopes: this is not a step-free route. Avoid it on wet surfaces.",
+      "stops": [
+        "napoli-101",
+        "napoli-102",
+        "napoli-103"
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
+      "focus": "Scendi a piedi seguendo scale e cambi di quota: a ogni sosta scegli una soglia, un suono e una vista. Il percorso richiede mobilità sulle scale e fondo asciutto.|Walk downhill following stairs and changes in elevation: at each stop choose a threshold, a sound and a view. This route requires stair mobility and dry surfaces.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "napoli-tour-2",
+      "title": "Sanità: scale, memoria e luce|Sanità: stairs, memory and light",
+      "mood": "memory",
+      "minutes": 180,
+      "weather": "mixed",
+      "terrain": "Interiors su prenotazione o biglietto secondo il gestore; le abitazioni restano private.|Interiors follow operator booking and ticket rules; homes remain private.",
+      "stops": [
+        "napoli-104",
+        "napoli-105",
+        "napoli-106"
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
+      "focus": "Confronta i diversi modi di custodire la memoria nella Sanità, fra vicoli, Fontanelle e catacombe. Gli ingressi interni sono opzioni da organizzare separatamente.|Compare ways of preserving memory in the Sanità, among lanes, Fontanelle and catacombs. Indoor admissions are optional and arranged separately.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "napoli-tour-3",
+      "title": "Mare senza biglietto: leggere la riva|Sea without a ticket: reading the waterfront",
+      "mood": "nature",
+      "minutes": 120,
+      "weather": "outdoor",
+      "terrain": "Solo spazi pubblici: non prevede ingresso a Castel dell’Ovo né una gita in barca.|Public spaces only: it includes neither entry to Castel dell’Ovo nor a boat trip.",
+      "stops": [
+        "napoli-107",
+        "napoli-108",
+        "napoli-109"
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
+      "focus": "Leggi la riva come spazio pubblico: osserva il passaggio fra giardino, passeggiata e castello dal mare. Nessun ingresso al castello è incluso.|Read the waterfront as public space: observe the transition from garden to promenade and castle seen from the sea. No castle admission is included.",
+      "createdAt": "2026-10-16"
+    }
+  ],
+  "TOUR_STOPS": [
+    {
+      "id": "napoli-101",
+      "legacyId": "Piazzale San Martino",
+      "t": "Piazzale San Martino|Piazzale San Martino",
+      "z": "Piazzale San Martino|Piazzale San Martino",
+      "d": "35 min|35 min",
+      "p": "Prima di scendere scegli tre punti del panorama da ritrovare più in basso.|Before descending, choose three landmarks to spot again further down.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://static-www.comune.napoli.it/wp-content/uploads/2025/05/PUMS_obiettivi_strategici_e_interventi.pdf"
+      },
+      "location": {
+        "area": "Piazzale San Martino|Piazzale San Martino",
+        "address": "Piazzale San Martino",
+        "mapQuery": "Piazzale San Martino, Napoli"
+      },
+      "source": {
+        "url": "https://static-www.comune.napoli.it/wp-content/uploads/2025/05/PUMS_obiettivi_strategici_e_interventi.pdf",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://static-www.comune.napoli.it/wp-content/uploads/2025/05/PUMS_obiettivi_strategici_e_interventi.pdf",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://static-www.comune.napoli.it/wp-content/uploads/2025/05/PUMS_obiettivi_strategici_e_interventi.pdf",
+        "verifiedAt": null
+      },
+      "sourceKey": "napolistairs",
+      "verifiedFields": []
+    },
+    {
+      "id": "napoli-102",
+      "legacyId": "Pedamentina di San Martino",
+      "t": "Pedamentina di San Martino|San Martino Pedamentina",
+      "z": "Pedamentina San Martino|Pedamentina San Martino",
+      "d": "35 min|35 min",
+      "p": "Conta i cambi di prospettiva, non i gradini; lascia libero il passaggio ai residenti.|Count changes of viewpoint rather than steps; keep the route clear for residents.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://static-www.comune.napoli.it/wp-content/uploads/2025/05/PUMS_obiettivi_strategici_e_interventi.pdf"
+      },
+      "location": {
+        "area": "Pedamentina San Martino|Pedamentina San Martino",
+        "address": "Pedamentina San Martino",
+        "mapQuery": "Pedamentina San Martino, Napoli"
+      },
+      "source": {
+        "url": "https://static-www.comune.napoli.it/wp-content/uploads/2025/05/PUMS_obiettivi_strategici_e_interventi.pdf",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://static-www.comune.napoli.it/wp-content/uploads/2025/05/PUMS_obiettivi_strategici_e_interventi.pdf",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://static-www.comune.napoli.it/wp-content/uploads/2025/05/PUMS_obiettivi_strategici_e_interventi.pdf",
+        "verifiedAt": null
+      },
+      "sourceKey": "napolistairs",
+      "verifiedFields": []
+    },
+    {
+      "id": "napoli-103",
+      "legacyId": "Montesanto e Pignasecca",
+      "t": "Montesanto e Pignasecca|Montesanto and Pignasecca",
+      "z": "Piazza Montesanto|Piazza Montesanto",
+      "d": "35 min|35 min",
+      "p": "Concludi con una mappa sonora dei banchi e dei mezzi pubblici; niente riprese delle persone senza consenso.|Finish with a sound map of stalls and public transport; do not film people without consent.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://static-www.comune.napoli.it/wp-content/uploads/2025/05/PUMS_obiettivi_strategici_e_interventi.pdf"
+      },
+      "location": {
+        "area": "Piazza Montesanto|Piazza Montesanto",
+        "address": "Piazza Montesanto",
+        "mapQuery": "Piazza Montesanto, Napoli"
+      },
+      "source": {
+        "url": "https://static-www.comune.napoli.it/wp-content/uploads/2025/05/PUMS_obiettivi_strategici_e_interventi.pdf",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://static-www.comune.napoli.it/wp-content/uploads/2025/05/PUMS_obiettivi_strategici_e_interventi.pdf",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://static-www.comune.napoli.it/wp-content/uploads/2025/05/PUMS_obiettivi_strategici_e_interventi.pdf",
+        "verifiedAt": null
+      },
+      "sourceKey": "napolistairs",
+      "verifiedFields": []
+    },
+    {
+      "id": "napoli-104",
+      "legacyId": "Palazzo dello Spagnolo, esterni",
+      "t": "Palazzo dello Spagnolo, esterni|Palazzo dello Spagnolo, exterior",
+      "z": "Via Vergini|Via Vergini",
+      "d": "35 min|35 min",
+      "p": "Osserva da spazio pubblico il rapporto fra ingresso e cortile, senza entrare nei condomìni.|Observe the relationship between entrance and courtyard from public space, without entering residences.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://static-www.comune.napoli.it/wp-content/uploads/2025/06/IC_Russo_Montale___Itinerario_Quartiere_Sanit__.pdf"
+      },
+      "location": {
+        "area": "Via Vergini|Via Vergini",
+        "address": "Via Vergini",
+        "mapQuery": "Via Vergini, Napoli"
+      },
+      "source": {
+        "url": "https://static-www.comune.napoli.it/wp-content/uploads/2025/06/IC_Russo_Montale___Itinerario_Quartiere_Sanit__.pdf",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://static-www.comune.napoli.it/wp-content/uploads/2025/06/IC_Russo_Montale___Itinerario_Quartiere_Sanit__.pdf",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://static-www.comune.napoli.it/wp-content/uploads/2025/06/IC_Russo_Montale___Itinerario_Quartiere_Sanit__.pdf",
+        "verifiedAt": null
+      },
+      "sourceKey": "napolisanita",
+      "verifiedFields": []
+    },
+    {
+      "id": "napoli-105",
+      "legacyId": "Cimitero delle Fontanelle",
+      "t": "Cimitero delle Fontanelle|Fontanelle Cemetery",
+      "z": "Via Fontanelle 80|Via Fontanelle 80",
+      "d": "35 min|35 min",
+      "p": "Leggi la storia del recupero: confronta il luogo con la notizia comunale di riapertura del 18 aprile 2026.|Read about the restoration and compare the place with the municipal reopening notice of 18 April 2026.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://static-www.comune.napoli.it/wp-content/uploads/2026/04/CS_Il-Cimitero-delle-Fontanelle-apre-alla-citta_-1.pdf"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://static-www.comune.napoli.it/wp-content/uploads/2026/04/CS_Il-Cimitero-delle-Fontanelle-apre-alla-citta_-1.pdf"
+      },
+      "location": {
+        "area": "Via Fontanelle 80|Via Fontanelle 80",
+        "address": "Via Fontanelle 80",
+        "mapQuery": "Via Fontanelle 80, Napoli"
+      },
+      "source": {
+        "url": "https://static-www.comune.napoli.it/wp-content/uploads/2026/04/CS_Il-Cimitero-delle-Fontanelle-apre-alla-citta_-1.pdf",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://static-www.comune.napoli.it/wp-content/uploads/2026/04/CS_Il-Cimitero-delle-Fontanelle-apre-alla-citta_-1.pdf",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://static-www.comune.napoli.it/wp-content/uploads/2026/04/CS_Il-Cimitero-delle-Fontanelle-apre-alla-citta_-1.pdf",
+        "verifiedAt": null
+      },
+      "sourceKey": "napolifontanelle",
+      "verifiedFields": []
+    },
+    {
+      "id": "napoli-106",
+      "legacyId": "Santa Maria della Sanità e San Gaudioso",
+      "t": "Santa Maria della Sanità e San Gaudioso|Santa Maria della Sanità and San Gaudioso",
+      "z": "Piazza Sanità|Piazza Sanità",
+      "d": "35 min|35 min",
+      "p": "Scegli fra osservazione della piazza e visita organizzata alle catacombe, verificando separatamente gli accessi.|Choose between observing the square and an organised catacomb visit, checking access separately.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://catacombedinapoli.it/it/luoghi/catacombe-di-san-gaudioso-napoli/"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://catacombedinapoli.it/it/luoghi/catacombe-di-san-gaudioso-napoli/"
+      },
+      "location": {
+        "area": "Piazza Sanità|Piazza Sanità",
+        "address": "Piazza Sanità",
+        "mapQuery": "Piazza Sanità, Napoli"
+      },
+      "source": {
+        "url": "https://catacombedinapoli.it/it/luoghi/catacombe-di-san-gaudioso-napoli/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://catacombedinapoli.it/it/luoghi/catacombe-di-san-gaudioso-napoli/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://catacombedinapoli.it/it/luoghi/catacombe-di-san-gaudioso-napoli/",
+        "verifiedAt": null
+      },
+      "sourceKey": "napolicatacombe",
+      "verifiedFields": []
+    },
+    {
+      "id": "napoli-107",
+      "legacyId": "Borgo Marinari, esterni",
+      "t": "Borgo Marinari, esterni|Borgo Marinari, exterior",
+      "z": "Borgo Marinari|Borgo Marinari",
+      "d": "35 min|35 min",
+      "p": "Cerca i diversi modi in cui la città tocca l’acqua, senza presumere l’apertura del castello.|Look for different ways the city meets the water, without assuming the castle is open.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://static-www.comune.napoli.it/wp-content/uploads/2025/06/Impaginato_Italiano_small.pdf?mode=download"
+      },
+      "location": {
+        "area": "Borgo Marinari|Borgo Marinari",
+        "address": "Borgo Marinari",
+        "mapQuery": "Borgo Marinari, Napoli"
+      },
+      "source": {
+        "url": "https://static-www.comune.napoli.it/wp-content/uploads/2025/06/Impaginato_Italiano_small.pdf?mode=download",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://static-www.comune.napoli.it/wp-content/uploads/2025/06/Impaginato_Italiano_small.pdf?mode=download",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://static-www.comune.napoli.it/wp-content/uploads/2025/06/Impaginato_Italiano_small.pdf?mode=download",
+        "verifiedAt": null
+      },
+      "sourceKey": "napoliwater",
+      "verifiedFields": []
+    },
+    {
+      "id": "napoli-108",
+      "legacyId": "Lungomare e Piazza Vittoria",
+      "t": "Lungomare e Piazza Vittoria|Waterfront and Piazza Vittoria",
+      "z": "Piazza Vittoria|Piazza Vittoria",
+      "d": "35 min|35 min",
+      "p": "Fai una pausa e disegna una linea che separi spazi di passeggio e traffico.|Pause and draw the line separating walking space from traffic.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://static-www.comune.napoli.it/wp-content/uploads/2025/06/Impaginato_Italiano_small.pdf?mode=download"
+      },
+      "location": {
+        "area": "Piazza Vittoria|Piazza Vittoria",
+        "address": "Piazza Vittoria",
+        "mapQuery": "Piazza Vittoria, Napoli"
+      },
+      "source": {
+        "url": "https://static-www.comune.napoli.it/wp-content/uploads/2025/06/Impaginato_Italiano_small.pdf?mode=download",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://static-www.comune.napoli.it/wp-content/uploads/2025/06/Impaginato_Italiano_small.pdf?mode=download",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://static-www.comune.napoli.it/wp-content/uploads/2025/06/Impaginato_Italiano_small.pdf?mode=download",
+        "verifiedAt": null
+      },
+      "sourceKey": "napoliwater",
+      "verifiedFields": []
+    },
+    {
+      "id": "napoli-109",
+      "legacyId": "Villa Comunale",
+      "t": "Villa Comunale|Villa Comunale",
+      "z": "Piazza Vittoria|Piazza Vittoria",
+      "d": "35 min|35 min",
+      "p": "Chiudi con una ricerca di ombra e panchine, usando solo gli ingressi aperti del parco.|Finish by looking for shade and benches, using only open park entrances.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://napoliforme.comune.napoli.it/en/pois/-/poi/Villa-Comunale"
+      },
+      "location": {
+        "area": "Piazza Vittoria|Piazza Vittoria",
+        "address": "Piazza Vittoria",
+        "mapQuery": "Piazza Vittoria, Napoli"
+      },
+      "source": {
+        "url": "https://napoliforme.comune.napoli.it/en/pois/-/poi/Villa-Comunale",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://napoliforme.comune.napoli.it/en/pois/-/poi/Villa-Comunale",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://napoliforme.comune.napoli.it/en/pois/-/poi/Villa-Comunale",
+        "verifiedAt": null
+      },
+      "sourceKey": "napolivilla",
+      "verifiedFields": []
+    }
+  ],
+  "TRAVEL": {
+    "airportUrl": "https://www.aeroportodinapoli.it/",
+    "weatherUrl": "https://www.meteoam.it/it/home",
+    "emergencyUrl": "https://digital-strategy.ec.europa.eu/en/policies/112",
+    "transportUrl": "https://www.anm.it/",
+    "toiletsUrl": null,
+    "waterUrl": null,
+    "accessibilityUrl": "https://napoliforme.comune.napoli.it/",
+    "checkedAt": "2026-10-16"
   }
 }

@@ -5,11 +5,11 @@
       const controls = Object.fromEntries(['search', 'duration', 'budget', 'area'].map(key => [key, document.getElementById('filter-' + key)]));
       const labels = {
         search: 'Cerca esperienze|Search experiences', duration: 'Durata indicativa|Estimated duration',
-        budget: 'Costo documentato|Documented cost', area: 'Zona|Area'
+        budget: 'Costo e formula|Cost and format', area: 'Zona|Area'
       };
       const options = {
         duration: [['', 'Qualsiasi durata|Any duration'], ['120', 'Fino a 2 ore|Up to 2 hours'], ['240', 'Fino a mezza giornata|Up to half a day'], ['480', 'Fino a un giorno|Up to one day'], ['unknown', 'Durata variabile|Variable duration']],
-        budget: [['', 'Qualsiasi costo|Any cost'], ['free', 'Ingresso gratuito documentato|Documented free admission'], ['paid', 'A pagamento documentato|Documented paid admission'], ['unknown', 'Costo da verificare|Cost to check']],
+        budget: [['', 'Qualsiasi costo|Any cost'], ['free', 'Gratuito / percorso esterno|Free / outdoor route'], ['paid', 'Biglietto a pagamento|Paid admission'], ['variable', 'Costo variabile|Variable cost']],
         area: [['', 'Tutte le zone|All areas'], ...[...new Set(items.map(e => e.z))].map(area => [area.split('|')[0], area])]
       };
       Object.entries(controls).forEach(([key, control]) => {

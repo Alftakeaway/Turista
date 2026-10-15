@@ -5,13 +5,13 @@
  "type":"object",
  "required":["id","legacyId","t","z","d","p","tip","tags","duration","cost","booking","openingHours","location","source","accessibility","reviewedAt","verifiedAt"],
  "properties":{
-  "id":{"type":"string","pattern":"^(roma|napoli|milano|cagliari|torino|firenze|venezia)-[0-9]{3}$"},
+  "id":{"type":"string","pattern":"^(roma|napoli|milano|cagliari|torino|firenze|venezia|palermo)-[0-9]{3}$"},
   "legacyId":{"type":"string"},
   "t":{"$ref":"#/$defs/bilingual"},"z":{"$ref":"#/$defs/bilingual"},"d":{"$ref":"#/$defs/bilingual"},"p":{"$ref":"#/$defs/bilingual"},"tip":{"$ref":"#/$defs/bilingual"},
   "tags":{"type":"array","minItems":1,"items":{"type":"string"}},
   "duration":{"type":"object","required":["minutes","kind"],"properties":{"minutes":{"type":["integer","null"],"minimum":1},"kind":{"enum":["estimate","variable"]}}},
-  "cost":{"type":"object","required":["amount","kind","currency","note","verifiedAt"],"properties":{"amount":{"type":["number","null"],"minimum":0},"kind":{"enum":["unknown","free","paid"]},"currency":{"const":"EUR"},"note":{"$ref":"#/$defs/bilingual"},"verifiedAt":{"type":["string","null"],"format":"date"},"sourceUrl":{"type":"string","format":"uri"}}},
-  "source":{"type":"object","required":["url","scope","checkedAt"],"properties":{"url":{"type":"string","format":"uri"},"scope":{"enum":["operator","city"]},"checkedAt":{"type":["string","null"],"format":"date"}}},
+  "cost":{"type":"object","required":["amount","kind","currency","note","verifiedAt"],"properties":{"amount":{"type":["number","null"],"minimum":0},"kind":{"enum":["variable","free","paid"]},"currency":{"const":"EUR"},"note":{"$ref":"#/$defs/bilingual"},"verifiedAt":{"type":["string","null"],"format":"date"},"sourceUrl":{"type":"string","format":"uri"}}},
+  "source":{"type":"object","required":["url","scope","checkedAt"],"properties":{"url":{"type":"string","format":"uri"},"scope":{"enum":["operator","city","place"]},"checkedAt":{"type":["string","null"],"format":"date"}}},
   "accessibility":{"type":"object","required":["stepFree","accessibleToilets","difficulty","notes","sourceUrl","verifiedAt"],"properties":{"stepFree":{"type":["boolean","null"]},"accessibleToilets":{"type":["boolean","null"]},"difficulty":{"type":["string","null"]},"notes":{"$ref":"#/$defs/bilingual"},"sourceUrl":{"type":"string","format":"uri"},"verifiedAt":{"type":["string","null"],"format":"date"}}},
   "reviewedAt":{"type":"string","format":"date"},"verifiedAt":{"type":["string","null"],"format":"date"}
  },

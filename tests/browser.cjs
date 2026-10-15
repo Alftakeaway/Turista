@@ -17,7 +17,7 @@ const server=http.createServer((request,response)=>{
  page.on('pageerror',e=>errors.push(e.message));
  page.on('response',r=>{if(r.status()>=400&&r.url().startsWith(base))errors.push(r.status()+' '+r.url());});
  try{
- const expected={roma:36,napoli:37,milano:38,cagliari:37,torino:36,firenze:38,venezia:38};
+ const expected=Object.fromEntries(fs.readdirSync(path.resolve(__dirname,'../data/cities')).map(file=>{const data=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../data/cities',file)));return[data.city.id,data.ESPERIENZE.length];}));
  for(const [city,count] of Object.entries(expected)){
   await page.goto(base+'/'+city+'.html');await page.waitForFunction(()=>window.guideReady);
   assert.equal(await page.locator('#gridEsperienze article').count(),count);
@@ -26,7 +26,7 @@ const server=http.createServer((request,response)=>{
   for(let i=0;i<8;i++){await chips.nth(i).click();assert(await page.locator('.timeline .step').count()>0);const values=await page.locator('#sottoSelect option').evaluateAll(options=>options.map(o=>o.value));for(const value of values)await page.locator('#sottoSelect').selectOption(value);await chips.nth(i).click();}
   await page.locator('#filter-search').fill('zzzz-no-result');assert.equal(await page.locator('#gridEsperienze article').count(),0);
   await page.locator('#reset-filters').click();assert.equal(await page.locator('#gridEsperienze article').count(),count);
-  await page.locator('#filter-duration').selectOption('120');assert(await page.locator('#gridEsperienze article').count()<count);await page.reload();await page.waitForFunction(()=>window.guideReady);assert.equal(await page.locator('#filter-duration').inputValue(),'120');
+  await page.locator('#filter-duration').selectOption('120');assert.equal(await page.locator('#gridEsperienze article').count(),JSON.parse(fs.readFileSync(path.resolve(__dirname,'../data/cities',city+'.json'))).ESPERIENZE.filter(item=>item.duration.minutes!==null&&item.duration.minutes<=120).length);await page.reload();await page.waitForFunction(()=>window.guideReady);assert.equal(await page.locator('#filter-duration').inputValue(),'120');
   await page.locator('#reset-filters').click();
   await page.locator('.fav').first().click();await page.locator('[data-add-plan]').first().click();await page.locator('[data-add-plan]').nth(1).click();
   assert.equal(await page.locator('#personal-plan li').count(),2);
@@ -44,7 +44,35 @@ const server=http.createServer((request,response)=>{
   await page.emulateMedia({media:'print'});assert.equal(await page.locator('#personal-plan').isVisible(),true);assert.equal(await page.locator('#detail-content').isVisible(),false);await page.emulateMedia({media:'screen'});
   console.log(city+': filters, 8 profiles, favourites, planner, share, FAQ, detail, languages and four viewports OK');
  }
- await page.goto(base+'/index.html?lang=en');await page.waitForFunction(()=>window.guideReady);assert.equal(await page.locator('html').getAttribute('lang'),'en');assert.equal(await page.locator('a[data-city-link]').count(),7);
+ const palette=new Set();
+ for(const city of Object.keys(expected)){
+  const travelContext=await browser.newContext({acceptDownloads:true});
+  await travelContext.addInitScript(()=>{window.geoCalls=0;Object.defineProperty(navigator,'geolocation',{value:{getCurrentPosition(success,failure){window.geoCalls++;failure({code:1});}}});});
+  const travel=await travelContext.newPage();travel.on('pageerror',e=>errors.push(e.message));
+  await travel.goto(base+'/'+city+'.html');await travel.waitForFunction(()=>window.guideReady);
+  palette.add(await travel.evaluate(()=>getComputedStyle(document.body).getPropertyValue('--terra').trim()));
+  assert.equal(await travel.locator('.tour-card').count(),3);
+  for(let i=0;i<3;i++){
+   await travel.locator('[data-tour-add]').nth(i).click();assert.equal(await travel.locator('#personal-plan li').count(),3);
+   await travel.locator('[data-tour-add]').nth(i).click();assert.equal(await travel.locator('#personal-plan li').count(),3);
+   while(await travel.locator('[data-plan="remove"]').count())await travel.locator('[data-plan="remove"]').first().click();
+  }
+  await travel.locator('#tour-time').selectOption('90');
+  assert(await travel.locator('#tour-results [role="status"]').first().textContent());
+  await travel.reload();await travel.waitForFunction(()=>window.guideReady);assert.equal(await travel.locator('#tour-time').inputValue(),'90');
+  await travel.locator('#tour-reset').click();assert.equal(await travel.locator('.tour-card').count(),3);
+  await travel.locator('[data-tour-add]').first().click();await travel.locator('#trip-date').fill('2028-02-29');await travel.locator('#trip-date').dispatchEvent('change');
+  async function download(button){const pending=travel.waitForEvent('download');await travel.locator(button).click();const file=await pending;const stream=await file.createReadStream();const chunks=[];for await(const chunk of stream)chunks.push(chunk);return Buffer.concat(chunks).toString('utf8');}
+  const calendar=await download('#download-calendar');assert(calendar.includes('DTSTART;VALUE=DATE:20280229'));assert(calendar.includes('DTEND;VALUE=DATE:20280301'));
+  const offline=await download('#download-offline');assert(offline.includes('<!DOCTYPE html>'));assert(!offline.includes('<script'));
+  await travel.locator('[data-check="0"]').check();assert.equal(await travel.evaluate(()=>window.geoCalls),0);
+  await travel.locator('#use-location').click();assert.equal(await travel.evaluate(()=>window.geoCalls),1);assert(await travel.locator('#location-status').textContent());
+  await travel.reload();await travel.waitForFunction(()=>window.guideReady);assert(await travel.locator('[data-check="0"]').isChecked());assert.equal(await travel.locator('#trip-date').inputValue(),'2028-02-29');
+  for(const width of [320,1280]){await travel.setViewportSize({width,height:844});assert.equal(await travel.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,city+' travel overflow '+width);}
+  await travelContext.close();console.log(city+': original tours, deduplication, preference persistence, ICS, offline export, checklist and location consent OK');
+ }
+ assert.equal(palette.size,8,'eight different city palettes');
+ await page.goto(base+'/index.html?lang=en');await page.waitForFunction(()=>window.guideReady);assert.equal(await page.locator('html').getAttribute('lang'),'en');assert.equal(await page.locator('a[data-city-link]').count(),8);
  await page.goto(base+'/roma.html?profile=invalid&category=bad&type=bad&plan=unknown&lang=bad');await page.waitForFunction(()=>window.guideReady);assert.equal(await page.locator('#gridEsperienze article').count(),36);assert.equal(await page.locator('#personal-plan li').count(),0);
  // HTTP storage is shared across city and detail pages; old title-based favourites migrate.
  await page.evaluate(()=>{localStorage.setItem('rp_preferiti','[{"id":"Colosseo, Foro e Palatino"}]');});await page.reload();await page.waitForFunction(()=>window.guideReady);assert.equal(await page.locator('.fav.salvato').count(),1);

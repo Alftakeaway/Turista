@@ -1,0 +1,3378 @@
+{
+  "storageKey": "pal",
+  "pageTitle": "Palermo Poliedrica — una città da leggere|Palermo Poliedrica — a city to read",
+  "TESTI": {
+    "nav1": "Profili|Profiles",
+    "nav2": "Esperienze|Experiences",
+    "nav3": "Tour originali|Original tours",
+    "nav4": "In viaggio|On the go",
+    "heroK": "Palermo|Palermo",
+    "heroH1": "Segui le soglie, ritrova il mare|Follow the thresholds, rediscover the sea",
+    "heroP": "Una città, otto viaggiatori: scegli il tuo profilo e la guida si adatta a te — esperienze, consigli e un itinerario su misura.|One city, eight travellers: pick your profile and the guide adapts — experiences, tips and a tailor-made itinerary.",
+    "cta1": "Crea il tuo tour|Find your tour",
+    "cta2": "Esplora le esperienze|Explore experiences",
+    "stat1": "profili di viaggiatore|traveller profiles",
+    "stat2": "esperienze selezionate|curated experiences",
+    "stat3": "tour originali|original tours",
+    "step1k": "Passo 1|Step 1",
+    "step1h": "Che tipo di viaggiatore sei?|What kind of traveller are you?",
+    "step1p": "Tocca un profilo: esperienze e itinerario si filtrano subito. Nessuna selezione = vedi tutto.|Tap a profile: experiences and itinerary filter instantly. No selection = see everything.",
+    "step2k": "Passo 2|Step 2",
+    "step2h": "Esperienze su misura|Tailored experiences",
+    "legenda": "💡 Le esperienze con più tag appartengono a più profili: nel menu a tendina compaiono sotto la loro sotto-categoria principale.|💡 Multi-tag experiences belong to several profiles: they appear under their main subcategory.",
+    "step3k": "Passo 3|Step 3",
+    "step3h": "Il tuo giorno ideale|Your perfect day",
+    "itin1": "Seleziona un profilo qui sopra per comporre la tua giornata perfetta.|Select a profile above to compose your perfect day.",
+    "itin2": "👆 Scegli prima <b>chi sei come viaggiatore</b>: l'itinerario del giorno appare qui.|👆 First choose <b>who you are as a traveller</b>: the day itinerary appears here.",
+    "infoK": "Prima di partire|Before you go",
+    "infoH": "Info pratiche|Practical info",
+    "info1h": "🚇 Muoversi|🚇 Getting around",
+    "info1p": "Pianifica gli spostamenti sul sito ufficiale del trasporto locale: linee, orari, tariffe e accessibilità possono cambiare.|Plan your journeys on the local transport operator’s official website: routes, schedules, fares and accessibility can change.",
+    "info2h": "🗓️ Quando andare|🗓️ When to go",
+    "info2p": "Controlla meteo, calendario degli eventi e condizioni dei percorsi per le date del viaggio. L’affluenza varia: nessuna fascia oraria garantisce assenza di code.|Check weather, event schedules and route conditions for your travel dates. Crowds vary: no time of day guarantees a queue-free visit.",
+    "info3h": "🎟️ Prenotare|🎟️ Booking",
+    "info3p": "Per musei, spettacoli, corsi e attività scegli prima una data e verifica disponibilità, tariffe e condizioni sul sito del gestore. Gli itinerari sono proposte, non prenotazioni.|For museums, performances, classes and activities, choose a date and check availability, prices and terms on the operator’s website. Itineraries are suggestions, not reservations.",
+    "footer": "<b>Palermo Poliedrica</b> — percorsi originali e fonti consultabili|<b>Palermo Poliedrica</b> — original routes and consultable sources",
+    "selProfilo": "Seleziona prima un profilo ↑|Select a profile first ↑",
+    "tutteSotto": "Tutte le sotto-categorie|All subcategories",
+    "tuttiTipi": "Tutti i tipi di locale|All venue types",
+    "parolaEsp": "esperienze|experiences",
+    "comboVuota": "Nessuna esperienza corrisponde ai filtri. Prova un’altra ricerca o scegli Azzera filtri.|No experiences match these filters. Try another search or choose Reset filters.",
+    "etichettaTutti": "tutti i profili|all profiles",
+    "giornata": "Giornata ottimale per il profilo|Optimal day for the profile",
+    "ariaSotto": "Filtra per sotto-categoria|Filter by subcategory",
+    "ariaTipo": "Filtra per tipo di locale|Filter by venue type",
+    "chatTitolo": "FAQ di Roma|Rome FAQ",
+    "chatSotto": "Risposte predefinite e fonti ufficiali|Preset answers and official sources",
+    "chatBtn": "Domande frequenti|Frequently asked questions",
+    "chatChiudi": "✕ Chiudi|✕ Close",
+    "chatPh": "Scrivi una domanda...|Type a question...",
+    "benvenuto": "Questa è una FAQ automatica con risposte predefinite. Cerca un argomento o scegli una domanda. Per informazioni aggiornate consulta i link ufficiali.|This is an automated FAQ with preset answers. Search a topic or choose a question. Use the official links for current information.",
+    "favBtn": "❤ Preferiti|❤ Favorites",
+    "favTitolo": "I tuoi preferiti|Your favorites",
+    "svuota": "Svuota|Clear all",
+    "favVuoto": "Nessun preferito per ora: tocca la stella ☆ su una card per salvarla.|No favorites yet: tap the ☆ star on a card to save it.",
+    "toastAgg": "Aggiunto ai preferiti ★|Added to favorites ★",
+    "toastRim": "Rimosso dai preferiti|Removed from favorites",
+    "salva": "Salva nei preferiti|Save to favorites",
+    "rimuovi": "Rimuovi dai preferiti|Remove from favorites"
+  },
+  "PROFILI": [
+    {
+      "id": "cultura",
+      "emoji": "🏛️",
+      "nome": "Culturale|Cultural",
+      "claim": "Scegli un altro punto di vista sulla città|Choose another perspective on the city"
+    },
+    {
+      "id": "business",
+      "emoji": "💼",
+      "nome": "Business & Bleisure|Business & Bleisure",
+      "claim": "Scegli un altro punto di vista sulla città|Choose another perspective on the city"
+    },
+    {
+      "id": "food",
+      "emoji": "🍝",
+      "nome": "Enogastronomico|Food & Wine",
+      "claim": "Scegli un altro punto di vista sulla città|Choose another perspective on the city"
+    },
+    {
+      "id": "religioso",
+      "emoji": "⛪",
+      "nome": "Religioso & Spirituale|Religious & Spiritual",
+      "claim": "Scegli un altro punto di vista sulla città|Choose another perspective on the city"
+    },
+    {
+      "id": "benessere",
+      "emoji": "🌿",
+      "nome": "Benessere & Medicale|Wellness & Medical",
+      "claim": "Scegli un altro punto di vista sulla città|Choose another perspective on the city"
+    },
+    {
+      "id": "sport",
+      "emoji": "🏟️",
+      "nome": "Sport & Grandi Eventi|Sports & Major Events",
+      "claim": "Scegli un altro punto di vista sulla città|Choose another perspective on the city"
+    },
+    {
+      "id": "lento",
+      "emoji": "🚲",
+      "nome": "Lento & Sostenibile|Slow & Sustainable",
+      "claim": "Scegli un altro punto di vista sulla città|Choose another perspective on the city"
+    },
+    {
+      "id": "formativo",
+      "emoji": "🎓",
+      "nome": "Formativo|Educational",
+      "claim": "Scegli un altro punto di vista sulla città|Choose another perspective on the city"
+    }
+  ],
+  "SOTTO": {
+    "cultura": [
+      {
+        "id": "musei",
+        "emoji": "🖼️",
+        "nome": "Musei e gallerie|Museums & galleries"
+      },
+      {
+        "id": "archeo",
+        "emoji": "🏺",
+        "nome": "Siti archeologici|Archaeological sites"
+      },
+      {
+        "id": "modern",
+        "emoji": "🏗️",
+        "nome": "Arte contemporanea e architettura|Contemporary art & architecture"
+      }
+    ],
+    "business": [
+      {
+        "id": "congressi",
+        "emoji": "🎤",
+        "nome": "Congressi e meeting|Congresses & meetings"
+      },
+      {
+        "id": "bleisure",
+        "emoji": "🧳",
+        "nome": "Estensioni bleisure|Bleisure extensions"
+      },
+      {
+        "id": "networking",
+        "emoji": "🥂",
+        "nome": "Aperitivi e networking|Aperitifs & networking"
+      }
+    ],
+    "food": [
+      {
+        "id": "romana",
+        "emoji": "🍝",
+        "nome": "Cucina tipica romana|Roman & typical cuisine"
+      },
+      {
+        "id": "alta",
+        "emoji": "🍽️",
+        "nome": "Ristoranti e alta cucina|Restaurants & fine dining"
+      },
+      {
+        "id": "sushi",
+        "emoji": "🍣",
+        "nome": "Sushi e ramen|Sushi & ramen"
+      },
+      {
+        "id": "cinese",
+        "emoji": "🥡",
+        "nome": "Cucina cinese|Chinese cuisine"
+      },
+      {
+        "id": "greca",
+        "emoji": "🫒",
+        "nome": "Cucina greca|Greek cuisine"
+      },
+      {
+        "id": "street",
+        "emoji": "🧺",
+        "nome": "Mercati e street food|Markets & street food"
+      },
+      {
+        "id": "dolci",
+        "emoji": "🍨",
+        "nome": "Dolci, caffè e gelati|Sweets, coffee & gelato"
+      }
+    ],
+    "religioso": [
+      {
+        "id": "basiliche",
+        "emoji": "⛪",
+        "nome": "Basiliche papali|Papal basilicas"
+      },
+      {
+        "id": "chiese",
+        "emoji": "🕯️",
+        "nome": "Chiese e siti minori|Churches & minor sites"
+      },
+      {
+        "id": "pellegrini",
+        "emoji": "🥾",
+        "nome": "Percorsi di pellegrinaggio|Pilgrimage routes"
+      }
+    ],
+    "benessere": [
+      {
+        "id": "terme",
+        "emoji": "♨️",
+        "nome": "Terme e acque termali|Thermal baths & waters"
+      },
+      {
+        "id": "spa",
+        "emoji": "💆",
+        "nome": "Spa e massaggi|Spas & massages"
+      },
+      {
+        "id": "verde",
+        "emoji": "🌳",
+        "nome": "Parchi e natura urbana|Parks & urban nature"
+      }
+    ],
+    "sport": [
+      {
+        "id": "calcio",
+        "emoji": "⚽",
+        "nome": "Calcio e stadio|Football & stadium"
+      },
+      {
+        "id": "eventi",
+        "emoji": "🎪",
+        "nome": "Concerti e grandi eventi|Concerts & major events"
+      },
+      {
+        "id": "partecipa",
+        "emoji": "🏃",
+        "nome": "Sport da praticare|Sports to play"
+      }
+    ],
+    "lento": [
+      {
+        "id": "quartieri",
+        "emoji": "🏘️",
+        "nome": "Quartieri autentici|Authentic neighborhoods"
+      },
+      {
+        "id": "parchi",
+        "emoji": "🌿",
+        "nome": "Parchi e natura|Parks & nature"
+      },
+      {
+        "id": "lente",
+        "emoji": "🚲",
+        "nome": "Mobilità dolce|Soft mobility"
+      }
+    ],
+    "formativo": [
+      {
+        "id": "cucina",
+        "emoji": "👩‍🍳",
+        "nome": "Corsi di cucina|Cooking classes"
+      },
+      {
+        "id": "artigianato",
+        "emoji": "🎨",
+        "nome": "Laboratori artigianali|Craft workshops"
+      },
+      {
+        "id": "guide",
+        "emoji": "📣",
+        "nome": "Visite guidate e masterclass|Guided tours & masterclasses"
+      }
+    ]
+  },
+  "TIPI": [
+    {
+      "id": "ristorante",
+      "emoji": "🍽️",
+      "nome": "Ristorante|Restaurant"
+    },
+    {
+      "id": "trattoria",
+      "emoji": "🏠",
+      "nome": "Trattoria|Trattoria"
+    },
+    {
+      "id": "osteria",
+      "emoji": "🍷",
+      "nome": "Osteria|Osteria"
+    },
+    {
+      "id": "taverna",
+      "emoji": "🕯️",
+      "nome": "Taverna|Tavern"
+    },
+    {
+      "id": "bistrot",
+      "emoji": "🥂",
+      "nome": "Bistrò|Bistro"
+    },
+    {
+      "id": "mercato",
+      "emoji": "🧺",
+      "nome": "Mercato|Market"
+    },
+    {
+      "id": "bar",
+      "emoji": "☕",
+      "nome": "Bar e pasticceria|Bar & pastry shop"
+    }
+  ],
+  "ESPERIENZE": [
+    {
+      "id": "palermo-001",
+      "legacyId": "Palazzo dei Normanni e Cappella Palatina",
+      "t": "Palazzo dei Normanni e Cappella Palatina|Norman Palace and Palatine Chapel",
+      "z": "Albergheria|Albergheria",
+      "d": "60 min|60 min",
+      "p": "Un complesso che intreccia architettura e vita istituzionale. Scegli il prodotto di visita sul sito della fondazione, verificando le aree comprese.|A complex combining architecture and institutional life. Choose your visit product on the foundation’s website and check the included areas.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "cultura",
+        "religioso"
+      ],
+      "sub": "musei",
+      "duration": {
+        "minutes": 60,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.federicosecondo.org/"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.federicosecondo.org/"
+      },
+      "location": {
+        "area": "Albergheria|Albergheria",
+        "address": "Piazza Parlamento 1",
+        "mapQuery": "Piazza Parlamento 1, Palermo"
+      },
+      "source": {
+        "url": "https://www.federicosecondo.org/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.federicosecondo.org/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "venue",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://www.federicosecondo.org/",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-002",
+      "legacyId": "Cattedrale e percorso monumentale",
+      "t": "Cattedrale e percorso monumentale|Cathedral and monumental route",
+      "z": "Cassaro|Cassaro",
+      "d": "60 min|60 min",
+      "p": "Distingui lo spazio di culto dal percorso monumentale: tetti, tombe e altri ambienti seguono accessi propri.|Distinguish the place of worship from the monumental route: roofs, tombs and other spaces have separate access arrangements.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "religioso",
+        "cultura"
+      ],
+      "sub": "basiliche",
+      "duration": {
+        "minutes": 60,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.cattedrale.palermo.it/"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.cattedrale.palermo.it/"
+      },
+      "location": {
+        "area": "Cassaro|Cassaro",
+        "address": "Via Vittorio Emanuele",
+        "mapQuery": "Via Vittorio Emanuele, Palermo"
+      },
+      "source": {
+        "url": "https://www.cattedrale.palermo.it/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.cattedrale.palermo.it/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "venue",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://www.cattedrale.palermo.it/",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-003",
+      "legacyId": "Palazzo Abatellis",
+      "t": "Palazzo Abatellis|Palazzo Abatellis",
+      "z": "Kalsa|Kalsa",
+      "d": "60 min|60 min",
+      "p": "La Galleria regionale della Sicilia è una visita da scegliere per le collezioni, non come semplice passaggio nella Kalsa.|The Sicilian Regional Gallery is a visit to choose for its collections, rather than merely a stop while crossing the Kalsa.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "cultura",
+        "formativo"
+      ],
+      "sub": "musei",
+      "duration": {
+        "minutes": 60,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-itinerari-tematici-dettaglio.php?tp=151"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-itinerari-tematici-dettaglio.php?tp=151"
+      },
+      "location": {
+        "area": "Kalsa|Kalsa",
+        "address": "Via Alloro 4",
+        "mapQuery": "Via Alloro 4, Palermo"
+      },
+      "source": {
+        "url": "https://turismo.comune.palermo.it/palermo-welcome-itinerari-tematici-dettaglio.php?tp=151",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismo.comune.palermo.it/palermo-welcome-itinerari-tematici-dettaglio.php?tp=151",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "venue",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-itinerari-tematici-dettaglio.php?tp=151",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-004",
+      "legacyId": "Museo archeologico Salinas",
+      "t": "Museo archeologico Salinas|Salinas Archaeological Museum",
+      "z": "Olivella|Olivella",
+      "d": "60 min|60 min",
+      "p": "Un museo archeologico nel cuore della città: usa la scheda regionale per scegliere le sezioni e il biglietto.|An archaeological museum in the city centre: use the regional information to choose sections and admission.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "cultura",
+        "formativo"
+      ],
+      "sub": "musei",
+      "duration": {
+        "minutes": 60,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://parchiarcheologici.regione.sicilia.it/musei/salinas/il-museo/"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://parchiarcheologici.regione.sicilia.it/musei/salinas/il-museo/"
+      },
+      "location": {
+        "area": "Olivella|Olivella",
+        "address": "Piazza Olivella 24",
+        "mapQuery": "Piazza Olivella 24, Palermo"
+      },
+      "source": {
+        "url": "https://parchiarcheologici.regione.sicilia.it/musei/salinas/il-museo/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://parchiarcheologici.regione.sicilia.it/musei/salinas/il-museo/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "venue",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://parchiarcheologici.regione.sicilia.it/musei/salinas/il-museo/",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-005",
+      "legacyId": "Teatro Massimo, visita guidata ufficiale",
+      "t": "Teatro Massimo, visita guidata ufficiale|Teatro Massimo, official guided visit",
+      "z": "Olivella|Olivella",
+      "d": "60 min|60 min",
+      "p": "La visita guidata pubblicata dal Teatro dura circa 40 minuti ed è distinta dal biglietto per uno spettacolo.|The Theatre’s published guided visit lasts about 40 minutes and is separate from a performance ticket.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "cultura",
+        "business"
+      ],
+      "sub": "musei",
+      "duration": {
+        "minutes": 60,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 14,
+        "currency": "EUR",
+        "kind": "paid",
+        "note": "Visita guidata ordinaria del Teatro Massimo, circa 40 minuti. Non è il biglietto per uno spettacolo.|Standard Teatro Massimo guided visit, about 40 minutes. This is not a performance ticket.",
+        "verifiedAt": "2026-10-16",
+        "sourceUrl": "https://www.teatromassimo.it/visite-guidate/",
+        "basis": "operator"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Visite tutti i giorni 9:30–19; ultima visita 18:20, secondo disponibilità del Teatro.|Visits daily 9:30–19; last visit 18:20, subject to theatre availability.",
+        "verifiedAt": "2026-10-16",
+        "sourceUrl": "https://www.teatromassimo.it/visite-guidate/"
+      },
+      "location": {
+        "area": "Olivella|Olivella",
+        "address": "Piazza Verdi",
+        "mapQuery": "Piazza Verdi, Palermo"
+      },
+      "source": {
+        "url": "https://www.teatromassimo.it/visite-guidate/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.teatromassimo.it/visite-guidate/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        },
+        {
+          "url": "https://www.teatromassimo.it/visite-guidate/",
+          "scope": "Tariffa del prodotto indicato|Price of the stated product",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "venue",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://www.teatromassimo.it/visite-guidate/",
+        "verifiedAt": null
+      },
+      "verifiedFields": [
+        "cost",
+        "openingHours"
+      ]
+    },
+    {
+      "id": "palermo-006",
+      "legacyId": "Orto Botanico universitario",
+      "t": "Orto Botanico universitario|University Botanical Garden",
+      "z": "Kalsa|Kalsa",
+      "d": "60 min|60 min",
+      "p": "Un giardino scientifico dell’Università di Palermo. In ottobre il sito indica apertura 9–18, domenica 10–18, ultimo ingresso un’ora prima.|A scientific garden of the University of Palermo. For October the website lists 9–18 opening, Sundays 10–18, with last entry one hour earlier.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "benessere",
+        "formativo"
+      ],
+      "sub": "terme",
+      "duration": {
+        "minutes": 60,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://ortobotanico.unipa.it/index.html"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Ottobre: lunedì–sabato 9–18; domenica 10–18; ultimo ingresso un’ora prima. Gli orari cambiano con il mese.|October: Monday–Saturday 9–18; Sunday 10–18; last entry one hour earlier. Hours vary by month.",
+        "verifiedAt": "2026-10-16",
+        "sourceUrl": "https://ortobotanico.unipa.it/index.html"
+      },
+      "location": {
+        "area": "Kalsa|Kalsa",
+        "address": "Via Lincoln 2",
+        "mapQuery": "Via Lincoln 2, Palermo"
+      },
+      "source": {
+        "url": "https://ortobotanico.unipa.it/index.html",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://ortobotanico.unipa.it/index.html",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "venue",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://ortobotanico.unipa.it/index.html",
+        "verifiedAt": null
+      },
+      "verifiedFields": [
+        "openingHours"
+      ]
+    },
+    {
+      "id": "palermo-007",
+      "legacyId": "Palazzo Butera",
+      "t": "Palazzo Butera|Palazzo Butera",
+      "z": "Kalsa|Kalsa",
+      "d": "60 min|60 min",
+      "p": "Il palazzo affacciato sul fronte a mare ospita la collezione Valsecchi; indirizzo pubblicato dal Comune: via Butera 8.|The palace on the waterfront houses the Valsecchi collection; the municipality lists its address as Via Butera 8.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "cultura",
+        "business"
+      ],
+      "sub": "musei",
+      "duration": {
+        "minutes": 60,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=20&id=89&tp=68"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=20&id=89&tp=68"
+      },
+      "location": {
+        "area": "Kalsa|Kalsa",
+        "address": "Via Butera 8",
+        "mapQuery": "Via Butera 8, Palermo"
+      },
+      "source": {
+        "url": "https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=20&id=89&tp=68",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=20&id=89&tp=68",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "venue",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=20&id=89&tp=68",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-008",
+      "legacyId": "Galleria d’Arte Moderna",
+      "t": "Galleria d’Arte Moderna|Modern Art Gallery",
+      "z": "Kalsa|Kalsa",
+      "d": "60 min|60 min",
+      "p": "Una tappa museale a Sant’Anna: consulta il programma del museo per collezioni e mostre del periodo.|A museum stop at Sant’Anna: consult the museum programme for collections and current exhibitions.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "cultura",
+        "formativo"
+      ],
+      "sub": "musei",
+      "duration": {
+        "minutes": 60,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.gampalermo.it/"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.gampalermo.it/"
+      },
+      "location": {
+        "area": "Kalsa|Kalsa",
+        "address": "Via Sant’Anna 21",
+        "mapQuery": "Via Sant’Anna 21, Palermo"
+      },
+      "source": {
+        "url": "https://www.gampalermo.it/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.gampalermo.it/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "venue",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://www.gampalermo.it/",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-009",
+      "legacyId": "Stanze al Genio, collezione di maioliche",
+      "t": "Stanze al Genio, collezione di maioliche|Stanze al Genio, tile collection",
+      "z": "Kalsa|Kalsa",
+      "d": "60 min|60 min",
+      "p": "Una collezione di maioliche da visitare secondo le modalità del museo; niente ingresso spontaneo promesso dal nostro itinerario.|A tile collection to visit under the museum’s arrangements; our itinerary does not promise walk-in admission.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "cultura",
+        "formativo"
+      ],
+      "sub": "musei",
+      "duration": {
+        "minutes": 60,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.stanzealgenio.it/"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.stanzealgenio.it/"
+      },
+      "location": {
+        "area": "Kalsa|Kalsa",
+        "address": "Via Giuseppe Garibaldi 11",
+        "mapQuery": "Via Giuseppe Garibaldi 11, Palermo"
+      },
+      "source": {
+        "url": "https://www.stanzealgenio.it/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.stanzealgenio.it/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "venue",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://www.stanzealgenio.it/",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-010",
+      "legacyId": "Zisa, palazzo e paesaggio",
+      "t": "Zisa, palazzo e paesaggio|Zisa, palace and landscape",
+      "z": "Zisa|Zisa",
+      "d": "60 min|60 min",
+      "p": "La scheda comunale racconta il rapporto fra architettura, acqua e ventilazione: un punto di partenza per leggere la facciata e scegliere un’eventuale visita.|The municipal page describes architecture, water and ventilation: a starting point for reading the façade and choosing an optional visit.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "cultura",
+        "lento"
+      ],
+      "sub": "musei",
+      "duration": {
+        "minutes": 60,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=17&id=71&tp=68"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=17&id=71&tp=68"
+      },
+      "location": {
+        "area": "Zisa|Zisa",
+        "address": "Piazza Guglielmo il Buono",
+        "mapQuery": "Piazza Guglielmo il Buono, Palermo"
+      },
+      "source": {
+        "url": "https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=17&id=71&tp=68",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=17&id=71&tp=68",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "venue",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=17&id=71&tp=68",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-011",
+      "legacyId": "Villino Florio, disegno e facciate",
+      "t": "Villino Florio, disegno e facciate|Villino Florio, design and façades",
+      "z": "Zisa|Zisa",
+      "d": "45 min|45 min",
+      "p": "La dimora è documentata dal Comune in viale Regina Margherita 38. Parti dagli esterni e controlla separatamente le visite interne.|The municipality documents the residence at Viale Regina Margherita 38. Start outside and check interior visits separately.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "cultura",
+        "lento"
+      ],
+      "sub": "musei",
+      "duration": {
+        "minutes": 45,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=19&id=146&tp=68"
+      },
+      "location": {
+        "area": "Zisa|Zisa",
+        "address": "Viale Regina Margherita 38",
+        "mapQuery": "Viale Regina Margherita 38, Palermo"
+      },
+      "source": {
+        "url": "https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=19&id=146&tp=68",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=19&id=146&tp=68",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "self-guided",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=19&id=146&tp=68",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-012",
+      "legacyId": "Cantieri Culturali alla Zisa",
+      "t": "Cantieri Culturali alla Zisa|Cantieri Culturali alla Zisa",
+      "z": "Zisa|Zisa",
+      "d": "45 min|45 min",
+      "p": "Gli ex spazi produttivi ospitano attività culturali; sale e mostre seguono programmi separati, non un’apertura unica da presumere.|The former production spaces host cultural activities; rooms and exhibitions have separate programmes, rather than one assumed opening schedule.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "business",
+        "formativo"
+      ],
+      "sub": "congressi",
+      "duration": {
+        "minutes": 45,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.comune.palermo.it/vivere-il-comune/luoghi/cantieri-culturali-alla-zisa/"
+      },
+      "location": {
+        "area": "Zisa|Zisa",
+        "address": "Via Paolo Gili 4",
+        "mapQuery": "Via Paolo Gili 4, Palermo"
+      },
+      "source": {
+        "url": "https://www.comune.palermo.it/vivere-il-comune/luoghi/cantieri-culturali-alla-zisa/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.comune.palermo.it/vivere-il-comune/luoghi/cantieri-culturali-alla-zisa/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "self-guided",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://www.comune.palermo.it/vivere-il-comune/luoghi/cantieri-culturali-alla-zisa/",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-013",
+      "legacyId": "Ecomuseo Mare Memoria Viva",
+      "t": "Ecomuseo Mare Memoria Viva|Mare Memoria Viva Ecomuseum",
+      "z": "Sant’Erasmo|Sant’Erasmo",
+      "d": "60 min|60 min",
+      "p": "L’ecomuseo ha sede nell’ex Deposito Locomotive di Sant’Erasmo e racconta il rapporto fra Palermo e il suo mare.|The ecomuseum is housed in the former Sant’Erasmo locomotive depot and explores Palermo’s relationship with the sea.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "formativo",
+        "lento"
+      ],
+      "sub": "cucina",
+      "duration": {
+        "minutes": 60,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.marememoriaviva.it/ecomuseo/"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.marememoriaviva.it/ecomuseo/"
+      },
+      "location": {
+        "area": "Sant’Erasmo|Sant’Erasmo",
+        "address": "Via Messina Marine 14",
+        "mapQuery": "Via Messina Marine 14, Palermo"
+      },
+      "source": {
+        "url": "https://www.marememoriaviva.it/ecomuseo/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.marememoriaviva.it/ecomuseo/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "venue",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://www.marememoriaviva.it/ecomuseo/",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-014",
+      "legacyId": "Santa Maria dello Spasimo, programma culturale",
+      "t": "Santa Maria dello Spasimo, programma culturale|Santa Maria dello Spasimo, cultural programme",
+      "z": "Kalsa|Kalsa",
+      "d": "60 min|60 min",
+      "p": "Il Comune ha annunciato la riapertura nel 2026 dopo i restauri. Per visite e concerti conta il programma corrente, non le vecchie tabelle che lo davano chiuso.|The municipality announced the 2026 reopening after restoration. Use the current programme for visits and concerts, rather than old tables listing it as closed.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "cultura",
+        "sport"
+      ],
+      "sub": "musei",
+      "duration": {
+        "minutes": 60,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://docs.comune.palermo.it/palermo-informa-dettaglio.php?id=43252&tipo=4"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://docs.comune.palermo.it/palermo-informa-dettaglio.php?id=43252&tipo=4"
+      },
+      "location": {
+        "area": "Kalsa|Kalsa",
+        "address": "Piazza Carlo Maria Ventimiglia",
+        "mapQuery": "Piazza Carlo Maria Ventimiglia, Palermo"
+      },
+      "source": {
+        "url": "https://docs.comune.palermo.it/palermo-informa-dettaglio.php?id=43252&tipo=4",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://docs.comune.palermo.it/palermo-informa-dettaglio.php?id=43252&tipo=4",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "venue",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://docs.comune.palermo.it/palermo-informa-dettaglio.php?id=43252&tipo=4",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-015",
+      "legacyId": "Ballarò, taccuino di mercato",
+      "t": "Ballarò, taccuino di mercato|Ballarò market notebook",
+      "z": "Albergheria|Albergheria",
+      "d": "45 min|45 min",
+      "p": "Percorso di osservazione nel mercato storico: confronta insegne e ingredienti, con acquisti liberi e senza degustazioni incluse.|An observation walk in the historic market: compare signs and ingredients, with optional purchases and no included tastings.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "food",
+        "lento"
+      ],
+      "sub": "romana",
+      "duration": {
+        "minutes": 45,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=24&tp=68"
+      },
+      "location": {
+        "area": "Albergheria|Albergheria",
+        "address": "Piazza Ballarò",
+        "mapQuery": "Piazza Ballarò, Palermo"
+      },
+      "source": {
+        "url": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=24&tp=68",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=24&tp=68",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "self-guided",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=24&tp=68",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-016",
+      "legacyId": "Il Capo, parole e banchi",
+      "t": "Il Capo, parole e banchi|Capo market, words and stalls",
+      "z": "Capo|Capo",
+      "d": "45 min|45 min",
+      "p": "Scrivi un piccolo glossario dei prodotti che incontri nei banchi aperti. Non è un tour commerciale con assaggi prenotati.|Write a small glossary of products you find at open stalls. This is not a commercial tour with pre-booked tastings.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "food",
+        "formativo"
+      ],
+      "sub": "romana",
+      "duration": {
+        "minutes": 45,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=24&tp=68"
+      },
+      "location": {
+        "area": "Capo|Capo",
+        "address": "Via Porta Carini",
+        "mapQuery": "Via Porta Carini, Palermo"
+      },
+      "source": {
+        "url": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=24&tp=68",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=24&tp=68",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "self-guided",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=24&tp=68",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-017",
+      "legacyId": "Vucciria, lettura di quartiere",
+      "t": "Vucciria, lettura di quartiere|Vucciria neighbourhood reading",
+      "z": "Castellammare|Castellammare",
+      "d": "45 min|45 min",
+      "p": "Il Comune include la Vucciria fra i mercati storici: esplorala come spazio urbano, senza promesse su orari dei singoli banchi.|The municipality lists Vucciria among the historic markets: explore it as urban space, without promises about individual stall hours.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "food",
+        "lento"
+      ],
+      "sub": "romana",
+      "duration": {
+        "minutes": 45,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=24&tp=68"
+      },
+      "location": {
+        "area": "Castellammare|Castellammare",
+        "address": "Piazza Caracciolo",
+        "mapQuery": "Piazza Caracciolo, Palermo"
+      },
+      "source": {
+        "url": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=24&tp=68",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=24&tp=68",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "self-guided",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=24&tp=68",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-018",
+      "legacyId": "Foro Italico, pausa sul mare",
+      "t": "Foro Italico, pausa sul mare|Foro Italico, seaside break",
+      "z": "Kalsa|Kalsa",
+      "d": "45 min|45 min",
+      "p": "Il Comune descrive il Foro Italico come area verde sul lungomare, dalla Cala verso villa Giulia.|The municipality describes Foro Italico as a waterfront green area extending from La Cala towards Villa Giulia.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "benessere",
+        "sport"
+      ],
+      "sub": "terme",
+      "duration": {
+        "minutes": 45,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.comune.palermo.it/vivere-il-comune/luoghi/foro-italico/"
+      },
+      "location": {
+        "area": "Kalsa|Kalsa",
+        "address": "Foro Italico",
+        "mapQuery": "Foro Italico, Palermo"
+      },
+      "source": {
+        "url": "https://www.comune.palermo.it/vivere-il-comune/luoghi/foro-italico/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.comune.palermo.it/vivere-il-comune/luoghi/foro-italico/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "self-guided",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://www.comune.palermo.it/vivere-il-comune/luoghi/foro-italico/",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-019",
+      "legacyId": "Villa Giulia, taccuino verde",
+      "t": "Villa Giulia, taccuino verde|Villa Giulia, green notebook",
+      "z": "Kalsa|Kalsa",
+      "d": "45 min|45 min",
+      "p": "Una sosta dedicata a forme e ombra nel percorso del verde comunale. Usa gli accessi aperti e rispetta il regolamento del giardino.|A pause for forms and shade in the municipal green itinerary. Use open entrances and respect garden rules.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "benessere",
+        "lento"
+      ],
+      "sub": "terme",
+      "duration": {
+        "minutes": 45,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-itinerari-tematici-dettaglio.php?tp=149"
+      },
+      "location": {
+        "area": "Kalsa|Kalsa",
+        "address": "Via Lincoln",
+        "mapQuery": "Via Lincoln, Palermo"
+      },
+      "source": {
+        "url": "https://turismo.comune.palermo.it/palermo-welcome-itinerari-tematici-dettaglio.php?tp=149",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismo.comune.palermo.it/palermo-welcome-itinerari-tematici-dettaglio.php?tp=149",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "self-guided",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-itinerari-tematici-dettaglio.php?tp=149",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-020",
+      "legacyId": "Mondello, passeggiata sul lungomare",
+      "t": "Mondello, passeggiata sul lungomare|Mondello promenade walk",
+      "z": "Mondello|Mondello",
+      "d": "45 min|45 min",
+      "p": "Proposta di passeggiata sul lungomare: nessun lido, lettino o servizio balneare incluso nel nostro percorso.|A promenade walk suggestion: no beach club, sunbed or bathing service is included in our route.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "benessere",
+        "sport"
+      ],
+      "sub": "terme",
+      "duration": {
+        "minutes": 45,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismo.comune.palermo.it/"
+      },
+      "location": {
+        "area": "Mondello|Mondello",
+        "address": "Lungomare di Mondello",
+        "mapQuery": "Lungomare di Mondello, Palermo"
+      },
+      "source": {
+        "url": "https://turismo.comune.palermo.it/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismo.comune.palermo.it/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "self-guided",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://turismo.comune.palermo.it/",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-021",
+      "legacyId": "Santa Rosalia e Monte Pellegrino",
+      "t": "Santa Rosalia e Monte Pellegrino|Santa Rosalia and Monte Pellegrino",
+      "z": "Monte Pellegrino|Monte Pellegrino",
+      "d": "60 min|60 min",
+      "p": "Scegli la visita al santuario e il trasferimento in modo separato: il percorso non presume una salita a piedi adatta a tutti.|Choose the sanctuary visit and transport separately: the route does not assume an uphill walk suitable for everyone.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "religioso",
+        "lento"
+      ],
+      "sub": "basiliche",
+      "duration": {
+        "minutes": 60,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.santuariosantarosalia.it/"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.santuariosantarosalia.it/"
+      },
+      "location": {
+        "area": "Monte Pellegrino|Monte Pellegrino",
+        "address": null,
+        "mapQuery": "Santa Rosalia e Monte Pellegrino, Palermo"
+      },
+      "source": {
+        "url": "https://www.santuariosantarosalia.it/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.santuariosantarosalia.it/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "venue",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://www.santuariosantarosalia.it/",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-022",
+      "legacyId": "Chiesa del Gesù, percorso d’arte",
+      "t": "Chiesa del Gesù, percorso d’arte|Church of the Gesù, art route",
+      "z": "Albergheria|Albergheria",
+      "d": "60 min|60 min",
+      "p": "Distingui la visita della chiesa da museo e percorsi aggiuntivi, con condizioni da scegliere sul canale ufficiale del gestore. |Distinguish the church visit from the museum and additional routes, selecting arrangements through the operator’s official channel.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "religioso",
+        "cultura"
+      ],
+      "sub": "basiliche",
+      "duration": {
+        "minutes": 60,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.casaprofessa.com/"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.casaprofessa.com/"
+      },
+      "location": {
+        "area": "Albergheria|Albergheria",
+        "address": "Piazza Casa Professa 21",
+        "mapQuery": "Piazza Casa Professa 21, Palermo"
+      },
+      "source": {
+        "url": "https://www.casaprofessa.it/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.casaprofessa.it/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "venue",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://www.casaprofessa.com/",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-023",
+      "legacyId": "Oratorio di San Lorenzo",
+      "t": "Oratorio di San Lorenzo|Oratory of San Lorenzo",
+      "z": "Kalsa|Kalsa",
+      "d": "60 min|60 min",
+      "p": "Il Comune documenta il repertorio di stucchi di Giacomo Serpotta: una visita di dettagli e superfici, con accesso distinto dalla passeggiata.|The municipality documents Giacomo Serpotta’s stucco decoration: a visit focused on detail and surfaces, separate from the walk.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "religioso",
+        "cultura"
+      ],
+      "sub": "basiliche",
+      "duration": {
+        "minutes": 60,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.comune.palermo.it/vivere-il-comune/luoghi/oratorio-di-san-lorenzo/"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.comune.palermo.it/vivere-il-comune/luoghi/oratorio-di-san-lorenzo/"
+      },
+      "location": {
+        "area": "Kalsa|Kalsa",
+        "address": "Via Immacolatella 3",
+        "mapQuery": "Via Immacolatella 3, Palermo"
+      },
+      "source": {
+        "url": "https://www.comune.palermo.it/vivere-il-comune/luoghi/oratorio-di-san-lorenzo/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.comune.palermo.it/vivere-il-comune/luoghi/oratorio-di-san-lorenzo/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "venue",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://www.comune.palermo.it/vivere-il-comune/luoghi/oratorio-di-san-lorenzo/",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-024",
+      "legacyId": "Santa Caterina, chiesa e complesso",
+      "t": "Santa Caterina, chiesa e complesso|Santa Caterina, church and complex",
+      "z": "Piazza Bellini|Piazza Bellini",
+      "d": "60 min|60 min",
+      "p": "La visita del complesso richiede di scegliere le parti comprese nel proprio biglietto; il tour esterno resta una proposta separata.|Visiting the complex requires choosing which sections your ticket covers; the outdoor walk remains a separate suggestion.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "religioso",
+        "food"
+      ],
+      "sub": "basiliche",
+      "duration": {
+        "minutes": 60,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.monasterosantacaterina.com/"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.monasterosantacaterina.com/"
+      },
+      "location": {
+        "area": "Piazza Bellini|Piazza Bellini",
+        "address": "Piazza Bellini 2",
+        "mapQuery": "Piazza Bellini 2, Palermo"
+      },
+      "source": {
+        "url": "https://www.monasterosantacaterina.com/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.monasterosantacaterina.com/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "venue",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://www.monasterosantacaterina.com/",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-025",
+      "legacyId": "Martorana e piazza Bellini",
+      "t": "Martorana e piazza Bellini|Martorana and Piazza Bellini",
+      "z": "Piazza Bellini|Piazza Bellini",
+      "d": "45 min|45 min",
+      "p": "Una lettura della piazza che distingue osservazione degli esterni, celebrazioni e visita monumentale.|A reading of the square that distinguishes viewing exteriors, services and monumental visits.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "religioso",
+        "cultura"
+      ],
+      "sub": "basiliche",
+      "duration": {
+        "minutes": 45,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=16&tp=68"
+      },
+      "location": {
+        "area": "Piazza Bellini|Piazza Bellini",
+        "address": "Piazza Bellini 3",
+        "mapQuery": "Piazza Bellini 3, Palermo"
+      },
+      "source": {
+        "url": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=16&tp=68",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=16&tp=68",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "self-guided",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=16&tp=68",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-026",
+      "legacyId": "San Cataldo, i volumi dalla piazza",
+      "t": "San Cataldo, i volumi dalla piazza|San Cataldo, forms from the square",
+      "z": "Piazza Bellini|Piazza Bellini",
+      "d": "45 min|45 min",
+      "p": "Cerca il rapporto fra le forme dell’edificio e la piazza; l’ingresso interno è un’opzione separata.|Look at the relationship between the building’s forms and the square; interior admission is a separate option.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "religioso",
+        "lento"
+      ],
+      "sub": "basiliche",
+      "duration": {
+        "minutes": 45,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=16&tp=68"
+      },
+      "location": {
+        "area": "Piazza Bellini|Piazza Bellini",
+        "address": "Piazza Bellini",
+        "mapQuery": "Piazza Bellini, Palermo"
+      },
+      "source": {
+        "url": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=16&tp=68",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=16&tp=68",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "self-guided",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=16&tp=68",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-027",
+      "legacyId": "Ponte dell’Ammiraglio, lettura degli archi",
+      "t": "Ponte dell’Ammiraglio, lettura degli archi|Admiral’s Bridge, reading the arches",
+      "z": "Oreto|Oreto",
+      "d": "45 min|45 min",
+      "p": "Osservazione del monumento dal percorso pubblico: cerca la ripetizione delle forme senza accedere a spazi recintati.|Observe the monument from the public route: look for repeated forms without entering fenced areas.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "cultura",
+        "lento"
+      ],
+      "sub": "musei",
+      "duration": {
+        "minutes": 45,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=17&tp=68"
+      },
+      "location": {
+        "area": "Oreto|Oreto",
+        "address": "Piazza Ponte dell’Ammiraglio",
+        "mapQuery": "Piazza Ponte dell’Ammiraglio, Palermo"
+      },
+      "source": {
+        "url": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=17&tp=68",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=17&tp=68",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "self-guided",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=17&tp=68",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-028",
+      "legacyId": "Castello di Maredolce, esterni",
+      "t": "Castello di Maredolce, esterni|Maredolce Castle, exterior",
+      "z": "Brancaccio|Brancaccio",
+      "d": "45 min|45 min",
+      "p": "Un itinerario esterno sul rapporto fra acqua, città e paesaggio. Gli accessi al complesso si verificano sul programma del gestore.|An outdoor itinerary on water, city and landscape. Check the operator’s programme for access to the complex.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "cultura",
+        "lento"
+      ],
+      "sub": "musei",
+      "duration": {
+        "minutes": 45,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=17&tp=68"
+      },
+      "location": {
+        "area": "Brancaccio|Brancaccio",
+        "address": "Via Giafar",
+        "mapQuery": "Via Giafar, Palermo"
+      },
+      "source": {
+        "url": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=17&tp=68",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=17&tp=68",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "self-guided",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=17&tp=68",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-029",
+      "legacyId": "Palazzina Cinese, colori dall’esterno",
+      "t": "Palazzina Cinese, colori dall’esterno|Chinese Palace, colours from outside",
+      "z": "Favorita|Favorita",
+      "d": "45 min|45 min",
+      "p": "Un taccuino di forme e colori dalla passeggiata esterna; nessuna visita interna inclusa.|A notebook of forms and colours from the outdoor walk; no interior visit is included.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "cultura",
+        "benessere"
+      ],
+      "sub": "musei",
+      "duration": {
+        "minutes": 45,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=17&tp=68"
+      },
+      "location": {
+        "area": "Favorita|Favorita",
+        "address": "Via Duca degli Abruzzi",
+        "mapQuery": "Via Duca degli Abruzzi, Palermo"
+      },
+      "source": {
+        "url": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=17&tp=68",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=17&tp=68",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "self-guided",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=17&tp=68",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-030",
+      "legacyId": "Stadio Renzo Barbera, calendario ufficiale",
+      "t": "Stadio Renzo Barbera, calendario ufficiale|Renzo Barbera Stadium, official schedule",
+      "z": "Favorita|Favorita",
+      "d": "60 min|60 min",
+      "p": "Per una partita usa calendario e biglietti del Palermo FC. Il nostro itinerario non costituisce una prenotazione o un tour dello stadio.|For a match use Palermo FC’s schedule and tickets. Our itinerary is neither a booking nor a stadium tour.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "sport",
+        "business"
+      ],
+      "sub": "calcio",
+      "duration": {
+        "minutes": 60,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.palermofc.com/"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.palermofc.com/"
+      },
+      "location": {
+        "area": "Favorita|Favorita",
+        "address": "Viale del Fante",
+        "mapQuery": "Viale del Fante, Palermo"
+      },
+      "source": {
+        "url": "https://www.palermofc.com/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.palermofc.com/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "venue",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://www.palermofc.com/",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-031",
+      "legacyId": "Mercati e taccuino di cucina",
+      "t": "Mercati e taccuino di cucina|Markets and a cooking notebook",
+      "z": "Centro|City centre",
+      "d": "45 min|45 min",
+      "p": "Progetto autonomo: scegli tre ingredienti leggendo i banchi dei mercati storici. Nessun corso di cucina o laboratorio viene promesso.|A self-directed project: choose three ingredients by reading the historic market stalls. No cooking class or workshop is promised.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "food",
+        "formativo"
+      ],
+      "sub": "romana",
+      "duration": {
+        "minutes": 45,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=24&tp=68"
+      },
+      "location": {
+        "area": "Centro|City centre",
+        "address": "Piazza Ballarò",
+        "mapQuery": "Piazza Ballarò, Palermo"
+      },
+      "source": {
+        "url": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=24&tp=68",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=24&tp=68",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "self-guided",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=24&tp=68",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-032",
+      "legacyId": "Kalsa, la città delle soglie",
+      "t": "Kalsa, la città delle soglie|Kalsa, a city of thresholds",
+      "z": "Kalsa|Kalsa",
+      "d": "45 min|45 min",
+      "p": "Una passeggiata fra piazza Magione e le vie della Kalsa: osserva le facciate dagli spazi pubblici, senza entrare nelle case.|A walk between Piazza Magione and the Kalsa streets: observe façades from public space without entering homes.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 45,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-tour-citta-servizi-dettaglio.php?tp=208"
+      },
+      "location": {
+        "area": "Kalsa|Kalsa",
+        "address": "Piazza Magione",
+        "mapQuery": "Piazza Magione, Palermo"
+      },
+      "source": {
+        "url": "https://turismo.comune.palermo.it/palermo-welcome-tour-citta-servizi-dettaglio.php?tp=208",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismo.comune.palermo.it/palermo-welcome-tour-citta-servizi-dettaglio.php?tp=208",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "self-guided",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-tour-citta-servizi-dettaglio.php?tp=208",
+        "verifiedAt": null
+      },
+      "verifiedFields": []
+    }
+  ],
+  "ITINERARI": {
+    "cultura": [
+      {
+        "ora": "09:00",
+        "t": "Palazzo dei Normanni e Cappella Palatina|Norman Palace and Palatine Chapel",
+        "p": "Un complesso che intreccia architettura e vita istituzionale. Scegli il prodotto di visita sul sito della fondazione, verificando le aree comprese.|A complex combining architecture and institutional life. Choose your visit product on the foundation’s website and check the included areas.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      },
+      {
+        "ora": "11:00",
+        "t": "Cattedrale e percorso monumentale|Cathedral and monumental route",
+        "p": "Distingui lo spazio di culto dal percorso monumentale: tetti, tombe e altri ambienti seguono accessi propri.|Distinguish the place of worship from the monumental route: roofs, tombs and other spaces have separate access arrangements.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      },
+      {
+        "ora": "14:00",
+        "t": "Palazzo Abatellis|Palazzo Abatellis",
+        "p": "La Galleria regionale della Sicilia è una visita da scegliere per le collezioni, non come semplice passaggio nella Kalsa.|The Sicilian Regional Gallery is a visit to choose for its collections, rather than merely a stop while crossing the Kalsa.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      },
+      {
+        "ora": "17:00",
+        "t": "Museo archeologico Salinas|Salinas Archaeological Museum",
+        "p": "Un museo archeologico nel cuore della città: usa la scheda regionale per scegliere le sezioni e il biglietto.|An archaeological museum in the city centre: use the regional information to choose sections and admission.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      }
+    ],
+    "business": [
+      {
+        "ora": "09:00",
+        "t": "Teatro Massimo, visita guidata ufficiale|Teatro Massimo, official guided visit",
+        "p": "La visita guidata pubblicata dal Teatro dura circa 40 minuti ed è distinta dal biglietto per uno spettacolo.|The Theatre’s published guided visit lasts about 40 minutes and is separate from a performance ticket.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      },
+      {
+        "ora": "11:00",
+        "t": "Palazzo Butera|Palazzo Butera",
+        "p": "Il palazzo affacciato sul fronte a mare ospita la collezione Valsecchi; indirizzo pubblicato dal Comune: via Butera 8.|The palace on the waterfront houses the Valsecchi collection; the municipality lists its address as Via Butera 8.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      },
+      {
+        "ora": "14:00",
+        "t": "Cantieri Culturali alla Zisa|Cantieri Culturali alla Zisa",
+        "p": "Gli ex spazi produttivi ospitano attività culturali; sale e mostre seguono programmi separati, non un’apertura unica da presumere.|The former production spaces host cultural activities; rooms and exhibitions have separate programmes, rather than one assumed opening schedule.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      },
+      {
+        "ora": "17:00",
+        "t": "Stadio Renzo Barbera, calendario ufficiale|Renzo Barbera Stadium, official schedule",
+        "p": "Per una partita usa calendario e biglietti del Palermo FC. Il nostro itinerario non costituisce una prenotazione o un tour dello stadio.|For a match use Palermo FC’s schedule and tickets. Our itinerary is neither a booking nor a stadium tour.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      }
+    ],
+    "food": [
+      {
+        "ora": "09:00",
+        "t": "Ballarò, taccuino di mercato|Ballarò market notebook",
+        "p": "Percorso di osservazione nel mercato storico: confronta insegne e ingredienti, con acquisti liberi e senza degustazioni incluse.|An observation walk in the historic market: compare signs and ingredients, with optional purchases and no included tastings.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      },
+      {
+        "ora": "11:00",
+        "t": "Il Capo, parole e banchi|Capo market, words and stalls",
+        "p": "Scrivi un piccolo glossario dei prodotti che incontri nei banchi aperti. Non è un tour commerciale con assaggi prenotati.|Write a small glossary of products you find at open stalls. This is not a commercial tour with pre-booked tastings.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      },
+      {
+        "ora": "14:00",
+        "t": "Vucciria, lettura di quartiere|Vucciria neighbourhood reading",
+        "p": "Il Comune include la Vucciria fra i mercati storici: esplorala come spazio urbano, senza promesse su orari dei singoli banchi.|The municipality lists Vucciria among the historic markets: explore it as urban space, without promises about individual stall hours.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      },
+      {
+        "ora": "17:00",
+        "t": "Santa Caterina, chiesa e complesso|Santa Caterina, church and complex",
+        "p": "La visita del complesso richiede di scegliere le parti comprese nel proprio biglietto; il tour esterno resta una proposta separata.|Visiting the complex requires choosing which sections your ticket covers; the outdoor walk remains a separate suggestion.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      }
+    ],
+    "religioso": [
+      {
+        "ora": "09:00",
+        "t": "Palazzo dei Normanni e Cappella Palatina|Norman Palace and Palatine Chapel",
+        "p": "Un complesso che intreccia architettura e vita istituzionale. Scegli il prodotto di visita sul sito della fondazione, verificando le aree comprese.|A complex combining architecture and institutional life. Choose your visit product on the foundation’s website and check the included areas.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      },
+      {
+        "ora": "11:00",
+        "t": "Cattedrale e percorso monumentale|Cathedral and monumental route",
+        "p": "Distingui lo spazio di culto dal percorso monumentale: tetti, tombe e altri ambienti seguono accessi propri.|Distinguish the place of worship from the monumental route: roofs, tombs and other spaces have separate access arrangements.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      },
+      {
+        "ora": "14:00",
+        "t": "Santa Rosalia e Monte Pellegrino|Santa Rosalia and Monte Pellegrino",
+        "p": "Scegli la visita al santuario e il trasferimento in modo separato: il percorso non presume una salita a piedi adatta a tutti.|Choose the sanctuary visit and transport separately: the route does not assume an uphill walk suitable for everyone.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      },
+      {
+        "ora": "17:00",
+        "t": "Chiesa del Gesù, percorso d’arte|Church of the Gesù, art route",
+        "p": "Distingui la visita della chiesa da museo e percorsi aggiuntivi, con condizioni da scegliere sul canale ufficiale del gestore. |Distinguish the church visit from the museum and additional routes, selecting arrangements through the operator’s official channel.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      }
+    ],
+    "benessere": [
+      {
+        "ora": "09:00",
+        "t": "Orto Botanico universitario|University Botanical Garden",
+        "p": "Un giardino scientifico dell’Università di Palermo. In ottobre il sito indica apertura 9–18, domenica 10–18, ultimo ingresso un’ora prima.|A scientific garden of the University of Palermo. For October the website lists 9–18 opening, Sundays 10–18, with last entry one hour earlier.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      },
+      {
+        "ora": "11:00",
+        "t": "Foro Italico, pausa sul mare|Foro Italico, seaside break",
+        "p": "Il Comune descrive il Foro Italico come area verde sul lungomare, dalla Cala verso villa Giulia.|The municipality describes Foro Italico as a waterfront green area extending from La Cala towards Villa Giulia.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      },
+      {
+        "ora": "14:00",
+        "t": "Villa Giulia, taccuino verde|Villa Giulia, green notebook",
+        "p": "Una sosta dedicata a forme e ombra nel percorso del verde comunale. Usa gli accessi aperti e rispetta il regolamento del giardino.|A pause for forms and shade in the municipal green itinerary. Use open entrances and respect garden rules.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      },
+      {
+        "ora": "17:00",
+        "t": "Mondello, passeggiata sul lungomare|Mondello promenade walk",
+        "p": "Proposta di passeggiata sul lungomare: nessun lido, lettino o servizio balneare incluso nel nostro percorso.|A promenade walk suggestion: no beach club, sunbed or bathing service is included in our route.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      }
+    ],
+    "sport": [
+      {
+        "ora": "09:00",
+        "t": "Santa Maria dello Spasimo, programma culturale|Santa Maria dello Spasimo, cultural programme",
+        "p": "Il Comune ha annunciato la riapertura nel 2026 dopo i restauri. Per visite e concerti conta il programma corrente, non le vecchie tabelle che lo davano chiuso.|The municipality announced the 2026 reopening after restoration. Use the current programme for visits and concerts, rather than old tables listing it as closed.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      },
+      {
+        "ora": "11:00",
+        "t": "Foro Italico, pausa sul mare|Foro Italico, seaside break",
+        "p": "Il Comune descrive il Foro Italico come area verde sul lungomare, dalla Cala verso villa Giulia.|The municipality describes Foro Italico as a waterfront green area extending from La Cala towards Villa Giulia.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      },
+      {
+        "ora": "14:00",
+        "t": "Mondello, passeggiata sul lungomare|Mondello promenade walk",
+        "p": "Proposta di passeggiata sul lungomare: nessun lido, lettino o servizio balneare incluso nel nostro percorso.|A promenade walk suggestion: no beach club, sunbed or bathing service is included in our route.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      },
+      {
+        "ora": "17:00",
+        "t": "Stadio Renzo Barbera, calendario ufficiale|Renzo Barbera Stadium, official schedule",
+        "p": "Per una partita usa calendario e biglietti del Palermo FC. Il nostro itinerario non costituisce una prenotazione o un tour dello stadio.|For a match use Palermo FC’s schedule and tickets. Our itinerary is neither a booking nor a stadium tour.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      }
+    ],
+    "lento": [
+      {
+        "ora": "09:00",
+        "t": "Zisa, palazzo e paesaggio|Zisa, palace and landscape",
+        "p": "La scheda comunale racconta il rapporto fra architettura, acqua e ventilazione: un punto di partenza per leggere la facciata e scegliere un’eventuale visita.|The municipal page describes architecture, water and ventilation: a starting point for reading the façade and choosing an optional visit.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      },
+      {
+        "ora": "11:00",
+        "t": "Villino Florio, disegno e facciate|Villino Florio, design and façades",
+        "p": "La dimora è documentata dal Comune in viale Regina Margherita 38. Parti dagli esterni e controlla separatamente le visite interne.|The municipality documents the residence at Viale Regina Margherita 38. Start outside and check interior visits separately.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      },
+      {
+        "ora": "14:00",
+        "t": "Ecomuseo Mare Memoria Viva|Mare Memoria Viva Ecomuseum",
+        "p": "L’ecomuseo ha sede nell’ex Deposito Locomotive di Sant’Erasmo e racconta il rapporto fra Palermo e il suo mare.|The ecomuseum is housed in the former Sant’Erasmo locomotive depot and explores Palermo’s relationship with the sea.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      },
+      {
+        "ora": "17:00",
+        "t": "Ballarò, taccuino di mercato|Ballarò market notebook",
+        "p": "Percorso di osservazione nel mercato storico: confronta insegne e ingredienti, con acquisti liberi e senza degustazioni incluse.|An observation walk in the historic market: compare signs and ingredients, with optional purchases and no included tastings.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      }
+    ],
+    "formativo": [
+      {
+        "ora": "09:00",
+        "t": "Palazzo Abatellis|Palazzo Abatellis",
+        "p": "La Galleria regionale della Sicilia è una visita da scegliere per le collezioni, non come semplice passaggio nella Kalsa.|The Sicilian Regional Gallery is a visit to choose for its collections, rather than merely a stop while crossing the Kalsa.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      },
+      {
+        "ora": "11:00",
+        "t": "Museo archeologico Salinas|Salinas Archaeological Museum",
+        "p": "Un museo archeologico nel cuore della città: usa la scheda regionale per scegliere le sezioni e il biglietto.|An archaeological museum in the city centre: use the regional information to choose sections and admission.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      },
+      {
+        "ora": "14:00",
+        "t": "Orto Botanico universitario|University Botanical Garden",
+        "p": "Un giardino scientifico dell’Università di Palermo. In ottobre il sito indica apertura 9–18, domenica 10–18, ultimo ingresso un’ora prima.|A scientific garden of the University of Palermo. For October the website lists 9–18 opening, Sundays 10–18, with last entry one hour earlier.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      },
+      {
+        "ora": "17:00",
+        "t": "Galleria d’Arte Moderna|Modern Art Gallery",
+        "p": "Una tappa museale a Sant’Anna: consulta il programma del museo per collezioni e mostre del periodo.|A museum stop at Sant’Anna: consult the museum programme for collections and current exhibitions.",
+        "note": "Sequenza editoriale, non prenotazione. Le visite interne dipendono dal calendario.|Editorial sequence, not a booking. Interior visits depend on the schedule."
+      }
+    ]
+  },
+  "FOTO": {
+    "cultura": {
+      "bg": "linear-gradient(135deg,#D9C79E,#B78B4B)",
+      "emo": "🏛️"
+    },
+    "business": {
+      "bg": "linear-gradient(135deg,#9FB4C7,#5B7899)",
+      "emo": "💼"
+    },
+    "food": {
+      "bg": "linear-gradient(135deg,#E8A87C,#B5432C)",
+      "emo": "🍝"
+    },
+    "religioso": {
+      "bg": "linear-gradient(135deg,#F0E6D2,#C9A66B)",
+      "emo": "⛪"
+    },
+    "benessere": {
+      "bg": "linear-gradient(135deg,#B7C9A8,#69704F)",
+      "emo": "🌿"
+    },
+    "sport": {
+      "bg": "linear-gradient(135deg,#E3B7A0,#A03D2E)",
+      "emo": "🏟️"
+    },
+    "lento": {
+      "bg": "linear-gradient(135deg,#CDBF9A,#8F9770)",
+      "emo": "🚲"
+    },
+    "formativo": {
+      "bg": "linear-gradient(135deg,#AFC5C4,#5F807D)",
+      "emo": "🎓"
+    }
+  },
+  "IMMAGINI": {},
+  "MARCO": [
+    {
+      "k": [
+        "airport",
+        "aeroporto",
+        "bus",
+        "tram"
+      ],
+      "a": "AMAT gestisce il trasporto urbano; per il collegamento aeroportuale consulta il gestore dedicato e il sito dell’aeroporto.|AMAT runs urban transport; for airport travel consult the dedicated operator and the airport website.",
+      "sourceUrl": "https://www.prestiaecomande.it/servizi/"
+    },
+    {
+      "k": [
+        "water",
+        "acqua",
+        "bagni",
+        "toilet"
+      ],
+      "a": "Usa il pannello In viaggio per cercare servizi sulla mappa. Le aperture dei singoli servizi vanno controllate nella scheda del luogo.|Use the On the go panel to search for services on the map. Check individual opening times in the place’s listing.",
+      "sourceUrl": "https://turismo.comune.palermo.it/"
+    }
+  ],
+  "MARCO_FALLBACK": "Mmm, non l'ho capita 😅 Prova con parole come: code, sicurezza, taxi, metro, cena, bambini, pioggia, truffe, cappuccino... o clicca una domanda rapida qui sotto.|Hmm, I didn't get that 😅 Try words like: queues, safety, taxi, metro, dinner, kids, rain, scams, cappuccino... or tap a quick question below.",
+  "CHAT_QUICK": [
+    "Come raggiungo l’aeroporto?|How do I reach the airport?",
+    "Dove cerco acqua e bagni?|Where can I find water and toilets?"
+  ],
+  "city": {
+    "id": "palermo",
+    "name": "Palermo|Palermo",
+    "portal": "https://turismo.comune.palermo.it/",
+    "accessibilityUrl": "https://turismo.comune.palermo.it/palermo-welcome-turismo-accessibile.php",
+    "transportUrl": "https://www.amat.pa.it/",
+    "sourceReviewedAt": "2026-10-16"
+  },
+  "TOURS": [
+    {
+      "id": "palermo-tour-1",
+      "title": "Mare restituito: dal deposito al giardino|Sea returned: from depot to garden",
+      "mood": "memory",
+      "minutes": 180,
+      "weather": "mixed",
+      "terrain": "Tratti urbani sul lungomare; ecomuseo e Spasimo seguono i rispettivi calendari.|Urban waterfront sections; the ecomuseum and Spasimo follow their own schedules.",
+      "stops": [
+        "palermo-101",
+        "palermo-102",
+        "palermo-103"
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
+      "focus": "Dall’Ecomuseo al Foro Italico e allo Spasimo, confronta tre modi di restituire spazio alla città. Annota cosa cambia fra memoria del mare, prato e architettura aperta.|From the Ecomuseum to Foro Italico and the Spasimo, compare three ways of returning space to the city: sea memories, lawn and open architecture.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "palermo-tour-2",
+      "title": "Fresco, acqua, industria: oltre il centro|Coolness, water, industry: beyond the centre",
+      "mood": "architecture",
+      "minutes": 180,
+      "weather": "outdoor",
+      "terrain": "Il percorso base resta agli esterni; visite a Zisa e Villino sono opzioni separate.|The basic route stays outside; Zisa and Villino visits are separate options.",
+      "stops": [
+        "palermo-104",
+        "palermo-105",
+        "palermo-106"
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
+      "focus": "Accosta Zisa, Cantieri Culturali e Villino Florio: osserva acqua, produzione e abitare attraverso facciate e spazi pubblici. Le visite interne restano facoltative.|Connect the Zisa, Cantieri Culturali and Villino Florio: observe water, production and housing through facades and public space. Indoor visits remain optional.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "palermo-tour-3",
+      "title": "Piccole cosmologie della Kalsa|Small cosmologies of the Kalsa",
+      "mood": "art",
+      "minutes": 150,
+      "weather": "mixed",
+      "terrain": "Museo e oratorio con biglietti e aperture separati; la sequenza è una proposta editoriale.|Museum and oratory have separate tickets and opening times; the sequence is an editorial suggestion.",
+      "stops": [
+        "palermo-107",
+        "palermo-108",
+        "palermo-109"
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
+      "focus": "Dalle maioliche delle Stanze al Genio al Genio in piazza e agli stucchi dell’oratorio, cerca tre modi di raccontare una città attraverso piccoli dettagli.|From the tiles of Stanze al Genio to the Genio in the square and the oratory’s stucco, find three ways small details tell a city’s story.",
+      "createdAt": "2026-10-16"
+    }
+  ],
+  "TOUR_STOPS": [
+    {
+      "id": "palermo-101",
+      "legacyId": "Ecomuseo Mare Memoria Viva",
+      "t": "Ecomuseo Mare Memoria Viva|Mare Memoria Viva Ecomuseum",
+      "z": "Via Messina Marine 14|Via Messina Marine 14",
+      "d": "35 min|35 min",
+      "p": "Porta una domanda sul rapporto della città con il mare: il museo è una visita facoltativa.|Bring a question about the city’s relationship with the sea; the museum is an optional visit.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.marememoriaviva.it/ecomuseo/"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.marememoriaviva.it/ecomuseo/"
+      },
+      "location": {
+        "area": "Via Messina Marine 14|Via Messina Marine 14",
+        "address": "Via Messina Marine 14",
+        "mapQuery": "Via Messina Marine 14, Palermo"
+      },
+      "source": {
+        "url": "https://www.marememoriaviva.it/ecomuseo/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.marememoriaviva.it/ecomuseo/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.marememoriaviva.it/ecomuseo/",
+        "verifiedAt": null
+      },
+      "sourceKey": "palermomare",
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-102",
+      "legacyId": "Foro Italico",
+      "t": "Foro Italico|Foro Italico",
+      "z": "Foro Italico Palermo|Foro Italico Palermo",
+      "d": "35 min|35 min",
+      "p": "Confronta il paesaggio della costa con quello raccontato dall’ecomuseo, usando i percorsi pubblici.|Compare the coastal landscape with that described by the ecomuseum, using public paths.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.comune.palermo.it/vivere-il-comune/luoghi/foro-italico/"
+      },
+      "location": {
+        "area": "Foro Italico Palermo|Foro Italico Palermo",
+        "address": "Foro Italico Palermo",
+        "mapQuery": "Foro Italico Palermo, Palermo"
+      },
+      "source": {
+        "url": "https://www.comune.palermo.it/vivere-il-comune/luoghi/foro-italico/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.comune.palermo.it/vivere-il-comune/luoghi/foro-italico/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.comune.palermo.it/vivere-il-comune/luoghi/foro-italico/",
+        "verifiedAt": null
+      },
+      "sourceKey": "palermoforo",
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-103",
+      "legacyId": "Santa Maria dello Spasimo",
+      "t": "Santa Maria dello Spasimo|Santa Maria dello Spasimo",
+      "z": "Piazza Carlo Maria Ventimiglia|Piazza Carlo Maria Ventimiglia",
+      "d": "35 min|35 min",
+      "p": "Chiudi sul tema degli spazi restituiti alla città; ingressi ed eventi vanno scelti dal programma corrente.|Finish on the theme of spaces returned to the city; choose visits and events from the current programme.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://docs.comune.palermo.it/palermo-informa-dettaglio.php?id=43252&tipo=4"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://docs.comune.palermo.it/palermo-informa-dettaglio.php?id=43252&tipo=4"
+      },
+      "location": {
+        "area": "Piazza Carlo Maria Ventimiglia|Piazza Carlo Maria Ventimiglia",
+        "address": "Piazza Carlo Maria Ventimiglia",
+        "mapQuery": "Piazza Carlo Maria Ventimiglia, Palermo"
+      },
+      "source": {
+        "url": "https://docs.comune.palermo.it/palermo-informa-dettaglio.php?id=43252&tipo=4",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://docs.comune.palermo.it/palermo-informa-dettaglio.php?id=43252&tipo=4",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://docs.comune.palermo.it/palermo-informa-dettaglio.php?id=43252&tipo=4",
+        "verifiedAt": null
+      },
+      "sourceKey": "palermospasimo",
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-104",
+      "legacyId": "Palazzo della Zisa, esterni",
+      "t": "Palazzo della Zisa, esterni|Zisa Palace, exterior",
+      "z": "Piazza Guglielmo il Buono|Piazza Guglielmo il Buono",
+      "d": "35 min|35 min",
+      "p": "Usa la facciata come inizio di un taccuino sul rapporto fra architettura e clima.|Use the façade to begin a notebook on architecture and climate.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=17&id=71&tp=68"
+      },
+      "location": {
+        "area": "Piazza Guglielmo il Buono|Piazza Guglielmo il Buono",
+        "address": "Piazza Guglielmo il Buono",
+        "mapQuery": "Piazza Guglielmo il Buono, Palermo"
+      },
+      "source": {
+        "url": "https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=17&id=71&tp=68",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=17&id=71&tp=68",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=17&id=71&tp=68",
+        "verifiedAt": null
+      },
+      "sourceKey": "palermozisa",
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-105",
+      "legacyId": "Cantieri Culturali alla Zisa",
+      "t": "Cantieri Culturali alla Zisa|Cantieri Culturali alla Zisa",
+      "z": "Via Paolo Gili 4|Via Paolo Gili 4",
+      "d": "35 min|35 min",
+      "p": "Riconosci le tracce della fabbrica negli spazi aperti; mostre e sale hanno programmi propri.|Identify factory traces in open spaces; exhibitions and rooms have their own programmes.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.comune.palermo.it/vivere-il-comune/luoghi/cantieri-culturali-alla-zisa/"
+      },
+      "location": {
+        "area": "Via Paolo Gili 4|Via Paolo Gili 4",
+        "address": "Via Paolo Gili 4",
+        "mapQuery": "Via Paolo Gili 4, Palermo"
+      },
+      "source": {
+        "url": "https://www.comune.palermo.it/vivere-il-comune/luoghi/cantieri-culturali-alla-zisa/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.comune.palermo.it/vivere-il-comune/luoghi/cantieri-culturali-alla-zisa/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.comune.palermo.it/vivere-il-comune/luoghi/cantieri-culturali-alla-zisa/",
+        "verifiedAt": null
+      },
+      "sourceKey": "palermocantieri",
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-106",
+      "legacyId": "Villino Florio, esterni",
+      "t": "Villino Florio, esterni|Villino Florio, exterior",
+      "z": "Viale Regina Margherita 38|Viale Regina Margherita 38",
+      "d": "35 min|35 min",
+      "p": "Concludi confrontando gli ornamenti con le forme industriali dei Cantieri.|Finish by comparing ornament with the industrial forms of the Cantieri.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=19&id=146&tp=68"
+      },
+      "location": {
+        "area": "Viale Regina Margherita 38|Viale Regina Margherita 38",
+        "address": "Viale Regina Margherita 38",
+        "mapQuery": "Viale Regina Margherita 38, Palermo"
+      },
+      "source": {
+        "url": "https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=19&id=146&tp=68",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=19&id=146&tp=68",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=19&id=146&tp=68",
+        "verifiedAt": null
+      },
+      "sourceKey": "palermoflorio",
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-107",
+      "legacyId": "Stanze al Genio",
+      "t": "Stanze al Genio|Stanze al Genio",
+      "z": "Via Giuseppe Garibaldi 11|Via Giuseppe Garibaldi 11",
+      "d": "35 min|35 min",
+      "p": "Se scegli la visita, cerca un motivo di maiolica da usare come filo del percorso.|If you choose to visit, find a tile motif to use as the thread of the walk.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.stanzealgenio.it/"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.stanzealgenio.it/"
+      },
+      "location": {
+        "area": "Via Giuseppe Garibaldi 11|Via Giuseppe Garibaldi 11",
+        "address": "Via Giuseppe Garibaldi 11",
+        "mapQuery": "Via Giuseppe Garibaldi 11, Palermo"
+      },
+      "source": {
+        "url": "https://www.stanzealgenio.it/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.stanzealgenio.it/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.stanzealgenio.it/",
+        "verifiedAt": null
+      },
+      "sourceKey": "palermogenio",
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-108",
+      "legacyId": "Piazza Rivoluzione, Genio",
+      "t": "Piazza Rivoluzione, Genio|Piazza Rivoluzione, Genius fountain",
+      "z": "Piazza Rivoluzione|Piazza Rivoluzione",
+      "d": "35 min|35 min",
+      "p": "Ritrova nello spazio pubblico una forma o un colore del tuo motivo iniziale.|Find a form or colour from your initial motif in public space.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=17&tp=68"
+      },
+      "location": {
+        "area": "Piazza Rivoluzione|Piazza Rivoluzione",
+        "address": "Piazza Rivoluzione",
+        "mapQuery": "Piazza Rivoluzione, Palermo"
+      },
+      "source": {
+        "url": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=17&tp=68",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=17&tp=68",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=17&tp=68",
+        "verifiedAt": null
+      },
+      "sourceKey": "palermomonumenti",
+      "verifiedFields": []
+    },
+    {
+      "id": "palermo-109",
+      "legacyId": "Oratorio di San Lorenzo",
+      "t": "Oratorio di San Lorenzo|Oratory of San Lorenzo",
+      "z": "Via Immacolatella 5|Via Immacolatella 5",
+      "d": "35 min|35 min",
+      "p": "Completa il confronto fra superfici e dettagli, scegliendo liberamente se visitare l’interno.|Complete the comparison of surfaces and details, freely choosing whether to visit inside.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.comune.palermo.it/vivere-il-comune/luoghi/oratorio-di-san-lorenzo/"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.comune.palermo.it/vivere-il-comune/luoghi/oratorio-di-san-lorenzo/"
+      },
+      "location": {
+        "area": "Via Immacolatella 5|Via Immacolatella 5",
+        "address": "Via Immacolatella 3",
+        "mapQuery": "Via Immacolatella 3, Palermo"
+      },
+      "source": {
+        "url": "https://www.comune.palermo.it/vivere-il-comune/luoghi/oratorio-di-san-lorenzo/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.comune.palermo.it/vivere-il-comune/luoghi/oratorio-di-san-lorenzo/",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.comune.palermo.it/vivere-il-comune/luoghi/oratorio-di-san-lorenzo/",
+        "verifiedAt": null
+      },
+      "sourceKey": "palermolorenzo",
+      "verifiedFields": []
+    }
+  ],
+  "TRAVEL": {
+    "airportUrl": "https://www.aeroportodipalermo.it/",
+    "weatherUrl": "https://www.meteoam.it/it/home",
+    "emergencyUrl": "https://digital-strategy.ec.europa.eu/en/policies/112",
+    "transportUrl": "https://www.amat.pa.it/",
+    "toiletsUrl": null,
+    "waterUrl": null,
+    "accessibilityUrl": "https://turismo.comune.palermo.it/palermo-welcome-turismo-accessibile.php",
+    "checkedAt": "2026-10-16"
+  }
+}

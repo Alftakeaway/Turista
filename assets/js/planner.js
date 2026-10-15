@@ -1,10 +1,12 @@
 window.GuidePlanner = {
-  create({ items, storageKey, tr, initial, changed = () => {} }) {
+  create({ items, storageKey, tr, initial, city = document.body.dataset.city, transportUrl = "https://www.italia.it/", changed = () => {} }) {
     const box = document.getElementById('personal-plan');
     const stored = GuideStorage.read(storageKey + '_plan', []);
     let ids = initial.has('plan') ? initial.get('plan').split(',') : Array.isArray(stored) ? stored : [];
     ids = [...new Set(ids)].filter(id => items.some(e => e.id === id)).slice(0, 20);
     const escape = GuideUI.escape;
+    let tripDate = GuideStorage.read(storageKey + '_trip_date', '');
+    if (!GuideTrip.validDate(tripDate)) tripDate = new Intl.DateTimeFormat('sv-SE', {timeZone:'Europe/Rome'}).format(new Date());
     function render() {
       const selected = ids.map(id => items.find(e => e.id === id));
       box.innerHTML = `<h2>${tr('Il tuo itinerario personale|Your personal plan')}</h2>
@@ -14,8 +16,27 @@ window.GuidePlanner = {
           <button data-plan="down" data-id="${e.id}" ${index === selected.length - 1 ? 'disabled' : ''} aria-label="${escape(tr('Sposta giù|Move down'))} ${escape(tr(e.t))}">↓</button>
           <button data-plan="remove" data-id="${e.id}">${tr('Rimuovi|Remove')}</button></div></li>`).join('')}</ol>
         ${selected.length ? '' : `<p class="placeholder">${tr('Il tuo itinerario è vuoto. Apri una scheda e scegli “Aggiungi al mio giorno”.|Your plan is empty. Open a card and choose “Add to my day”.')}</p>`}
+        <div class="plan-date"><label for="trip-date">${tr('Data del tuo giorno|Date of your day')}</label><input id="trip-date" type="date" value="${escape(tripDate)}"></div>
         <div class="plan-toolbar"><button id="print-plan" ${selected.length ? '' : 'disabled'}>${tr('Stampa itinerario|Print plan')}</button>
-        <button id="share-plan">${tr('Condividi itinerario|Share plan')}</button><span id="plan-status" role="status"></span></div>`;
+        <button id="download-calendar" ${selected.length ? '' : 'disabled'}>${tr('Salva nel calendario|Save to calendar')}</button>
+        <button id="download-offline" ${selected.length ? '' : 'disabled'}>${tr('Scarica taccuino offline|Download offline notebook')}</button>
+        <button id="share-plan">${tr('Condividi itinerario|Share plan')}</button><span id="plan-status" role="status"></span></div>
+        <p class="budget-summary">${tr('Minimo dei costi elencati|Minimum of listed costs')}: ${new Intl.NumberFormat(document.documentElement.lang === 'it' ? 'it-IT' : 'en-GB', {style:'currency',currency:'EUR'}).format(GuideTrip.budget(selected).total)}.
+        ${GuideTrip.budget(selected).missing} ${tr('tappe senza importo fisso; trasporti, pasti ed extra esclusi. I percorsi esterni a quota zero non includono ingressi opzionali.|stops without a fixed amount; transport, meals and extras excluded. Zero-fee outdoor walks do not include optional admission.')}</p>
+        <div class="plan-maps">${selected.length ? Array.from({length:Math.ceil(selected.length/3)},(_,index)=>{
+          const part=selected.slice(index*3, index*3+4); return GuideUI.external(GuideTrip.directions(part),tr('Mappa a piedi: tratto |Walking map: leg ')+(index+1));
+        }).join(' · ') : ''}</div>`;
+      box.querySelector('#trip-date').addEventListener('change',event=>{
+        tripDate=event.target.value;
+        if (GuideTrip.validDate(tripDate)) GuideStorage.write(storageKey+'_trip_date',tripDate);
+      });
+      box.querySelector('#download-calendar').addEventListener('click',()=>{
+        if(!GuideTrip.validDate(tripDate)){box.querySelector('#plan-status').textContent=tr('Scegli una data valida.|Choose a valid date.');return;}
+        GuideTrip.download(GuideTrip.calendar({date:tripDate,city,items:selected,tr,url:location.href}),'text/calendar;charset=utf-8','il-mio-giorno.ics');
+      });
+      box.querySelector('#download-offline').addEventListener('click',()=>{
+        GuideTrip.download(GuideTrip.offline({city,items:selected,tr,transportUrl,date:tripDate}),'text/html;charset=utf-8','taccuino-'+document.body.dataset.city+'.html');
+      });
       box.querySelector('#print-plan').addEventListener('click', () => window.print());
       box.querySelector('#share-plan').addEventListener('click', async () => {
         const url = new URL(document.body.dataset.detail ? '../' + document.body.dataset.city + '.html' : location.href, location.href);
@@ -48,6 +69,12 @@ window.GuidePlanner = {
       }
       save();
     });
-    render(); return { render, toggle, saveTo };
+    function addMany(values) {
+      const valid = values.filter(id=>items.some(item=>item.id===id));
+      const merged=[...new Set([...ids,...valid])];
+      if(merged.length>20)return -1;
+      const added=merged.length-ids.length; ids=merged; save(); return added;
+    }
+    render(); return { render, toggle, saveTo, addMany };
   }
 };

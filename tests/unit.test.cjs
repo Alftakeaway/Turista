@@ -5,3 +5,27 @@ test('profile, category and venue type filters intersect',()=>{const {GuideExper
 test('storage recovers from corrupt data and keeps a memory fallback when blocked',()=>{let fail=false;const values=new Map([['city_preferiti','{broken']]);const {GuideStorage}=component('storage',{localStorage:{getItem:key=>{if(fail)throw Error();return values.get(key)??null;},setItem:(key,value)=>{if(fail)throw Error();values.set(key,value);}},document:{dispatchEvent(){}},Event:class{}});assert.equal(GuideStorage.read('city_preferiti','fallback'),'fallback');GuideStorage.write('city_lingua','en');assert.equal(GuideStorage.read('city_lingua','it'),'en');fail=true;assert.equal(GuideStorage.write('city_plan',['roma-001']),false);assert.equal(GuideStorage.read('city_plan',[])[0],'roma-001');assert.equal(GuideStorage.unavailable,true);});
 test('external links reject script and non-HTTPS schemes; HTML is escaped',()=>{const {GuideUI}=component('ui');assert.equal(GuideUI.safeUrl('javascript:alert(1)'),'#');assert.equal(GuideUI.safeUrl('https://example.com/'),'https://example.com/');assert(!GuideUI.escape('<img onerror="x">').includes('<'));});
 
+test('tour preferences respect time, interest and indoor options',()=>{
+ const {GuideTourRules}=component('tour-rules');
+ const tours=[{id:'a',mood:'art',weather:'mixed',minutes:180,stops:['a','b','c']}];
+ assert.equal(GuideTourRules.select(tours,{time:90}).length,0);
+ assert.equal(GuideTourRules.select(tours,{time:120})[0].stops.length,2);
+ assert.equal(GuideTourRules.select(tours,{mood:'nature'}).length,0);
+ assert.equal(GuideTourRules.select(tours,{time:120,weather:'mixed'}).length,0);
+ assert.equal(GuideTourRules.select(tours,{time:180,weather:'mixed'})[0].shortened,false);
+});
+
+test('trip exports handle leap dates, UTF-8 folding, escaped content and missing prices',()=>{
+ const {GuideTrip}=component('trip',{TextEncoder,URLSearchParams,document:{documentElement:{lang:'it'}},GuideUI:{safeUrl:v=>v}});
+ assert(GuideTrip.validDate('2028-02-29'));assert(!GuideTrip.validDate('2026-02-29'));
+ const items=[{id:'test-001',t:'Città, arte; '+ 'è'.repeat(100),z:'Centro',d:'1 h',p:'<script>bad</script>',tip:'Acqua',cost:{amount:12},location:{mapQuery:'A & B, città'},source:{url:'https://example.com/'}},{id:'test-002',t:'Seconda',z:'Nord',cost:{amount:null},location:{mapQuery:'Fine'}}];
+ const budget=GuideTrip.budget(items);assert.equal(budget.total,12);assert.equal(budget.missing,1);
+ const url=new URL(GuideTrip.directions(items));assert.equal(url.searchParams.get('origin'),'A & B, città');assert.equal(url.searchParams.get('travelmode'),'walking');
+ const calendar=GuideTrip.calendar({date:'2028-02-29',city:'Roma',items,tr:v=>v,url:'https://example.com/'});
+ assert(calendar.includes('DTEND;VALUE=DATE:20280301'));assert(calendar.includes('Città\\, arte\\;'));
+ for(const line of calendar.split('\r\n'))assert(Buffer.byteLength(line)<=75);
+ assert.throws(()=>GuideTrip.calendar({date:'2026-02-29'}));
+ const offline=GuideTrip.offline({city:'Roma',items:items.slice(0,1),tr:v=>v,transportUrl:'https://example.com/',date:'2028-02-29'});
+ assert(!offline.includes('<script>'));assert(offline.includes('&lt;script&gt;'));
+});
+

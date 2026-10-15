@@ -75,5 +75,16 @@
     "width": 1200,
     "height": 656,
     "scope": "city"
+  },
+  "palermo": {
+    "src": "assets/images/palermo.jpg",
+    "alt": "Cattedrale di Palermo|Palermo Cathedral",
+    "author": "Julian Lupyan",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Palermo_Cathedral_Facade.jpg",
+    "width": 1200,
+    "height": 692,
+    "scope": "city"
   }
 }

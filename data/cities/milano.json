@@ -4,16 +4,16 @@
   "TESTI": {
     "nav1": "Profili|Profiles",
     "nav2": "Esperienze|Experiences",
-    "nav3": "Itinerario|Itinerary",
-    "nav4": "Info pratiche|Practical info",
-    "heroK": "Guida poliedrica · Milano|The many-sided guide · Milan",
-    "heroH1": "Ogni viaggio è<br><em>un viaggio diverso</em>|Every trip is<br><em>a different trip</em>",
+    "nav3": "Tour originali|Original tours",
+    "nav4": "In viaggio|On the go",
+    "heroK": "Milano|Milan",
+    "heroH1": "Cerca la città fra un progetto e l’altro|Find the city between projects",
     "heroP": "Una città, otto viaggiatori: scegli il tuo profilo e la guida si adatta a te — dal Duomo ai Navigli, un itinerario su misura.|One city, eight travellers: pick your profile and the guide adapts — from the Duomo to the Navigli, a tailor-made itinerary.",
-    "cta1": "Trova il tuo profilo ↓|Find your profile ↓",
-    "cta2": "Vedi tutte le esperienze|See all experiences",
+    "cta1": "Crea il tuo tour|Find your tour",
+    "cta2": "Esplora le esperienze|Explore experiences",
     "stat1": "profili di viaggiatore|traveller profiles",
     "stat2": "esperienze selezionate|curated experiences",
-    "stat3": "itinerari pronti|ready itineraries",
+    "stat3": "tour originali|original tours",
     "step1k": "Passo 1|Step 1",
     "step1h": "Che tipo di viaggiatore sei?|What kind of traveller are you?",
     "step1p": "Tocca un profilo: esperienze e itinerario si filtrano subito. Nessuna selezione = vedi tutto.|Tap a profile: experiences and itinerary filter instantly. No selection = see everything.",
@@ -32,7 +32,7 @@
     "info2p": "Controlla meteo, calendario degli eventi e condizioni dei percorsi per le date del viaggio. L’affluenza varia: nessuna fascia oraria garantisce assenza di code.|Check weather, event schedules and route conditions for your travel dates. Crowds vary: no time of day guarantees a queue-free visit.",
     "info3h": "🎟️ Prenotare|🎟️ Booking",
     "info3p": "Per musei, spettacoli, corsi e attività scegli prima una data e verifica disponibilità, tariffe e condizioni sul sito del gestore. Gli itinerari sono proposte, non prenotazioni.|For museums, performances, classes and activities, choose a date and check availability, prices and terms on the operator’s website. Itineraries are suggestions, not reservations.",
-    "footer": "<b>Milano Poliedrica</b> — demo educativa · dati indicativi: verifica sempre orari e prezzi sui siti ufficiali|<b>Milano Poliedrica</b> — educational demo · indicative data: always check official sources",
+    "footer": "<b>Milano Poliedrica</b> — percorsi originali e fonti consultabili|<b>Milan Poliedrica</b> — original routes and consultable sources",
     "selProfilo": "Seleziona prima un profilo ↑|Select a profile first ↑",
     "tutteSotto": "Tutte le sotto-categorie|All subcategories",
     "tuttiTipi": "Tutti i tipi di locale|All venue types",
@@ -326,16 +326,16 @@
         "kind": "estimate"
       },
       "cost": {
-        "amount": 26,
+        "amount": null,
         "currency": "EUR",
-        "kind": "paid",
-        "note": "Combo Lift intero, secondo la pagina del gestore del 2025: conferma tariffa e inclusioni per la tua data.|Standard Combo Lift, as listed on the operator’s 2025 page: confirm the price and inclusions for your date.",
-        "verifiedAt": "2026-10-16",
-        "sourceUrl": "https://www.duomomilano.it/aggiornamenti-modalita-di-accesso-complesso-monumentale-2025/"
+        "kind": "variable",
+        "note": "Scegli il prodotto e la data sulla biglietteria ufficiale. La vecchia tariffa pubblicata nel 2025 non viene usata come prezzo corrente.|Choose the product and date on the official ticket service. The old price published in 2025 is not used as a current quote.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.duomomilano.it/event/combo-lift/"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -360,7 +360,17 @@
         "notes": "Le terrazze sono accessibili in carrozzina solo in parte, con ascensore e passaggi limitati. Sono documentati servizi igienici attrezzati esterni e nel museo. Contatta il gestore per il percorso adatto.|Wheelchair access to the terraces is partial, using a lift and restricted passages. Adapted toilets are documented outside and in the museum. Contact the operator to plan a suitable route.",
         "sourceUrl": "https://www.duomomilano.it/regolamenti/accessibilita/",
         "verifiedAt": "2026-10-16"
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.duomomilano.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Il Cenacolo di Leonardo|Leonardo's Last Supper",
@@ -382,13 +392,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -410,10 +420,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://cenacolovinciano.org/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Pinacoteca di Brera|The Brera Gallery",
@@ -434,13 +454,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -462,10 +482,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://pinacotecabrera.org/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Castello Sforzesco e musei|Sforza Castle & museums",
@@ -486,13 +516,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -514,10 +544,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.milanocastello.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Galleria Vittorio Emanuele e il rito del toro|The Galleria & the bull ritual",
@@ -538,13 +578,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -566,10 +606,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Fondazione Prada e il design|Prada Foundation & design",
@@ -590,13 +640,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -618,10 +668,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.fondazioneprada.org/",
+          "scope": "Gestore|Operator",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Teatro alla Scala e museo|La Scala & theatre museum",
@@ -642,13 +702,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -670,10 +730,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.teatroallascala.org/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Fiera Milano Rho e i grandi saloni|Rho Fiera & the great trade fairs",
@@ -694,13 +764,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -722,10 +792,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.fieramilano.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Aperitivo nel Quadrilatero|Aperitivo in the Quadrilatero",
@@ -747,13 +827,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -775,10 +855,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Bleisure: i laghi in treno|Bleisure: the lakes by train",
@@ -800,13 +890,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -828,10 +918,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Risotto alla milanese e osso buco|Milanese risotto & osso buco",
@@ -853,13 +953,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -881,10 +981,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "La cucina meneghina di stagione|Seasonal Milanese cooking",
@@ -907,13 +1017,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -935,10 +1045,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Apericena sui Navigli|Apericena on the Navigli",
@@ -950,7 +1070,7 @@
       ],
       "sub": "aperitivo",
       "tipo": "bar",
-      "p": "Il buffet a volontà col drink: l'istituzione milanese che sostituisce la cena.|The all-you-can-eat buffet with your drink: the Milanese institution that replaces dinner.",
+      "p": "Scegli un aperitivo dopo aver letto menu, prezzo e formula: buffet e cibo incluso cambiano da locale a locale. Una proposta per fermarti a osservare il quartiere, senza un pacchetto già prenotato.|Choose an aperitivo after checking the menu, price and format: buffets and included food vary by venue. A suggestion to pause and observe the neighbourhood, without a pre-booked package.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "milano-013",
       "legacyId": "Apericena sui Navigli",
@@ -961,13 +1081,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -989,10 +1109,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Camparino in Galleria|Camparino in the Galleria",
@@ -1015,13 +1145,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1043,10 +1173,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.camparino.com/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Pizza in nuova ondata|New-wave pizza",
@@ -1068,13 +1208,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1096,10 +1236,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Chinatown di via Sarpi|Sarpi Chinatown",
@@ -1111,7 +1261,7 @@
       ],
       "sub": "internazionale",
       "tipo": "ristorante",
-      "p": "Il quartiere cinese più antico d'Italia: ravioli a pranzo, negozi che profumano di viaggio.|Italy's oldest Chinese quarter: dumplings at lunch, shops smelling of travel.",
+      "p": "Una passeggiata attorno a via Paolo Sarpi: osserva insegne, negozi e proposte gastronomiche, senza presumere menu o aperture.|A walk around Via Paolo Sarpi: observe signs, shops and food options without assuming menus or opening times.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "milano-016",
       "legacyId": "Chinatown di via Sarpi",
@@ -1122,13 +1272,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1150,10 +1300,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Mercato Centrale e street food|Central Market & street food",
@@ -1175,13 +1335,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1203,10 +1363,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Panzerotti di Luini|Luini's panzerotti",
@@ -1228,13 +1398,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1256,10 +1426,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.luini.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Panettone e pasticceria storica|Panettone & historic patisserie",
@@ -1281,13 +1461,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1309,13 +1489,23 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Alta cucina: la capitale delle stelle|Fine dining: capital of stars",
+      "t": "Taccuino: linguaggi dei menu|Notebook: the language of menus",
       "z": "Tutta la città|All over the city",
       "d": "sera|evening",
       "tags": [
@@ -1324,8 +1514,8 @@
       ],
       "sub": "alta",
       "tipo": "ristorante",
-      "p": "Milano è la città più stellata d'Italia: la cucina d'autore come forma d'arte civica.|Milan is Italy's most-starred city: author cuisine as a civic art form.",
-      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "p": "Proposta autonoma a Tutta la città. Confronta tre menu esposti: annota un ingrediente ricorrente, una parola nuova e una differenza di prezzo. Eventuali consumazioni si scelgono e pagano separatamente. Nessun corso o servizio guidato incluso.|Self-directed idea in All over the city. Compare three displayed menus: note a recurring ingredient, a new word and a price difference. Any food or drink is chosen and paid for separately. No class or guided service included.",
+      "tip": "Porta un taccuino; rispetta privacy, proprietà private e passaggio dei residenti.|Bring a notebook; respect privacy, private property and residents’ passage.",
       "id": "milano-020",
       "legacyId": "Alta cucina: la capitale delle stelle",
       "duration": {
@@ -1333,15 +1523,16 @@
         "kind": "variable"
       },
       "cost": {
-        "amount": null,
+        "amount": 0,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
-        "verifiedAt": null
+        "kind": "free",
+        "note": "Attività di osservazione creata dalla redazione, senza quota. Acquisti e servizi eventuali esclusi.|An editorial observation activity with no fee. Optional purchases and services are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1350,7 +1541,7 @@
       "location": {
         "area": "Tutta la città|All over the city",
         "address": null,
-        "mapQuery": "Alta cucina: la capitale delle stelle, Milano"
+        "mapQuery": "Tutta la città, Milano"
       },
       "source": {
         "url": "https://www.yesmilano.it/",
@@ -1363,10 +1554,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Sant'Ambrogio, cuore della città|Sant'Ambrogio, the city's heart",
@@ -1388,13 +1589,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1416,10 +1617,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "San Bernardino alle Ossa|San Bernardino alle Ossa",
@@ -1441,13 +1652,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1469,10 +1680,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "San Maurizio, la Sistina di Milano|San Maurizio, Milan's Sistine",
@@ -1494,13 +1715,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1522,10 +1743,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Santuario dei Miracoli a San Celso|San Celso, the miracles sanctuary",
@@ -1546,13 +1777,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1574,10 +1805,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "QC Terme, la spa urbana|QC Terme, the urban spa",
@@ -1598,13 +1839,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1626,21 +1867,31 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.qcterme.com/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Spa d'autore in centro|Spa day in the centre",
+      "t": "Casa Museo Boschi Di Stefano|Boschi Di Stefano House Museum",
       "z": "Centro|Centre",
       "d": "3 ore|3 hrs",
       "tags": [
-        "benessere",
-        "business"
+        "cultura",
+        "formativo"
       ],
-      "sub": "spa",
-      "p": "Le spa dei grandi hotel di design: piscine silenziose e massaggi d'autore, aperte agli esterni.|Design hotels' spas: silent pools and signature massages, open to outsiders.",
+      "sub": "musei",
+      "p": "La casa-museo comunale presenta una selezione della collezione Boschi Di Stefano nell’abitazione dei collezionisti; la rete delle Case Museo ne documenta l’ingresso gratuito.|The municipal house museum displays a selection of the Boschi Di Stefano collection in the collectors’ home; the House Museums network documents free admission.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "milano-026",
       "legacyId": "Spa d'autore in centro",
@@ -1649,15 +1900,17 @@
         "kind": "estimate"
       },
       "cost": {
-        "amount": null,
+        "amount": 0,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
-        "verifiedAt": null
+        "kind": "free",
+        "note": "Ingresso gratuito al museo, secondo la rete Case Museo di Milano; attività speciali separate.|Free museum admission according to the Milan House Museums network; special activities are separate.",
+        "verifiedAt": "2026-10-16",
+        "sourceUrl": "https://www.casemuseo.it/project/boschi-di-stefano/",
+        "basis": "operator"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1665,13 +1918,13 @@
       },
       "location": {
         "area": "Centro|Centre",
-        "address": null,
-        "mapQuery": "Spa d'autore in centro, Milano"
+        "address": "Via Giorgio Jan 15",
+        "mapQuery": "Via Giorgio Jan 15, Milano"
       },
       "source": {
-        "url": "https://www.yesmilano.it/",
-        "scope": "city",
-        "checkedAt": null
+        "url": "https://www.casemuseo.it/project/boschi-di-stefano/",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
       },
       "reviewedAt": "2026-10-16",
       "verifiedAt": null,
@@ -1679,10 +1932,35 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.casemuseo.it/project/boschi-di-stefano/",
+          "scope": "Identità e informazioni del luogo|Place identity and information",
+          "consultedAt": "2026-10-16"
+        },
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        },
+        {
+          "url": "https://www.casemuseo.it/project/boschi-di-stefano/",
+          "scope": "Tariffa del prodotto indicato|Price of the stated product",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": [
+        "identity",
+        "description",
+        "address",
+        "cost"
+      ]
     },
     {
       "t": "Bosco Verticale e i giardini di Porta Nuova|Vertical Forest & Porta Nuova gardens",
@@ -1704,13 +1982,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1732,10 +2010,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "San Siro: derby e musei|San Siro: derbies & museums",
@@ -1756,13 +2044,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1784,10 +2072,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.sansirostadium.com/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Gran Premio di Monza|Monza F1 Grand Prix",
@@ -1797,7 +2095,7 @@
         "sport"
       ],
       "sub": "eventi",
-      "p": "Il tempio della velocità: la F1 nel parco più grande d'Europa, a un treno da Milano.|The temple of speed: F1 in Europe's largest park, one train from Milan.",
+      "p": "L’Autodromo Nazionale Monza si trova nel parco di Monza. Eventi, accessi e visita dell’impianto dipendono dal calendario; pianifica anche l’ultimo tratto dalla stazione.|Autodromo Nazionale Monza is in Monza Park. Events, access and circuit visits depend on the calendar; also plan the final journey from the station.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "milano-029",
       "legacyId": "Gran Premio di Monza",
@@ -1808,13 +2106,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1836,10 +2134,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://www.monzanet.it/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Milano City Marathon|Milan City Marathon",
@@ -1860,13 +2168,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1888,10 +2196,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Fashion Week e Design Week|Fashion & Design Weeks",
@@ -1913,13 +2231,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1941,10 +2259,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Navigli a piedi: alzaie e botteghe|Navigli walk: towpaths & studios",
@@ -1965,13 +2293,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -1993,10 +2321,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Isola: il villaggio tra le torri|Isola: the village among towers",
@@ -2018,13 +2356,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2046,10 +2384,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Parco Sempione, il giardino del Castello|Sempione Park, the castle garden",
@@ -2071,13 +2419,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2099,10 +2447,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "La Martesana in bici|Cycling the Martesana",
@@ -2123,13 +2481,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2151,13 +2509,23 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
-      "t": "Corso di cucina milanese|Milanese cooking class",
+      "t": "Taccuino: ingredienti milanesi|Notebook: Milanese ingredients",
       "z": "Navigli|Navigli",
       "d": "3 ore|3 hrs",
       "tags": [
@@ -2165,8 +2533,8 @@
         "food"
       ],
       "sub": "cucina",
-      "p": "Il risotto si impara con il mestolo: tostatura, brodo bollente e mantecatura a freddo.|Risotto is learned with a ladle: toasting, boiling broth and cold buttering.",
-      "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
+      "p": "Proposta autonoma a Navigli. Confronta tre menu esposti: annota un ingrediente ricorrente, una parola nuova e una differenza di prezzo. Eventuali consumazioni si scelgono e pagano separatamente. Nessun corso o servizio guidato incluso.|Self-directed idea in Navigli. Compare three displayed menus: note a recurring ingredient, a new word and a price difference. Any food or drink is chosen and paid for separately. No class or guided service included.",
+      "tip": "Porta un taccuino; rispetta privacy, proprietà private e passaggio dei residenti.|Bring a notebook; respect privacy, private property and residents’ passage.",
       "id": "milano-036",
       "legacyId": "Corso di cucina milanese",
       "duration": {
@@ -2174,15 +2542,16 @@
         "kind": "estimate"
       },
       "cost": {
-        "amount": null,
+        "amount": 0,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
-        "verifiedAt": null
+        "kind": "free",
+        "note": "Attività di osservazione creata dalla redazione, senza quota. Acquisti e servizi eventuali esclusi.|An editorial observation activity with no fee. Optional purchases and services are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2191,7 +2560,7 @@
       "location": {
         "area": "Navigli|Navigli",
         "address": null,
-        "mapQuery": "Corso di cucina milanese, Milano"
+        "mapQuery": "Navigli, Milano"
       },
       "source": {
         "url": "https://www.yesmilano.it/",
@@ -2204,10 +2573,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Workshop di design e artigianato|Design & craft workshop",
@@ -2229,13 +2608,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2257,10 +2636,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "editorial",
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/",
+          "scope": "Contesto della destinazione|Destination context",
+          "consultedAt": null
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     },
     {
       "t": "Il Cenacolo con lo storico dell'arte|The Last Supper with an art historian",
@@ -2271,7 +2660,7 @@
         "cultura"
       ],
       "sub": "guide",
-      "p": "Quindici minuti di capolavoro raccontati da chi li ha studiati per anni: cambiano per sempre.|Fifteen minutes of masterpiece explained by those who studied it for years: changed forever.",
+      "p": "Una proposta per osservare il Cenacolo: prenota tramite il canale ufficiale e verifica separatamente eventuali visite guidate. Il tempo di accesso è regolato dal museo.|A suggestion for observing The Last Supper: book through the official channel and check guided visits separately. Admission time is regulated by the museum.",
       "tip": "Prima di partire verifica apertura, eventuale prenotazione, costo e condizioni di accesso. I tempi indicati sono orientativi.|Before visiting, check opening times, booking requirements, prices and access conditions. Suggested durations are estimates.",
       "id": "milano-038",
       "legacyId": "Il Cenacolo con lo storico dell'arte",
@@ -2282,13 +2671,13 @@
       "cost": {
         "amount": null,
         "currency": "EUR",
-        "kind": "unknown",
-        "note": "Da verificare con il gestore|Check with the operator",
+        "kind": "variable",
+        "note": "Il costo dipende da prodotto, consumazioni o data: usa le condizioni correnti del gestore, senza una cifra stimata dal sito.|Cost depends on the product, purchases or date: use the operator’s current terms, without an amount guessed by this site.",
         "verifiedAt": null
       },
       "booking": {
-        "status": "unknown",
-        "note": "Verifica disponibilità e modalità con il gestore.|Check availability and booking terms with the operator."
+        "status": "source",
+        "note": "Scegli eventuali ingressi o attività sul canale ufficiale; il nostro suggerimento non è una prenotazione.|Choose any admission or activity through the official channel; our suggestion is not a booking."
       },
       "openingHours": {
         "text": "Consulta il calendario ufficiale per la data scelta.|Check the official schedule for your chosen date.",
@@ -2310,10 +2699,20 @@
         "stepFree": null,
         "accessibleToilets": null,
         "difficulty": null,
-        "notes": "Accessibilità del luogo non ancora verificata: chiedi al gestore informazioni su gradini, ascensori, servizi igienici e percorso.|Venue accessibility has not yet been verified: ask the operator about steps, lifts, toilets and the route.",
+        "notes": "Consulta la risorsa ufficiale di accessibilità per scegliere l’accesso e i servizi adatti alle tue esigenze. La scheda non assegna una certificazione senza barriere.|Consult the official accessibility resource to choose access and facilities suitable for your needs. This page does not assign step-free certification.",
         "sourceUrl": "https://www.yesmilano.it/milano-accessibile",
         "verifiedAt": null
-      }
+      },
+      "kind": "venue",
+      "sources": [
+        {
+          "url": "https://cenacolovinciano.org/",
+          "scope": "Gestore|Operator",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "verificationScope": "Le fonti documentano il luogo o il tema; durata e suggerimenti sono proposte editoriali.|Sources document the place or theme; duration and suggestions are editorial proposals.",
+      "verifiedFields": []
     }
   ],
   "ITINERARI": {
@@ -2758,5 +3157,673 @@
     "accessibilityUrl": "https://www.yesmilano.it/milano-accessibile",
     "transportUrl": "https://www.atm.it/",
     "sourceReviewedAt": "2026-10-16"
+  },
+  "TOURS": [
+    {
+      "id": "milano-tour-1",
+      "title": "Un appartamento, un portone, una città|An apartment, a doorway, a city",
+      "mood": "art",
+      "minutes": 120,
+      "weather": "mixed",
+      "terrain": "Museo e ingressi dipendono dal calendario; i palazzi privati si guardano dall’esterno.|Museum access follows its calendar; private buildings are viewed from outside.",
+      "stops": [
+        "milano-101",
+        "milano-102",
+        "milano-103"
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
+      "focus": "Una raccolta domestica e due soglie urbane: osserva come cambiano le dimensioni della vita pubblica fra Casa Boschi, piazza Oberdan e Albergo Diurno.|A domestic collection and two urban thresholds: observe changes in public life between Casa Boschi, Piazza Oberdan and Albergo Diurno.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "milano-tour-2",
+      "title": "La Milano che scorre a nord|The Milan that flows north",
+      "mood": "nature",
+      "minutes": 180,
+      "weather": "outdoor",
+      "terrain": "Percorso urbano lungo il canale; verifica cantieri e attraversamenti sul posto.|Urban canal-side route; check works and crossings on site.",
+      "stops": [
+        "milano-104",
+        "milano-105",
+        "milano-106"
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
+      "focus": "Segui la Martesana cercando tre tracce dell’incontro fra acqua e quartiere: un attraversamento, un edificio e un tratto verde. Nessuna navigazione è prevista.|Follow the Martesana and find three traces of water meeting the neighbourhood: a crossing, a building and a green space. No boat trip is planned.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "milano-tour-3",
+      "title": "Dopo la fabbrica: una passeggiata di forme|After the factory: a walk through forms",
+      "mood": "architecture",
+      "minutes": 180,
+      "weather": "outdoor",
+      "terrain": "Spazi urbani all’aperto; nessun accesso a uffici o aree riservate.|Outdoor urban spaces; no entry to offices or restricted areas.",
+      "stops": [
+        "milano-107",
+        "milano-108",
+        "milano-109"
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
+      "focus": "Confronta Portello e CityLife attraverso curve, quote e percorsi pedonali. Disegna una mappa di forme osservate, invece di una lista di negozi.|Compare Portello and CityLife through curves, levels and pedestrian paths. Draw a map of observed shapes rather than a shopping list.",
+      "createdAt": "2026-10-16"
+    }
+  ],
+  "TOUR_STOPS": [
+    {
+      "id": "milano-101",
+      "legacyId": "Casa Museo Boschi Di Stefano",
+      "t": "Casa Museo Boschi Di Stefano|Boschi Di Stefano House Museum",
+      "z": "Via Giorgio Jan 15|Via Giorgio Jan 15",
+      "d": "35 min|35 min",
+      "p": "Guarda come una collezione cambia il modo di abitare; il museo è documentato come gratuito.|Look at how a collection changes a home; the museum is documented as free to visit.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.yesmilano.it/esplora/luoghi/casa-museo-boschi-di-stefano"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.yesmilano.it/esplora/luoghi/casa-museo-boschi-di-stefano"
+      },
+      "location": {
+        "area": "Via Giorgio Jan 15|Via Giorgio Jan 15",
+        "address": "Via Giorgio Jan 15",
+        "mapQuery": "Via Giorgio Jan 15, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/esplora/luoghi/casa-museo-boschi-di-stefano",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/esplora/luoghi/casa-museo-boschi-di-stefano",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.yesmilano.it/esplora/luoghi/casa-museo-boschi-di-stefano",
+        "verifiedAt": null
+      },
+      "sourceKey": "milanoboschi",
+      "verifiedFields": []
+    },
+    {
+      "id": "milano-102",
+      "legacyId": "Porta Venezia e piazza Oberdan",
+      "t": "Porta Venezia e piazza Oberdan|Porta Venezia and Piazza Oberdan",
+      "z": "Piazza Oberdan|Piazza Oberdan",
+      "d": "35 min|35 min",
+      "p": "Cerca un dettaglio del Novecento nello spazio pubblico e confrontalo con la casa-museo.|Find a twentieth-century detail in public space and compare it with the house museum.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.yesmilano.it/esplora/luoghi/casa-museo-boschi-di-stefano"
+      },
+      "location": {
+        "area": "Piazza Oberdan|Piazza Oberdan",
+        "address": "Piazza Oberdan",
+        "mapQuery": "Piazza Oberdan, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/esplora/luoghi/casa-museo-boschi-di-stefano",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/esplora/luoghi/casa-museo-boschi-di-stefano",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.yesmilano.it/esplora/luoghi/casa-museo-boschi-di-stefano",
+        "verifiedAt": null
+      },
+      "sourceKey": "milanoboschi",
+      "verifiedFields": []
+    },
+    {
+      "id": "milano-103",
+      "legacyId": "Albergo Diurno Venezia, accesso esterno",
+      "t": "Albergo Diurno Venezia, accesso esterno|Albergo Diurno Venezia, external approach",
+      "z": "Piazza Oberdan|Piazza Oberdan",
+      "d": "35 min|35 min",
+      "p": "Leggi il programma FAI per l’eventuale visita; la passeggiata non promette l’apertura degli interni.|Check the FAI programme for possible visits; the walk does not promise access to the interior.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": null,
+        "currency": "EUR",
+        "kind": "variable",
+        "note": "Consulta la fonte per il prodotto e la data di visita scelti.|Consult the source for your chosen admission product and date.",
+        "verifiedAt": null,
+        "sourceUrl": "https://fondoambiente.it/luoghi/albergo-diurno-venezia"
+      },
+      "booking": {
+        "status": "source",
+        "note": "Gli ingressi seguono le condizioni pubblicate dal gestore; il nostro itinerario non è una prenotazione.|Admission follows the operator’s published terms; our itinerary is not a booking."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://fondoambiente.it/luoghi/albergo-diurno-venezia"
+      },
+      "location": {
+        "area": "Piazza Oberdan|Piazza Oberdan",
+        "address": "Piazza Oberdan",
+        "mapQuery": "Piazza Oberdan, Milano"
+      },
+      "source": {
+        "url": "https://fondoambiente.it/luoghi/albergo-diurno-venezia",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://fondoambiente.it/luoghi/albergo-diurno-venezia",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "mixed",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://fondoambiente.it/luoghi/albergo-diurno-venezia",
+        "verifiedAt": null
+      },
+      "sourceKey": "milanodiurno",
+      "verifiedFields": []
+    },
+    {
+      "id": "milano-104",
+      "legacyId": "Cassina de’ Pomm",
+      "t": "Cassina de’ Pomm|Cassina de’ Pomm",
+      "z": "Via Melchiorre Gioia 191|Via Melchiorre Gioia 191",
+      "d": "35 min|35 min",
+      "p": "Individua il punto in cui cambia il paesaggio fra strada e canale.|Identify where the landscape changes from street to canal.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.comune.milano.it/aree-tematiche/verde/verde-pubblico/parchi-cittadini/parco-martiri-della-liberta-iracheni-vittime-del-terrorismo-ex-parco-della-martesana"
+      },
+      "location": {
+        "area": "Via Melchiorre Gioia 191|Via Melchiorre Gioia 191",
+        "address": "Via Melchiorre Gioia 191",
+        "mapQuery": "Via Melchiorre Gioia 191, Milano"
+      },
+      "source": {
+        "url": "https://www.comune.milano.it/aree-tematiche/verde/verde-pubblico/parchi-cittadini/parco-martiri-della-liberta-iracheni-vittime-del-terrorismo-ex-parco-della-martesana",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.comune.milano.it/aree-tematiche/verde/verde-pubblico/parchi-cittadini/parco-martiri-della-liberta-iracheni-vittime-del-terrorismo-ex-parco-della-martesana",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.comune.milano.it/aree-tematiche/verde/verde-pubblico/parchi-cittadini/parco-martiri-della-liberta-iracheni-vittime-del-terrorismo-ex-parco-della-martesana",
+        "verifiedAt": null
+      },
+      "sourceKey": "milanomartesana",
+      "verifiedFields": []
+    },
+    {
+      "id": "milano-105",
+      "legacyId": "Martesana presso viale Monza",
+      "t": "Martesana presso viale Monza|Martesana at Viale Monza",
+      "z": "Naviglio Martesana Viale Monza|Naviglio Martesana Viale Monza",
+      "d": "35 min|35 min",
+      "p": "Raccogli tre dettagli di ponti e argini, fermandoti fuori dalla pista ciclabile.|Collect three details of bridges and banks, stopping off the cycle path.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.comune.milano.it/aree-tematiche/verde/verde-pubblico/parchi-cittadini/parco-martiri-della-liberta-iracheni-vittime-del-terrorismo-ex-parco-della-martesana"
+      },
+      "location": {
+        "area": "Naviglio Martesana Viale Monza|Naviglio Martesana Viale Monza",
+        "address": "Naviglio Martesana Viale Monza",
+        "mapQuery": "Naviglio Martesana Viale Monza, Milano"
+      },
+      "source": {
+        "url": "https://www.comune.milano.it/aree-tematiche/verde/verde-pubblico/parchi-cittadini/parco-martiri-della-liberta-iracheni-vittime-del-terrorismo-ex-parco-della-martesana",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.comune.milano.it/aree-tematiche/verde/verde-pubblico/parchi-cittadini/parco-martiri-della-liberta-iracheni-vittime-del-terrorismo-ex-parco-della-martesana",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.comune.milano.it/aree-tematiche/verde/verde-pubblico/parchi-cittadini/parco-martiri-della-liberta-iracheni-vittime-del-terrorismo-ex-parco-della-martesana",
+        "verifiedAt": null
+      },
+      "sourceKey": "milanomartesana",
+      "verifiedFields": []
+    },
+    {
+      "id": "milano-106",
+      "legacyId": "Parco della Martesana",
+      "t": "Parco della Martesana|Martesana Park",
+      "z": "Via Tofane|Via Tofane",
+      "d": "35 min|35 min",
+      "p": "Concludi con una sosta verde: il ritmo del percorso lo decidi tu.|Finish with a green break: you set the pace.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.comune.milano.it/aree-tematiche/verde/verde-pubblico/parchi-cittadini/parco-martiri-della-liberta-iracheni-vittime-del-terrorismo-ex-parco-della-martesana"
+      },
+      "location": {
+        "area": "Via Tofane|Via Tofane",
+        "address": "Via Tofane",
+        "mapQuery": "Via Tofane, Milano"
+      },
+      "source": {
+        "url": "https://www.comune.milano.it/aree-tematiche/verde/verde-pubblico/parchi-cittadini/parco-martiri-della-liberta-iracheni-vittime-del-terrorismo-ex-parco-della-martesana",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.comune.milano.it/aree-tematiche/verde/verde-pubblico/parchi-cittadini/parco-martiri-della-liberta-iracheni-vittime-del-terrorismo-ex-parco-della-martesana",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.comune.milano.it/aree-tematiche/verde/verde-pubblico/parchi-cittadini/parco-martiri-della-liberta-iracheni-vittime-del-terrorismo-ex-parco-della-martesana",
+        "verifiedAt": null
+      },
+      "sourceKey": "milanomartesana",
+      "verifiedFields": []
+    },
+    {
+      "id": "milano-107",
+      "legacyId": "Parco Industria Alfa Romeo",
+      "t": "Parco Industria Alfa Romeo|Industria Alfa Romeo Park",
+      "z": "Parco Industria Alfa Romeo|Parco Industria Alfa Romeo",
+      "d": "35 min|35 min",
+      "p": "Cerca forme curve e pendenze: confrontale con il tema industriale del quartiere.|Look for curves and slopes and compare them with the district’s industrial theme.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.yesmilano.it/quartieri/city-life-e-portello"
+      },
+      "location": {
+        "area": "Parco Industria Alfa Romeo|Parco Industria Alfa Romeo",
+        "address": "Parco Industria Alfa Romeo",
+        "mapQuery": "Parco Industria Alfa Romeo, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/quartieri/city-life-e-portello",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/quartieri/city-life-e-portello",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.yesmilano.it/quartieri/city-life-e-portello",
+        "verifiedAt": null
+      },
+      "sourceKey": "milanoportello",
+      "verifiedFields": []
+    },
+    {
+      "id": "milano-108",
+      "legacyId": "Piazza Gino Valle",
+      "t": "Piazza Gino Valle|Piazza Gino Valle",
+      "z": "Piazza Gino Valle|Piazza Gino Valle",
+      "d": "35 min|35 min",
+      "p": "Disegna una traiettoria pedonale fra gli edifici; resta nelle aree accessibili.|Sketch a walking line between buildings, staying in accessible public areas.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.yesmilano.it/quartieri/city-life-e-portello"
+      },
+      "location": {
+        "area": "Piazza Gino Valle|Piazza Gino Valle",
+        "address": "Piazza Gino Valle",
+        "mapQuery": "Piazza Gino Valle, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/quartieri/city-life-e-portello",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/quartieri/city-life-e-portello",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.yesmilano.it/quartieri/city-life-e-portello",
+        "verifiedAt": null
+      },
+      "sourceKey": "milanoportello",
+      "verifiedFields": []
+    },
+    {
+      "id": "milano-109",
+      "legacyId": "ArtLine e parco CityLife",
+      "t": "ArtLine e parco CityLife|ArtLine and CityLife Park",
+      "z": "Parco CityLife|Parco CityLife",
+      "d": "35 min|35 min",
+      "p": "Scegli un’opera pubblica e scrivi una didascalia personale di dieci parole.|Choose a public artwork and write your own ten-word caption.",
+      "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
+      "tags": [
+        "lento",
+        "formativo"
+      ],
+      "sub": "quartieri",
+      "duration": {
+        "minutes": 35,
+        "kind": "estimate"
+      },
+      "cost": {
+        "amount": 0,
+        "currency": "EUR",
+        "kind": "free",
+        "note": "Percorso esterno autoguidato senza quota; ingressi e acquisti facoltativi esclusi.|No fee for the self-guided outdoor route; optional admission and purchases are excluded.",
+        "verifiedAt": null,
+        "basis": "editorial-route"
+      },
+      "booking": {
+        "status": "not-required",
+        "note": "Nessuna prenotazione del nostro percorso esterno; accessi interni separati.|No booking for our outdoor walk; interior access is separate."
+      },
+      "openingHours": {
+        "text": "Consulta il calendario del gestore; il percorso non garantisce l’apertura di spazi interni.|Consult the operator’s schedule; the route does not guarantee interior opening.",
+        "verifiedAt": null,
+        "sourceUrl": "https://www.yesmilano.it/quartieri/city-life-e-portello"
+      },
+      "location": {
+        "area": "Parco CityLife|Parco CityLife",
+        "address": "Parco CityLife",
+        "mapQuery": "Parco CityLife, Milano"
+      },
+      "source": {
+        "url": "https://www.yesmilano.it/quartieri/city-life-e-portello",
+        "scope": "place",
+        "checkedAt": "2026-10-16"
+      },
+      "sources": [
+        {
+          "url": "https://www.yesmilano.it/quartieri/city-life-e-portello",
+          "scope": "Luogo e contesto|Place and context",
+          "consultedAt": "2026-10-16"
+        }
+      ],
+      "reviewedAt": "2026-10-16",
+      "verifiedAt": null,
+      "verificationScope": "Identità del luogo e fonte; durata e sequenza sono proposte editoriali.|Place identity and source; duration and sequence are editorial suggestions.",
+      "kind": "tour-stop",
+      "environment": "outdoor",
+      "accessibility": {
+        "stepFree": null,
+        "accessibleToilets": null,
+        "difficulty": null,
+        "notes": "Usa la scheda ufficiale per scegliere l’accesso adatto alle tue esigenze; il percorso non è certificato senza barriere.|Use the official information to choose access suitable for your needs; the route is not certified step-free.",
+        "sourceUrl": "https://www.yesmilano.it/quartieri/city-life-e-portello",
+        "verifiedAt": null
+      },
+      "sourceKey": "milanoportello",
+      "verifiedFields": []
+    }
+  ],
+  "TRAVEL": {
+    "airportUrl": "https://www.milanairports.com/",
+    "weatherUrl": "https://www.meteoam.it/it/home",
+    "emergencyUrl": "https://digital-strategy.ec.europa.eu/en/policies/112",
+    "transportUrl": "https://www.atm.it/",
+    "toiletsUrl": null,
+    "waterUrl": null,
+    "accessibilityUrl": "https://www.yesmilano.it/milano-accessibile",
+    "checkedAt": "2026-10-16"
   }
 }
