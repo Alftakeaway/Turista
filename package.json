@@ -1,0 +1,1 @@
+{"name":"guide-poliedriche","private":true,"version":"1.0.0","scripts":{"check":"node scripts/check.cjs","build":"node scripts/check.cjs && node scripts/build.cjs"}}
