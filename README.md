@@ -29,20 +29,11 @@ nessun framework, nessuna build. Funziona anche offline.
     ├── torino.html          → 36 esperienze · Carlotta
     ├── firenze.html         → 38 esperienze · Lorenzo
     ├── venezia.html         → 38 esperienze · Alvise
-    ├── kit_poliedrico.py    → generatore città 1–3
-    ├── kit_poliedrico_2.py  → generatore città 4–7
     └── README.md
 
 ## 🚀 Come usarlo
 
 Apri `index.html` nel browser e scegli la città. Nessuna installazione.
-
-## 🖥️ Rigenerare le città (opzionale, richiede Python 3)
-
-    python kit_poliedrico.py     # Roma + Napoli + Milano + landing 3 città
-    python kit_poliedrico_2.py   # Cagliari + Torino + Firenze + Venezia + landing 7 città
-
-I file città vengono rigenerati da zero a ogni lancio.
 
 ## 🏙️ Aggiungere una nuova città
 
