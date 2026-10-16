@@ -16,10 +16,15 @@ I tour si filtrano per tempo, interesse, opzioni al coperto e compagnia/età fac
 
 ## Sviluppo (Node.js 22+)
 
+Le guide `sapori-<città>.html` raccolgono piatti e prodotti locali, fotografie riutilizzabili con attribuzione, indirizzi e mercati. Le foto illustrano il soggetto, non attestano che provenga dal locale indicato. I collegamenti “Da provare da” documentano una proposta; “Per questa tradizione” indica un locale pertinente, con menu da verificare. La lista degli assaggi resta nel browser ed è separata dai tour e dalle tappe del giorno. Ricerca e filtri funzionano senza richieste a servizi esterni; senza JavaScript tutte le schede rimangono leggibili.
+
+I testi sono in `scripts/food-editorial.cjs`, gli indirizzi e i mercati in `scripts/food-config.cjs`, i crediti e le impronte delle foto in `data/food-photos.json`. `scripts/generate-food.cjs` pubblica le versioni IT/EN tramite il generatore condiviso e produce `data/food-guide.json`. I tre strumenti `research-food-*.cjs` sono facoltativi e richiedono rete: non fanno parte della build. Una foto va approvata controllando soggetto e licenza, poi salvata localmente e ottimizzata con `npm run images:optimize`. La build e il sito non dipendono da Wikimedia.
+
     npm ci --ignore-scripts
     npm run build
     npx playwright install chromium
     npm run test:browser
+    npm run test:food
 
 Playwright verifica il browser; Cheerio genera le pagine statiche bilingui e i metadati; Sharp rigenera i derivati WebP su richiesta. Sono strumenti di sviluppo fissati nel lockfile. Il sito distribuito non carica librerie, font o servizi JavaScript esterni. La build esegue generazione, controlli dati, test unitari e copia i file pubblici in `dist/`.
 

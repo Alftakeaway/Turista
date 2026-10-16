@@ -1,10 +1,12 @@
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),sharp=require('sharp');
 const root=path.resolve(__dirname,'..'),out=path.join(root,'assets/images/responsive');fs.mkdirSync(out,{recursive:true});
 const read=name=>JSON.parse(fs.readFileSync(path.join(root,'data',name),'utf8'));
-const photos=[...Object.values(read('item-photos.json')),...Object.values(read('photos.json'))];
-const sources=[...new Set(photos.map(p=>p.src))],manifest={};let original=0,largest=0;
+const photos=[...Object.values(read('item-photos.json')),...Object.values(read('photos.json')),...Object.values(read('food-photos.json'))];
+const sources=[...new Set(photos.map(p=>p.src))],manifest={},previous=process.argv.includes('--missing-only')?read('image-variants.json'):{};let original=0,largest=0;
 async function convert(src){
- const input=fs.readFileSync(path.join(root,src)),meta=await sharp(input).metadata();original+=input.length;
+ const input=fs.readFileSync(path.join(root,src));original+=input.length;
+ if(previous[src]?.webp.every(v=>fs.existsSync(path.join(root,v.src)))){manifest[src]=previous[src];largest+=previous[src].webp.at(-1).bytes;return;}
+ const meta=await sharp(input).metadata();
  const variants=[];
  for(const width of [480,960]){
   const {data,info}=await sharp(input).rotate().resize({width:Math.min(width,meta.width),withoutEnlargement:true}).webp({quality:76,effort:5}).toBuffer({resolveWithObject:true});

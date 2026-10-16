@@ -1,0 +1,2079 @@
+{
+  "reviewedAt": "2026-10-16",
+  "cities": {
+    "cagliari": {
+      "foods": [
+        {
+          "id": "cagliari-food-01",
+          "name": "Fregula|Fregula",
+          "category": "market",
+          "description": "Pasta sarda in piccoli grani: cercala anche cucinata con arselle.|Small Sardinian pasta grains: also look for the cooked version with clams.",
+          "query": "fregula arselle",
+          "venue": "trattoria"
+        },
+        {
+          "id": "cagliari-food-02",
+          "name": "Malloreddus alla campidanese|Campidano malloreddus",
+          "category": "table",
+          "description": "Gnocchetti sardi con sugo di salsiccia.|Sardinian pasta with sausage sauce.",
+          "query": "malloreddus campidanese",
+          "venue": "sarda"
+        },
+        {
+          "id": "cagliari-food-03",
+          "name": "Culurgiones|Culurgiones",
+          "category": "table",
+          "description": "Ravioli d’Ogliastra con la chiusura a spiga.|Ogliastra filled pasta with a wheat-ear closure.",
+          "query": "culurgiones",
+          "venue": "trattoria"
+        },
+        {
+          "id": "cagliari-food-08",
+          "name": "Bottarga di muggine|Grey mullet bottarga",
+          "category": "market",
+          "description": "Da provare a lamelle, chiedendo la provenienza.|Try thin slices and ask about origin.",
+          "query": "bottarga muggine",
+          "venue": "market"
+        },
+        {
+          "id": "cagliari-food-09",
+          "name": "Pizzetta sfoglia|Cagliari puff pastry pizzetta",
+          "category": "street",
+          "description": "Doppia sfoglia, pomodoro e cappero.|Two layers of puff pastry with tomato and caper.",
+          "query": "pizzetta sfoglia",
+          "venue": "dolce"
+        },
+        {
+          "id": "cagliari-food-12",
+          "name": "Porceddu|Sardinian roast suckling pig",
+          "category": "table",
+          "description": "Maialino arrosto della tradizione regionale.|Roast suckling pig from the regional tradition.",
+          "query": "porceddu",
+          "venue": "sarda"
+        },
+        {
+          "id": "cagliari-food-15",
+          "name": "Pane carasau|Pane carasau",
+          "category": "market",
+          "description": "Sfoglia sottile e croccante della Sardegna.|Thin, crisp Sardinian flatbread.",
+          "query": "pane carasau",
+          "venue": "market"
+        },
+        {
+          "id": "cagliari-food-16",
+          "name": "Pane guttiau|Pane guttiau",
+          "category": "market",
+          "description": "Carasau condito con olio e sale.|Carasau dressed with olive oil and salt.",
+          "query": "pane guttiau",
+          "venue": "market"
+        },
+        {
+          "id": "cagliari-food-18",
+          "name": "Pecorino sardo|Pecorino sardo",
+          "category": "market",
+          "description": "Formaggio ovino da confrontare dolce e maturo.|Sheep’s cheese to compare young and mature.",
+          "query": "pecorino sardo",
+          "venue": "market"
+        },
+        {
+          "id": "cagliari-food-19",
+          "name": "Fiore sardo|Fiore sardo",
+          "category": "market",
+          "description": "Formaggio ovino della tradizione pastorale.|Sheep’s cheese from the pastoral tradition.",
+          "query": "fiore sardo",
+          "venue": "market"
+        },
+        {
+          "id": "cagliari-food-21",
+          "name": "Salsiccia sarda|Sardinian sausage",
+          "category": "market",
+          "description": "Salume stagionato, con aromi diversi secondo il produttore.|Cured sausage, seasoned differently by each producer.",
+          "query": "salsiccia sarda",
+          "venue": "market"
+        },
+        {
+          "id": "cagliari-food-22",
+          "name": "Seada|Seada",
+          "category": "dessert",
+          "description": "Sfoglia fritta con formaggio e miele.|Fried pastry with cheese and honey.",
+          "query": "seadas",
+          "venue": "trattoria"
+        },
+        {
+          "id": "cagliari-food-23",
+          "name": "Pardulas|Pardulas",
+          "category": "dessert",
+          "description": "Cestini di pasta con ricotta e zafferano.|Pastry baskets with ricotta and saffron.",
+          "query": "pardulas",
+          "venue": "dolce"
+        },
+        {
+          "id": "cagliari-food-31",
+          "name": "Pane frattau|Pane frattau",
+          "category": "table",
+          "description": "Dalla Barbagia: carasau, pomodoro, pecorino e uovo.|From Barbagia: carasau, tomato, pecorino and egg.",
+          "query": "pane frattau",
+          "venue": "sarda"
+        },
+        {
+          "id": "cagliari-food-32",
+          "name": "Zuppa gallurese|Gallura bread soup",
+          "category": "table",
+          "description": "Dalla Gallura: strati di pane, brodo e formaggio.|From Gallura: layers of bread, stock and cheese.",
+          "query": "zuppa gallurese",
+          "venue": "sarda"
+        },
+        {
+          "id": "cagliari-food-33",
+          "name": "Coccoi|Coccoi bread",
+          "category": "market",
+          "description": "Pane sardo di semola dalle forme decorate.|Decoratively shaped Sardinian semolina bread.",
+          "query": "coccoi bread",
+          "venue": "market"
+        },
+        {
+          "id": "cagliari-food-35",
+          "name": "Mirto|Mirto liqueur",
+          "category": "market",
+          "description": "Liquore sardo alle bacche di mirto, alcolico.|An alcoholic Sardinian myrtle-berry liqueur.",
+          "query": "mirto liqueur",
+          "venue": "market"
+        }
+      ],
+      "markets": [
+        {
+          "city": "cagliari",
+          "id": "cagliari-market-benedetto",
+          "name": "San Benedetto, sede di piazza Nazzari|San Benedetto, Piazza Nazzari location",
+          "area": "Piazza Amedeo Nazzari",
+          "query": "Mercato San Benedetto Cagliari",
+          "description": "La sede provvisoria di piazza Nazzari sostituisce quella storica durante i lavori. Consulta la mappa ufficiale per pescherie, formaggi e gastronomia.|The temporary Piazza Nazzari location replaces the historic building during works. Use the official map for fish, cheese and deli counters.",
+          "url": "https://cagliariturismo.comune.cagliari.it/index.php/it/vivicagliari/mercato-civico-di-san-benedetto-piazza-nazzari",
+          "caption": "Foto della sede storica; per la visita usa piazza Nazzari.|Photo of the historic location; visit Piazza Nazzari."
+        }
+      ],
+      "venues": {
+        "trattoria": {
+          "name": "Antica Cagliari, Ristorante",
+          "area": "Via Sardegna 49, Marina",
+          "url": "https://www.anticacagliari.it/it/menu-ristorante-qr.html",
+          "why": "Menu con paste sarde, bottarga e seada.|A menu with Sardinian pasta, bottarga and seada.",
+          "serves": [
+            3,
+            7,
+            8,
+            22,
+            30
+          ]
+        },
+        "sarda": {
+          "name": "Sa Domu Sarda",
+          "area": "Via Sassari 51, Stampace",
+          "url": "https://guide.michelin.com/it/it/sardegna/cagliari/ristorante/sa-domu-sarda",
+          "why": "La guida segnala malloreddus, culurgiones, fregula e sebadas.|The guide highlights malloreddus, culurgiones, fregula and sebadas.",
+          "serves": [
+            2,
+            3,
+            22
+          ]
+        },
+        "dolce": {
+          "name": "Durke",
+          "area": "Via Napoli, Marina",
+          "url": "https://www.durke.it/",
+          "why": "Bottega di dolci sardi: il sito elenca pardulas e amaretti.|A Sardinian sweet shop: its website lists pardulas and amaretti.",
+          "serves": [
+            23,
+            25
+          ]
+        },
+        "sfoglia": {
+          "name": "Caffè Pasticceria Tramer",
+          "area": "Piazza Martiri d’Italia 11",
+          "url": "https://www.dulcispasticceria.it/punti-vendita/",
+          "why": "Una sosta di pasticceria in centro, con salati da verificare al banco.|A central pastry stop; check savoury options at the counter.",
+          "serves": []
+        },
+        "lillicu": {
+          "name": "Trattoria Lillicu",
+          "area": "Via Sardegna 78, Marina",
+          "url": "https://www.ilgolosario.it/it/trattoria-lillicu-ip01750",
+          "why": "Segnalata da Il Golosario per la burrida cagliaritana.|Highlighted by Il Golosario for Cagliari-style burrida.",
+          "serves": [
+            4
+          ]
+        },
+        "panefrattau": {
+          "name": "Panefratteria",
+          "area": "Via Domenico Alberto Azuni 40",
+          "url": "https://www.panefrattau.it/menu",
+          "why": "Un locale costruito attorno al pane frattau della tradizione barbaricina.|A venue built around pane frattau from the Barbagia tradition.",
+          "serves": [
+            31
+          ]
+        }
+      },
+      "sources": [
+        "https://cagliariturismo.comune.cagliari.it/index.php/it/dove-mangiare",
+        "https://it.wikipedia.org/wiki/Cucina_sarda"
+      ]
+    },
+    "firenze": {
+      "foods": [
+        {
+          "id": "firenze-food-01",
+          "name": "Bistecca alla fiorentina|Florentine steak",
+          "category": "table",
+          "description": "Taglio con osso da condividere; chiedi il peso.|A bone-in cut to share; ask the weight.",
+          "query": "bistecca fiorentina",
+          "venue": "trattoria"
+        },
+        {
+          "id": "firenze-food-02",
+          "name": "Lampredotto|Lampredotto",
+          "category": "street",
+          "description": "Il panino del trippaio, con salsa verde.|A tripe-stall sandwich with green sauce.",
+          "query": "lampredotto",
+          "venue": "lampredotto"
+        },
+        {
+          "id": "firenze-food-03",
+          "name": "Trippa alla fiorentina|Florentine tripe",
+          "category": "table",
+          "description": "Trippa al pomodoro con formaggio.|Tripe with tomato and cheese.",
+          "query": "trippa fiorentina",
+          "venue": "trattoria"
+        },
+        {
+          "id": "firenze-food-04",
+          "name": "Ribollita|Ribollita",
+          "category": "table",
+          "description": "Pane, fagioli e cavolo nero.|Bread, beans and Tuscan kale.",
+          "query": "ribollita",
+          "venue": "trattoria"
+        },
+        {
+          "id": "firenze-food-05",
+          "name": "Pappa al pomodoro|Pappa al pomodoro",
+          "category": "table",
+          "description": "Pane e pomodoro nella cucina di recupero.|Bread and tomato in a classic leftover dish.",
+          "query": "pappa pomodoro",
+          "venue": "trattoria"
+        },
+        {
+          "id": "firenze-food-06",
+          "name": "Panzanella|Panzanella",
+          "category": "table",
+          "description": "Pane e verdure, soprattutto in estate.|Bread and vegetables, especially in summer.",
+          "query": "panzanella",
+          "venue": "trattoria"
+        },
+        {
+          "id": "firenze-food-07",
+          "name": "Crostini di fegatini|Chicken liver crostini",
+          "category": "table",
+          "description": "Pane tostato con crema di fegatini.|Toasted bread with chicken liver spread.",
+          "query": "crostini fegatini",
+          "venue": "trattoria"
+        },
+        {
+          "id": "firenze-food-08",
+          "name": "Peposo|Peposo",
+          "category": "table",
+          "description": "Da Impruneta: manzo, pepe e vino.|From Impruneta: beef, pepper and wine.",
+          "query": "peposo",
+          "venue": "trattoria"
+        },
+        {
+          "id": "firenze-food-12",
+          "name": "Finocchiona|Finocchiona",
+          "category": "market",
+          "description": "Salume toscano profumato al finocchio.|Tuscan salami scented with fennel.",
+          "query": "finocchiona",
+          "venue": "market"
+        },
+        {
+          "id": "firenze-food-14",
+          "name": "Pecorino toscano|Tuscan pecorino",
+          "category": "market",
+          "description": "Formaggio ovino, fresco o stagionato.|Sheep’s cheese, fresh or aged.",
+          "query": "pecorino toscano",
+          "venue": "market"
+        },
+        {
+          "id": "firenze-food-15",
+          "name": "Lardo di Colonnata|Colonnata lardo",
+          "category": "market",
+          "description": "Dalle Alpi Apuane: salume da assaggiare sul pane.|From the Apuan Alps: cured pork fat to try on bread.",
+          "query": "lardo colonnata",
+          "venue": "market"
+        },
+        {
+          "id": "firenze-food-16",
+          "name": "Pane toscano|Tuscan bread",
+          "category": "market",
+          "description": "Pane senza sale, base di molte ricette locali.|Unsalted bread used in many local recipes.",
+          "query": "pane toscano",
+          "venue": "market"
+        },
+        {
+          "id": "firenze-food-17",
+          "name": "Pappardelle al cinghiale|Pappardelle with wild boar",
+          "category": "table",
+          "description": "Pasta larga e ragù della tradizione toscana.|Wide pasta with a Tuscan wild boar ragù.",
+          "query": "pappardelle cinghiale",
+          "venue": "trattoria"
+        },
+        {
+          "id": "firenze-food-18",
+          "name": "Tagliata|Tagliata",
+          "category": "table",
+          "description": "Carne alla griglia servita a fette.|Grilled beef served in slices.",
+          "query": "tagliata manzo",
+          "venue": "trattoria"
+        },
+        {
+          "id": "firenze-food-19",
+          "name": "Pollo alla cacciatora|Hunter-style chicken",
+          "category": "table",
+          "description": "Pollo in umido con aromi.|Chicken simmered with herbs.",
+          "query": "pollo cacciatora",
+          "venue": "trattoria"
+        },
+        {
+          "id": "firenze-food-20",
+          "name": "Cacciucco|Cacciucco",
+          "category": "table",
+          "description": "Specialità livornese, proposta anche nelle trattorie toscane.|A Livorno seafood speciality also found in Tuscan trattorias.",
+          "query": "cacciucco",
+          "venue": "trattoria"
+        },
+        {
+          "id": "firenze-food-21",
+          "name": "Schiacciata alla fiorentina|Florentine carnival cake",
+          "category": "dessert",
+          "description": "Dolce soffice del Carnevale fiorentino.|A soft cake for Florence’s Carnival.",
+          "query": "schiacciata fiorentina",
+          "venue": "dolce"
+        },
+        {
+          "id": "firenze-food-23",
+          "name": "Cantucci|Cantucci",
+          "category": "dessert",
+          "description": "Biscotti toscani alle mandorle.|Tuscan almond biscuits.",
+          "query": "cantucci",
+          "venue": "dolce"
+        },
+        {
+          "id": "firenze-food-24",
+          "name": "Castagnaccio|Castagnaccio",
+          "category": "dessert",
+          "description": "Farina di castagne, olio e frutta secca.|Chestnut flour, olive oil and nuts.",
+          "query": "castagnaccio",
+          "venue": "dolce"
+        },
+        {
+          "id": "firenze-food-25",
+          "name": "Zuccotto|Zuccotto",
+          "category": "dessert",
+          "description": "Dolce a cupola di pan di Spagna e crema.|A dome-shaped sponge and cream dessert.",
+          "query": "zuccotto",
+          "venue": "dolce"
+        },
+        {
+          "id": "firenze-food-26",
+          "name": "Budino di riso|Rice pastry",
+          "category": "dessert",
+          "description": "Guscio di frolla con ripieno di riso.|Shortcrust pastry with a rice filling.",
+          "query": "budino riso toscano",
+          "venue": "dolce"
+        },
+        {
+          "id": "firenze-food-27",
+          "name": "Brutti ma buoni|Brutti ma buoni",
+          "category": "dessert",
+          "description": "Biscotti irregolari con frutta secca.|Rustic biscuits made with nuts.",
+          "query": "brutti buoni",
+          "venue": "dolce"
+        },
+        {
+          "id": "firenze-food-28",
+          "name": "Ricciarelli|Ricciarelli",
+          "category": "dessert",
+          "description": "Da Siena: dolci morbidi alle mandorle.|From Siena: soft almond sweets.",
+          "query": "ricciarelli",
+          "venue": "dolce"
+        },
+        {
+          "id": "firenze-food-29",
+          "name": "Panforte|Panforte",
+          "category": "dessert",
+          "description": "Da Siena: frutta secca, canditi e spezie.|From Siena: nuts, candied fruit and spices.",
+          "query": "panforte",
+          "venue": "dolce"
+        },
+        {
+          "id": "firenze-food-30",
+          "name": "Brigidini|Brigidini",
+          "category": "dessert",
+          "description": "Cialde all’anice originarie di Lamporecchio.|Anise wafers from Lamporecchio.",
+          "query": "brigidini",
+          "venue": "market"
+        }
+      ],
+      "markets": [
+        {
+          "city": "firenze",
+          "id": "firenze-market-lorenzo",
+          "name": "Mercato di San Lorenzo|San Lorenzo Market",
+          "area": "Piazza del Mercato Centrale",
+          "query": "Mercato Centrale Firenze",
+          "description": "Distingui il mercato alimentare al piano terra dalla food hall del piano superiore. Pane, salumi e formaggi aiutano a conoscere il territorio.|Distinguish the ground-floor food market from the upstairs food hall. Bread, cured meats and cheeses introduce the region.",
+          "url": "https://www.comune.firenze.it/imprese-e-commercio/mercati"
+        },
+        {
+          "city": "firenze",
+          "id": "firenze-market-ambrogio",
+          "name": "Mercato di Sant’Ambrogio|Sant’Ambrogio Market",
+          "area": "Piazza Lorenzo Ghiberti",
+          "query": "Mercato Sant Ambrogio Firenze",
+          "description": "Spesa di quartiere e botteghe dove fermarsi: sul sito del mercato trovi anche il trippaio e la trattoria Da Rocco.|Neighbourhood shopping and food counters: the market website also lists the tripe stall and Da Rocco trattoria.",
+          "url": "https://mercatosantambrogio.it/botteghe/"
+        }
+      ],
+      "venues": {
+        "trattoria": {
+          "name": "Trattoria Mario",
+          "area": "Via Rosina 2r, San Lorenzo",
+          "url": "https://www.firenzemadeintuscany.com/en/place/trattoria-mario/",
+          "why": "Segnalata per bistecca, ribollita, peposo e lampredotto.|Recommended for steak, ribollita, peposo and lampredotto.",
+          "serves": [
+            1,
+            2,
+            4,
+            8
+          ]
+        },
+        "zaza": {
+          "name": "Trattoria Zà Zà",
+          "area": "Piazza del Mercato Centrale",
+          "url": "https://www.trattoriazaza.it/wp-content/uploads/2026/05/Menu_ITA_SENZAPREZZI.pdf",
+          "why": "Un menu ampio per confrontare le preparazioni toscane.|A broad menu for comparing Tuscan preparations.",
+          "serves": []
+        },
+        "lampredotto": {
+          "name": "I’ trippaio di Sant’Ambrogio",
+          "area": "Mercato di Sant’Ambrogio",
+          "url": "https://mercatosantambrogio.it/botteghe/",
+          "why": "Il trippaio è elencato tra le botteghe del mercato.|The tripe stall is listed among the market’s counters.",
+          "serves": [
+            2
+          ]
+        },
+        "forno": {
+          "name": "Forno e Formaggeria Sant’Ambrogio",
+          "area": "Mercato di Sant’Ambrogio",
+          "url": "https://mercatosantambrogio.it/botteghe/",
+          "why": "Banchi del mercato per pane, gastronomia e formaggi.|Market counters for bread, deli food and cheeses.",
+          "serves": []
+        },
+        "dolce": {
+          "name": "Pasticceria Nencioni",
+          "area": "Via Pietrapiana",
+          "url": "https://www.pasticcerianencioni.com/la-nostra-pasticceria/",
+          "why": "Pasticceria del quartiere: controlla i dolci stagionali in vetrina.|A neighbourhood patisserie: check seasonal sweets at the counter.",
+          "serves": []
+        }
+      },
+      "sources": [
+        "https://www.comune.firenze.it/imprese-e-commercio/mercati",
+        "https://www.trattoriazaza.it/wp-content/uploads/2026/05/Menu_ITA_SENZAPREZZI.pdf"
+      ]
+    },
+    "milano": {
+      "foods": [
+        {
+          "id": "milano-food-01",
+          "name": "Risotto alla milanese|Milanese risotto",
+          "category": "table",
+          "description": "Riso, zafferano e mantecatura.|Rice, saffron and a creamy finish.",
+          "query": "risotto milanese",
+          "venue": "trattoria"
+        },
+        {
+          "id": "milano-food-02",
+          "name": "Ossobuco|Ossobuco",
+          "category": "table",
+          "description": "Geretto in umido, spesso con risotto.|Braised veal shank, often with risotto.",
+          "query": "ossobuco",
+          "venue": "trattoria"
+        },
+        {
+          "id": "milano-food-03",
+          "name": "Cotoletta alla milanese|Milanese veal cutlet",
+          "category": "table",
+          "description": "Vitello impanato e fritto nel burro.|Veal breaded and fried in butter.",
+          "query": "cotoletta milanese",
+          "venue": "trattoria"
+        },
+        {
+          "id": "milano-food-04",
+          "name": "Mondeghili|Mondeghili",
+          "category": "street",
+          "description": "Polpettine milanesi della cucina di recupero.|Milanese meatballs from the tradition of using leftovers.",
+          "query": "mondeghili",
+          "venue": "trattoria"
+        },
+        {
+          "id": "milano-food-05",
+          "name": "Cassoeula|Cassoeula",
+          "category": "table",
+          "description": "Verza e maiale, soprattutto nella stagione fredda.|Cabbage and pork, especially in cold weather.",
+          "query": "cassoeula",
+          "venue": "trattoria"
+        },
+        {
+          "id": "milano-food-06",
+          "name": "Busecca|Milanese tripe",
+          "category": "table",
+          "description": "Trippa della tradizione lombarda.|Tripe from the Lombard tradition.",
+          "query": "busecca",
+          "venue": "trattoria"
+        },
+        {
+          "id": "milano-food-08",
+          "name": "Minestrone alla milanese|Milanese minestrone",
+          "category": "table",
+          "description": "Verdure e riso, con variazioni stagionali.|Vegetables and rice, changing with the seasons.",
+          "query": "minestrone milanese",
+          "venue": "trattoria"
+        },
+        {
+          "id": "milano-food-09",
+          "name": "Nervetti|Nervetti salad",
+          "category": "table",
+          "description": "Insalata fredda di cartilagini, cipolla e fagioli.|A cold salad of cartilage, onion and beans.",
+          "query": "nervetti",
+          "venue": "trattoria"
+        },
+        {
+          "id": "milano-food-11",
+          "name": "Bollito misto|Mixed boiled meats",
+          "category": "table",
+          "description": "Carni lessate con salse, tradizione del Nord.|Boiled meats with sauces, a northern tradition.",
+          "query": "bollito misto",
+          "venue": "trattoria"
+        },
+        {
+          "id": "milano-food-12",
+          "name": "Polenta|Polenta",
+          "category": "table",
+          "description": "La base di mais della cucina lombarda.|The maize staple of Lombard cooking.",
+          "query": "polenta lombardia",
+          "venue": "trattoria"
+        },
+        {
+          "id": "milano-food-13",
+          "name": "Gorgonzola|Gorgonzola",
+          "category": "market",
+          "description": "Formaggio erborinato del territorio lombardo-piemontese.|Blue cheese from Lombardy and Piedmont.",
+          "query": "gorgonzola cheese",
+          "venue": "gastronomia"
+        },
+        {
+          "id": "milano-food-14",
+          "name": "Taleggio|Taleggio",
+          "category": "market",
+          "description": "Formaggio lombardo a crosta lavata.|A washed-rind cheese from Lombardy.",
+          "query": "taleggio",
+          "venue": "gastronomia"
+        },
+        {
+          "id": "milano-food-15",
+          "name": "Grana Padano|Grana Padano",
+          "category": "market",
+          "description": "Formaggio stagionato della pianura padana.|An aged cheese from the Po valley.",
+          "query": "grana padano cheese",
+          "venue": "gastronomia"
+        },
+        {
+          "id": "milano-food-16",
+          "name": "Quartirolo Lombardo|Quartirolo Lombardo",
+          "category": "market",
+          "description": "Formaggio del territorio lombardo, fresco o stagionato.|A Lombard cheese, fresh or matured.",
+          "query": "quartirolo",
+          "venue": "gastronomia"
+        },
+        {
+          "id": "milano-food-17",
+          "name": "Salame Milano|Milano salami",
+          "category": "market",
+          "description": "Salame dalla grana fine.|A finely ground cured salami.",
+          "query": "salame milano",
+          "venue": "gastronomia"
+        },
+        {
+          "id": "milano-food-18",
+          "name": "Bresaola|Bresaola",
+          "category": "market",
+          "description": "Dalla Valtellina, carne bovina stagionata.|Air-dried beef from Valtellina.",
+          "query": "bresaola",
+          "venue": "gastronomia"
+        },
+        {
+          "id": "milano-food-19",
+          "name": "Salame di Varzi|Varzi salami",
+          "category": "market",
+          "description": "Specialità dell’Oltrepò Pavese, nelle gastronomie lombarde.|An Oltrepò Pavese speciality sold in Lombard delis.",
+          "query": "salame varzi",
+          "venue": "gastronomia"
+        },
+        {
+          "id": "milano-food-20",
+          "name": "Panettone|Panettone",
+          "category": "dessert",
+          "description": "Il grande lievitato milanese con uvetta e canditi.|Milan’s enriched bread with raisins and candied fruit.",
+          "query": "panettone",
+          "venue": "dolce"
+        },
+        {
+          "id": "milano-food-21",
+          "name": "Veneziana|Veneziana",
+          "category": "dessert",
+          "description": "Lievitato glassato presente nella pasticceria milanese.|A glazed sweet bread found in Milanese patisseries.",
+          "query": "veneziana dolce",
+          "venue": "dolce"
+        },
+        {
+          "id": "milano-food-22",
+          "name": "Pan de mej|Pan de mej",
+          "category": "dessert",
+          "description": "Dolce lombardo con farina di mais.|A Lombard sweet made with maize flour.",
+          "query": "pan de mej",
+          "venue": "dolce"
+        },
+        {
+          "id": "milano-food-23",
+          "name": "Pan dei morti|Pan dei morti",
+          "category": "dessert",
+          "description": "Dolci speziati di inizio novembre.|Spiced sweets for early November.",
+          "query": "pan dei morti",
+          "venue": "dolce"
+        },
+        {
+          "id": "milano-food-24",
+          "name": "Torta sbrisolona|Sbrisolona",
+          "category": "dessert",
+          "description": "Da Mantova: torta friabile alle mandorle.|From Mantua: a crumbly almond cake.",
+          "query": "sbrisolona",
+          "venue": "dolce"
+        },
+        {
+          "id": "milano-food-25",
+          "name": "Amaretti|Amaretti",
+          "category": "dessert",
+          "description": "Biscotti alle mandorle, anche nella tradizione di Saronno.|Almond biscuits, also part of the Saronno tradition.",
+          "query": "amaretti saronno",
+          "venue": "dolce"
+        },
+        {
+          "id": "milano-food-27",
+          "name": "Barbajada|Barbajada",
+          "category": "dessert",
+          "description": "Bevanda milanese con caffè, cacao e latte.|A Milanese drink with coffee, cocoa and milk.",
+          "query": "barbajada",
+          "venue": "dolce"
+        },
+        {
+          "id": "milano-food-28",
+          "name": "Polenta taragna|Polenta taragna",
+          "category": "table",
+          "description": "Dalle valli lombarde: grano saraceno e formaggio.|From Lombard valleys: buckwheat and cheese.",
+          "query": "polenta taragna",
+          "venue": "trattoria"
+        },
+        {
+          "id": "milano-food-29",
+          "name": "Pizzoccheri|Pizzoccheri",
+          "category": "table",
+          "description": "Dalla Valtellina: pasta di grano saraceno e verdure.|From Valtellina: buckwheat pasta and vegetables.",
+          "query": "pizzoccheri",
+          "venue": "trattoria"
+        },
+        {
+          "id": "milano-food-30",
+          "name": "Sciatt|Sciatt",
+          "category": "street",
+          "description": "Frittelle valtellinesi con cuore di formaggio.|Valtellina fritters with a cheese centre.",
+          "query": "sciatt",
+          "venue": "trattoria"
+        }
+      ],
+      "markets": [
+        {
+          "city": "milano",
+          "id": "milano-market-wagner",
+          "name": "Mercato Wagner|Wagner Market",
+          "area": "Piazza Wagner 15/A",
+          "query": "Mercato Wagner Milano",
+          "description": "Mercato coperto di quartiere: salumi, formaggi e gastronomia sono un buon punto di partenza per i sapori lombardi.|A covered neighbourhood market: cured meats, cheeses and deli counters introduce Lombard flavours.",
+          "url": "https://store.mercatidiquartiere.it/it_IT/mercato/mercato-wagner"
+        }
+      ],
+      "venues": {
+        "trattoria": {
+          "name": "Trattoria Burla Giò",
+          "area": "Via Giovanni sul Muro 21",
+          "url": "https://burlagiomilano.it/trattoria-burlagio-menu/",
+          "why": "Il menu documenta risotto con ossobuco e cotoletta.|Its menu lists risotto with ossobuco and veal cutlet.",
+          "serves": [
+            1,
+            2,
+            3
+          ]
+        },
+        "gastronomia": {
+          "name": "Peck",
+          "area": "Via Spadari, centro",
+          "url": "https://peck.it/proposta-gastronomica/gastronomia/",
+          "why": "Gastronomia e selezioni di salumi e formaggi; chiedi origine e disponibilità.|Deli counters and selections of meats and cheeses; ask about origin and availability.",
+          "serves": []
+        },
+        "dolce": {
+          "name": "Marchesi 1824",
+          "area": "Sedi milanesi sul sito",
+          "url": "https://www.marchesi1824.com/",
+          "why": "Pasticceria con grandi lievitati, tra cui panettone e veneziana.|A patisserie with enriched breads including panettone and veneziana.",
+          "serves": [
+            20,
+            21
+          ]
+        },
+        "valtellina": {
+          "name": "Sciatt à Porter",
+          "area": "Viale Monte Grappa, Porta Nuova",
+          "url": "https://www.touringclub.it/destinazioni/milano/mangiare/130971-sciatt-a-porter",
+          "why": "Un indirizzo dedicato alla cucina valtellinese, distinta da quella milanese.|An address for Valtellina cooking, distinct from Milanese cuisine.",
+          "serves": [
+            30
+          ]
+        }
+      },
+      "sources": [
+        "https://it.wikipedia.org/wiki/Cucina_milanese",
+        "https://peck.it/proposta-gastronomica/gastronomia/"
+      ]
+    },
+    "napoli": {
+      "foods": [
+        {
+          "id": "napoli-food-01",
+          "name": "Pizza Margherita|Margherita pizza",
+          "category": "street",
+          "description": "Pomodoro, fiordilatte e basilico.|Tomato, mozzarella and basil.",
+          "query": "pizza margherita napoli",
+          "venue": "pizza"
+        },
+        {
+          "id": "napoli-food-02",
+          "name": "Pizza Marinara|Marinara pizza",
+          "category": "street",
+          "description": "Pomodoro, aglio e origano, senza mozzarella.|Tomato, garlic and oregano, without mozzarella.",
+          "query": "pizza marinara",
+          "venue": "pizza"
+        },
+        {
+          "id": "napoli-food-03",
+          "name": "Pizza fritta|Fried pizza",
+          "category": "street",
+          "description": "Impasto fritto ripieno, tradizionalmente con ricotta e cicoli.|Fried filled dough, traditionally with ricotta and pork cracklings.",
+          "query": "pizza fritta",
+          "venue": "fritti"
+        },
+        {
+          "id": "napoli-food-06",
+          "name": "Crocchè|Potato crocchè",
+          "category": "street",
+          "description": "Crocchette di patate, spesso con cuore filante.|Potato croquettes, often with melted cheese inside.",
+          "query": "crocchè",
+          "venue": "fritti"
+        },
+        {
+          "id": "napoli-food-07",
+          "name": "Cuoppo|Cuoppo",
+          "category": "street",
+          "description": "Cono di fritture: chiedi se di terra o mare.|A cone of fried bites: ask whether seafood or vegetables.",
+          "query": "cuoppo",
+          "venue": "fritti"
+        },
+        {
+          "id": "napoli-food-08",
+          "name": "Frittata di maccheroni|Pasta frittata",
+          "category": "street",
+          "description": "Pasta e uova cotte insieme, anche da portare via.|Pasta and eggs cooked together, also eaten on the go.",
+          "query": "frittata maccheroni",
+          "venue": "trattoria"
+        },
+        {
+          "id": "napoli-food-09",
+          "name": "Ragù napoletano|Neapolitan ragù",
+          "category": "table",
+          "description": "Sugo di carne a cottura lenta.|A slow-cooked meat and tomato sauce.",
+          "query": "ragù napoletano",
+          "venue": "ragù"
+        },
+        {
+          "id": "napoli-food-10",
+          "name": "Genovese napoletana|Neapolitan genovese",
+          "category": "table",
+          "description": "Cipolle e carne, non pesto ligure.|Slow-cooked onions and beef, unrelated to Ligurian pesto.",
+          "query": "genovese napoletana",
+          "venue": "ragù"
+        },
+        {
+          "id": "napoli-food-11",
+          "name": "Pasta e patate con provola|Pasta, potatoes and smoked cheese",
+          "category": "table",
+          "description": "La versione cremosa con provola.|The creamy version with smoked provola.",
+          "query": "pasta patate provola",
+          "venue": "trattoria"
+        },
+        {
+          "id": "napoli-food-12",
+          "name": "Spaghetti alle vongole|Spaghetti with clams",
+          "category": "table",
+          "description": "Un classico della cucina del golfo.|A classic of Gulf cooking.",
+          "query": "spaghetti vongole",
+          "venue": "trattoria"
+        },
+        {
+          "id": "napoli-food-13",
+          "name": "Spaghetti alla puttanesca|Puttanesca",
+          "category": "table",
+          "description": "Pomodoro, olive e capperi.|Tomato, olives and capers.",
+          "query": "puttanesca",
+          "venue": "trattoria"
+        },
+        {
+          "id": "napoli-food-14",
+          "name": "Gnocchi alla sorrentina|Sorrento-style gnocchi",
+          "category": "table",
+          "description": "Dalla penisola sorrentina: pomodoro e mozzarella gratinati.|From Sorrento: gnocchi baked with tomato and mozzarella.",
+          "query": "gnocchi sorrentina",
+          "venue": "trattoria"
+        },
+        {
+          "id": "napoli-food-15",
+          "name": "Parmigiana di melanzane|Aubergine parmigiana",
+          "category": "table",
+          "description": "Melanzane, pomodoro e formaggio a strati.|Layers of aubergine, tomato and cheese.",
+          "query": "parmigiana melanzane",
+          "venue": "trattoria"
+        },
+        {
+          "id": "napoli-food-16",
+          "name": "Sartù di riso|Sartù rice timbale",
+          "category": "table",
+          "description": "Timballo di riso delle occasioni speciali.|A rice timbale for special occasions.",
+          "query": "sartù",
+          "venue": "trattoria"
+        },
+        {
+          "id": "napoli-food-17",
+          "name": "Polpo alla luciana|Luciana-style octopus",
+          "category": "table",
+          "description": "Polpo in umido con pomodoro e olive.|Octopus simmered with tomato and olives.",
+          "query": "polpo luciana",
+          "venue": "trattoria"
+        },
+        {
+          "id": "napoli-food-18",
+          "name": "Impepata di cozze|Peppered mussels",
+          "category": "table",
+          "description": "Cozze, pepe e il loro fondo di cottura.|Mussels, pepper and their cooking juices.",
+          "query": "impepata cozze",
+          "venue": "trattoria"
+        },
+        {
+          "id": "napoli-food-20",
+          "name": "Casatiello|Casatiello",
+          "category": "street",
+          "description": "Ciambella salata pasquale con salumi e formaggio.|An Easter savoury ring with cured meats and cheese.",
+          "query": "casatiello",
+          "venue": "dolce"
+        },
+        {
+          "id": "napoli-food-22",
+          "name": "Mozzarella di bufala|Buffalo mozzarella",
+          "category": "market",
+          "description": "Specialità campana: chiedi provenienza e produzione.|A Campanian speciality: ask about origin and production.",
+          "query": "mozzarella bufala",
+          "venue": "market"
+        },
+        {
+          "id": "napoli-food-23",
+          "name": "Sfogliatella riccia|Sfogliatella riccia",
+          "category": "dessert",
+          "description": "Sfoglie croccanti e ripieno di semolino e ricotta.|Crisp pastry layers with semolina and ricotta filling.",
+          "query": "sfogliatella riccia",
+          "venue": "dolce"
+        },
+        {
+          "id": "napoli-food-24",
+          "name": "Sfogliatella frolla|Sfogliatella frolla",
+          "category": "dessert",
+          "description": "La versione di pasta frolla, dal guscio morbido.|The shortcrust version with a softer shell.",
+          "query": "sfogliatella frolla",
+          "venue": "dolce"
+        },
+        {
+          "id": "napoli-food-25",
+          "name": "Babà|Babà",
+          "category": "dessert",
+          "description": "Dolce lievitato imbevuto, normalmente al rum.|A soaked yeast cake, usually with rum.",
+          "query": "babà napoletano",
+          "venue": "dolce"
+        },
+        {
+          "id": "napoli-food-26",
+          "name": "Pastiera|Pastiera",
+          "category": "dessert",
+          "description": "Ricotta, grano e profumo di fiori d’arancio.|Ricotta, wheat and orange blossom aroma.",
+          "query": "pastiera",
+          "venue": "dolce"
+        },
+        {
+          "id": "napoli-food-27",
+          "name": "Struffoli|Struffoli",
+          "category": "dessert",
+          "description": "Piccole palline fritte al miele, natalizie.|Small fried honey-coated balls, a Christmas tradition.",
+          "query": "struffoli",
+          "venue": "dolce"
+        },
+        {
+          "id": "napoli-food-28",
+          "name": "Zeppole di San Giuseppe|St Joseph’s zeppole",
+          "category": "dessert",
+          "description": "Crema e amarena, soprattutto intorno al 19 marzo.|Pastry cream and sour cherry, especially around 19 March.",
+          "query": "zeppole San Giuseppe",
+          "venue": "dolce"
+        },
+        {
+          "id": "napoli-food-29",
+          "name": "Delizia al limone|Lemon delight",
+          "category": "dessert",
+          "description": "Dolce della costa sorrentina e amalfitana.|A lemon dessert from the Sorrento and Amalfi coast.",
+          "query": "delizia limone",
+          "venue": "dolce"
+        }
+      ],
+      "markets": [
+        {
+          "city": "napoli",
+          "id": "napoli-market-pignasecca",
+          "name": "Mercato della Pignasecca|Pignasecca Market",
+          "area": "Pignasecca / Montesanto",
+          "query": "Pignasecca market",
+          "description": "Pescherie, frutta e cibo da strada tra i vicoli. La zona è interessata da riqualificazioni: verifica sul posto la posizione dei banchi.|Fishmongers, fruit and street food in the lanes. Redevelopment can affect stall locations: check locally.",
+          "url": "https://static-www.comune.napoli.it/wp-content/uploads/2026/01/2026-01-08_Delibera_1.pdf"
+        },
+        {
+          "city": "napoli",
+          "id": "napoli-market-nolana",
+          "name": "Mercato di Porta Nolana|Porta Nolana Market",
+          "area": "Via Nolana / Porta Nolana",
+          "query": "Porta Nolana market",
+          "description": "Mercato di strada noto per il pesce, con frutta e alimentari. Il pesce esposto è materia prima, non sempre cibo pronto da mangiare.|A street market known for fish, alongside fruit and groceries. Displayed seafood is produce, not always ready to eat.",
+          "url": "https://www.napoliunplugged.com/attractions/naples-shopping-streets-markets"
+        }
+      ],
+      "venues": {
+        "pizza": {
+          "name": "Gino Sorbillo",
+          "area": "Via dei Tribunali, centro storico",
+          "url": "https://www.sorbillo.it/",
+          "why": "Un indirizzo per la pizza napoletana tradizionale.|An address for traditional Neapolitan pizza.",
+          "serves": [
+            1,
+            2
+          ]
+        },
+        "fritti": {
+          "name": "La Masardona",
+          "area": "Zona Case Nuove; controlla la sede sul sito",
+          "url": "https://linktr.ee/lamasardona",
+          "why": "Il canale del locale rimanda alle sedi e alla pizza fritta.|The venue’s channel links its branches and fried pizza.",
+          "serves": [
+            3
+          ]
+        },
+        "ragù": {
+          "name": "Tandem",
+          "area": "Centro storico; scegli la sede sul sito",
+          "url": "https://www.tandemnapoli.it/",
+          "why": "Ragù e genovese sono il centro della proposta.|Ragù and genovese are central to its cooking.",
+          "serves": [
+            9,
+            10
+          ]
+        },
+        "trattoria": {
+          "name": "Mimì alla Ferrovia",
+          "area": "Via Alfonso d’Aragona 21",
+          "url": "https://www.mimiallaferrovia.it/",
+          "why": "Cucina partenopea al tavolo, con proposte che cambiano.|Neapolitan table dining with changing dishes.",
+          "serves": []
+        },
+        "dolce": {
+          "name": "Scaturchio",
+          "area": "Piazza San Domenico Maggiore",
+          "url": "https://scaturchio.it/",
+          "why": "Pasticceria per esplorare babà, sfogliatelle e dolci delle ricorrenze.|A patisserie for babà, sfogliatelle and seasonal sweets.",
+          "serves": [
+            23,
+            24,
+            25,
+            26
+          ]
+        }
+      },
+      "sources": [
+        "https://www.visitnaples.eu/napoletanita/sapori-di-napoli/-la-cucina-napoletana-storia-di-passione-e-tradizione",
+        "https://it.wikipedia.org/wiki/Cucina_napoletana"
+      ]
+    },
+    "palermo": {
+      "foods": [
+        {
+          "id": "palermo-food-01",
+          "name": "Arancine|Arancine",
+          "category": "street",
+          "description": "Riso fritto ripieno: chiedi la variante al ragù o al burro.|Filled fried rice: ask for ragù or butter-style versions.",
+          "query": "arancina ragù",
+          "venue": "focaccia"
+        },
+        {
+          "id": "palermo-food-03",
+          "name": "Pane con la milza|Spleen sandwich",
+          "category": "street",
+          "description": "Pane câ meusa, semplice o con formaggio.|Pane câ meusa, plain or with cheese.",
+          "query": "pani ca meusa",
+          "venue": "focaccia"
+        },
+        {
+          "id": "palermo-food-04",
+          "name": "Panelle|Panelle",
+          "category": "street",
+          "description": "Frittelle sottili di farina di ceci.|Thin chickpea-flour fritters.",
+          "query": "panelle",
+          "venue": "focaccia"
+        },
+        {
+          "id": "palermo-food-06",
+          "name": "Sfincione|Sfincione",
+          "category": "street",
+          "description": "Focaccia alta con pomodoro, cipolla e acciughe.|Thick bread with tomato, onions and anchovies.",
+          "query": "sfincione",
+          "venue": "focaccia"
+        },
+        {
+          "id": "palermo-food-07",
+          "name": "Stigghiole|Stigghiole",
+          "category": "street",
+          "description": "Interiora alla brace dei banchi di strada.|Grilled offal from street stalls.",
+          "query": "stigghiole",
+          "venue": "market"
+        },
+        {
+          "id": "palermo-food-08",
+          "name": "Frittola|Frittola",
+          "category": "street",
+          "description": "Bocconi di carne della tradizione dei mercati.|Small meat bites from the market tradition.",
+          "query": "frittola palermo",
+          "venue": "market"
+        },
+        {
+          "id": "palermo-food-10",
+          "name": "Anelletti al forno|Baked anelletti",
+          "category": "table",
+          "description": "Piccoli anelli di pasta al ragù, gratinati.|Small pasta rings baked with ragù.",
+          "query": "anelletti forno",
+          "venue": "focaccia"
+        },
+        {
+          "id": "palermo-food-11",
+          "name": "Pasta con le sarde|Pasta with sardines",
+          "category": "table",
+          "description": "Sarde, finocchietto e una nota dolce di uvetta.|Sardines, wild fennel and a sweet raisin note.",
+          "query": "pasta sarde",
+          "venue": "focaccia"
+        },
+        {
+          "id": "palermo-food-12",
+          "name": "Sarde a beccafico|Stuffed sardines",
+          "category": "table",
+          "description": "Sarde arrotolate con ripieno aromatico.|Rolled sardines with an aromatic filling.",
+          "query": "sarde beccafico",
+          "venue": "focaccia"
+        },
+        {
+          "id": "palermo-food-13",
+          "name": "Caponata|Caponata",
+          "category": "table",
+          "description": "Melanzane in agrodolce, con varianti di famiglia.|Sweet-and-sour aubergines with many family variations.",
+          "query": "caponata",
+          "venue": "focaccia"
+        },
+        {
+          "id": "palermo-food-16",
+          "name": "Pasta al pesto trapanese|Trapani-style pesto pasta",
+          "category": "table",
+          "description": "Dalla Sicilia occidentale: pomodoro e mandorle.|From western Sicily: tomatoes and almonds.",
+          "query": "pesto trapanese",
+          "venue": "focaccia"
+        },
+        {
+          "id": "palermo-food-17",
+          "name": "Cannolo|Cannolo",
+          "category": "dessert",
+          "description": "Cialda croccante e ricotta; preferisci farcitura al momento.|Crisp pastry and ricotta; look for filling to order.",
+          "query": "cannoli siciliani",
+          "venue": "dolce"
+        },
+        {
+          "id": "palermo-food-18",
+          "name": "Cassata siciliana|Sicilian cassata",
+          "category": "dessert",
+          "description": "Ricotta, pan di Spagna, glassa e canditi.|Ricotta, sponge, icing and candied fruit.",
+          "query": "cassata siciliana",
+          "venue": "dolce"
+        },
+        {
+          "id": "palermo-food-20",
+          "name": "Frutta martorana|Marzipan fruit",
+          "category": "dessert",
+          "description": "Mandorle e zucchero modellati come frutti.|Almonds and sugar shaped into fruit.",
+          "query": "frutta martorana",
+          "venue": "dolce"
+        },
+        {
+          "id": "palermo-food-21",
+          "name": "Sfince di San Giuseppe|St Joseph’s sfince",
+          "category": "dessert",
+          "description": "Dolci fritti con ricotta, tipici di marzo.|Fried ricotta-topped pastries, especially in March.",
+          "query": "sfince san giuseppe",
+          "venue": "dolce"
+        },
+        {
+          "id": "palermo-food-22",
+          "name": "Gelo di melone|Watermelon pudding",
+          "category": "dessert",
+          "description": "A Palermo melone indica qui l’anguria.|In Palermo, melone here means watermelon.",
+          "query": "gelo melone",
+          "venue": "dolce"
+        },
+        {
+          "id": "palermo-food-23",
+          "name": "Buccellato|Buccellato",
+          "category": "dessert",
+          "description": "Dolce con fichi secchi e frutta secca.|A pastry with dried figs and nuts.",
+          "query": "buccellato sicilia",
+          "venue": "dolce"
+        },
+        {
+          "id": "palermo-food-25",
+          "name": "Reginelle|Sesame reginelle",
+          "category": "dessert",
+          "description": "Biscotti croccanti ricoperti di sesamo.|Crunchy sesame-covered biscuits.",
+          "query": "reginelle biscotti",
+          "venue": "dolce"
+        },
+        {
+          "id": "palermo-food-26",
+          "name": "Biscotti di San Martino|St Martin’s biscuits",
+          "category": "dessert",
+          "description": "Biscotti all’anice della festa di novembre.|Anise biscuits for the November feast.",
+          "query": "biscotti san martino",
+          "venue": "dolce"
+        },
+        {
+          "id": "palermo-food-27",
+          "name": "Pasta di mandorle|Almond pastries",
+          "category": "dessert",
+          "description": "Piccola pasticceria siciliana alle mandorle.|Small Sicilian almond pastries.",
+          "query": "pasta mandorle biscotti",
+          "venue": "dolce"
+        },
+        {
+          "id": "palermo-food-28",
+          "name": "Brioche col gelato|Gelato in a brioche",
+          "category": "dessert",
+          "description": "La brioche siciliana diventa un dessert da passeggio.|A Sicilian brioche becomes a handheld dessert.",
+          "query": "brioche gelato",
+          "venue": "dolce"
+        },
+        {
+          "id": "palermo-food-29",
+          "name": "Granita siciliana|Sicilian granita",
+          "category": "dessert",
+          "description": "Una pausa fredda, parte della tradizione regionale.|A cold break from the wider Sicilian tradition.",
+          "query": "granita siciliana",
+          "venue": "dolce"
+        },
+        {
+          "id": "palermo-food-30",
+          "name": "Ravazzata|Ravazzata",
+          "category": "street",
+          "description": "Pasta da rosticceria al forno con ragù.|Baked savoury dough filled with ragù.",
+          "query": "ravazzata",
+          "venue": "dolce"
+        }
+      ],
+      "markets": [
+        {
+          "city": "palermo",
+          "id": "palermo-market-ballaro",
+          "name": "Ballarò|Ballarò",
+          "area": "Albergheria",
+          "query": "Ballarò market Palermo",
+          "description": "Tra banchi di verdura, pesce e cucine di strada: cerca panelle, sfincione e polpo preparato. Chiedi prezzo e porzione prima di ordinare.|Vegetable stalls, fish and street kitchens: look for panelle, sfincione and prepared octopus. Ask the price and portion before ordering.",
+          "url": "https://www.italia.it/en/sicily/palermo/things-to-do/palermo-street-food-what-eat-historic-markets"
+        },
+        {
+          "city": "palermo",
+          "id": "palermo-market-capo",
+          "name": "Mercato del Capo|Capo Market",
+          "area": "Via Cappuccinelle / Porta Carini",
+          "query": "Capo market Palermo",
+          "description": "Un percorso tra frutta, pescherie e rosticcerie nel tessuto storico. Cerca assaggi piccoli per lasciare spazio a più specialità.|A route through fruit stalls, fishmongers and takeaway shops in the old city. Small portions leave room for more specialities.",
+          "url": "https://www.visitsicily.info/localita/palermo/"
+        },
+        {
+          "city": "palermo",
+          "id": "palermo-market-vucciria",
+          "name": "Vucciria|Vucciria",
+          "area": "Piazza Caracciolo / Loggia",
+          "query": "Vucciria market",
+          "description": "Mercato storico trasformato anche in luogo di ritrovo serale. La spesa diurna e il cibo della sera sono esperienze diverse.|A historic market that has also become an evening meeting place. Daytime shopping and evening food are different experiences.",
+          "url": "https://www.visitsicily.info/localita/palermo/"
+        }
+      ],
+      "venues": {
+        "focaccia": {
+          "name": "Antica Focacceria San Francesco",
+          "area": "Via Alessandro Paternostro, Kalsa",
+          "url": "https://www.anticafocacceria.it/locali/palermo/",
+          "why": "Street food e cucina popolare: arancine, milza e pasta con le sarde.|Street food and popular cooking: arancine, spleen sandwiches and sardine pasta.",
+          "serves": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        "dolce": {
+          "name": "Spinnato",
+          "area": "Via Principe di Belmonte / sedi sul sito",
+          "url": "https://www.spinnato.it/menu-spinnato/",
+          "why": "Pasticceria, gelateria e rosticceria: controlla la vetrina e le ricorrenze.|Pastry, gelato and savoury snacks: check the counter and seasonal dates.",
+          "serves": [
+            1,
+            2,
+            17,
+            18,
+            27,
+            28,
+            29
+          ]
+        },
+        "vastiddaru": {
+          "name": "Franco ’U Vastiddaru",
+          "area": "Corso Vittorio Emanuele 102, piazza Marina",
+          "url": "https://www.gamberorosso.it/ristoranti/palermo-in-15-locali-le-insegne-da-non-perdere-nel-capoluogo-siciliano/",
+          "why": "Segnalato da Gambero Rosso per il panino con le panelle.|Highlighted by Gambero Rosso for its panelle sandwich.",
+          "serves": [
+            4
+          ]
+        },
+        "carbone": {
+          "name": "Porta Carbone",
+          "area": "Via Cala 62",
+          "url": "https://www.gamberorosso.it/ristoranti/palermo-in-15-locali-le-insegne-da-non-perdere-nel-capoluogo-siciliano/",
+          "why": "Un altro indirizzo segnalato per il pane con la milza, con vista sulla Cala.|Another recommended stop for spleen sandwiches, overlooking La Cala.",
+          "serves": [
+            3
+          ]
+        }
+      },
+      "sources": [
+        "https://www.visitsicily.info/localita/palermo/",
+        "https://www.anticafocacceria.it/locali/palermo/"
+      ]
+    },
+    "roma": {
+      "foods": [
+        {
+          "id": "roma-food-01",
+          "name": "Carbonara|Carbonara",
+          "category": "table",
+          "description": "Uovo, pecorino e guanciale.|Egg, pecorino and cured pork cheek.",
+          "query": "carbonara",
+          "venue": "trattoria"
+        },
+        {
+          "id": "roma-food-02",
+          "name": "Cacio e pepe|Cacio e pepe",
+          "category": "table",
+          "description": "Pasta, pecorino e pepe nero.|Pasta, pecorino and black pepper.",
+          "query": "cacio e pepe",
+          "venue": "trattoria"
+        },
+        {
+          "id": "roma-food-03",
+          "name": "Amatriciana|Amatriciana",
+          "category": "table",
+          "description": "Da Amatrice alla tavola romana: pomodoro e guanciale.|From Amatrice to Roman tables: tomato and guanciale.",
+          "query": "amatriciana",
+          "venue": "trattoria"
+        },
+        {
+          "id": "roma-food-04",
+          "name": "Gricia|Gricia",
+          "category": "table",
+          "description": "Guanciale e pecorino, senza pomodoro.|Guanciale and pecorino, without tomato.",
+          "query": "pasta gricia",
+          "venue": "trattoria"
+        },
+        {
+          "id": "roma-food-05",
+          "name": "Carciofi alla romana|Roman-style artichokes",
+          "category": "table",
+          "description": "Carciofi stufati con erbe aromatiche; stagionali.|Artichokes braised with herbs; seasonal.",
+          "query": "carciofi alla romana",
+          "venue": "trattoria"
+        },
+        {
+          "id": "roma-food-06",
+          "name": "Carciofi alla giudia|Jewish-style artichokes",
+          "category": "table",
+          "description": "Il carciofo fritto della tradizione ebraico-romanesca.|The fried artichoke of Jewish-Roman cooking.",
+          "query": "carciofi alla giudia",
+          "venue": "ghetto"
+        },
+        {
+          "id": "roma-food-07",
+          "name": "Saltimbocca|Saltimbocca",
+          "category": "table",
+          "description": "Vitello con prosciutto e salvia.|Veal with cured ham and sage.",
+          "query": "saltimbocca",
+          "venue": "trattoria"
+        },
+        {
+          "id": "roma-food-08",
+          "name": "Coda alla vaccinara|Oxtail stew",
+          "category": "table",
+          "description": "Cottura lenta e sugo da raccogliere col pane.|Slow-cooked oxtail with a rich sauce.",
+          "query": "coda alla vaccinara",
+          "venue": "trattoria"
+        },
+        {
+          "id": "roma-food-09",
+          "name": "Trippa alla romana|Roman-style tripe",
+          "category": "table",
+          "description": "Trippa al pomodoro, mentuccia e pecorino.|Tripe with tomato, mint and pecorino.",
+          "query": "trippa alla romana",
+          "venue": "trattoria"
+        },
+        {
+          "id": "roma-food-10",
+          "name": "Abbacchio|Roman-style lamb",
+          "category": "table",
+          "description": "Agnello della tradizione laziale, al forno o scottadito.|Lazio-style lamb, roasted or grilled.",
+          "query": "abbacchio",
+          "venue": "trattoria"
+        },
+        {
+          "id": "roma-food-11",
+          "name": "Rigatoni con la pajata|Rigatoni with pajata",
+          "category": "table",
+          "description": "Il quinto quarto nella cucina popolare romana.|Offal in traditional Roman cooking.",
+          "query": "pajata",
+          "venue": "trattoria"
+        },
+        {
+          "id": "roma-food-12",
+          "name": "Gnocchi alla romana|Roman semolina gnocchi",
+          "category": "table",
+          "description": "Dischi di semolino gratinati al forno.|Oven-baked semolina discs.",
+          "query": "gnocchi alla romana",
+          "venue": "trattoria"
+        },
+        {
+          "id": "roma-food-13",
+          "name": "Puntarelle|Puntarelle",
+          "category": "table",
+          "description": "Germogli croccanti con condimento alle acciughe; stagionali.|Crisp chicory shoots with anchovy dressing; seasonal.",
+          "query": "puntarelle",
+          "venue": "trattoria"
+        },
+        {
+          "id": "roma-food-14",
+          "name": "Fave e pecorino|Broad beans and pecorino",
+          "category": "market",
+          "description": "L’abbinamento primaverile della campagna romana.|A spring pairing from the Roman countryside.",
+          "query": "fave pecorino",
+          "venue": "market"
+        },
+        {
+          "id": "roma-food-15",
+          "name": "Supplì|Supplì",
+          "category": "street",
+          "description": "Riso fritto con cuore di mozzarella.|Fried rice with a mozzarella centre.",
+          "query": "supplì",
+          "venue": "suppli"
+        },
+        {
+          "id": "roma-food-17",
+          "name": "Fiori di zucca fritti|Fried courgette flowers",
+          "category": "street",
+          "description": "Fiori ripieni in pastella, spesso con alici.|Stuffed battered flowers, often with anchovies.",
+          "query": "fiori zucca fritti",
+          "venue": "suppli"
+        },
+        {
+          "id": "roma-food-20",
+          "name": "Pizza al taglio|Pizza by the slice",
+          "category": "street",
+          "description": "La pizza del forno, venduta a fette o a peso.|Bakery pizza sold by the slice or by weight.",
+          "query": "pizza romana",
+          "venue": "forno"
+        },
+        {
+          "id": "roma-food-21",
+          "name": "Porchetta|Porchetta",
+          "category": "market",
+          "description": "Specialità dei Castelli Romani, anche nei panini dei mercati.|A Castelli Romani speciality, also served in market sandwiches.",
+          "query": "porchetta",
+          "venue": "market"
+        },
+        {
+          "id": "roma-food-22",
+          "name": "Pecorino Romano|Pecorino Romano",
+          "category": "market",
+          "description": "Formaggio ovino da assaggio o da grattugia.|Sheep’s milk cheese for tasting or grating.",
+          "query": "Pecorino Romano cheese",
+          "venue": "market"
+        },
+        {
+          "id": "roma-food-23",
+          "name": "Maritozzo|Maritozzo",
+          "category": "dessert",
+          "description": "Panino dolce aperto e farcito di panna.|A sweet bun split and filled with cream.",
+          "query": "maritozzo",
+          "venue": "dolce"
+        },
+        {
+          "id": "roma-food-25",
+          "name": "Pizza ebraica|Roman Jewish fruit cake",
+          "category": "dessert",
+          "description": "Dolce compatto con frutta secca e canditi.|A dense sweet with nuts and candied fruit.",
+          "query": "pizza ebraica",
+          "venue": "ghetto"
+        },
+        {
+          "id": "roma-food-26",
+          "name": "Pangiallo|Pangiallo",
+          "category": "dessert",
+          "description": "Dolce natalizio romano con frutta secca.|A Roman Christmas sweet with dried fruit and nuts.",
+          "query": "pangiallo",
+          "venue": "dolce"
+        },
+        {
+          "id": "roma-food-27",
+          "name": "Ciambelline al vino|Wine biscuits",
+          "category": "dessert",
+          "description": "Biscotti laziali da forno, con vino nell’impasto.|Lazio biscuits with wine in the dough.",
+          "query": "ciambelline vino",
+          "venue": "forno"
+        },
+        {
+          "id": "roma-food-29",
+          "name": "Stracciatella in brodo|Stracciatella soup",
+          "category": "table",
+          "description": "Uovo e formaggio nel brodo caldo.|Egg and cheese stirred into hot broth.",
+          "query": "stracciatella soup",
+          "venue": "trattoria"
+        }
+      ],
+      "markets": [
+        {
+          "city": "roma",
+          "id": "roma-market-testaccio",
+          "name": "Mercato di Testaccio|Testaccio Market",
+          "area": "Via Beniamino Franklin, Testaccio",
+          "query": "Mercato Testaccio",
+          "description": "Banchi di spesa e cucine da asporto: confronta porchetta, pane e formaggi. Mordi e Vai è uno dei banchi dedicati ai panini della tradizione.|Grocery stalls and takeaway kitchens: compare porchetta, bread and cheeses. Mordi e Vai is one of the traditional sandwich stalls.",
+          "url": "https://www.mercatoditestaccio.it/"
+        },
+        {
+          "city": "roma",
+          "id": "roma-market-campo",
+          "name": "Campo de’ Fiori|Campo de’ Fiori",
+          "area": "Campo de’ Fiori",
+          "query": "Campo Fiori market",
+          "description": "Banchi e botteghe nel centro storico. Distingui prodotti stagionali, souvenir alimentari e forni delle vie circostanti.|Stalls and shops in the historic centre. Distinguish seasonal produce, food souvenirs and nearby bakeries.",
+          "url": "https://turismoroma.it/it/pagina/le-vie-del-gusto"
+        }
+      ],
+      "venues": {
+        "trattoria": {
+          "name": "Felice a Testaccio",
+          "area": "Via Mastro Giorgio 29, Testaccio",
+          "url": "https://feliceatestaccio.com/menu/",
+          "why": "Per i classici romani; consulta anche i piatti del giorno.|For Roman classics; also check daily specials.",
+          "serves": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            29,
+            30
+          ]
+        },
+        "suppli": {
+          "name": "Supplì Roma",
+          "area": "Via di San Francesco a Ripa 137, Trastevere",
+          "url": "https://www.suppliroma.it/le-nostre-specialita/",
+          "why": "Supplì, filetti di baccalà e fiori fritti dichiarati tra le specialità.|Supplì, fried cod and flowers are listed among its specialities.",
+          "serves": [
+            15,
+            16,
+            17
+          ]
+        },
+        "forno": {
+          "name": "Antico Forno Roscioli",
+          "area": "Via dei Chiavari, centro storico",
+          "url": "https://www.anticofornoroscioli.it/",
+          "why": "Un forno per pizza e pane: controlla il banco del giorno.|A bakery for pizza and bread: check the day’s counter.",
+          "serves": [
+            18,
+            19
+          ]
+        },
+        "dolce": {
+          "name": "Regoli",
+          "area": "Via dello Statuto, Esquilino",
+          "url": "https://www.repubblica.it/il-gusto/2026/01/27/news/regoli_l_arte_del_maritozzo_in_una_storia_di_famiglia_lunga_oltre_un_secolo-425120525/amp/",
+          "why": "Una sosta mirata al maritozzo con panna.|A stop specifically for the cream-filled maritozzo.",
+          "serves": [
+            23
+          ]
+        },
+        "ghetto": {
+          "name": "Boccione",
+          "area": "Via del Portico d’Ottavia, Ghetto",
+          "url": "https://en.wikipedia.org/wiki/Pasticceria_Boccione",
+          "why": "Per crostata di ricotta e visciole e pizza ebraica; non è un ristorante.|For ricotta and sour cherry tart and Jewish fruit cake; this is a bakery.",
+          "serves": [
+            24,
+            25
+          ]
+        }
+      },
+      "sources": [
+        "https://turismoroma.it/it/pagina/le-vie-del-gusto",
+        "https://it.wikipedia.org/wiki/Cucina_romana"
+      ]
+    },
+    "torino": {
+      "foods": [
+        {
+          "id": "torino-food-01",
+          "name": "Vitello tonnato|Vitello tonnato",
+          "category": "table",
+          "description": "Vitello freddo con salsa di tonno.|Cold veal with a tuna sauce.",
+          "query": "vitello tonnato",
+          "venue": "trattoria"
+        },
+        {
+          "id": "torino-food-02",
+          "name": "Carne cruda all’albese|Piedmontese raw beef",
+          "category": "table",
+          "description": "Carne bovina cruda, tagliata o battuta.|Raw beef, sliced or finely chopped.",
+          "query": "carne cruda albese",
+          "venue": "trattoria"
+        },
+        {
+          "id": "torino-food-03",
+          "name": "Agnolotti del plin|Agnolotti del plin",
+          "category": "table",
+          "description": "Pasta ripiena chiusa con il pizzicotto.|Filled pasta closed with a small pinch.",
+          "query": "agnolotti plin",
+          "venue": "trattoria"
+        },
+        {
+          "id": "torino-food-04",
+          "name": "Agnolotti al sugo d’arrosto|Agnolotti with roast sauce",
+          "category": "table",
+          "description": "Pasta ripiena e fondo dell’arrosto.|Filled pasta with roasting juices.",
+          "query": "agnolotti",
+          "venue": "trattoria"
+        },
+        {
+          "id": "torino-food-05",
+          "name": "Tajarin|Tajarin",
+          "category": "table",
+          "description": "Pasta all’uovo sottile della tradizione piemontese.|Fine egg pasta from Piedmont.",
+          "query": "tajarin",
+          "venue": "trattoria"
+        },
+        {
+          "id": "torino-food-06",
+          "name": "Gnocchi al Castelmagno|Castelmagno gnocchi",
+          "category": "table",
+          "description": "Gnocchi con il formaggio delle valli cuneesi.|Gnocchi with cheese from the Cuneo valleys.",
+          "query": "gnocchi castelmagno",
+          "venue": "trattoria"
+        },
+        {
+          "id": "torino-food-07",
+          "name": "Bagna cauda|Bagna cauda",
+          "category": "table",
+          "description": "Salsa calda di aglio e acciughe per le verdure.|A warm garlic and anchovy dip for vegetables.",
+          "query": "bagna cauda",
+          "venue": "piola"
+        },
+        {
+          "id": "torino-food-09",
+          "name": "Acciughe al verde|Anchovies in green sauce",
+          "category": "table",
+          "description": "Acciughe con il bagnetto della tradizione.|Anchovies with traditional green sauce.",
+          "query": "acciughe verde",
+          "venue": "piola"
+        },
+        {
+          "id": "torino-food-10",
+          "name": "Insalata russa|Russian salad",
+          "category": "table",
+          "description": "Un antipasto molto presente nelle piole torinesi.|A familiar starter in Turin’s piole.",
+          "query": "insalata russa",
+          "venue": "trattoria"
+        },
+        {
+          "id": "torino-food-13",
+          "name": "Brasato|Piedmontese braised beef",
+          "category": "table",
+          "description": "Carne cotta lentamente nel vino rosso.|Beef slowly braised in red wine.",
+          "query": "brasato barolo",
+          "venue": "trattoria"
+        },
+        {
+          "id": "torino-food-14",
+          "name": "Bollito misto piemontese|Piedmontese boiled meats",
+          "category": "table",
+          "description": "Tagli di carne e salse della tradizione regionale.|Cuts of meat with regional sauces.",
+          "query": "bollito piemontese",
+          "venue": "piola"
+        },
+        {
+          "id": "torino-food-15",
+          "name": "Fritto misto piemontese|Piedmontese mixed fry",
+          "category": "table",
+          "description": "Il fritto regionale mescola dolce e salato.|A regional fry combining sweet and savoury.",
+          "query": "fritto misto piemontese",
+          "venue": "piola"
+        },
+        {
+          "id": "torino-food-16",
+          "name": "Finanziera|Finanziera",
+          "category": "table",
+          "description": "Intingolo di frattaglie della cucina piemontese.|An offal stew from Piedmontese cooking.",
+          "query": "finanziera",
+          "venue": "piola"
+        },
+        {
+          "id": "torino-food-19",
+          "name": "Toma piemontese|Piedmontese toma",
+          "category": "market",
+          "description": "Formaggio regionale da confrontare per stagionatura.|Regional cheese to compare at different ages.",
+          "query": "toma piemontese",
+          "venue": "market"
+        },
+        {
+          "id": "torino-food-20",
+          "name": "Castelmagno|Castelmagno",
+          "category": "market",
+          "description": "Formaggio delle montagne cuneesi, da assaggiare in gastronomia.|A Cuneo mountain cheese to try at a deli.",
+          "query": "castelmagno cheese",
+          "venue": "market"
+        },
+        {
+          "id": "torino-food-21",
+          "name": "Robiola di Roccaverano|Roccaverano cheese",
+          "category": "market",
+          "description": "Formaggio caprino della tradizione astigiana.|Goat’s cheese from the Asti area.",
+          "query": "robiola roccaverano",
+          "venue": "market"
+        },
+        {
+          "id": "torino-food-22",
+          "name": "Gianduiotti|Gianduiotti",
+          "category": "dessert",
+          "description": "Cioccolato e nocciola, simbolo torinese.|Chocolate and hazelnut, a symbol of Turin.",
+          "query": "gianduiotti",
+          "venue": "cioccolato"
+        },
+        {
+          "id": "torino-food-23",
+          "name": "Cremini|Cremini",
+          "category": "dessert",
+          "description": "Cioccolatini a strati di gianduia.|Layered gianduja chocolates.",
+          "query": "cremino chocolate",
+          "venue": "cioccolato"
+        },
+        {
+          "id": "torino-food-24",
+          "name": "Cri cri|Cri cri",
+          "category": "dessert",
+          "description": "Nocciola e cioccolato sotto una copertura di zucchero.|Hazelnut and chocolate under a sugar coating.",
+          "query": "cri cri chocolate",
+          "venue": "cioccolato"
+        },
+        {
+          "id": "torino-food-25",
+          "name": "Bicerin|Bicerin",
+          "category": "dessert",
+          "description": "Caffè, cioccolato e crema di latte nel bicchiere.|Coffee, chocolate and cream in a glass.",
+          "query": "bicerin",
+          "venue": "bicerin"
+        },
+        {
+          "id": "torino-food-26",
+          "name": "Bonet|Bonet",
+          "category": "dessert",
+          "description": "Budino piemontese con cacao e amaretti.|Piedmontese pudding with cocoa and amaretti.",
+          "query": "bonet",
+          "venue": "trattoria"
+        },
+        {
+          "id": "torino-food-27",
+          "name": "Zabaione|Zabaione",
+          "category": "dessert",
+          "description": "Crema di uova e vino dolce, anche al cucchiaio.|Egg and sweet-wine cream served as a dessert.",
+          "query": "zabaione",
+          "venue": "bicerin"
+        },
+        {
+          "id": "torino-food-28",
+          "name": "Panna cotta|Panna cotta",
+          "category": "dessert",
+          "description": "Dessert di panna della tradizione piemontese.|A cream dessert from the Piedmontese tradition.",
+          "query": "panna cotta",
+          "venue": "trattoria"
+        },
+        {
+          "id": "torino-food-29",
+          "name": "Torta di nocciole|Hazelnut cake",
+          "category": "dessert",
+          "description": "Dalle Langhe, una torta centrata sulla nocciola.|From the Langhe, a cake built around hazelnuts.",
+          "query": "torta nocciole",
+          "venue": "dolce"
+        },
+        {
+          "id": "torino-food-30",
+          "name": "Baci di dama|Baci di dama",
+          "category": "dessert",
+          "description": "Biscotti piemontesi accoppiati con cioccolato.|Piedmontese sandwich biscuits with chocolate.",
+          "query": "baci dama",
+          "venue": "dolce"
+        }
+      ],
+      "markets": [
+        {
+          "city": "torino",
+          "id": "torino-market-palazzo",
+          "name": "Porta Palazzo|Porta Palazzo",
+          "area": "Piazza della Repubblica",
+          "query": "Porta Palazzo market Turin",
+          "description": "Mercato di prodotti freschi con padiglioni e banchi all’aperto. Cerca formaggi piemontesi, pane e verdure di stagione.|A fresh-produce market with halls and outdoor stalls. Look for Piedmontese cheeses, bread and seasonal vegetables.",
+          "url": "https://commercio.comune.torino.it/mercati/mercati-allaperto/mercato-porta-palazzo/"
+        },
+        {
+          "city": "torino",
+          "id": "torino-market-centrale",
+          "name": "Mercato Centrale Torino|Mercato Centrale Turin",
+          "area": "Piazza della Repubblica, Porta Palazzo",
+          "query": "Mercato Centrale Torino",
+          "description": "La food hall nell’area di Porta Palazzo affianca alla spesa una sosta con cucine e tavoli. Controlla la lista attuale degli artigiani.|This food hall in the Porta Palazzo area adds cooking counters and seating to a shopping visit. Check the current artisan list.",
+          "url": "https://www.mercatocentrale.it/torino/"
+        }
+      ],
+      "venues": {
+        "trattoria": {
+          "name": "Scannabue",
+          "area": "Largo Saluzzo 25/h, San Salvario",
+          "url": "https://www.scannabue.it/menu/",
+          "why": "Menu con vitello tonnato, plin, tajarin, gnocchi e dolci piemontesi.|A menu featuring vitello tonnato, plin, tajarin, gnocchi and Piedmontese desserts.",
+          "serves": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            10,
+            12,
+            13,
+            26,
+            28
+          ]
+        },
+        "piola": {
+          "name": "Porto di Savona",
+          "area": "Piazza Vittorio Veneto 2",
+          "url": "https://turismotorino.org/en/visit/where-to-eat/porto-di-savona",
+          "why": "Un locale storico per la tradizione piemontese; verifica il menu stagionale.|A historic restaurant for Piedmontese cooking; check the seasonal menu.",
+          "serves": []
+        },
+        "cioccolato": {
+          "name": "Stratta 1836",
+          "area": "Piazza San Carlo",
+          "url": "https://stratta1836.it/e-shop/",
+          "why": "Cioccolateria storica, con gianduiotti nella selezione.|A historic chocolate shop with gianduiotti in its selection.",
+          "serves": [
+            22
+          ]
+        },
+        "bicerin": {
+          "name": "Al Bicerin",
+          "area": "Piazza della Consolata 5",
+          "url": "https://bicerin.it/cosa-degustare/",
+          "why": "Per la bevanda omonima e lo zabaione.|For its namesake drink and zabaione.",
+          "serves": [
+            25,
+            27
+          ]
+        },
+        "dolce": {
+          "name": "Piemônt Cioccolato",
+          "area": "Sedi torinesi sul sito",
+          "url": "https://www.piemontcioccolato.it/",
+          "why": "Il catalogo include gianduiotti e Cri Cri.|Its catalogue includes gianduiotti and Cri Cri.",
+          "serves": [
+            22,
+            24
+          ]
+        }
+      },
+      "sources": [
+        "https://www.scannabue.it/menu/",
+        "https://turismotorino.org/en/visit/where-to-eat/porto-di-savona"
+      ]
+    },
+    "venezia": {
+      "foods": [
+        {
+          "id": "venezia-food-01",
+          "name": "Sarde in saor|Sarde in saor",
+          "category": "table",
+          "description": "Sardine con cipolle in agrodolce, uvetta e pinoli.|Sardines with sweet-and-sour onions, raisins and pine nuts.",
+          "query": "sarde saor",
+          "venue": "trattoria"
+        },
+        {
+          "id": "venezia-food-02",
+          "name": "Baccalà mantecato|Whipped stockfish",
+          "category": "street",
+          "description": "Stoccafisso lavorato in crema, spesso su polenta.|Stockfish whipped into a spread, often on polenta.",
+          "query": "baccalà mantecato",
+          "venue": "trattoria"
+        },
+        {
+          "id": "venezia-food-03",
+          "name": "Bigoli in salsa|Bigoli in salsa",
+          "category": "table",
+          "description": "Pasta con cipolle e pesce sotto sale.|Pasta with onions and salt-cured fish.",
+          "query": "bigoli salsa",
+          "venue": "trattoria"
+        },
+        {
+          "id": "venezia-food-05",
+          "name": "Spaghetti al nero di seppia|Squid ink spaghetti",
+          "category": "table",
+          "description": "Un primo dal colore e sapore lagunare.|A pasta dish with the flavour and colour of the lagoon.",
+          "query": "spaghetti nero seppia",
+          "venue": "trattoria"
+        },
+        {
+          "id": "venezia-food-06",
+          "name": "Fegato alla veneziana|Venetian liver",
+          "category": "table",
+          "description": "Fegato e cipolle cotti insieme.|Liver cooked with onions.",
+          "query": "fegato veneziana",
+          "venue": "trattoria"
+        },
+        {
+          "id": "venezia-food-07",
+          "name": "Risi e bisi|Risi e bisi",
+          "category": "table",
+          "description": "Riso e piselli, legati alla primavera.|Rice and peas, associated with spring.",
+          "query": "risi bisi",
+          "venue": "laguna"
+        },
+        {
+          "id": "venezia-food-15",
+          "name": "Polenta bianca|White polenta",
+          "category": "table",
+          "description": "Accompagna molte preparazioni di pesce veneziane.|An accompaniment to many Venetian fish dishes.",
+          "query": "polenta bianca",
+          "venue": "trattoria"
+        },
+        {
+          "id": "venezia-food-16",
+          "name": "Cicchetti|Cicchetti",
+          "category": "street",
+          "description": "Assaggi da banco: guarda cosa è pronto quel giorno.|Counter snacks: choose from the day’s selection.",
+          "query": "cicchetti venezia",
+          "venue": "trattoria"
+        },
+        {
+          "id": "venezia-food-17",
+          "name": "Tramezzini veneziani|Venetian tramezzini",
+          "category": "street",
+          "description": "Panini morbidi dalla farcitura abbondante.|Soft sandwiches with generous fillings.",
+          "query": "tramezzini venezia",
+          "venue": "bar"
+        },
+        {
+          "id": "venezia-food-18",
+          "name": "Mozzarella in carrozza|Mozzarella in carrozza",
+          "category": "street",
+          "description": "Pane ripieno di mozzarella e fritto.|Bread filled with mozzarella and fried.",
+          "query": "mozzarella carrozza",
+          "venue": "trattoria"
+        },
+        {
+          "id": "venezia-food-20",
+          "name": "Radicchio tardivo|Late Treviso radicchio",
+          "category": "market",
+          "description": "Dal territorio veneto, da assaggiare in stagione.|From Veneto, best explored in season.",
+          "query": "radicchio tardivo",
+          "venue": "market"
+        },
+        {
+          "id": "venezia-food-21",
+          "name": "Frittelle veneziane|Venetian fritole",
+          "category": "dessert",
+          "description": "Il dolce fritto del Carnevale.|The fried sweet of Carnival.",
+          "query": "fritole veneziane",
+          "venue": "dolce"
+        },
+        {
+          "id": "venezia-food-22",
+          "name": "Galani|Galani",
+          "category": "dessert",
+          "description": "Sottili sfoglie dolci fritte di Carnevale.|Thin fried Carnival pastries.",
+          "query": "galani",
+          "venue": "dolce"
+        },
+        {
+          "id": "venezia-food-23",
+          "name": "Baicoli|Baicoli",
+          "category": "dessert",
+          "description": "Biscotti asciutti da accompagnare al caffè.|Dry biscuits to accompany coffee.",
+          "query": "baicoli",
+          "venue": "dolce"
+        },
+        {
+          "id": "venezia-food-25",
+          "name": "Bussolai di Burano|Burano bussolai",
+          "category": "dessert",
+          "description": "Biscotti al burro della tradizione dell’isola.|Butter biscuits from Burano’s island tradition.",
+          "query": "bussolai burano",
+          "venue": "dolce"
+        },
+        {
+          "id": "venezia-food-29",
+          "name": "Tiramisù|Tiramisù",
+          "category": "dessert",
+          "description": "Dolce del Veneto, diffuso anche nei ristoranti veneziani.|A Veneto dessert, also found in Venetian restaurants.",
+          "query": "tiramisu",
+          "venue": "trattoria"
+        }
+      ],
+      "markets": [
+        {
+          "city": "venezia",
+          "id": "venezia-market-rialto",
+          "name": "Mercato di Rialto|Rialto Market",
+          "area": "Campo de la Pescaria / Erbaria",
+          "query": "Rialto fish market",
+          "description": "Pescheria e banchi di ortaggi raccontano la laguna. Cerca i prodotti di stagione; per mangiare, passa ai bacari vicini.|Fish and vegetable stalls introduce the lagoon. Look for seasonal produce; head to nearby bacari for prepared food.",
+          "url": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/mercati"
+        }
+      ],
+      "venues": {
+        "trattoria": {
+          "name": "Cantina Do Spade",
+          "area": "Calle Do Spade 859, San Polo",
+          "url": "https://cantinadospade.com/menu/",
+          "why": "Cicchetti e menu con sarde, baccalà, bigoli e fegato.|Cicchetti and a menu with sardines, stockfish, bigoli and liver.",
+          "serves": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            13,
+            14,
+            16,
+            24,
+            25,
+            26,
+            29
+          ]
+        },
+        "laguna": {
+          "name": "Antiche Carampane",
+          "area": "San Polo, vicino a Rialto",
+          "url": "https://antichecarampane.com/it/",
+          "why": "Cucina di pesce che segue il mercato di Rialto.|Seafood cooking that follows Rialto Market’s availability.",
+          "serves": []
+        },
+        "dolce": {
+          "name": "Rosa Salva",
+          "area": "San Marco / SS. Giovanni e Paolo; sedi sul sito",
+          "url": "https://pasticceria.rosasalva.it/",
+          "why": "Pasticceria veneziana: biscotti, focacce e dolci delle ricorrenze.|Venetian patisserie: biscuits, sweet breads and seasonal sweets.",
+          "serves": []
+        },
+        "street": {
+          "name": "Acqua e Mais",
+          "area": "San Polo 1411/1412",
+          "url": "https://www.acquaemais.it/",
+          "why": "Per un cono di calamari fritti da portare via.|For a takeaway cone of fried calamari.",
+          "serves": []
+        }
+      },
+      "sources": [
+        "https://www.veneziaunica.it/it/venezia-sostenibile/detourism/la-cucina-veneziana",
+        "https://www.veneziaunica.it/it/cosa-fare-a-venezia/venezia-nelle-stagioni"
+      ]
+    }
+  }
+}

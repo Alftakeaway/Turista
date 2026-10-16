@@ -35,6 +35,3282 @@
       }
     ]
   },
+  "assets/images/food/cagliari-food-02.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/458a3f26fc24f8de331e.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 26280,
+        "sha256": "458a3f26fc24f8de331e855e511e353af36fc2320d4f7b5cea8967e6cd57fe9a"
+      },
+      {
+        "src": "assets/images/responsive/f9bcd7c3e95be21938f8.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 91104,
+        "sha256": "f9bcd7c3e95be21938f8313eae954dbde697b263a76b7b59a031e099ec7e0d76"
+      }
+    ]
+  },
+  "assets/images/food/cagliari-food-08.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/20f473f315361b938815.webp",
+        "width": 480,
+        "height": 335,
+        "bytes": 26822,
+        "sha256": "20f473f315361b938815c6b0cd048b7b2068e6b86189b647647d3ddad4e70847"
+      },
+      {
+        "src": "assets/images/responsive/004837bb5f78a6039180.webp",
+        "width": 960,
+        "height": 669,
+        "bytes": 72302,
+        "sha256": "004837bb5f78a6039180d41978c41372220923401e7e3eba3fcf4d9c2e4b7405"
+      }
+    ]
+  },
+  "assets/images/food/cagliari-food-09.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/5d11e41788fdc17efa0f.webp",
+        "width": 480,
+        "height": 372,
+        "bytes": 15980,
+        "sha256": "5d11e41788fdc17efa0fe953cec7e774938ba99e4c54e3bec75a39ba9ad217f8"
+      },
+      {
+        "src": "assets/images/responsive/ec06407da634e98e0ad3.webp",
+        "width": 790,
+        "height": 613,
+        "bytes": 39410,
+        "sha256": "ec06407da634e98e0ad354adcb34b4cd94ae9007f4a0a7a4b4f75dfee994ad0f"
+      }
+    ]
+  },
+  "assets/images/food/cagliari-food-12.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/e943e84ca7886decbaa2.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 26660,
+        "sha256": "e943e84ca7886decbaa2621242cd45e01b9b7df5358502d1950596aa23e3bdfe"
+      },
+      {
+        "src": "assets/images/responsive/3d9ee97ebc3cfd0e8915.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 115696,
+        "sha256": "3d9ee97ebc3cfd0e89151521562d95af5bee476505ab396679891fa1a5ead774"
+      }
+    ]
+  },
+  "assets/images/food/cagliari-food-15.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/8f059bf93cb91c1fa4b8.webp",
+        "width": 480,
+        "height": 240,
+        "bytes": 20234,
+        "sha256": "8f059bf93cb91c1fa4b8145e5b07277902f922a386975a14804a5c2854e4d26e"
+      },
+      {
+        "src": "assets/images/responsive/9964332f48333afefee4.webp",
+        "width": 960,
+        "height": 480,
+        "bytes": 96406,
+        "sha256": "9964332f48333afefee4410c99f08949138e02c664824d344ff2a7058a3d1674"
+      }
+    ]
+  },
+  "assets/images/food/cagliari-food-16.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/0ff346acc6d663671bc7.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 16986,
+        "sha256": "0ff346acc6d663671bc740a53aaf10050c5774fdabf388d80909f508dae0da37"
+      },
+      {
+        "src": "assets/images/responsive/b34b5095c100803784d6.webp",
+        "width": 960,
+        "height": 1279,
+        "bytes": 55798,
+        "sha256": "b34b5095c100803784d69e33966d53e48d5ec0086dfb092a79f1ea2ce007dfe1"
+      }
+    ]
+  },
+  "assets/images/food/cagliari-food-18.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/efc9d58aef67b97adaab.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 10710,
+        "sha256": "efc9d58aef67b97adaaba4ce01dab23b7bb248ad4b11b29fcef767b1f93103a2"
+      },
+      {
+        "src": "assets/images/responsive/20c6895a90d6c6d3e700.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 31386,
+        "sha256": "20c6895a90d6c6d3e7004f1eb1693f79236052720d820b8936173d9e3bf3999f"
+      }
+    ]
+  },
+  "assets/images/food/cagliari-food-19.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/34ae59ea036bcaea7282.webp",
+        "width": 480,
+        "height": 388,
+        "bytes": 31644,
+        "sha256": "34ae59ea036bcaea7282b45558b658d76024a62a309efecd9f37465f99bc52c6"
+      },
+      {
+        "src": "assets/images/responsive/bd2b8e9d534bcf80a83c.webp",
+        "width": 960,
+        "height": 775,
+        "bytes": 130288,
+        "sha256": "bd2b8e9d534bcf80a83c24f35be0cb2dea1d022c676b696781fa9bd67984b556"
+      }
+    ]
+  },
+  "assets/images/food/cagliari-food-21.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/dcee20f641f7e214ed94.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 72558,
+        "sha256": "dcee20f641f7e214ed94fc0827c0c789c47144c6a6423c4b6d5f641ce0fdde9b"
+      },
+      {
+        "src": "assets/images/responsive/b5aa7cb482cb05e0d456.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 281258,
+        "sha256": "b5aa7cb482cb05e0d456e71de33a1b9363328cf26004db7d3d6638389f80954f"
+      }
+    ]
+  },
+  "assets/images/food/cagliari-food-22.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/15066142dd1a877b4b0e.webp",
+        "width": 480,
+        "height": 340,
+        "bytes": 8978,
+        "sha256": "15066142dd1a877b4b0eadcdd02c391c9af98d3742a275a3df61f33ce01fc71b"
+      },
+      {
+        "src": "assets/images/responsive/4b759a41a0d30d9a6c17.webp",
+        "width": 960,
+        "height": 679,
+        "bytes": 67690,
+        "sha256": "4b759a41a0d30d9a6c17ad9a440a2e749af29e273d4817b184c5c0e24461f907"
+      }
+    ]
+  },
+  "assets/images/food/cagliari-food-23.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/4d944c3f7c98ef7e0152.webp",
+        "width": 480,
+        "height": 337,
+        "bytes": 26496,
+        "sha256": "4d944c3f7c98ef7e01524e96af7b65a12b5b8233a97c0cd22964beb38eacd0e9"
+      },
+      {
+        "src": "assets/images/responsive/4ca0fe63c742730bda71.webp",
+        "width": 960,
+        "height": 673,
+        "bytes": 104222,
+        "sha256": "4ca0fe63c742730bda71fe9c39bfc128e878802c5a6002d551f96254ffb1518a"
+      }
+    ]
+  },
+  "assets/images/food/cagliari-food-31.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/8fc002b059efa046c187.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 21294,
+        "sha256": "8fc002b059efa046c1871f2ba70fd7769f09f6f22449f15486698bfcb426bb62"
+      },
+      {
+        "src": "assets/images/responsive/8e593afaa322ad3acdba.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 102246,
+        "sha256": "8e593afaa322ad3acdba0e2247e8d4e5e912f1f06081e4a0241c85198cc4f00f"
+      }
+    ]
+  },
+  "assets/images/food/cagliari-food-32.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/7bd0a586352aa83ac22c.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 22274,
+        "sha256": "7bd0a586352aa83ac22cdf51928b5d1973bb59894cd2b29bfb1d4b640ad00f4c"
+      },
+      {
+        "src": "assets/images/responsive/61d3229db8bf7fac0af4.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 95972,
+        "sha256": "61d3229db8bf7fac0af47ab4cfc7adee1d70c786fc46a8e437d7f5686eef0a6a"
+      }
+    ]
+  },
+  "assets/images/food/cagliari-food-33.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/b06c433db16d492f61d4.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 22056,
+        "sha256": "b06c433db16d492f61d43e6d24878231caf7bb2069c2dc95e8efb271ffd02c50"
+      },
+      {
+        "src": "assets/images/responsive/4e5a1f2e7032a48abf5b.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 81414,
+        "sha256": "4e5a1f2e7032a48abf5ba71f5a1b4f798f91aca4333519ed00ee40b55f3ec163"
+      }
+    ]
+  },
+  "assets/images/food/cagliari-food-35.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/727550f262cefe8e6c05.webp",
+        "width": 480,
+        "height": 691,
+        "bytes": 10174,
+        "sha256": "727550f262cefe8e6c052cbec570e82409e30a7b96a12311c306465394acef13"
+      },
+      {
+        "src": "assets/images/responsive/4666b6a7ca967dbaeeb3.webp",
+        "width": 960,
+        "height": 1382,
+        "bytes": 57596,
+        "sha256": "4666b6a7ca967dbaeeb32e2f8cca22c7629a682e48ac978745a42151ae6a7c3d"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-01.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/ae875d892d5eb73f8c98.webp",
+        "width": 480,
+        "height": 372,
+        "bytes": 35398,
+        "sha256": "ae875d892d5eb73f8c98897c08407edcf3fe26d0bcd26e9890f296aba7052772"
+      },
+      {
+        "src": "assets/images/responsive/1a33f7572daf0434b8eb.webp",
+        "width": 875,
+        "height": 678,
+        "bytes": 121458,
+        "sha256": "1a33f7572daf0434b8ebe044910171b1f71d54b0ac07d2872fff755b9b7519f1"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-02.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/b9037dc0bd6b1220fbd1.webp",
+        "width": 480,
+        "height": 382,
+        "bytes": 31444,
+        "sha256": "b9037dc0bd6b1220fbd1de7598cddf07aeb24ffd52d6263dc4bdd17c581b1722"
+      },
+      {
+        "src": "assets/images/responsive/252af136cd7ab0720ceb.webp",
+        "width": 960,
+        "height": 763,
+        "bytes": 122092,
+        "sha256": "252af136cd7ab0720cebdf3cf8833bf1b433c2d0aea939f4499a7042587dd4bd"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-03.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/a84a76a5e73aa5e659af.webp",
+        "width": 480,
+        "height": 435,
+        "bytes": 28916,
+        "sha256": "a84a76a5e73aa5e659afd8672d49264e9a283eb5b191a25c51b3edfca089987b"
+      },
+      {
+        "src": "assets/images/responsive/57afc54b04f2d962099c.webp",
+        "width": 656,
+        "height": 594,
+        "bytes": 46640,
+        "sha256": "57afc54b04f2d962099cb4ac6f7665c1b3030b3e4ad7bfd14effc82f21834425"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-04.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/7fab3104d6a333da8db0.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 18260,
+        "sha256": "7fab3104d6a333da8db0232a5381a1ea4fb54603fff7f04c9428f47fe13265ec"
+      },
+      {
+        "src": "assets/images/responsive/358d714a67e05f56cded.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 66142,
+        "sha256": "358d714a67e05f56cded6eeeeca539ac4b9a3b8df5c1fb3635f4ba702d8bca9c"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-05.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/baad354a3c7ed753b221.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 31276,
+        "sha256": "baad354a3c7ed753b2214837b33add883651940f3b87c59f60b790cb0f3f23fd"
+      },
+      {
+        "src": "assets/images/responsive/60e2868e5f4b9fc93836.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 49168,
+        "sha256": "60e2868e5f4b9fc93836098ac9e1e11af39575986d68aaef72b59b046425466b"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-06.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/9a4238f15117d40165e3.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 32318,
+        "sha256": "9a4238f15117d40165e3e46533a7b75ca5b0c4ee17721d48de4e7c0f8608815a"
+      },
+      {
+        "src": "assets/images/responsive/f17a4cff66505f4f64d0.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 71522,
+        "sha256": "f17a4cff66505f4f64d00820f899282f812c393e70f4c04a1d2b23848c8e7c5c"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-07.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/042aae21271f8547aa5e.webp",
+        "width": 480,
+        "height": 430,
+        "bytes": 25854,
+        "sha256": "042aae21271f8547aa5ee46fcd3e699cb93ca7b8bbc68921607a02c0735d941f"
+      },
+      {
+        "src": "assets/images/responsive/f417b299b8c5761ee0ba.webp",
+        "width": 960,
+        "height": 860,
+        "bytes": 77824,
+        "sha256": "f417b299b8c5761ee0bac2b0a15f75334f854232d4ab0d51fcd6046003b8735f"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-08.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/b69b52fb662a4c7964d7.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 12158,
+        "sha256": "b69b52fb662a4c7964d7b2e5c642584dc50d24ee3881d9f19f5bcfe2b6ee4c64"
+      },
+      {
+        "src": "assets/images/responsive/0f08734d19136450544b.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 41648,
+        "sha256": "0f08734d19136450544b1f8f833483929c1c251664c4bb20e94c409e781f8c48"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-12.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/0575dcb0cf61b444b3e4.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 15656,
+        "sha256": "0575dcb0cf61b444b3e4ed9deece0cbeaf2b7dda9debe9df6dc0e35e57de4b8c"
+      },
+      {
+        "src": "assets/images/responsive/0e46bb407e1a371bc613.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 52484,
+        "sha256": "0e46bb407e1a371bc6134b615cdbc535530d7bb831e496d1ecfa26fd6b5c3c5c"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-14.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/cf47f76df1de13535b32.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 13778,
+        "sha256": "cf47f76df1de13535b32fd8db652443978e414472319bfd560b7728ddf8a54bd"
+      },
+      {
+        "src": "assets/images/responsive/d6aa0be3cc7f3e45c0e3.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 52232,
+        "sha256": "d6aa0be3cc7f3e45c0e30e2694685da6d5967e93a2159480031d8e07a3485cb9"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-15.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/03fc906d97d046040e38.webp",
+        "width": 480,
+        "height": 344,
+        "bytes": 26528,
+        "sha256": "03fc906d97d046040e380e7e669cb2e8cff8b3c68ffc1810a038083a6d0a1906"
+      },
+      {
+        "src": "assets/images/responsive/f718d24fc1f997bc74ff.webp",
+        "width": 800,
+        "height": 573,
+        "bytes": 50278,
+        "sha256": "f718d24fc1f997bc74ffaee0373337ea07851601e7b44c09b39e6c2b62fdad20"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-16.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/6690fad347293504893d.webp",
+        "width": 480,
+        "height": 324,
+        "bytes": 33260,
+        "sha256": "6690fad347293504893d37bc8bdc0fb195f278e811bb6730bb384f413445c0fd"
+      },
+      {
+        "src": "assets/images/responsive/0db30bae258458eeaa0f.webp",
+        "width": 960,
+        "height": 647,
+        "bytes": 131962,
+        "sha256": "0db30bae258458eeaa0f05eca8ec75ea38bfdda47662504850f61e9f4c8087e9"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-17.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/3418e56acfbc79d10b87.webp",
+        "width": 480,
+        "height": 317,
+        "bytes": 12046,
+        "sha256": "3418e56acfbc79d10b872babd51f35da20d5721f431f753b7e4e83b96597a38d"
+      },
+      {
+        "src": "assets/images/responsive/4ac26992358c72e78f8d.webp",
+        "width": 960,
+        "height": 634,
+        "bytes": 48204,
+        "sha256": "4ac26992358c72e78f8d96bb8edcf7d42387807ed20f38df30b2ef032bcf25d1"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-18.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/b4ece8d7f2910534a063.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 27700,
+        "sha256": "b4ece8d7f2910534a0638a1acc471014ea52ad7b506f55b6b29ea32008b271f1"
+      },
+      {
+        "src": "assets/images/responsive/15a96921a4080b6742c5.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 84992,
+        "sha256": "15a96921a4080b6742c58f10cba456902874cd59f9eeee0a1c1a99b4941c79e6"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-19.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/93a4207083af8b0a9c62.webp",
+        "width": 480,
+        "height": 589,
+        "bytes": 38362,
+        "sha256": "93a4207083af8b0a9c622a164200e451725a8b1c9de037d95b2617f70e20122e"
+      },
+      {
+        "src": "assets/images/responsive/30c2f01778af4a7bfa40.webp",
+        "width": 960,
+        "height": 1177,
+        "bytes": 116848,
+        "sha256": "30c2f01778af4a7bfa406469beeb2e996f2b11f3cc1260989003d515bfa5762c"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-20.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/62ac89c0349f5ec7fef8.webp",
+        "width": 480,
+        "height": 294,
+        "bytes": 23872,
+        "sha256": "62ac89c0349f5ec7fef8d4cc06c8589122b56f6e9cdeaac1d71906474a26c455"
+      },
+      {
+        "src": "assets/images/responsive/e724798f62540f40357a.webp",
+        "width": 960,
+        "height": 588,
+        "bytes": 88436,
+        "sha256": "e724798f62540f40357a566fc3429d5b947cebcbc59c7dc99247751f7925e48f"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-21.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/d5062f297861abd95bcb.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 29534,
+        "sha256": "d5062f297861abd95bcb0fc145899f3dfb4e9ca014270672d58c086b54b4346f"
+      },
+      {
+        "src": "assets/images/responsive/1aafed4c45e5ac8dc1eb.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 45756,
+        "sha256": "1aafed4c45e5ac8dc1ebf62b7a9f9bb0f2047cd47bac835509fe7171faf407f4"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-23.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/5d33f6069e2ed6998ecd.webp",
+        "width": 480,
+        "height": 313,
+        "bytes": 30908,
+        "sha256": "5d33f6069e2ed6998ecddd3082ed1b63ba4ce3b206d034f01f074f67aa70f1e7"
+      },
+      {
+        "src": "assets/images/responsive/89ab5baeaec9c6e50a33.webp",
+        "width": 960,
+        "height": 625,
+        "bytes": 103818,
+        "sha256": "89ab5baeaec9c6e50a339a21100f72db66eb502d8409c2269816300a9be29bca"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-24.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/31bb0951a4b1b3d21930.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 16440,
+        "sha256": "31bb0951a4b1b3d21930b158ffd13ab4cdd204f1622a0c7f5d03744e3d4262c6"
+      },
+      {
+        "src": "assets/images/responsive/bc5b76a31d6f684f4f70.webp",
+        "width": 960,
+        "height": 539,
+        "bytes": 69588,
+        "sha256": "bc5b76a31d6f684f4f705063ca61100e6a5cb4664be5fd54aae39f1baf21a6c0"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-25.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/fa4529ce55351d9fb974.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 17252,
+        "sha256": "fa4529ce55351d9fb974a7c4a41ac1d3dcd008049039260844bfc152fa30f836"
+      },
+      {
+        "src": "assets/images/responsive/9b06886fd4888e6c44ef.webp",
+        "width": 960,
+        "height": 639,
+        "bytes": 52446,
+        "sha256": "9b06886fd4888e6c44ef78ddadddf3442460298e2e91d55cde785b596a4f7751"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-26.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/82ea37f3723d4b9994bc.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 21118,
+        "sha256": "82ea37f3723d4b9994bc8e89e0ea3fc8422c0e74c2044def4f45b3197a26e010"
+      },
+      {
+        "src": "assets/images/responsive/7a77703d7eb51181898b.webp",
+        "width": 960,
+        "height": 639,
+        "bytes": 75050,
+        "sha256": "7a77703d7eb51181898b1e3aa45c5b472d4721bae617f6636d88f25369b9f77f"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-27.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/777df2d945aa02fc6435.webp",
+        "width": 480,
+        "height": 282,
+        "bytes": 14634,
+        "sha256": "777df2d945aa02fc6435dcf718762b5a96cf27550d1eb84ed642ddd3ec1f7e04"
+      },
+      {
+        "src": "assets/images/responsive/7465bcad5f213b4b8e03.webp",
+        "width": 640,
+        "height": 376,
+        "bytes": 21556,
+        "sha256": "7465bcad5f213b4b8e03458c444e52fdceef13c0734d8cabd3442d7870114066"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-28.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/bc192ddc1ce83e9522f6.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 18886,
+        "sha256": "bc192ddc1ce83e9522f66889f5b3c52aa66768a9d4b565fdefaf9f1e3baf7f3b"
+      },
+      {
+        "src": "assets/images/responsive/9af3e287f2bf2aeb4597.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 60566,
+        "sha256": "9af3e287f2bf2aeb4597647eca38bc881927ccc3dbee0520c05e6f2da0a4e98d"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-29.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/b6b3a0839fa6497aabbb.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 39854,
+        "sha256": "b6b3a0839fa6497aabbbd1b4d6bbde8222548a05d16a42f0518b102abcc46ea5"
+      },
+      {
+        "src": "assets/images/responsive/159aaffe665ac7310cd0.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 163060,
+        "sha256": "159aaffe665ac7310cd0041804a2055857c52c8293fbbd96a96ce69fcd6692dc"
+      }
+    ]
+  },
+  "assets/images/food/firenze-food-30.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/fd71bec87a3b101853cb.webp",
+        "width": 480,
+        "height": 399,
+        "bytes": 49326,
+        "sha256": "fd71bec87a3b101853cb47539cf1008be18bd2ddfd1a8da56179566b859d949c"
+      },
+      {
+        "src": "assets/images/responsive/94e2625a2e04d4600158.webp",
+        "width": 960,
+        "height": 798,
+        "bytes": 153944,
+        "sha256": "94e2625a2e04d46001583dc858e081b0e1137e6c72ae1e7213bcf68de7b8a0de"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-02.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/bf469e0ed4d86dd271f6.webp",
+        "width": 480,
+        "height": 310,
+        "bytes": 14968,
+        "sha256": "bf469e0ed4d86dd271f6adc190b63dd972889f777995585402cf54647f7a5d00"
+      },
+      {
+        "src": "assets/images/responsive/81c0927db47a39a4a3c0.webp",
+        "width": 900,
+        "height": 582,
+        "bytes": 48894,
+        "sha256": "81c0927db47a39a4a3c0247e8565f9d653625d1d52362f3063f6ae6f4a60e2ef"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-03.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/47312ef2a3a47d8adadd.webp",
+        "width": 480,
+        "height": 707,
+        "bytes": 58280,
+        "sha256": "47312ef2a3a47d8adadd8800adb139bf3d67e13da97dc742234761f2a06d51cd"
+      },
+      {
+        "src": "assets/images/responsive/432925056b313be89382.webp",
+        "width": 516,
+        "height": 760,
+        "bytes": 70814,
+        "sha256": "432925056b313be89382fddd1f929855aeb6b642d7f6c63e3e1cbd4eea6488be"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-04.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/18a63c986dddf8e598cd.webp",
+        "width": 480,
+        "height": 331,
+        "bytes": 36610,
+        "sha256": "18a63c986dddf8e598cdda0dd3230fd032174a9d0a7fa320d57e387fb671aa58"
+      },
+      {
+        "src": "assets/images/responsive/871b32b88f4a9d368195.webp",
+        "width": 960,
+        "height": 662,
+        "bytes": 180648,
+        "sha256": "871b32b88f4a9d368195c34f806decb6bc45bbd5b22b2fe19e7d18e30e37ff85"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-05.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/6e9966c015f91c827055.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 28022,
+        "sha256": "6e9966c015f91c8270556ca13979d2ccd7d29cc17b3f2c87427e107d68571f61"
+      },
+      {
+        "src": "assets/images/responsive/e25ac12e5e68cecae03f.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 125274,
+        "sha256": "e25ac12e5e68cecae03fb37370e369ae8d83c2ef771442276824781547847adc"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-06.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/84364f880812f8fb1696.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 28024,
+        "sha256": "84364f880812f8fb16965bc9357469f11a3f9febb802a01b2692b97b8a368665"
+      },
+      {
+        "src": "assets/images/responsive/5130b83297b03006033c.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 98736,
+        "sha256": "5130b83297b03006033ce20b24a3b74bd63ac9ffef5a038c55150e0396aaa929"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-08.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/d6420517c616973cf1a5.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 23368,
+        "sha256": "d6420517c616973cf1a5f51a1478b58c8a7156f5987a97b6a3015ff3d07c50f5"
+      },
+      {
+        "src": "assets/images/responsive/041b80125829ee731682.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 90916,
+        "sha256": "041b80125829ee73168247d0a4f147d7b4795398e1cb9ce0cb7395d6e6027710"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-09.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/f53ba07557e98cd7678b.webp",
+        "width": 480,
+        "height": 351,
+        "bytes": 18014,
+        "sha256": "f53ba07557e98cd7678b73eb4dedd1e2aa78c6bf70067d3a84c7f90e74f3ff9c"
+      },
+      {
+        "src": "assets/images/responsive/a5be52d1c74884432afa.webp",
+        "width": 960,
+        "height": 702,
+        "bytes": 98196,
+        "sha256": "a5be52d1c74884432afa0977af8ca823188193c787178ce9b6da07b4fd58d7f0"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-11.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/632c2dcba310f8fd1a67.webp",
+        "width": 480,
+        "height": 482,
+        "bytes": 36222,
+        "sha256": "632c2dcba310f8fd1a679dea87c4fa39bfeb653c34e72978bf4be33cadf26740"
+      },
+      {
+        "src": "assets/images/responsive/f4dd200285d8936ffe9a.webp",
+        "width": 582,
+        "height": 585,
+        "bytes": 62060,
+        "sha256": "f4dd200285d8936ffe9a63e6b2bdd8f5ca95fa13cff12a00ec4e2e16b53ef835"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-12.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/fcd6c8c7317e65c81d14.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 26362,
+        "sha256": "fcd6c8c7317e65c81d14a7617a0fcc894d6a07bf4854a0193bdb323356178175"
+      },
+      {
+        "src": "assets/images/responsive/cd1041c0bfc7e43326ce.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 109420,
+        "sha256": "cd1041c0bfc7e43326ce120515b932e8b4a8595681dce4d1c56b2183c5089e02"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-13.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/26166e38765eac03ddae.webp",
+        "width": 480,
+        "height": 361,
+        "bytes": 17206,
+        "sha256": "26166e38765eac03ddae056f895789fe7d3a80250fa161d1c38f16a8c87425be"
+      },
+      {
+        "src": "assets/images/responsive/a7831858e068149f16dd.webp",
+        "width": 960,
+        "height": 721,
+        "bytes": 48224,
+        "sha256": "a7831858e068149f16dd435421e3436c9b066f3deca832783c9681585b131d83"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-14.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/7dec2753db47493fa5d3.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 16994,
+        "sha256": "7dec2753db47493fa5d3407ab9e181b449c3b3bf5de5a2a201b91525bb85c9ff"
+      },
+      {
+        "src": "assets/images/responsive/3b5cf29755634832a462.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 71394,
+        "sha256": "3b5cf29755634832a462757eb847867f4efc931dda7c5b80612e1ce7326f0d2e"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-15.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/06b0580e06f0358d56d2.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 8332,
+        "sha256": "06b0580e06f0358d56d265c4212ae821a86217fa856d05457bc5899b5eeb026f"
+      },
+      {
+        "src": "assets/images/responsive/27b4b7fe81c620a6544a.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 33540,
+        "sha256": "27b4b7fe81c620a6544a363499d21d9f3abe4b27616802887897b805aa56fb26"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-16.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/9b9b454aefd68da9dcdc.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 16402,
+        "sha256": "9b9b454aefd68da9dcdcf227d2378fc1b7992c8188f3eec115f599f281c2e6a1"
+      },
+      {
+        "src": "assets/images/responsive/3605790381a4123d17f5.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 195552,
+        "sha256": "3605790381a4123d17f56776521c5c94cf1538adaccdd92703e4d1deaf29285f"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-17.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/61d11438a6f5daac776d.webp",
+        "width": 480,
+        "height": 332,
+        "bytes": 27312,
+        "sha256": "61d11438a6f5daac776d2163e11b01162d7e322733261ec885678761031326db"
+      },
+      {
+        "src": "assets/images/responsive/001c20ba7278de6e18e5.webp",
+        "width": 960,
+        "height": 663,
+        "bytes": 94294,
+        "sha256": "001c20ba7278de6e18e564503e91ea79097ca3384d5eefe25797e190d38ba4f6"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-18.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/f1e2e0c4952704d3660a.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 20014,
+        "sha256": "f1e2e0c4952704d3660a15ca0520ccd1fc55bb2a08bf130160085b6d3218ffcb"
+      },
+      {
+        "src": "assets/images/responsive/6e55a36bffc44585cff1.webp",
+        "width": 960,
+        "height": 719,
+        "bytes": 64808,
+        "sha256": "6e55a36bffc44585cff187e8ddf66f3e7cad59c5c718ce4c2016ecbdbf80e5c0"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-19.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/3cf397afdda09ab69f59.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 26958,
+        "sha256": "3cf397afdda09ab69f59d8cb823e450db485251e27344b01522cedcf960b9006"
+      },
+      {
+        "src": "assets/images/responsive/03395e79c2a6ea7c0f97.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 103842,
+        "sha256": "03395e79c2a6ea7c0f97872b7eff3e50b3a7f6bf2fae27d7d06fb24f69fbe6ad"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-20.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/01f7c9dda6a4ddd99e46.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 22134,
+        "sha256": "01f7c9dda6a4ddd99e463fc96f3fd2a3e77626119796d2fb89e115471d2fea80"
+      },
+      {
+        "src": "assets/images/responsive/a7cf41275e9d0108598d.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 77436,
+        "sha256": "a7cf41275e9d0108598dfbd2ca72d672a0704ecde736a1a6ea9f29f28a90f37b"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-21.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/82ad54196e1676abe769.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 44224,
+        "sha256": "82ad54196e1676abe7694de8804d0df65682c4463a3775848ab5c7d9e9413572"
+      },
+      {
+        "src": "assets/images/responsive/dd3a6caaea9f902a2ca9.webp",
+        "width": 960,
+        "height": 960,
+        "bytes": 178658,
+        "sha256": "dd3a6caaea9f902a2ca98bce16e94c288d9f42ca8f448b445b9d21921bc909c5"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-22.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/6ca8b01be12fc0cb0032.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 12294,
+        "sha256": "6ca8b01be12fc0cb0032d967ba71a93830d2332c6bba1afb689ab8e906aa8a46"
+      },
+      {
+        "src": "assets/images/responsive/2e72ffb862282509d5b4.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 48860,
+        "sha256": "2e72ffb862282509d5b4f71499650fc816895f1078fa4fbaaa44424acc015d2b"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-23.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/ed7d531de513a3478a5d.webp",
+        "width": 480,
+        "height": 398,
+        "bytes": 39622,
+        "sha256": "ed7d531de513a3478a5def0785db37b34592a5dcee1e0634f83bf011c57b58e4"
+      },
+      {
+        "src": "assets/images/responsive/febead873b1523930a24.webp",
+        "width": 960,
+        "height": 796,
+        "bytes": 154562,
+        "sha256": "febead873b1523930a24ad7d2681ad826687d96f91914e7a883b01f18cc51822"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-24.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/be0fe0d49021675a5f01.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 42928,
+        "sha256": "be0fe0d49021675a5f019cea28a7b866b646066a47dfc6a843ae05d3c91caf4c"
+      },
+      {
+        "src": "assets/images/responsive/6c6ef139ccf5e6d26bea.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 175172,
+        "sha256": "6c6ef139ccf5e6d26beae69435eb9870e402486d8f31229081cfa42c7900bfba"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-25.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/1c887ce73667fbfef3cf.webp",
+        "width": 300,
+        "height": 225,
+        "bytes": 11838,
+        "sha256": "1c887ce73667fbfef3cf47d532b5ed45068d3cf4b56d2deee1f5361bab3d32ec"
+      },
+      {
+        "src": "assets/images/responsive/1c887ce73667fbfef3cf.webp",
+        "width": 300,
+        "height": 225,
+        "bytes": 11838,
+        "sha256": "1c887ce73667fbfef3cf47d532b5ed45068d3cf4b56d2deee1f5361bab3d32ec"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-27.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/b539ca0aa7db42df6c6f.webp",
+        "width": 480,
+        "height": 359,
+        "bytes": 9280,
+        "sha256": "b539ca0aa7db42df6c6fe4ccb114c2a5b5e24354578b3f4cf3268934f953d57c"
+      },
+      {
+        "src": "assets/images/responsive/f56118d865cd56d5ffa7.webp",
+        "width": 960,
+        "height": 718,
+        "bytes": 27334,
+        "sha256": "f56118d865cd56d5ffa7f9c6a2f34854a1cf7c4a76c7bfad1f1b8a259ef6f691"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-28.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/781e0fa235f9c9821081.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 15528,
+        "sha256": "781e0fa235f9c982108142ae49cb31432d38b903fd7d417019ce110d19830928"
+      },
+      {
+        "src": "assets/images/responsive/81afe13a734e2789c870.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 34308,
+        "sha256": "81afe13a734e2789c87087defe05cca128106cab219fb0aba5300868d55e390f"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-29.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/a7a1d9207b53c315ae04.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 26838,
+        "sha256": "a7a1d9207b53c315ae0438eeecef0277128e0a38663ec4299e9fbda0ffac6f1c"
+      },
+      {
+        "src": "assets/images/responsive/85725d1688fb9367595a.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 90484,
+        "sha256": "85725d1688fb9367595a3f0e72092b1529f979bd1f705daf34957d7fda48f2b4"
+      }
+    ]
+  },
+  "assets/images/food/milano-food-30.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/ba30e9c8917c11476e08.webp",
+        "width": 480,
+        "height": 300,
+        "bytes": 16844,
+        "sha256": "ba30e9c8917c11476e08412906e6372a49c220ab015be09ac3192ec57f681658"
+      },
+      {
+        "src": "assets/images/responsive/0e14d0fc98617e618f57.webp",
+        "width": 960,
+        "height": 600,
+        "bytes": 41486,
+        "sha256": "0e14d0fc98617e618f57918d951cc3f0227e191404d49617acd095359ee06a41"
+      }
+    ]
+  },
+  "assets/images/food/milano-market-wagner.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/21f7916e7b638de1e5a1.webp",
+        "width": 480,
+        "height": 279,
+        "bytes": 37580,
+        "sha256": "21f7916e7b638de1e5a1f5b771294f67fad13d7e0532ba577407a389d9906776"
+      },
+      {
+        "src": "assets/images/responsive/1e05072ec7f8bd15c0eb.webp",
+        "width": 960,
+        "height": 557,
+        "bytes": 159360,
+        "sha256": "1e05072ec7f8bd15c0eb8dddcb0a0af1d5dcf5a3d810c6601e5b9a3b651449f4"
+      }
+    ]
+  },
+  "assets/images/food/napoli-food-01.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/ca5002908159b38b4469.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 27034,
+        "sha256": "ca5002908159b38b4469246bbc9ef0a4ace215b70d352b824dbb2f980d64232b"
+      },
+      {
+        "src": "assets/images/responsive/7c240ffca0efce78ed57.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 78852,
+        "sha256": "7c240ffca0efce78ed57896c57afcd3d287abff3bdf677560d99aca42b86ffd9"
+      }
+    ]
+  },
+  "assets/images/food/napoli-food-02.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/ff6ca929a097fcc38591.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 26934,
+        "sha256": "ff6ca929a097fcc38591f49bb55da025181bc8610cb585d20cee67a5de0b05be"
+      },
+      {
+        "src": "assets/images/responsive/1e514589337c9e1ceaeb.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 135460,
+        "sha256": "1e514589337c9e1ceaebc1f709c47cd666be0562378ffa09c1d4b59e0af84f4f"
+      }
+    ]
+  },
+  "assets/images/food/napoli-food-06.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/f43fc25059d1974d22a8.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 29198,
+        "sha256": "f43fc25059d1974d22a80da6a770e625e107981d92e000c460179a1615be57e6"
+      },
+      {
+        "src": "assets/images/responsive/2d91ea90428b7b761984.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 103714,
+        "sha256": "2d91ea90428b7b761984c33211ac55aa8b7b65d1c856cba263ff98a91a30d5ff"
+      }
+    ]
+  },
+  "assets/images/food/napoli-food-07.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/1e3ee7df864d9d462988.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 16534,
+        "sha256": "1e3ee7df864d9d46298818c562ad7a8417ea7c82def46d6bbc168a74569f67cc"
+      },
+      {
+        "src": "assets/images/responsive/207d69e1c26f678056c2.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 57360,
+        "sha256": "207d69e1c26f678056c26ffbdd37792115cc285f8794d3010a2fcdfc33bbebc1"
+      }
+    ]
+  },
+  "assets/images/food/napoli-food-08.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/0f3d947690fbebeffc35.webp",
+        "width": 480,
+        "height": 854,
+        "bytes": 32740,
+        "sha256": "0f3d947690fbebeffc35eff8305683f7cea9e6d744717e3760d4ceca15f233ab"
+      },
+      {
+        "src": "assets/images/responsive/e39ab349015e5f0b9ac1.webp",
+        "width": 960,
+        "height": 1707,
+        "bytes": 87510,
+        "sha256": "e39ab349015e5f0b9ac1beeb0a1124033be86a8e7ef37023e412e6d8fd728568"
+      }
+    ]
+  },
+  "assets/images/food/napoli-food-09.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/add5ad05a0cf3b479bbd.webp",
+        "width": 428,
+        "height": 640,
+        "bytes": 44686,
+        "sha256": "add5ad05a0cf3b479bbdf2f42d42dd45d1331b6e29434e856a3152179d5d04fb"
+      },
+      {
+        "src": "assets/images/responsive/add5ad05a0cf3b479bbd.webp",
+        "width": 428,
+        "height": 640,
+        "bytes": 44686,
+        "sha256": "add5ad05a0cf3b479bbdf2f42d42dd45d1331b6e29434e856a3152179d5d04fb"
+      }
+    ]
+  },
+  "assets/images/food/napoli-food-10.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/bbdf1a80fade7edeeca7.webp",
+        "width": 480,
+        "height": 353,
+        "bytes": 19894,
+        "sha256": "bbdf1a80fade7edeeca745e65f4d3f78e3576226111170e79a6f6ffbe05f4e46"
+      },
+      {
+        "src": "assets/images/responsive/fc876e6ab60b9ae74a87.webp",
+        "width": 960,
+        "height": 706,
+        "bytes": 84010,
+        "sha256": "fc876e6ab60b9ae74a8727054039ee420f38a4831688271c1f4078329edbc96d"
+      }
+    ]
+  },
+  "assets/images/food/napoli-food-11.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/d8f7d152fcac50746e01.webp",
+        "width": 480,
+        "height": 535,
+        "bytes": 59790,
+        "sha256": "d8f7d152fcac50746e010082ca2cf890ec2c604321a850e2c3d1a98bd10f606f"
+      },
+      {
+        "src": "assets/images/responsive/abe1400bae7bf87eaa69.webp",
+        "width": 960,
+        "height": 1070,
+        "bytes": 189940,
+        "sha256": "abe1400bae7bf87eaa691a4d8500ac51cb83c7d9762f74e5d1f19cae2652ac72"
+      }
+    ]
+  },
+  "assets/images/food/napoli-food-12.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/e09ee9c25066c6bc3e78.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 43444,
+        "sha256": "e09ee9c25066c6bc3e789e5d993584d05d453f9dd28b798ad71ea6302f74d754"
+      },
+      {
+        "src": "assets/images/responsive/b24d797358dd271cde0a.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 79812,
+        "sha256": "b24d797358dd271cde0a69b2ec341fffb58d6f56a0193db83655514223beab61"
+      }
+    ]
+  },
+  "assets/images/food/napoli-food-13.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/18cccd6180460345424a.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 20488,
+        "sha256": "18cccd6180460345424ad5a98a006ccc9e4bb5276dde5dc039c355cb7d087023"
+      },
+      {
+        "src": "assets/images/responsive/dd575f6e7a7f5c69a94b.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 62616,
+        "sha256": "dd575f6e7a7f5c69a94b5c16d1e2c9a04f908e39f9b1196690bfad81de529759"
+      }
+    ]
+  },
+  "assets/images/food/napoli-food-14.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/0fbc46e6f1598487ed2f.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 27290,
+        "sha256": "0fbc46e6f1598487ed2fcb58728dc42eecb23947c4c8265821bfa5bb162bd745"
+      },
+      {
+        "src": "assets/images/responsive/09de35ab7903d34e26ad.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 83892,
+        "sha256": "09de35ab7903d34e26ad745b10c4b937c35d01562221d36c1b4a9458b3b6dd08"
+      }
+    ]
+  },
+  "assets/images/food/napoli-food-15.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/69d43de14973550dfaf6.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 27100,
+        "sha256": "69d43de14973550dfaf6d33b29b4ec925ea5a05d6226561a18e842ffa7d0483d"
+      },
+      {
+        "src": "assets/images/responsive/d89668139518c62deea7.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 126782,
+        "sha256": "d89668139518c62deea734da58857d8ac06c2c3c23a85597b50956b0f69d2979"
+      }
+    ]
+  },
+  "assets/images/food/napoli-food-16.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/4854cf1818674c6e0767.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 45062,
+        "sha256": "4854cf1818674c6e07672a2bc7ce4f0fb2a69da3f04f5dd4cf9be52295c0fbe0"
+      },
+      {
+        "src": "assets/images/responsive/e9c1c4e1f2ea5edcff2d.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 168920,
+        "sha256": "e9c1c4e1f2ea5edcff2d2c7c00ed4be7b1736f738d90a48dfc5b411d5b7b9cd9"
+      }
+    ]
+  },
+  "assets/images/food/napoli-food-17.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/ccaae55d04eaac75c05e.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 33108,
+        "sha256": "ccaae55d04eaac75c05e3262f10d4a5beae8d3f132ae50ad711f84120bbb761f"
+      },
+      {
+        "src": "assets/images/responsive/213888440ee4eec5206a.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 105276,
+        "sha256": "213888440ee4eec5206a14fbb51cbfd5eaa752623d312df904b83b900c05ed6b"
+      }
+    ]
+  },
+  "assets/images/food/napoli-food-18.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/9bef5b3cdca2cd5fe488.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 33268,
+        "sha256": "9bef5b3cdca2cd5fe48860784d107c3fcedec6c7f78138f75ad0af73b25bb585"
+      },
+      {
+        "src": "assets/images/responsive/ca77d49182dbc1028a76.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 108754,
+        "sha256": "ca77d49182dbc1028a7619233f3f5010ac3a51609de1cdf89aef312bc6c33d2f"
+      }
+    ]
+  },
+  "assets/images/food/napoli-food-20.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/a4bbbd93044f3c6f2018.webp",
+        "width": 480,
+        "height": 405,
+        "bytes": 10936,
+        "sha256": "a4bbbd93044f3c6f20181abeea0dcd7a8c2ca3d36d469a8698e30ca75da1e995"
+      },
+      {
+        "src": "assets/images/responsive/80be8d3a9bf5093f51c6.webp",
+        "width": 960,
+        "height": 809,
+        "bytes": 35660,
+        "sha256": "80be8d3a9bf5093f51c6b6fb295583f1fb2f1a7c6f82c65fa54da234944662a1"
+      }
+    ]
+  },
+  "assets/images/food/napoli-food-22.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/2a2bb0522f4da5bb4a8d.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 10942,
+        "sha256": "2a2bb0522f4da5bb4a8d5013df5b36d1eda86d4b6bab27e6562d1a3840869514"
+      },
+      {
+        "src": "assets/images/responsive/18f2ae49363db813c15b.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 36162,
+        "sha256": "18f2ae49363db813c15b3895901d7a7f0877c6ffffa33ba0438cb5ebdb347e28"
+      }
+    ]
+  },
+  "assets/images/food/napoli-food-23.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/094128102c01c2ef39de.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 16124,
+        "sha256": "094128102c01c2ef39dedd90d2b163d2efa94e6d2c9b006ce118a97265250edb"
+      },
+      {
+        "src": "assets/images/responsive/87769f1361fd606d26d7.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 54978,
+        "sha256": "87769f1361fd606d26d7a93595ad1a1535c3d3ac5ecbf440878787f39eee2f90"
+      }
+    ]
+  },
+  "assets/images/food/napoli-food-24.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/92557898434df2d62cdb.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 19238,
+        "sha256": "92557898434df2d62cdba0a3a79eb663fb964b2a84b36c90c2c19f092216df96"
+      },
+      {
+        "src": "assets/images/responsive/4761d15661eb4a6167aa.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 78238,
+        "sha256": "4761d15661eb4a6167aa317dde3c3450468a1d347240cbc0b32ba07758949427"
+      }
+    ]
+  },
+  "assets/images/food/napoli-food-25.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/57367d0be83d579bd508.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 30654,
+        "sha256": "57367d0be83d579bd5086e413aaac2e34a7bece321b060348e568a13d82c9903"
+      },
+      {
+        "src": "assets/images/responsive/929d7a5e8281f9f66bba.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 116298,
+        "sha256": "929d7a5e8281f9f66bbab1523949dad2d40d692c14469a50b1b22f399b973fb3"
+      }
+    ]
+  },
+  "assets/images/food/napoli-food-26.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/852dec4325352f092b49.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 45976,
+        "sha256": "852dec4325352f092b49a88f378977de926f532496f001b88d6c1c152c13ee66"
+      },
+      {
+        "src": "assets/images/responsive/35d9c76785d2022d1e34.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 177010,
+        "sha256": "35d9c76785d2022d1e34a7bbd59828a4ab4c4e8b6f42b4db14546b5eee7f5c29"
+      }
+    ]
+  },
+  "assets/images/food/napoli-food-27.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/67d6b0f191fa62663e9e.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 30446,
+        "sha256": "67d6b0f191fa62663e9eb9ccc72659b75ac4f03ed1f773ef0743869cd7004d86"
+      },
+      {
+        "src": "assets/images/responsive/34bc9cbc68df474e3aee.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 105602,
+        "sha256": "34bc9cbc68df474e3aee5b919da0ab270ab7bb0d65a9f2210a6c3d2738c3997b"
+      }
+    ]
+  },
+  "assets/images/food/napoli-food-28.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/a5b52be272bd4da94d0f.webp",
+        "width": 480,
+        "height": 498,
+        "bytes": 15678,
+        "sha256": "a5b52be272bd4da94d0f83a4b487e74dd6ca56f2b51b98b8fb939680e19e88d5"
+      },
+      {
+        "src": "assets/images/responsive/2f0c406b51022e56a153.webp",
+        "width": 960,
+        "height": 996,
+        "bytes": 40972,
+        "sha256": "2f0c406b51022e56a153493796e6c624707f88a3ab3758a2ca9711aadbc794a8"
+      }
+    ]
+  },
+  "assets/images/food/napoli-food-29.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/3767dad7033d6fb8a629.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 11258,
+        "sha256": "3767dad7033d6fb8a629b573132039fbaa7d33dca149fa289c1a4e5815a79481"
+      },
+      {
+        "src": "assets/images/responsive/9ba749df43c6a393e972.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 35886,
+        "sha256": "9ba749df43c6a393e972e8e77fd7ba4b748f584b62c2f538030a79f13a440753"
+      }
+    ]
+  },
+  "assets/images/food/napoli-market-nolana.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/1f1a090f0c0a865476fe.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 28924,
+        "sha256": "1f1a090f0c0a865476fe3d865be188ac5b1c1b613e28473637b201772660b7bd"
+      },
+      {
+        "src": "assets/images/responsive/cb79068e769b1a994c9d.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 116378,
+        "sha256": "cb79068e769b1a994c9dc6af0a58b83741b3baaa7c7758f5b11b3c757d147dca"
+      }
+    ]
+  },
+  "assets/images/food/napoli-market-pignasecca.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/7df78d22f75b4a3207fe.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 48202,
+        "sha256": "7df78d22f75b4a3207fe0de3afff3194076052b9f6aa3919a15ec9dc07d425dc"
+      },
+      {
+        "src": "assets/images/responsive/3de20824768168045d94.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 182334,
+        "sha256": "3de20824768168045d94f8a438a32e0d9ac173a7721d1048b12e51afc1f117a9"
+      }
+    ]
+  },
+  "assets/images/food/palermo-food-01.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/22d6c115bc721f97ec3f.webp",
+        "width": 480,
+        "height": 359,
+        "bytes": 36256,
+        "sha256": "22d6c115bc721f97ec3f3e1c92d8774dee834e6e4a4432eceb31102f3aab6c3c"
+      },
+      {
+        "src": "assets/images/responsive/ef00fe60685a58c56228.webp",
+        "width": 960,
+        "height": 718,
+        "bytes": 160718,
+        "sha256": "ef00fe60685a58c5622847c730eb9da61df5550c8973b1df1f068c897d067955"
+      }
+    ]
+  },
+  "assets/images/food/palermo-food-03.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/8366ece2e80a46eb2ec8.webp",
+        "width": 480,
+        "height": 271,
+        "bytes": 16360,
+        "sha256": "8366ece2e80a46eb2ec83c74e1fde3cb92e8f7acdf8bd2b2e9c8a4e6d32141fe"
+      },
+      {
+        "src": "assets/images/responsive/59ee41b1087c1d6906c9.webp",
+        "width": 960,
+        "height": 542,
+        "bytes": 52924,
+        "sha256": "59ee41b1087c1d6906c9ef799bc3c3c4c5b2ede315614f7b2a25f66dd09a1e8c"
+      }
+    ]
+  },
+  "assets/images/food/palermo-food-04.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/e509ce8304baa1f468fd.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 48618,
+        "sha256": "e509ce8304baa1f468fdfda88059f930904af950ebede8c879ac030baa8b1ef2"
+      },
+      {
+        "src": "assets/images/responsive/69db4c4f417960928cc2.webp",
+        "width": 960,
+        "height": 1279,
+        "bytes": 236996,
+        "sha256": "69db4c4f417960928cc21738f51c9bef4872b4067f3fe08fa23b83ee9e8d40f5"
+      }
+    ]
+  },
+  "assets/images/food/palermo-food-06.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/226398b37a72bd9d5d7c.webp",
+        "width": 480,
+        "height": 316,
+        "bytes": 27164,
+        "sha256": "226398b37a72bd9d5d7c37f024477b345318da38bed17fce1a72239868e2e21d"
+      },
+      {
+        "src": "assets/images/responsive/79999e1a170883f78e35.webp",
+        "width": 960,
+        "height": 631,
+        "bytes": 90592,
+        "sha256": "79999e1a170883f78e358d589add80bff33fb5c225de09dbd2c256af25bc98e0"
+      }
+    ]
+  },
+  "assets/images/food/palermo-food-07.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/b6b2eef43a9f6e6841f5.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 30470,
+        "sha256": "b6b2eef43a9f6e6841f5fcc1344c902db3475387e5335add18b30a402e568900"
+      },
+      {
+        "src": "assets/images/responsive/86a7f89cc32030906852.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 132566,
+        "sha256": "86a7f89cc32030906852cde2ee8da060929728a9e8ec457dddf27144d89964dd"
+      }
+    ]
+  },
+  "assets/images/food/palermo-food-08.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/bf66fcde5a64bbead0c3.webp",
+        "width": 480,
+        "height": 366,
+        "bytes": 13102,
+        "sha256": "bf66fcde5a64bbead0c372ee9eda9f87d8f4ca1c401eeb67c52f21d94919c33c"
+      },
+      {
+        "src": "assets/images/responsive/c4180ddb85f420a3b328.webp",
+        "width": 960,
+        "height": 731,
+        "bytes": 38516,
+        "sha256": "c4180ddb85f420a3b32887c13afae2b34b2a18bfdf241def58b81274149df217"
+      }
+    ]
+  },
+  "assets/images/food/palermo-food-10.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/1fe5180064362ed4027c.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 21012,
+        "sha256": "1fe5180064362ed4027c3eddf2b0e24a79d9c6293115b63641dbeca01559f9b3"
+      },
+      {
+        "src": "assets/images/responsive/f271dbe7c39a84c7b53e.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 65796,
+        "sha256": "f271dbe7c39a84c7b53e93f15c2cd74dfd5657e413f778c8fca48ed58ae8d622"
+      }
+    ]
+  },
+  "assets/images/food/palermo-food-11.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/9907ac99e9bc6a634534.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 27160,
+        "sha256": "9907ac99e9bc6a63453442379c7ac6ead9dfe1fc54fafd9f449b2e4dd0a856dd"
+      },
+      {
+        "src": "assets/images/responsive/b6ff2d15146ea9e47b19.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 87540,
+        "sha256": "b6ff2d15146ea9e47b19b845dec26150710b423d3795a0404ea2c0e9f670bd38"
+      }
+    ]
+  },
+  "assets/images/food/palermo-food-12.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/4b85ed741f8acc117691.webp",
+        "width": 480,
+        "height": 341,
+        "bytes": 24226,
+        "sha256": "4b85ed741f8acc1176912c77395f5a7a5fcd8e8ebd651540d66b06f223da0971"
+      },
+      {
+        "src": "assets/images/responsive/22c96ca6a42ba9426cb2.webp",
+        "width": 960,
+        "height": 681,
+        "bytes": 62556,
+        "sha256": "22c96ca6a42ba9426cb27e8c18995f04c2dbd6572c4bc7501dd55eec223710e1"
+      }
+    ]
+  },
+  "assets/images/food/palermo-food-13.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/1f4c8da1cc0bc347f1be.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 26186,
+        "sha256": "1f4c8da1cc0bc347f1becbb018311ad6ba1fdf878871c275e15b9000dc4bdf37"
+      },
+      {
+        "src": "assets/images/responsive/135b537c953cda6b6343.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 74752,
+        "sha256": "135b537c953cda6b6343691b985840ecfed1d33b8bc2d313aed83383586f2886"
+      }
+    ]
+  },
+  "assets/images/food/palermo-food-16.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/8e0a735ef2939b6205e9.webp",
+        "width": 480,
+        "height": 329,
+        "bytes": 23668,
+        "sha256": "8e0a735ef2939b6205e9dfb72d7435ae42e9df0838fb093d856380571b58a77e"
+      },
+      {
+        "src": "assets/images/responsive/dbd658d3f1543636c96a.webp",
+        "width": 960,
+        "height": 658,
+        "bytes": 109614,
+        "sha256": "dbd658d3f1543636c96a0c2f60d7c82b4e9425cf6e250970a0bee9d9976c2aad"
+      }
+    ]
+  },
+  "assets/images/food/palermo-food-17.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/f5956e49169779aefecf.webp",
+        "width": 480,
+        "height": 443,
+        "bytes": 26822,
+        "sha256": "f5956e49169779aefecf5b071c5176266bd287caee1c7b5f4f7c4f27cfe36edd"
+      },
+      {
+        "src": "assets/images/responsive/683dde20f9144a4febe5.webp",
+        "width": 960,
+        "height": 886,
+        "bytes": 129600,
+        "sha256": "683dde20f9144a4febe5f8419bf74dbbae84e75cfc06b56152235ad77d662b7c"
+      }
+    ]
+  },
+  "assets/images/food/palermo-food-18.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/a21610392c8db9b8fbd1.webp",
+        "width": 480,
+        "height": 394,
+        "bytes": 22920,
+        "sha256": "a21610392c8db9b8fbd1326984efd7e2b23634f6690e31bc76b7d87b2b12c676"
+      },
+      {
+        "src": "assets/images/responsive/e4430e79cf8c560a47e3.webp",
+        "width": 611,
+        "height": 501,
+        "bytes": 33238,
+        "sha256": "e4430e79cf8c560a47e3aa643796b6c6566a507e9e5dda26e995a6a8ae92c5ea"
+      }
+    ]
+  },
+  "assets/images/food/palermo-food-20.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/4f89abc2e0bc43ab6412.webp",
+        "width": 480,
+        "height": 361,
+        "bytes": 39494,
+        "sha256": "4f89abc2e0bc43ab6412e708c7e062e65b2d2488ae91e857c79f0ca4565a5e25"
+      },
+      {
+        "src": "assets/images/responsive/fd919052699cf854b003.webp",
+        "width": 960,
+        "height": 721,
+        "bytes": 162614,
+        "sha256": "fd919052699cf854b003e314f5a95521889e169273c961f1abcbbd68625c7ec3"
+      }
+    ]
+  },
+  "assets/images/food/palermo-food-21.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/54d35923213f65400f36.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 40200,
+        "sha256": "54d35923213f65400f3614e4de0aee329b7f9333e0ce6df69fffb5daf09dba8d"
+      },
+      {
+        "src": "assets/images/responsive/cced3d884848792540b7.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 166876,
+        "sha256": "cced3d884848792540b7c0a93639bf2083fb69453568c72f8824143f2c3c4c47"
+      }
+    ]
+  },
+  "assets/images/food/palermo-food-22.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/efa417a44de80b2b516f.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 37808,
+        "sha256": "efa417a44de80b2b516f222cbfa704e62b9fa3b9ca64d139f91116f553576045"
+      },
+      {
+        "src": "assets/images/responsive/26ead803936ba5f8f55d.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 139940,
+        "sha256": "26ead803936ba5f8f55da94539e32b6a118cebfa1bb9dff4f5e515a60929f544"
+      }
+    ]
+  },
+  "assets/images/food/palermo-food-23.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/6eaddf739544b23b4313.webp",
+        "width": 480,
+        "height": 397,
+        "bytes": 19668,
+        "sha256": "6eaddf739544b23b4313a46ee42218e9ba6c19cf590c8db5c7ac016d9425d1ab"
+      },
+      {
+        "src": "assets/images/responsive/c155dba15c3e7d37f581.webp",
+        "width": 960,
+        "height": 794,
+        "bytes": 61110,
+        "sha256": "c155dba15c3e7d37f581ba0d4cc41407b683b77abd2f26a0f679b2937bcf16be"
+      }
+    ]
+  },
+  "assets/images/food/palermo-food-25.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/9548a0d6f68173e77854.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 61456,
+        "sha256": "9548a0d6f68173e778543fc453573642ac296977ac16479d1c4624c5b818d8a9"
+      },
+      {
+        "src": "assets/images/responsive/b023a1f068bdf29d73ed.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 215998,
+        "sha256": "b023a1f068bdf29d73ede6fcf3b038ca93e4639239172c1c7abcc72024e1c9c0"
+      }
+    ]
+  },
+  "assets/images/food/palermo-food-26.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/5929b64dc0760d31241f.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 27816,
+        "sha256": "5929b64dc0760d31241f43fd1daf5e598713349a884bae5fda3cc0dea59d4009"
+      },
+      {
+        "src": "assets/images/responsive/a295482a4f330b079077.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 89456,
+        "sha256": "a295482a4f330b0790778ab3b3bc8dece3979b444441f6c3efa5a017dc4a6743"
+      }
+    ]
+  },
+  "assets/images/food/palermo-food-27.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/ddea8e6d7600f0f57cb7.webp",
+        "width": 480,
+        "height": 713,
+        "bytes": 22440,
+        "sha256": "ddea8e6d7600f0f57cb78fc94deb7219b4a2531d6192b42e530ead010e026c0d"
+      },
+      {
+        "src": "assets/images/responsive/515852cf90ce22971f27.webp",
+        "width": 646,
+        "height": 960,
+        "bytes": 31498,
+        "sha256": "515852cf90ce22971f27ce9dbe747ab30717f0da01108fd618b4e8571d94efb8"
+      }
+    ]
+  },
+  "assets/images/food/palermo-food-28.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/4605b72b5a1b4a2a308a.webp",
+        "width": 480,
+        "height": 378,
+        "bytes": 35218,
+        "sha256": "4605b72b5a1b4a2a308ac2006090b4f698fadca57b3d66c173e70bbf85084002"
+      },
+      {
+        "src": "assets/images/responsive/38dd258d85cecff05bc1.webp",
+        "width": 928,
+        "height": 731,
+        "bytes": 102542,
+        "sha256": "38dd258d85cecff05bc1211f765c6e56605e4da1bed25af7bb36c36a2c40f3e1"
+      }
+    ]
+  },
+  "assets/images/food/palermo-food-29.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/3dd402dd21182c01022f.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 11704,
+        "sha256": "3dd402dd21182c01022fd20ead5048d05e6e2abd023450647ca45623be6b8bf8"
+      },
+      {
+        "src": "assets/images/responsive/a37de114b49ae056be12.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 33648,
+        "sha256": "a37de114b49ae056be12f30b0e165f0fb94339173a3970aa7de3f78920395521"
+      }
+    ]
+  },
+  "assets/images/food/palermo-food-30.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/214e8569f71f553e6cf0.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 15434,
+        "sha256": "214e8569f71f553e6cf06ba43a6e6347b609626d1cb46671e8035ec9d574f0d8"
+      },
+      {
+        "src": "assets/images/responsive/a91d448c05bd368bf5de.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 45320,
+        "sha256": "a91d448c05bd368bf5deacc35726143fde43c6c6e547242841bca2d6b8856b12"
+      }
+    ]
+  },
+  "assets/images/food/palermo-market-vucciria.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/f4e42a7315de39728d22.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 31238,
+        "sha256": "f4e42a7315de39728d22771d131c425ef07b1f14692a7bae080950fd565747dd"
+      },
+      {
+        "src": "assets/images/responsive/51a3413076adb62d6f08.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 113040,
+        "sha256": "51a3413076adb62d6f082f730bce56643712caee0d8b82ccb99c3b257f65ad19"
+      }
+    ]
+  },
+  "assets/images/food/roma-food-01.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/25303a5d62585fa76711.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 36796,
+        "sha256": "25303a5d62585fa767116a4ed3ab54f5835b41aad614cb41e28e5b6b4fed1439"
+      },
+      {
+        "src": "assets/images/responsive/f512a9163026512ca488.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 153616,
+        "sha256": "f512a9163026512ca488460e7cd593a4974327a1222837958e2a629c41f8acab"
+      }
+    ]
+  },
+  "assets/images/food/roma-food-02.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/8b87f7c9e5ccd9b5327a.webp",
+        "width": 480,
+        "height": 642,
+        "bytes": 36336,
+        "sha256": "8b87f7c9e5ccd9b5327abbfdbcef91a2ec3418eb244aacdfe21b085a6cca7743"
+      },
+      {
+        "src": "assets/images/responsive/91d168ed0ad90a6202db.webp",
+        "width": 960,
+        "height": 1283,
+        "bytes": 111602,
+        "sha256": "91d168ed0ad90a6202dba98448c8bf9ff844847c39580a121615baa78b44b059"
+      }
+    ]
+  },
+  "assets/images/food/roma-food-03.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/56b22c477fb006dff0da.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 30184,
+        "sha256": "56b22c477fb006dff0dac0297b20a204de2adec30441d26655051c5f93b633d5"
+      },
+      {
+        "src": "assets/images/responsive/8b622678374c6caf56f4.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 102484,
+        "sha256": "8b622678374c6caf56f45dcc212198060f6c402a05b680ff3b6f189b6d16cec0"
+      }
+    ]
+  },
+  "assets/images/food/roma-food-04.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/85bef2f2bb6db4ae6cb6.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 12824,
+        "sha256": "85bef2f2bb6db4ae6cb6354203edb30e5fc25ce8b7b6ed2ea7e68903ba7801e4"
+      },
+      {
+        "src": "assets/images/responsive/6f9b013b4236a1d16ae0.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 34172,
+        "sha256": "6f9b013b4236a1d16ae0f9cca49da04170e0742df344c40f28e7dc1f790fb527"
+      }
+    ]
+  },
+  "assets/images/food/roma-food-05.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/29fc66d793d0bd5c9eef.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 19082,
+        "sha256": "29fc66d793d0bd5c9eef5a22982b39c7adb69a424359672e7387cf618552bd02"
+      },
+      {
+        "src": "assets/images/responsive/81edc24ded796e21e58e.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 64666,
+        "sha256": "81edc24ded796e21e58e9f27e66abaae8460e120dc8cfade2ba20f6696377063"
+      }
+    ]
+  },
+  "assets/images/food/roma-food-06.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/db0e0728cc826e80c0f1.webp",
+        "width": 480,
+        "height": 322,
+        "bytes": 18682,
+        "sha256": "db0e0728cc826e80c0f118984a9d28105da2296fb87293313bdec1ccee70fcf8"
+      },
+      {
+        "src": "assets/images/responsive/636167861638f1788c1d.webp",
+        "width": 960,
+        "height": 643,
+        "bytes": 59496,
+        "sha256": "636167861638f1788c1d7826270a933bff1b253cb53a441b729484db521886e6"
+      }
+    ]
+  },
+  "assets/images/food/roma-food-07.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/a153a46217aaf1bc8357.webp",
+        "width": 480,
+        "height": 426,
+        "bytes": 33282,
+        "sha256": "a153a46217aaf1bc83570f484a2ba7f921e6d574d6048b19acf5954287dfdef1"
+      },
+      {
+        "src": "assets/images/responsive/a81eca4167c92c7dcf94.webp",
+        "width": 960,
+        "height": 852,
+        "bytes": 122186,
+        "sha256": "a81eca4167c92c7dcf94119faf9631b9ccbbf7d4334f5df0741c44d45285b87d"
+      }
+    ]
+  },
+  "assets/images/food/roma-food-08.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/4e2fd375f4440df43f54.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 22636,
+        "sha256": "4e2fd375f4440df43f546359774efb30c647dd9638bcaf5e052af521ce549ea3"
+      },
+      {
+        "src": "assets/images/responsive/2e9024e27c03fda284dd.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 72568,
+        "sha256": "2e9024e27c03fda284ddf94d44e92d178d38a55910afde9d353f04a1f968f758"
+      }
+    ]
+  },
+  "assets/images/food/roma-food-09.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/66ff181889fe9917afc7.webp",
+        "width": 480,
+        "height": 517,
+        "bytes": 13636,
+        "sha256": "66ff181889fe9917afc707f6c7e14f9cebdf5db9d43991a691a52f68a69e3043"
+      },
+      {
+        "src": "assets/images/responsive/452bf0fcb5d2d36bcde4.webp",
+        "width": 701,
+        "height": 755,
+        "bytes": 23010,
+        "sha256": "452bf0fcb5d2d36bcde4ae3bbc18d564663ca9804226b4c1487bf7fd1fd89a94"
+      }
+    ]
+  },
+  "assets/images/food/roma-food-10.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/9475bddec30bc79bfa00.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 40996,
+        "sha256": "9475bddec30bc79bfa00a66918081098cd71437653c40d4f96738254a74a54fa"
+      },
+      {
+        "src": "assets/images/responsive/5057f393dea68982f12d.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 172030,
+        "sha256": "5057f393dea68982f12db5c40fcb48373ecadf3ce7ae9f27eb5f5f536ac1bded"
+      }
+    ]
+  },
+  "assets/images/food/roma-food-11.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/65b43de6beae1525a38c.webp",
+        "width": 480,
+        "height": 279,
+        "bytes": 26868,
+        "sha256": "65b43de6beae1525a38c86a6fb2b4084e701dbfef9d4b1fb0e0c080c45f4cb96"
+      },
+      {
+        "src": "assets/images/responsive/74e9477a402cfc397857.webp",
+        "width": 960,
+        "height": 558,
+        "bytes": 108870,
+        "sha256": "74e9477a402cfc397857d3f7cc0b104b2bb2d39ebbc4630eea1842f05979cace"
+      }
+    ]
+  },
+  "assets/images/food/roma-food-12.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/24e4efeb3262b02be6ea.webp",
+        "width": 480,
+        "height": 288,
+        "bytes": 12736,
+        "sha256": "24e4efeb3262b02be6ea86e8939ee9b575db29f32372d32318d21cfd68d718fd"
+      },
+      {
+        "src": "assets/images/responsive/35486d0e73f708a1d908.webp",
+        "width": 960,
+        "height": 576,
+        "bytes": 40862,
+        "sha256": "35486d0e73f708a1d9085bb420ea7e23252de753bed4643b505b93bfb4c81876"
+      }
+    ]
+  },
+  "assets/images/food/roma-food-13.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/3594efacf2a1ba9c93b6.webp",
+        "width": 480,
+        "height": 854,
+        "bytes": 87146,
+        "sha256": "3594efacf2a1ba9c93b699e7d6f62e455e83f10ef8973f8a23308cf00ff03a40"
+      },
+      {
+        "src": "assets/images/responsive/92923ebf72f7bb197653.webp",
+        "width": 960,
+        "height": 1707,
+        "bytes": 369506,
+        "sha256": "92923ebf72f7bb197653de3a5c62669ae029f6420008d1fd0a7f7910a3fc451b"
+      }
+    ]
+  },
+  "assets/images/food/roma-food-14.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/29318de78a867e72f5e9.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 34408,
+        "sha256": "29318de78a867e72f5e9c2d339c21164e0b328b37cdc2be5501bec102081fd0f"
+      },
+      {
+        "src": "assets/images/responsive/449c0b02cbf8828eaacd.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 135932,
+        "sha256": "449c0b02cbf8828eaacd247ff991125ec0eb30ef004a9a1c6239eb8a9d44a459"
+      }
+    ]
+  },
+  "assets/images/food/roma-food-15.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/579e4967dc91a3d98aba.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 26024,
+        "sha256": "579e4967dc91a3d98aba41eeb2b991d8f1f1d054026dd809c2f862d200efdc4f"
+      },
+      {
+        "src": "assets/images/responsive/089688e3273a5b3b7dc5.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 124810,
+        "sha256": "089688e3273a5b3b7dc560aa580f319095f34772f412da386c6e4175393c286d"
+      }
+    ]
+  },
+  "assets/images/food/roma-food-17.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/7c102db7fb6e82819d26.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 25398,
+        "sha256": "7c102db7fb6e82819d2630b21c3a133053b59450430392bb96c5497e0c580309"
+      },
+      {
+        "src": "assets/images/responsive/66132fbc545a707a02e1.webp",
+        "width": 960,
+        "height": 960,
+        "bytes": 66746,
+        "sha256": "66132fbc545a707a02e1d6e32edb617608019d488aa16d571867f2a3ae208c9a"
+      }
+    ]
+  },
+  "assets/images/food/roma-food-20.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/2f6be12256d2061c71ad.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 33220,
+        "sha256": "2f6be12256d2061c71ad77680f2e55191eb95c91f8009d6c660c4acd91f9c5b7"
+      },
+      {
+        "src": "assets/images/responsive/05110c454e6d1c0d85c3.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 120068,
+        "sha256": "05110c454e6d1c0d85c3dbfa4cf2455ca8db8e8f5e1a803924b4848e04ecfc0c"
+      }
+    ]
+  },
+  "assets/images/food/roma-food-21.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/a7c602edf5a31e81aeb5.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 30492,
+        "sha256": "a7c602edf5a31e81aeb5073d9bc1dd5c537713b558586c699307feec49f7822a"
+      },
+      {
+        "src": "assets/images/responsive/0aab787cbbbb517bd86c.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 119834,
+        "sha256": "0aab787cbbbb517bd86c9ffbba5a87b6b507c7eb4f43ebff3fc83472924645e1"
+      }
+    ]
+  },
+  "assets/images/food/roma-food-22.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/58394fde6cdce73d4e3d.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 15904,
+        "sha256": "58394fde6cdce73d4e3d6777ab25bdaca371a36050572783e77606e0588c13eb"
+      },
+      {
+        "src": "assets/images/responsive/83e65a4b5fd68f261961.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 57120,
+        "sha256": "83e65a4b5fd68f261961bf8c46546e512339c59186af6821e91f6bc3eec1d1f7"
+      }
+    ]
+  },
+  "assets/images/food/roma-food-23.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/58906898fb6579eb4d04.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 12366,
+        "sha256": "58906898fb6579eb4d0403202e3980d998c0d72f011657ab02d25a2e528107c3"
+      },
+      {
+        "src": "assets/images/responsive/03ac66a84a5ea11d90d9.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 46312,
+        "sha256": "03ac66a84a5ea11d90d99b1d519222415ece869b173b483d93beab01417f5243"
+      }
+    ]
+  },
+  "assets/images/food/roma-food-25.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/6519caad020476463cbc.webp",
+        "width": 480,
+        "height": 460,
+        "bytes": 24514,
+        "sha256": "6519caad020476463cbc87a20922b582b210837116e7c6ab695022c2a85a4d33"
+      },
+      {
+        "src": "assets/images/responsive/168da91dd04ffb851281.webp",
+        "width": 847,
+        "height": 811,
+        "bytes": 49746,
+        "sha256": "168da91dd04ffb8512817038f8e42bcc2ea078f9ff0807d2c857716de17bc52a"
+      }
+    ]
+  },
+  "assets/images/food/roma-food-26.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/81f8c88a6916e6119bb2.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 15564,
+        "sha256": "81f8c88a6916e6119bb2694ddd9caa45fc3b7e643dc7d5b66d2423e97d3576ac"
+      },
+      {
+        "src": "assets/images/responsive/218bb5c213d0e2fb5865.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 57980,
+        "sha256": "218bb5c213d0e2fb58653728e3e9f68bc98d515d53e40b892202fea9814661af"
+      }
+    ]
+  },
+  "assets/images/food/roma-food-27.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/146356f3b6d8b7b33298.webp",
+        "width": 480,
+        "height": 470,
+        "bytes": 24782,
+        "sha256": "146356f3b6d8b7b332980333cccae55f87f220baced09b6539f8710b1aec8a53"
+      },
+      {
+        "src": "assets/images/responsive/360241a79198d1aeb61b.webp",
+        "width": 736,
+        "height": 721,
+        "bytes": 45542,
+        "sha256": "360241a79198d1aeb61b7ac5adc681ec107815324fa3319249bb7c95d2246e29"
+      }
+    ]
+  },
+  "assets/images/food/roma-food-29.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/9a104ea16f1cc100c1d6.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 10806,
+        "sha256": "9a104ea16f1cc100c1d6b5e0918f19109e1f41c5adacddf06c49c3cafe5d1f18"
+      },
+      {
+        "src": "assets/images/responsive/f616908efa383810a948.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 33230,
+        "sha256": "f616908efa383810a948d193ae7fe4bb1c132739b56015da6c1e6926face4675"
+      }
+    ]
+  },
+  "assets/images/food/roma-market-campo.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/0fa16094b299d24b1c03.webp",
+        "width": 320,
+        "height": 240,
+        "bytes": 10594,
+        "sha256": "0fa16094b299d24b1c03be5e28803d892b68dbd805586c7f3d2077e6941ed4d7"
+      },
+      {
+        "src": "assets/images/responsive/0fa16094b299d24b1c03.webp",
+        "width": 320,
+        "height": 240,
+        "bytes": 10594,
+        "sha256": "0fa16094b299d24b1c03be5e28803d892b68dbd805586c7f3d2077e6941ed4d7"
+      }
+    ]
+  },
+  "assets/images/food/torino-food-01.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/b89bb4dbf532ec0a864d.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 12806,
+        "sha256": "b89bb4dbf532ec0a864dfbddedf357374ef326097af89c59650af36b82185f8f"
+      },
+      {
+        "src": "assets/images/responsive/9a071e1c5b6765d7cc12.webp",
+        "width": 960,
+        "height": 638,
+        "bytes": 32842,
+        "sha256": "9a071e1c5b6765d7cc12afdced74054a8c40f49faa38406a3ccb994b44612f65"
+      }
+    ]
+  },
+  "assets/images/food/torino-food-02.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/4fd27adde819bcd8529c.webp",
+        "width": 480,
+        "height": 340,
+        "bytes": 15876,
+        "sha256": "4fd27adde819bcd8529cc33667000d9373c46a61de1a638effdf9ba1283741e7"
+      },
+      {
+        "src": "assets/images/responsive/4074c6cda9ad87412b2e.webp",
+        "width": 960,
+        "height": 679,
+        "bytes": 54498,
+        "sha256": "4074c6cda9ad87412b2e8e987580a706ef167c3b638dace47ef163315f998963"
+      }
+    ]
+  },
+  "assets/images/food/torino-food-03.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/6f8dc45996e9902d7b03.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 17866,
+        "sha256": "6f8dc45996e9902d7b039308c3dcc03fdb37ff27b631b2e3911171b35bc2981f"
+      },
+      {
+        "src": "assets/images/responsive/38cce1d39c3e0954085c.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 56308,
+        "sha256": "38cce1d39c3e0954085cee316f37019f10a51afb09b75ed536183220ef2948fe"
+      }
+    ]
+  },
+  "assets/images/food/torino-food-05.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/40dc6acb96ee99543ff1.webp",
+        "width": 480,
+        "height": 207,
+        "bytes": 2544,
+        "sha256": "40dc6acb96ee99543ff192292fb7917bd90620619c5040f581c5918c009e60f8"
+      },
+      {
+        "src": "assets/images/responsive/e2a24d91cf74e06b6ebf.webp",
+        "width": 960,
+        "height": 413,
+        "bytes": 7372,
+        "sha256": "e2a24d91cf74e06b6ebf467b33bc8936c46ea5966f8f32a854c592f5c8dc18bb"
+      }
+    ]
+  },
+  "assets/images/food/torino-food-06.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/ab0e52feb0a0ea8540d4.webp",
+        "width": 480,
+        "height": 329,
+        "bytes": 21942,
+        "sha256": "ab0e52feb0a0ea8540d4d778b15b66f0a3fe89402223a96696fa48b3eb612512"
+      },
+      {
+        "src": "assets/images/responsive/936668f40ac38889e331.webp",
+        "width": 960,
+        "height": 658,
+        "bytes": 78324,
+        "sha256": "936668f40ac38889e331f8b9b805fdef0f642c696cdff6736536ca10cb6d368a"
+      }
+    ]
+  },
+  "assets/images/food/torino-food-07.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/f01dd5497204f7931e94.webp",
+        "width": 480,
+        "height": 723,
+        "bytes": 19112,
+        "sha256": "f01dd5497204f7931e94605bf347635f72808ea0638c247f6466cfeafe15493b"
+      },
+      {
+        "src": "assets/images/responsive/4e13b98aa7f682063acb.webp",
+        "width": 960,
+        "height": 1445,
+        "bytes": 225186,
+        "sha256": "4e13b98aa7f682063acb93765d804013a38142796fc637add90e422a26de0b5e"
+      }
+    ]
+  },
+  "assets/images/food/torino-food-09.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/b5f2752b7d4ae805ed1b.webp",
+        "width": 480,
+        "height": 409,
+        "bytes": 34828,
+        "sha256": "b5f2752b7d4ae805ed1ba084a486374272be3dc6a3895cc3fae8c684a9efbfed"
+      },
+      {
+        "src": "assets/images/responsive/ea7546cde9acc3dd801a.webp",
+        "width": 960,
+        "height": 817,
+        "bytes": 153770,
+        "sha256": "ea7546cde9acc3dd801a2ddab787de5268f1d8b370849e3266fe7939c634ff5f"
+      }
+    ]
+  },
+  "assets/images/food/torino-food-10.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/c0631c0d51c5a7ae418f.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 22652,
+        "sha256": "c0631c0d51c5a7ae418f2742d7c6b59cbfa4ec298ad24c90c72d9d807286e328"
+      },
+      {
+        "src": "assets/images/responsive/32429a7f8f96880462d6.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 65464,
+        "sha256": "32429a7f8f96880462d6e7c3b7a1bb39af908d9d4806d8bab08f136d27eff445"
+      }
+    ]
+  },
+  "assets/images/food/torino-food-13.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/744b81859f5c5b7ebc81.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 43210,
+        "sha256": "744b81859f5c5b7ebc81d0b90e3b676a4497c6f67e9cfaaa5a7d966e9e3398d6"
+      },
+      {
+        "src": "assets/images/responsive/12d260ddbf2c31a8b006.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 156700,
+        "sha256": "12d260ddbf2c31a8b006658bc7d29a3d11f3d3115d9e712fae12371abd9ef882"
+      }
+    ]
+  },
+  "assets/images/food/torino-food-14.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/70407ba7d4b895e4c6e9.webp",
+        "width": 480,
+        "height": 285,
+        "bytes": 34592,
+        "sha256": "70407ba7d4b895e4c6e92d1eeab2856c838402faabf46d53ad5e346b1a382ba6"
+      },
+      {
+        "src": "assets/images/responsive/df59b8c70a23a915d059.webp",
+        "width": 960,
+        "height": 569,
+        "bytes": 125288,
+        "sha256": "df59b8c70a23a915d059efc435ba7a8abc97a5dcb2d212c938c9fda3310659ec"
+      }
+    ]
+  },
+  "assets/images/food/torino-food-15.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/e8207e3b3fcbb3e9fc23.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 28236,
+        "sha256": "e8207e3b3fcbb3e9fc2312189f1195b352e7cf479f76de092967c08e4ffee689"
+      },
+      {
+        "src": "assets/images/responsive/d8babec76f4e8a63fbf0.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 125390,
+        "sha256": "d8babec76f4e8a63fbf0072b9622c47e3c59062b942b1e1002e8a24d86baf1eb"
+      }
+    ]
+  },
+  "assets/images/food/torino-food-16.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/96afa98b0f51465785d1.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 11512,
+        "sha256": "96afa98b0f51465785d134b026d4bfa890d3468f6bea3b4874ed91015f7042d1"
+      },
+      {
+        "src": "assets/images/responsive/775dc8337bc189b2fb63.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 32742,
+        "sha256": "775dc8337bc189b2fb63664845b53ba7b542966c83afa5807224ecd2ff3d9e43"
+      }
+    ]
+  },
+  "assets/images/food/torino-food-19.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/5422ff817c652a32f523.webp",
+        "width": 480,
+        "height": 435,
+        "bytes": 21506,
+        "sha256": "5422ff817c652a32f523351b457ebd5778448cf513c5bcaca21dbd4ca7244c2b"
+      },
+      {
+        "src": "assets/images/responsive/0b12b7d2193aab55ab07.webp",
+        "width": 960,
+        "height": 869,
+        "bytes": 58248,
+        "sha256": "0b12b7d2193aab55ab0767a73758b8a685bb7a7a5f1855c5e66f501fc7fe7b1f"
+      }
+    ]
+  },
+  "assets/images/food/torino-food-20.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/8f3fb5baee22a7183d8b.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 32332,
+        "sha256": "8f3fb5baee22a7183d8bf2b5ddd69f3a9171523e7dddc70d4b6df7bc6c89faee"
+      },
+      {
+        "src": "assets/images/responsive/89f2a2eb1e76d365de25.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 119446,
+        "sha256": "89f2a2eb1e76d365de2503c9f3882246be4a1c94946891eeb86ecd1b6079411d"
+      }
+    ]
+  },
+  "assets/images/food/torino-food-21.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/4400a61b0836442c7418.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 27452,
+        "sha256": "4400a61b0836442c741865ed566a732c59688010bc30c821b75d1e9caad5217d"
+      },
+      {
+        "src": "assets/images/responsive/102b7eb8634a1d129696.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 89530,
+        "sha256": "102b7eb8634a1d129696dcfe88c7489f2d8facb8501c9dbd1ed53698771cd18d"
+      }
+    ]
+  },
+  "assets/images/food/torino-food-23.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/929493d70786750a6a2a.webp",
+        "width": 480,
+        "height": 359,
+        "bytes": 7056,
+        "sha256": "929493d70786750a6a2a476d0200a901aab7acd503ce764c381480bde4a83de5"
+      },
+      {
+        "src": "assets/images/responsive/00d7286dfcf696f0407d.webp",
+        "width": 960,
+        "height": 718,
+        "bytes": 29878,
+        "sha256": "00d7286dfcf696f0407d0817a88c8cc58574d61d6d7897ad635394f5acff940a"
+      }
+    ]
+  },
+  "assets/images/food/torino-food-24.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/df3c385c2e1b13465efa.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 41172,
+        "sha256": "df3c385c2e1b13465efa8f9b986b8b7a34a870a933511a0d69bb979cea4a1778"
+      },
+      {
+        "src": "assets/images/responsive/c9afa1194916e34715dc.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 121260,
+        "sha256": "c9afa1194916e34715dc4b08d12d38f32076278795ae64b30e03f7f5d58061be"
+      }
+    ]
+  },
+  "assets/images/food/torino-food-25.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/5c03c1661b6b9bf5cda2.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 22856,
+        "sha256": "5c03c1661b6b9bf5cda2d49c8820ade2d07af7989d9f85e5f3988cf346a2b26e"
+      },
+      {
+        "src": "assets/images/responsive/85c8f281aad4d9204a97.webp",
+        "width": 960,
+        "height": 1440,
+        "bytes": 249002,
+        "sha256": "85c8f281aad4d9204a97711b32e9eec129dee9010a2ca6513503b44ba7d8638b"
+      }
+    ]
+  },
+  "assets/images/food/torino-food-26.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/6fecd90d197bf3d117a9.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 13364,
+        "sha256": "6fecd90d197bf3d117a973b93f6f1a3b7d3ee052209339d6487d4f9d06dfd55d"
+      },
+      {
+        "src": "assets/images/responsive/1bcccc309e256ab5a875.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 38350,
+        "sha256": "1bcccc309e256ab5a875c129a66343fe3805fcb3e81f2b3101948a756fa704b1"
+      }
+    ]
+  },
+  "assets/images/food/torino-food-27.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/9992768d0a45d04c9636.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 18478,
+        "sha256": "9992768d0a45d04c9636dc362b8ce2dc133fb3409a10d37e8348d480be096890"
+      },
+      {
+        "src": "assets/images/responsive/ede8a31c70d5fc46f0d9.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 96016,
+        "sha256": "ede8a31c70d5fc46f0d9251c738711bf854ce87cbf45b5fc33b1ffd1554afb94"
+      }
+    ]
+  },
+  "assets/images/food/torino-food-28.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/506080299cce881c991a.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 7950,
+        "sha256": "506080299cce881c991a30ebc0772340736ff10f0a100e843d26a79b59256870"
+      },
+      {
+        "src": "assets/images/responsive/31e771f0df593bcb4b3c.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 26246,
+        "sha256": "31e771f0df593bcb4b3c7f10ecba63f6af5e08086287b0a1300128ec0480c739"
+      }
+    ]
+  },
+  "assets/images/food/torino-food-29.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/3431afc788a2d951c32e.webp",
+        "width": 480,
+        "height": 373,
+        "bytes": 29510,
+        "sha256": "3431afc788a2d951c32ec9fbff375974217a05ed5eb94834d96bf925530ced95"
+      },
+      {
+        "src": "assets/images/responsive/7ff94249993f48ea3704.webp",
+        "width": 960,
+        "height": 745,
+        "bytes": 106824,
+        "sha256": "7ff94249993f48ea370434a738f2a5c4c3a730956b5322967c2af865f2870e31"
+      }
+    ]
+  },
+  "assets/images/food/torino-food-30.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/e3c7321758a85ea8488c.webp",
+        "width": 480,
+        "height": 258,
+        "bytes": 23660,
+        "sha256": "e3c7321758a85ea8488c814a3382fd4e8257c8142a74e3aacc1f84b24cf06915"
+      },
+      {
+        "src": "assets/images/responsive/95afd66c6bdcc7906c47.webp",
+        "width": 960,
+        "height": 515,
+        "bytes": 81282,
+        "sha256": "95afd66c6bdcc7906c47af6d2dbd1b9bb3d854b00b3bc200e9ebea32a4ec13cf"
+      }
+    ]
+  },
+  "assets/images/food/torino-market-centrale.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/ed1acb27251c8f7079bb.webp",
+        "width": 480,
+        "height": 362,
+        "bytes": 44980,
+        "sha256": "ed1acb27251c8f7079bb287e8bba7c036f18bd9a60f76f23473e3eca7508b31a"
+      },
+      {
+        "src": "assets/images/responsive/c97d0fda617a381cf3f3.webp",
+        "width": 960,
+        "height": 723,
+        "bytes": 171338,
+        "sha256": "c97d0fda617a381cf3f3b9729742470b981a788a89b85642525d209e879a3340"
+      }
+    ]
+  },
+  "assets/images/food/venezia-food-02.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/a5b86612671d3ddb7702.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 10062,
+        "sha256": "a5b86612671d3ddb7702027949cfbe0109c872c067dc0017e5fe345e7f954766"
+      },
+      {
+        "src": "assets/images/responsive/752a3aed1b6c9725b9b1.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 34474,
+        "sha256": "752a3aed1b6c9725b9b15903eded700716b78d97350a1ee47aa3d682f85b71a8"
+      }
+    ]
+  },
+  "assets/images/food/venezia-food-03.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/dbb0cd6480dd875e97df.webp",
+        "width": 480,
+        "height": 361,
+        "bytes": 21634,
+        "sha256": "dbb0cd6480dd875e97dfa163a965141a9e7e9e503f6f7ce8c982dabe000c1977"
+      },
+      {
+        "src": "assets/images/responsive/1bb8e1a91858821a2054.webp",
+        "width": 960,
+        "height": 721,
+        "bytes": 95684,
+        "sha256": "1bb8e1a91858821a2054a0ad429bb1a30c4a497fd5b1f536f75b1ed297f9fe8f"
+      }
+    ]
+  },
+  "assets/images/food/venezia-food-05.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/9c067f89c6bedda736c6.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 14868,
+        "sha256": "9c067f89c6bedda736c60bba1fd6b69b474ed97356f21c29c48e5bf7e208a73c"
+      },
+      {
+        "src": "assets/images/responsive/1f4e2abf0e0881e5ab79.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 40834,
+        "sha256": "1f4e2abf0e0881e5ab798764e7b781f9664262b693daf08a5b9d07621093f26d"
+      }
+    ]
+  },
+  "assets/images/food/venezia-food-06.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/0d2f2b1c5b5be1c60e24.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 24094,
+        "sha256": "0d2f2b1c5b5be1c60e24fbcfdf233113eacf8221a0eaf6ce69e5c1886023ebff"
+      },
+      {
+        "src": "assets/images/responsive/3706b5a06e7ed3702a86.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 89920,
+        "sha256": "3706b5a06e7ed3702a86519f18ca0abb0046d81505609576fb8bfa7df72107f9"
+      }
+    ]
+  },
+  "assets/images/food/venezia-food-07.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/3e23b1cfab860a67269d.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 28294,
+        "sha256": "3e23b1cfab860a67269d03520a338cc01c0dd28af1912789488476afa3835f17"
+      },
+      {
+        "src": "assets/images/responsive/36c5eb0cde0dc6c21f25.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 91014,
+        "sha256": "36c5eb0cde0dc6c21f25e210519940b729376699856a360e31e02c6b9808db22"
+      }
+    ]
+  },
+  "assets/images/food/venezia-food-15.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/f3323e6718c962904319.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 17802,
+        "sha256": "f3323e6718c96290431930fa3b99257b782db5d938e700fee95c9c3d3a30538a"
+      },
+      {
+        "src": "assets/images/responsive/22d22d4a073b814a6e80.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 80918,
+        "sha256": "22d22d4a073b814a6e80c052e4136ed39f5b239cddbbef4f8f60db418159ab43"
+      }
+    ]
+  },
+  "assets/images/food/venezia-food-16.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/2cbe82cbc82e9bb703f9.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 24584,
+        "sha256": "2cbe82cbc82e9bb703f96906fc864570399ee6353cb36548332c31c436e2853a"
+      },
+      {
+        "src": "assets/images/responsive/741e5d608720c3a28854.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 117572,
+        "sha256": "741e5d608720c3a28854b973859c7834eba09c10c150600265da094e68190941"
+      }
+    ]
+  },
+  "assets/images/food/venezia-food-17.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/25a95408638bda3840aa.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 14242,
+        "sha256": "25a95408638bda3840aa1a835428e342e08661e8311610ba92f6c6fee3cea5f9"
+      },
+      {
+        "src": "assets/images/responsive/97cd383a9163887d0283.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 53358,
+        "sha256": "97cd383a9163887d0283318fa71a40fb79976027c4b2788e21c0ac975fdb3660"
+      }
+    ]
+  },
+  "assets/images/food/venezia-food-18.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/73462aad5a701c2942eb.webp",
+        "width": 480,
+        "height": 381,
+        "bytes": 16132,
+        "sha256": "73462aad5a701c2942ebee7c5b62381787408ff9cd01f0256047915f813533b9"
+      },
+      {
+        "src": "assets/images/responsive/215179eacc513c35f40c.webp",
+        "width": 674,
+        "height": 535,
+        "bytes": 27594,
+        "sha256": "215179eacc513c35f40cce75538ff55aaa3056670af10f1a914bdc8a9bd752e1"
+      }
+    ]
+  },
+  "assets/images/food/venezia-food-20.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/f945952c8d5f8fa0a70e.webp",
+        "width": 480,
+        "height": 317,
+        "bytes": 11656,
+        "sha256": "f945952c8d5f8fa0a70ec742079286a7b933ced2722582f41b2b5b3fa3407538"
+      },
+      {
+        "src": "assets/images/responsive/a67a568912593602e6f4.webp",
+        "width": 960,
+        "height": 634,
+        "bytes": 39600,
+        "sha256": "a67a568912593602e6f48c722098039b8027a30426d5f6815e16a6b59d336e48"
+      }
+    ]
+  },
+  "assets/images/food/venezia-food-21.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/825b439f91af71f62deb.webp",
+        "width": 480,
+        "height": 361,
+        "bytes": 60868,
+        "sha256": "825b439f91af71f62debec7d4c9e7f62f8869a685f77bdb4dac49540a9163490"
+      },
+      {
+        "src": "assets/images/responsive/b1c74ba8a1db985ab507.webp",
+        "width": 960,
+        "height": 721,
+        "bytes": 256212,
+        "sha256": "b1c74ba8a1db985ab5078cc4fddaa90bf3064ea4499a66cf031cb7e5d371361a"
+      }
+    ]
+  },
+  "assets/images/food/venezia-food-22.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/b4ab056805530c6f43bf.webp",
+        "width": 480,
+        "height": 354,
+        "bytes": 31950,
+        "sha256": "b4ab056805530c6f43bf037bb7690fbd59d43091aa3f2b26f35ca4f68a9cd891"
+      },
+      {
+        "src": "assets/images/responsive/bfc41f00da8617a117f1.webp",
+        "width": 960,
+        "height": 708,
+        "bytes": 137284,
+        "sha256": "bfc41f00da8617a117f15d29e628b798768d0d1fd9ce719d8ffdda97e4a9ec90"
+      }
+    ]
+  },
+  "assets/images/food/venezia-food-23.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/4c406b3244e092b66d02.webp",
+        "width": 480,
+        "height": 358,
+        "bytes": 23110,
+        "sha256": "4c406b3244e092b66d028dfd43f865a620f9fcd8bd4fbd486163c5dbc88ed277"
+      },
+      {
+        "src": "assets/images/responsive/484a2e6ac315c39c9101.webp",
+        "width": 960,
+        "height": 716,
+        "bytes": 105708,
+        "sha256": "484a2e6ac315c39c9101b8107cbcf045f51543dc730859d2f17f398dc57aa85b"
+      }
+    ]
+  },
+  "assets/images/food/venezia-food-25.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/9ce5ec77c5c09242d306.webp",
+        "width": 480,
+        "height": 416,
+        "bytes": 30080,
+        "sha256": "9ce5ec77c5c09242d3063f2fab26baf0eae3487cab244724a0e4f0e28e6283ea"
+      },
+      {
+        "src": "assets/images/responsive/1cb54ada9526df04ffb4.webp",
+        "width": 960,
+        "height": 832,
+        "bytes": 87198,
+        "sha256": "1cb54ada9526df04ffb4aaee0427f928e27b3793288439a178da8ca6aff5addf"
+      }
+    ]
+  },
+  "assets/images/food/venezia-food-29.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/d94146988542c749a339.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 35858,
+        "sha256": "d94146988542c749a33937dfe08f13357ceacb00f5e9066f4aa6073c2f528447"
+      },
+      {
+        "src": "assets/images/responsive/7db2ad0d3fe5be0d4a7c.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 139736,
+        "sha256": "7db2ad0d3fe5be0d4a7c1842d11cd73ae00e149a2bd865ce2bc828103e23fdd3"
+      }
+    ]
+  },
+  "assets/images/food/venezia-market-rialto.jpg": {
+    "webp": [
+      {
+        "src": "assets/images/responsive/b8a71a96afef1faba01c.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 35634,
+        "sha256": "b8a71a96afef1faba01c6cd3f475c58db2beabf0ccd4ab4c9e3a654bde78ce0f"
+      },
+      {
+        "src": "assets/images/responsive/d5c0230564fd762d8cea.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 113966,
+        "sha256": "d5c0230564fd762d8ceacb281b0c3a917dd0c3cb954d61b80d14d845708f335b"
+      }
+    ]
+  },
   "assets/images/items/00dac717910807a2.jpg": {
     "webp": [
       {

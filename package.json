@@ -12,7 +12,8 @@
     "test:browser": "node tests/browser.cjs",
     "build": "npm run generate && npm run check && npm test && node scripts/build.cjs",
     "images:optimize": "node scripts/optimize-images.cjs",
-    "test:audit": "node tests/audit-browser.cjs"
+    "test:audit": "node tests/audit-browser.cjs",
+    "test:food": "node tests/food.cjs"
   },
   "devDependencies": {
     "cheerio": "1.2.0",

@@ -4,19 +4,20 @@
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{{name}} Poliedrica — esperienze e itinerari</title>
 <meta name="description" content="Esplora {{name}}: esperienze, filtri, fonti ufficiali e itinerario personale in italiano e inglese.">
-<link rel="stylesheet" href="assets/css/guide.css"><link rel="stylesheet" href="assets/css/features.css"><link rel="stylesheet" href="assets/css/themes.css"><link rel="stylesheet" href="assets/css/travel.css"><link rel="stylesheet" href="assets/css/photos.css"><link rel="stylesheet" href="assets/css/catalogue.css">
+<link rel="stylesheet" href="assets/css/guide.css"><link rel="stylesheet" href="assets/css/features.css"><link rel="stylesheet" href="assets/css/themes.css"><link rel="stylesheet" href="assets/css/travel.css"><link rel="stylesheet" href="assets/css/photos.css"><link rel="stylesheet" href="assets/css/catalogue.css"><link rel="stylesheet" href="assets/css/food.css">
 </head>
 <body data-city="{{city}}">
 <a class="skip-link" href="#esperienze">Salta alle esperienze</a>
 <a class="city-home" href="index.html">← Tutte le città</a>
 <header><div class="nav"><a class="logo" href="{{city}}.html">{{name}} <b>Poliedrica</b></a><div class="nav-destra">
-<nav class="menu" aria-label="Navigazione principale"><a href="#esperienze">Esperienze</a><a href="#tour-lab">Tour originali</a><a href="#personal-plan">Il mio giorno</a><a href="#travel-kit-section">In viaggio</a></nav>
+<nav class="menu" aria-label="Navigazione principale"><a href="#esperienze">Esperienze</a><a href="#tour-lab">Tour originali</a><a href="#personal-plan">Il mio giorno</a><a href="#travel-kit-section">In viaggio</a><a href="sapori-{{city}}.html" data-text="Da assaggiare|Food to try">Da assaggiare</a></nav>
 <button id="langBtn" aria-label="Cambia lingua / Switch language">EN</button></div></div></header>
 <main>
 <p id="storage-notice" class="notice" role="status" hidden></p>
 <noscript>Attiva JavaScript per filtri, preferiti e itinerario personale. Le schede dettagliate restano consultabili. / Enable JavaScript for filters, favourites and your personal plan.</noscript>
 <section class="hero"><div class="wrap hero-layout"><div><span class="kicker">{{heroK}}</span><h1>{{heroH1}}</h1><p>{{heroP}}</p><div class="cta"><a class="btn btn-p" href="#esperienze">Esplora le esperienze</a><a class="btn btn-s" href="#tour-lab">Scopri i tour</a></div>
 <div class="stats"><div><b>8</b><span>interessi facoltativi</span></div><div><b>{{count}}</b><span>esperienze selezionate</span></div><div><b>{{tourCount}}</b><span>tour originali</span></div></div></div>{{photo}}</div></section>
+<section class="food-city-invite"><div class="wrap"><div><h2 data-text="La città si assaggia|Taste the city">La città si assaggia</h2><p data-text="Piatti tipici, foto reali, locali da esplorare e mercati: scegli cosa mettere nella tua lista di assaggi.|Local dishes, real photos, places to explore and markets: choose what belongs on your tasting list.">Piatti tipici, foto reali, locali da esplorare e mercati.</p></div><a class="btn btn-p" href="sapori-{{city}}.html" data-text="Scopri i sapori|Discover the flavours">Scopri i sapori</a></div></section>
 <section id="esperienze"><div class="wrap"><span class="kicker" data-text="Scegli una tappa|Pick a stop">Scegli una tappa</span><h2 data-text="Esplora le esperienze|Explore experiences">Esplora le esperienze</h2>
 <p class="catalogue-intro" data-text="Guarda tutte le proposte, cerca un luogo o scegli un interesse. Aggiungi le tappe che ti piacciono al tuo giorno.|Browse all suggestions, search for a place or choose an interest. Add the stops you like to your day.">Guarda tutte le proposte, cerca un luogo o scegli un interesse.</p>
 <div class="catalogue-search"><label for="filter-search">Cerca un luogo o una parola</label><input id="filter-search" type="search" maxlength="150" autocomplete="off" aria-describedby="search-help"><p id="search-help" data-text="Per esempio museo, mercato o giardino. Gli interessi sono facoltativi.|For example museum, market or garden. Interests are optional.">Per esempio museo, mercato o giardino. Gli interessi sono facoltativi.</p></div>

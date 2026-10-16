@@ -20,7 +20,8 @@ jobs:
       - run: npm ci --ignore-scripts
       - run: npm run build
       - name: Check generated source is committed
-        run: git diff --exit-code -- '*.html' assets/js/cities assets/js/details assets/css/themes.css sitemap.xml robots.txt manifest.webmanifest service-worker.js
+        run: git diff --exit-code -- '*.html' assets/js/cities assets/js/details assets/css/themes.css data/food-guide.json sitemap.xml robots.txt manifest.webmanifest service-worker.js
       - run: npx playwright install --with-deps chromium
       - run: npm run test:browser
       - run: npm run test:audit
+      - run: npm run test:food
