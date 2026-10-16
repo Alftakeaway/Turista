@@ -47,6 +47,8 @@ for(const file of walk(root)){
  if(file.endsWith('.js')||file.endsWith('.cjs'))new vm.Script(fs.readFileSync(file,'utf8'),{filename:file});
  if(!file.endsWith('.html')||file.includes(path.sep+'templates'+path.sep))continue;
  const html=fs.readFileSync(file,'utf8');assert(!html.includes('{{'),'Unexpanded template: '+file);
+ assert(html.includes('id="site-icon"'),'Missing favicon: '+file);
+ assert(html.includes('assets/js/favicon.js'),'Missing globe animation: '+file);
  for(const match of html.matchAll(/(?:src|href)="([^"#]+)"/g)){
   const target=match[1].split('?')[0].split('#')[0];
   if(/^(?:[a-z]+:|\/\/)/i.test(target))continue;

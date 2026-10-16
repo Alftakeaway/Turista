@@ -2,7 +2,7 @@ const {chromium}=require('playwright');
 const assert=require('node:assert/strict');
 const fs=require('node:fs'),path=require('node:path'),http=require('node:http');
 const root=path.resolve(__dirname,'..','dist');
-const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.jpg':'image/jpeg','.png':'image/png'};
+const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.jpg':'image/jpeg','.png':'image/png','.svg':'image/svg+xml','.ico':'image/x-icon'};
 const server=http.createServer((request,response)=>{
  let file=path.resolve(root,'.'+decodeURIComponent(new URL(request.url,'http://localhost').pathname));
  if(file===root)file=path.join(root,'index.html');
@@ -94,6 +94,11 @@ const server=http.createServer((request,response)=>{
  }
  assert.equal(palette.size,8,'eight different city palettes');
  await page.goto(base+'/index.html?lang=en');await page.waitForFunction(()=>window.guideReady);assert.equal(await page.locator('html').getAttribute('lang'),'en');assert.equal(await page.locator('a[data-city-link]').count(),8);
+ await page.bringToFront();await page.waitForFunction(()=>document.getElementById('site-icon').href.startsWith('data:image/png'));
+ const globeFrame=await page.locator('#site-icon').getAttribute('href');
+ await page.waitForFunction(previous=>document.getElementById('site-icon').href!==previous,globeFrame);
+ await page.emulateMedia({reducedMotion:'reduce'});await page.waitForFunction(()=>document.getElementById('site-icon').href.endsWith('/assets/icons/favicon.png'));
+ const stillFrame=await page.locator('#site-icon').getAttribute('href');await page.waitForTimeout(350);assert.equal(await page.locator('#site-icon').getAttribute('href'),stillFrame);await page.emulateMedia({reducedMotion:'no-preference'});
  await page.goto(base+'/roma.html?profile=cultura&category=musei');await page.waitForFunction(()=>window.guideReady);assert.equal(await page.locator('#filter-search').inputValue(),'musei');assert(!new URL(page.url()).searchParams.has('category'));assert(await page.locator('#gridEsperienze article').count()>0);
  await page.goto(base+'/roma.html?profile=invalid&category=bad&type=bad&plan=unknown&lang=bad');await page.waitForFunction(()=>window.guideReady);assert.equal(await page.locator('#gridEsperienze article').count(),36);assert.equal(await page.locator('#personal-plan li').count(),0);
  // HTTP storage is shared across city and detail pages; old title-based favourites migrate.
