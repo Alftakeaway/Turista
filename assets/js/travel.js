@@ -5,12 +5,13 @@ window.GuideTravel = {
     const params = new URLSearchParams(location.search);
     const state = {time: ['90','120','180','240'].includes(params.get('tourTime')) ? Number(params.get('tourTime')) : 0,
       mood: ['architecture','art','nature','food','memory'].includes(params.get('tourMood')) ? params.get('tourMood') : '',
-      weather: params.get('tourWeather') === 'mixed' ? 'mixed' : ''};
+      weather: params.get('tourWeather') === 'mixed' ? 'mixed' : '',
+      audience: Object.hasOwn(GuideTourAudiences,params.get('tourAudience')) ? params.get('tourAudience') : ''};
     const labels = {architecture:'Architettura e città|Architecture and city',art:'Arte e dettagli|Art and details',nature:'Verde e acqua|Green and water',food:'Mercati e sapori|Markets and flavours',memory:'Memoria e quartieri|Memory and neighbourhoods'};
     let active = data.TOURS.some(tour => tour.id === params.get('tour')) ? params.get('tour') : '';
     function savePreferences() {
       const url = new URL(location.href);
-      for (const [key,value] of Object.entries({tourTime:state.time,tourMood:state.mood,tourWeather:state.weather,tour:active})) {
+      for (const [key,value] of Object.entries({tourTime:state.time,tourMood:state.mood,tourWeather:state.weather,tourAudience:state.audience,tour:active})) {
         if (value) url.searchParams.set(key,value); else url.searchParams.delete(key);
       }
       try { history.replaceState(null,'',url); } catch {}
@@ -19,31 +20,40 @@ window.GuideTravel = {
       return `<label for="${id}">${escape(tr(title))}</label><select id="${id}">${values.map(([value,label]) => `<option value="${value}" ${String(value)===String(selected)?'selected':''}>${escape(tr(label))}</option>`).join('')}</select>`;
     }
     function renderTours() {
-      const candidates = GuideTourRules.select(data.TOURS, state).filter(tour => !active || tour.id === active);
+      const exact = GuideTourRules.select(data.TOURS, state).filter(tour => !active || tour.id === active);
+      const alternatives = !exact.length && state.audience && state.mood && !active;
+      const candidates = (alternatives ? GuideTourRules.select(data.TOURS,{...state,mood:''}) : exact)
+        .sort((a,b)=>Number(Boolean(b.audiencePlan))-Number(Boolean(a.audiencePlan)));
       document.getElementById('tour-controls').innerHTML = control('tour-time','Tempo massimo a disposizione|Maximum time available',[[0,'Scegli liberamente|Any duration'],[90,'Fino a 90 minuti|Up to 90 minutes'],[120,'Fino a 2 ore|Up to 2 hours'],[180,'Fino a 3 ore|Up to 3 hours'],[240,'Fino a 4 ore|Up to 4 hours']],state.time) +
         control('tour-mood','Che cosa cerchi?|What are you looking for?',[['','Tutte le idee|All ideas'],...Object.entries(labels)],state.mood) +
-        control('tour-weather','Preferenza meteo|Weather preference',[['','Va bene all’aperto|Outdoor is fine'],['mixed','Con tappe al coperto|With indoor options']],state.weather);
+        control('tour-weather','Preferenza meteo|Weather preference',[['','Va bene all’aperto|Outdoor is fine'],['mixed','Con tappe al coperto|With indoor options']],state.weather) +
+        control('tour-audience','Per chi / con chi viaggi?|Who is travelling?',[['','Qualsiasi compagnia o età|Any company or age'],...Object.entries(GuideTourAudiences).map(([key,value])=>[key,value.label])],state.audience);
       const results = candidates.map(tour => {
         const stops = tour.stops.map(id => all.find(item => item.id === id));
-        return `<article class="tour-card" data-tour="${tour.id}"><div class="tour-heading"><p>${escape(tr(labels[tour.mood]))}</p><h3>${escape(tr(tour.title))}</h3><span>${tour.minutes} ${tr('min proposti|suggested min')}${tour.shortened?' · '+tr('versione breve|short version'):''}</span></div>
+        const activity = (stop,index) => tour.audiencePlan?.steps.find(step=>step.stopId===stop.id).prompt ||
+          (state.audience ? GuideTourAudiences[state.audience].activities[index%2] : '');
+        return `<article class="tour-card" data-tour="${tour.id}"><div class="tour-heading"><p>${escape(tr(labels[tour.mood]))}${tour.audiencePlan?' · '+escape(tr(GuideTourAudiences[tour.audiences[0]].label)):''}</p><h3>${escape(tr(tour.title))}</h3><span>${tour.minutes} ${tr('min proposti|suggested min')}${tour.shortened?' · '+tr('versione breve|short version'):''}</span></div>
           <p>${escape(tr(tour.focus))}</p>${tour.note?`<p class="route-note">${escape(tr(tour.note))} ${tour.visitMinutes} ${tr('min per visite e soste|min for visits and breaks')} + ${tour.walkingMinutes} ${tr('min a piedi stimati|estimated walking min')}.</p>`:''}<p class="route-note">${escape(tr(tour.terrain))}</p>
+          ${tour.audiencePlan?`<p class="tour-practical"><strong>${escape(tr(tour.audiencePlan.pace))}</strong> · ${tour.pauseMinutes} ${tr('min di pausa compresi nelle soste|min of breaks included in visit time')}. ${escape(tr(tour.audiencePlan.logistics))}</p><p class="route-note">${escape(tr(tour.audiencePlan.budget))}</p>`:''}
           ${tour.indoorStops?.length?`<p class="route-note">${tr('Tappa al coperto, se aperta:|Indoor stop, if open:')} ${tour.indoorStops.filter(id=>tour.stops.includes(id)).map(id=>escape(tr(all.find(item=>item.id===id).t))).join(', ')}. ${tr('Il percorso comprende anche tratti all’aperto.|The route also includes outdoor sections.')}</p>`:''}
-          <details ${active?'open':''}><summary>${tr('Apri tappe e fonti|Open stops and sources')}</summary><ol>${stops.map(stop => `<li><h4>${escape(tr(stop.t))}</h4>${GuidePhotos.figure(data.PHOTOS[stop.id],tr)}<p>${escape(tr(stop.p))}</p>${GuideUI.external(stop.source.url,tr('Luogo documentato: fonte|Documented place: source'))}</li>`).join('')}</ol></details>
+          <details ${active?'open':''}><summary>${tr('Apri tappe, attività e fonti|Open stops, activities and sources')}</summary><ol>${stops.map((stop,index) => `<li><h4>${escape(tr(stop.t))}</h4>${activity(stop,index)?`<p class="tour-activity"><strong>${tr('Da fare qui:|Try here:')}</strong> ${escape(tr(activity(stop,index)))}</p>`:''}${GuidePhotos.figure(data.PHOTOS[stop.id],tr)}<p>${escape(tr(stop.p))}</p>${GuideUI.external(stop.source.url,tr('Luogo documentato: fonte|Documented place: source'))}</li>`).join('')}</ol></details>
           <p class="authorship">${escape(tr(tour.authorship))} ${tr('Durata stimata, accessi e trasferimenti da controllare per la data scelta.|Estimated duration; check access and travel for your chosen date.')}</p>
           <div class="tour-actions"><button data-tour-add="${tour.id}">${tr('Aggiungi queste tappe|Add these stops')}</button>${GuideUI.external(GuideTrip.directions(stops),tr('Percorso a piedi sulla mappa|Walking route on map'))}<button data-tour-share="${tour.id}">${tr('Condividi tour|Share tour')}</button></div></article>`;
       });
-      tours.innerHTML = `<p role="status">${candidates.length} ${tr('percorsi per le tue preferenze|routes for your preferences')}</p>` + (results.join('') || `<p class="placeholder">${tr('Nessun percorso con questi criteri. Aumenta il tempo o cambia interesse; non inventiamo tour per riempire i risultati.|No route matches these criteria. Allow more time or change interest; we do not invent routes just to fill results.')}</p>`) + `<button id="tour-reset">${tr('Mostra tutte le idee|Show all ideas')}</button><span id="tour-status" role="status"></span>`;
-      for (const [id,key] of [['tour-time','time'],['tour-mood','mood'],['tour-weather','weather']]) {
+      tours.innerHTML = `<p class="tour-audience-note">${tr('Età e compagnia sono spunti, non limiti di accesso. Scegli in base a interessi, ritmo ed esigenze personali.|Age and company are suggestions, not admission limits. Choose for your interests, pace and individual needs.')} ${state.audience?escape(tr(GuideTourAudiences[state.audience].description)):''}</p><p role="status">${alternatives?tr('Nessuna corrispondenza esatta con l’interesse scelto. Alternative per la stessa compagnia, tempo e meteo:|No exact match for the selected interest. Alternatives for the same company, time and weather:')+' ':''}${candidates.length} ${tr('percorsi|routes')}</p>` + (alternatives?`<button id="tour-other-interests">${tr('Accetta altri interessi|Accept other interests')}</button>`:'') + (results.join('') || `<p class="placeholder">${tr('Nessun percorso con questi criteri. Aumenta il tempo o cambia interesse.|No route matches these criteria. Allow more time or change interest.')}</p>`) + `<button id="tour-reset">${tr('Mostra tutte le idee|Show all ideas')}</button><span id="tour-status" role="status"></span>`;
+      for (const [id,key] of [['tour-time','time'],['tour-mood','mood'],['tour-weather','weather'],['tour-audience','audience']]) {
         document.getElementById(id).addEventListener('change',event=>{state[key]=key==='time'?Number(event.target.value):event.target.value;active='';savePreferences();renderTours();});
       }
-      tours.querySelector('#tour-reset').addEventListener('click',()=>{state.time=0;state.mood='';state.weather='';active='';savePreferences();renderTours();});
+      tours.querySelector('#tour-other-interests')?.addEventListener('click',()=>{state.mood='';savePreferences();renderTours();});
+      tours.querySelector('#tour-reset').addEventListener('click',()=>{state.time=0;state.mood='';state.weather='';state.audience='';active='';savePreferences();renderTours();});
       tours.querySelectorAll('[data-tour-add]').forEach(button=>button.addEventListener('click',()=>{
         const tour=candidates.find(tour=>tour.id===button.dataset.tourAdd); const added=planner.addMany(tour.stops);
         if(added<0){document.getElementById('tour-status').textContent=tr('Massimo 20 tappe: rimuovine qualcuna dal tuo giorno.|Maximum 20 stops: remove some from your day.');return;}
         document.getElementById('tour-status').textContent=tr('Tappe aggiunte al tuo giorno: puoi riordinarle e stampare.|Stops added to your day: you can reorder and print them.');
       }));
       tours.querySelectorAll('[data-tour-share]').forEach(button=>button.addEventListener('click',async()=>{
-        const url=new URL(location.href);url.searchParams.set('tour',button.dataset.tourShare);url.searchParams.set('lang',document.documentElement.lang);url.hash='tour-lab';
+        const selected=candidates.find(tour=>tour.id===button.dataset.tourShare);
+        const url=new URL(location.href);url.searchParams.set('tour',selected.id);url.searchParams.set('tourMood',selected.mood);url.searchParams.set('lang',document.documentElement.lang);url.hash='tour-lab';
         document.getElementById('tour-status').textContent=await GuideUI.share(url.href,tr);
       }));
     }

@@ -7,6 +7,8 @@ const root = path.resolve(__dirname, '..');
 const bilingual = text => typeof text === 'string' && text.split('|').length === 2 && text.split('|').every(s=>s.trim());
 const itemPhotos=JSON.parse(fs.readFileSync(path.join(root,'data/item-photos.json'),'utf8'));
 const ids = new Set(); let total = 0, tourTotal = 0;
+const audienceContext={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'assets/js/tour-audiences.js'),'utf8'),audienceContext);
+const audienceIds=Object.keys(audienceContext.window.GuideTourAudiences);
 for(const file of fs.readdirSync(path.join(root,'data/cities')).filter(f=>f.endsWith('.json'))){
  const data=JSON.parse(fs.readFileSync(path.join(root,'data/cities',file),'utf8'));
  const profiles=new Set(data.PROFILI.map(p=>p.id));
@@ -16,7 +18,10 @@ for(const file of fs.readdirSync(path.join(root,'data/cities')).filter(f=>f.ends
  assert(data.TOURS.length>=12);tourTotal+=data.TOURS.length;
  assert(new Set(data.TOURS.map(t=>[...t.stops].sort().join(','))).size>=12,'At least 12 different stop combinations: '+file);
  const allItems=[...data.ESPERIENZE,...data.TOUR_STOPS];
- for(const tour of data.TOURS){assert(tour.original);assert(tour.stops.length>=3);assert(tour.stops.every(id=>allItems.some(e=>e.id===id)));assert(bilingual(tour.title));
+ assert.equal(new Set(data.TOURS.map(t=>t.id)).size,data.TOURS.length);
+ for(const audience of audienceIds)assert(data.TOURS.some(t=>t.audiencePlan&&t.audiences.includes(audience)),'Missing dedicated audience route: '+file+'/'+audience);
+ for(const tour of data.TOURS){assert(tour.original);assert(tour.stops.length>=2);assert(tour.stops.every(id=>allItems.some(e=>e.id===id)));assert(bilingual(tour.title));assert(tour.audiences.length&&tour.audiences.every(id=>audienceIds.includes(id)));
+  if(tour.audiencePlan){for(const key of ['pace','logistics','budget'])assert(bilingual(tour.audiencePlan[key]));assert.deepEqual(tour.audiencePlan.steps.map(s=>s.stopId),tour.stops);for(const step of tour.audiencePlan.steps)assert(bilingual(step.prompt));for(const v of tour.variants)assert(v.pauseMinutes>0&&v.pauseMinutes<v.visitMinutes);}
   for(const v of tour.variants||[]){assert(v.stops.length>=2);assert(v.stops.every(id=>tour.stops.includes(id)));assert.equal(new Set(v.stops).size,v.stops.length);assert.equal(v.visitMinutes+v.walkingMinutes,v.minutes);assert(bilingual(v.note));if(tour.weather==='mixed')assert(v.stops.some(id=>tour.indoorStops.includes(id)),'Variant lost its indoor stop');}
  }
  for(const e of allItems){

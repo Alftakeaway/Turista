@@ -1,6 +1,6 @@
 # Guide Poliedriche
 
-Otto città italiane, 292 esperienze, 120 tour originali (15 per città), con varianti curate da 90 minuti a 4 ore e 72 tappe dedicate e interessi facoltativi. Sito statico bilingue IT/EN, senza backend, account o dipendenze in esecuzione. Include Palermo e otto palette distinte.
+Otto città italiane, 292 esperienze, 184 tour originali (23 per città), con varianti curate da 90 minuti a 4 ore e 72 tappe dedicate e interessi facoltativi. Sito statico bilingue IT/EN, senza backend, account o dipendenze in esecuzione. Include Palermo e otto palette distinte.
 
 ## Utilizzo
 
@@ -12,7 +12,7 @@ Il catalogo mostra tutte le esperienze prima dei tour. Gli interessi sono pulsan
 
 Da una scheda puoi salvare un preferito o aggiungere una tappa al tuo giorno, riordinare le tappe, condividere il collegamento e stampare l’itinerario. Il link condiviso contiene le tappe e i filtri selezionati. Controlla separatamente tempi di spostamento, date e prenotazioni.
 
-I tour si filtrano per tempo, interesse e presenza di opzioni al coperto. Il piano personale esporta un promemoria calendario ICS e un taccuino HTML leggibile offline. Offre mappe a piedi e un minimo dei soli costi elencati, con conteggio degli importi mancanti. Il kit viaggio aggiunge checklist persistente, ricerche di acqua, bagni, farmacie e deposito bagagli, collegamenti ufficiali e ricerca nelle vicinanze soltanto dopo richiesta dell’utente.
+I tour si filtrano per tempo, interesse, opzioni al coperto e compagnia/età facoltativa. Otto programmi dedicati per città hanno attività per tappa, ritmo e pause; le età sono spunti, non limiti. Se la combinazione con un interesse non ha risultati, le alternative di altro interesse sono segnalate esplicitamente, mantenendo tempo, compagnia e meteo. Dettagli in `docs/TOUR-AUDIENCES.md`. Il piano personale esporta un promemoria calendario ICS e un taccuino HTML leggibile offline. Offre mappe a piedi e un minimo dei soli costi elencati, con conteggio degli importi mancanti. Il kit viaggio aggiunge checklist persistente, ricerche di acqua, bagni, farmacie e deposito bagagli, collegamenti ufficiali e ricerca nelle vicinanze soltanto dopo richiesta dell’utente.
 
 ## Sviluppo (Node.js 22+)
 
@@ -38,7 +38,7 @@ Su Windows puoi usare il browser installato impostando `PLAYWRIGHT_EXECUTABLE_PA
 - `scripts/generate.cjs`: genera home, guide, 364 pagine `esperienze/<id>.html`, temi CSS, crediti e dati JavaScript.
 - `assets/js/guide.js`: coordinamento della guida.
 - `assets/js/catalogue.js`, `experiences.js`, `planner.js`, `faq.js`, `detail.js`, `ui.js`, `storage.js`: componenti condivisi per singola responsabilità.
-- `assets/js/travel.js`, `tour-rules.js`, `trip.js`: strumenti viaggio, selezione tour ed esportazioni calendario/offline.
+- `assets/js/travel.js`, `tour-rules.js`, `tour-audiences.js`, `trip.js`: strumenti viaggio, selezione tour ed esportazioni calendario/offline.
 - `assets/js/photos.js`, `assets/css/photos.css`: foto e attribuzioni condivise da catalogo, schede e tour. Le immagini del catalogo e dei tour sono caricate in modo differito; la foto principale del dettaglio è caricata subito. File locali, nessuna richiesta ai server fotografici durante la visita.
 - `assets/js/cities/*.js`, le pagine città, le schede esperienza e `crediti.html` sono generati: modifica dati/template/generatore, poi esegui `npm run generate`.
 - `tests/`: test unitari e flussi browser su tutte le città.

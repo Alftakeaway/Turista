@@ -3041,7 +3041,17 @@
       "original": true,
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
       "focus": "Guarda il Liberty dalla strada: confronta portoni, ferri e decorazioni senza entrare negli edifici residenziali. Componi un alfabeto di cinque forme.|Look at Liberty architecture from the street: compare doors, ironwork and ornament without entering residential buildings. Create an alphabet of five shapes.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "torino-tour-2",
@@ -3058,7 +3068,17 @@
       "original": true,
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
       "focus": "Dal Maglio ai Docks lungo il paesaggio della Dora, segui la trasformazione del lavoro in spazi di quartiere. Scegli una traccia industriale per ogni sosta.|From the Maglio to the Docks along the Dora landscape, follow work spaces becoming neighbourhood spaces. Pick one industrial trace at each stop.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "torino-tour-3",
@@ -3078,6 +3098,16 @@
       "createdAt": "2026-10-16",
       "indoorStops": [
         "torino-107"
+      ],
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
       ]
     },
     {
@@ -3143,7 +3173,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Confronta cupola, cancellata e facciata; rispetta gli accessi liturgici.|Compare dome, railings and facade; respect religious services.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "torino-tour-5",
@@ -3209,7 +3249,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Cerca linee vegetali e ferri lavorati dalle sole aree pubbliche.|Look for plant lines and ironwork from public areas only.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "torino-tour-6",
@@ -3274,7 +3324,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Scegli un dettaglio della collezione e confrontalo con i prospetti della piazza.|Choose a collection detail and compare it with square facades.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "torino-tour-7",
@@ -3339,7 +3399,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Seleziona una parte del museo e confronta inquadrature e spazio urbano.|Select part of the museum and compare framing with urban space.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "torino-tour-8",
@@ -3407,7 +3477,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Collega un tema del MAcA a materiali, acqua e vegetazione del parco.|Connect a MAcA topic with park materials, water and vegetation.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "torino-tour-9",
@@ -3475,7 +3555,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Alterna giardini e una selezione delle sale; conferma gli accessi alle singole aree.|Alternate gardens and selected rooms; check access to individual areas.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "torino-tour-10",
@@ -3540,7 +3630,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Leggi ingredienti e modalità di servizio; assaggi e consumazioni restano facoltativi.|Read ingredients and service options; tastings and purchases remain optional.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "torino-tour-11",
@@ -3608,7 +3708,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Confronta pesi e stagioni del mercato con le misure di una bevanda storica.|Compare market weights and seasons with the measures of a historic drink.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "torino-tour-12",
@@ -3676,7 +3786,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Cerca tracce di produzione e riuso e confrontale con il racconto del museo.|Find traces of production and reuse and compare them with the museum narrative.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "torino-tour-13",
@@ -3744,7 +3864,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Leggi i confini fra palazzo, piazza e chiese attraverso accessi e assi visivi.|Read boundaries between palace, square and churches through entrances and sightlines.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "torino-tour-14",
@@ -3807,7 +3937,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Confronta tettoie, ponte e cortile; non è previsto accesso agli edifici privati.|Compare canopies, bridge and courtyard; private buildings are excluded.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "torino-tour-15",
@@ -3872,6 +4012,702 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Disegna un motivo ripetuto e cerca la sua variazione nella tappa successiva.|Sketch a repeated motif and look for its variation at the next stop.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
+    },
+    {
+      "id": "torino-tour-16",
+      "title": "Cinema e città in tre fotogrammi|Cinema and city in three frames",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "torino-002",
+        "torino-005",
+        "torino-004"
+      ],
+      "indoorStops": [
+        "torino-002"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "torino-002",
+            "torino-005"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "torino-002",
+            "torino-005",
+            "torino-004"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "torino-002",
+            "torino-005",
+            "torino-004"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "torino-002",
+            "torino-005",
+            "torino-004"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "young-adults"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "torino-002",
+            "prompt": "Scegli un dettaglio e crea un’inquadratura personale, dove le foto sono consentite.|Choose a detail and make your own frame where photography is allowed."
+          },
+          {
+            "stopId": "torino-005",
+            "prompt": "Metti a confronto la prima immagine con una forma trovata qui, senza fotografare persone senza consenso.|Compare your first image with a shape found here, without photographing people without consent."
+          },
+          {
+            "stopId": "torino-004",
+            "prompt": "Se prosegui, completa una sequenza di tre immagini e scegli una didascalia.|If continuing, complete a three-image sequence and choose a caption."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Scegli un’idea visiva del museo e ricreala con un’inquadratura urbana consentita.|Choose a museum visual idea and echo it in a permitted urban photograph.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "torino-tour-17",
+      "title": "Parco Dora: progettare il dopo|Parco Dora: designing what comes next",
+      "mood": "memory",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "torino-107",
+        "torino-108",
+        "torino-109"
+      ],
+      "indoorStops": [
+        "torino-107"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "torino-107",
+            "torino-108"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "torino-107",
+            "torino-108",
+            "torino-109"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "torino-107",
+            "torino-108",
+            "torino-109"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "torino-107",
+            "torino-108",
+            "torino-109"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "students"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "torino-107",
+            "prompt": "Formula una domanda sul rapporto fra luogo e città, distinguendo fonti e impressioni.|Frame a question about place and city, separating sources and impressions."
+          },
+          {
+            "stopId": "torino-108",
+            "prompt": "Annota due indizi a favore o contro la tua ipotesi e confrontali con chi viaggia con te.|Note two clues for or against your idea and discuss them with your companions."
+          },
+          {
+            "stopId": "torino-109",
+            "prompt": "Concludi con una breve mappa delle persone che usano questi spazi.|Finish with a small map of the people using these spaces."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Metti in relazione un tema ambientale del MAcA con il riuso delle strutture del parco.|Connect a MAcA environmental topic with the reuse of park structures.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "torino-tour-18",
+      "title": "Bicerin e dettagli da condividere|Bicerin and shared details",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "torino-012",
+        "torino-022",
+        "torino-016"
+      ],
+      "indoorStops": [
+        "torino-012"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "torino-012",
+            "torino-022"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "torino-012",
+            "torino-022",
+            "torino-016"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "torino-012",
+            "torino-022",
+            "torino-016"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "torino-012",
+            "torino-022",
+            "torino-016"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "couples"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "torino-012",
+            "prompt": "Ognuno sceglie in silenzio un dettaglio e lo descrive senza indicarlo.|Each quietly chooses a detail and describes it without pointing."
+          },
+          {
+            "stopId": "torino-022",
+            "prompt": "Provate a riconoscere la scelta dell’altro, poi prendetevi una pausa per raccontarvi cosa avete notato.|Try to recognise each other’s choice, then pause to share what you noticed."
+          },
+          {
+            "stopId": "torino-016",
+            "prompt": "Se continuate, scegliete insieme il dettaglio che riassume la passeggiata.|If continuing, jointly choose the detail that sums up the walk."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Confrontate un dettaglio della piazza e le vostre scelte al caffè, senza consumazione obbligatoria.|Compare a square detail and cafe choices, with no compulsory purchase.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "torino-tour-19",
+      "title": "Il menu immaginario di Porta Palazzo|The imaginary Porta Palazzo menu",
+      "mood": "food",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "torino-016",
+        "torino-012",
+        "torino-022"
+      ],
+      "indoorStops": [
+        "torino-012"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "torino-016",
+            "torino-012"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "torino-016",
+            "torino-012",
+            "torino-022"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "torino-016",
+            "torino-012",
+            "torino-022"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "torino-016",
+            "torino-012",
+            "torino-022"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "friends"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "torino-016",
+            "prompt": "Assegnate ruoli diversi: chi trova forme, chi parole, chi materiali; non bloccate i passaggi.|Share roles: shapes, words and materials; keep passages clear."
+          },
+          {
+            "stopId": "torino-012",
+            "prompt": "Confrontate le scoperte e scegliete un racconto comune. Acquisti e assaggi sono facoltativi e a parte.|Compare discoveries and choose a shared story. Purchases and tastings are optional and separate."
+          },
+          {
+            "stopId": "torino-022",
+            "prompt": "Alla fine, ciascuno propone un dettaglio per una piccola guida del gruppo.|At the end, each proposes one detail for a small group guide."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Dividete i ruoli fra ingredienti, parole e confezioni e create un menu comune.|Share roles for ingredients, words and packaging and create a shared menu.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "torino-tour-20",
+      "title": "Piccoli osservatori dell’ambiente|Little environment observers",
+      "mood": "nature",
+      "minutes": 180,
+      "weather": "mixed",
+      "stops": [
+        "torino-107",
+        "torino-108",
+        "torino-109"
+      ],
+      "indoorStops": [
+        "torino-107"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "torino-107",
+            "torino-108"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 20,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "torino-107",
+            "torino-108",
+            "torino-109"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 20,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "torino-107",
+            "torino-108",
+            "torino-109"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 20,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "families"
+      ],
+      "audiencePlan": {
+        "pace": "Gioco e pause|Play and breaks",
+        "logistics": "Gioco redazionale pensato indicativamente dai 6 anni con un adulto, non laboratorio organizzato. Per bambini più piccoli accorcia la visita e verifica passeggino, bagni e accessi.|Editorial game suggested for ages around 6 and up with an adult, not an organised workshop. For younger children shorten the visit and check pushchair access, toilets and entrances.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "torino-107",
+            "prompt": "Con un adulto, scegli una forma e inventa un nome o una storia; non toccare opere o attrezzature.|With an adult, choose a shape and invent a name or story; do not touch works or equipment."
+          },
+          {
+            "stopId": "torino-108",
+            "prompt": "Dopo una pausa, cerca un colore o una forma della prima tappa. Puoi concludere qui la versione breve.|After a break, find a colour or shape from the first stop. You can finish the short version here."
+          },
+          {
+            "stopId": "torino-109",
+            "prompt": "Solo se resta energia, aggiungi un nuovo capitolo alla storia inventata insieme.|Only if energy remains, add a new chapter to the story you invented together."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Un adulto guida una ricerca di materiali e forme, rispettando i percorsi del museo.|An adult guides a materials and shapes hunt, respecting museum routes.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "torino-tour-21",
+      "title": "Palazzo, giardino e una sala scelta|Palace, garden and one chosen room",
+      "mood": "architecture",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "torino-004",
+        "torino-019",
+        "torino-021"
+      ],
+      "indoorStops": [
+        "torino-004"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "torino-004",
+            "torino-019"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "torino-004",
+            "torino-019",
+            "torino-021"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "torino-004",
+            "torino-019",
+            "torino-021"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "torino-004",
+            "torino-019",
+            "torino-021"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "adults"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "torino-004",
+            "prompt": "Scegli pochi dettagli da approfondire leggendo la fonte del luogo, invece di visitare tutto.|Choose a few details to explore through the place source rather than trying to see everything."
+          },
+          {
+            "stopId": "torino-019",
+            "prompt": "Confronta il dettaglio scelto con il contesto e tieni tempo per una pausa.|Compare your chosen detail with its surroundings and allow time for a break."
+          },
+          {
+            "stopId": "torino-021",
+            "prompt": "Se prosegui, annota una trasformazione della città da approfondire dopo il viaggio.|If continuing, note one city transformation to explore after the trip."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Confronta una sala del palazzo e il disegno della piazza con una visita selettiva.|Compare one palace room and the square design through a focused visit.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "torino-tour-22",
+      "title": "Bicerin e Consolata, con una pausa|Bicerin and Consolata, with a break",
+      "mood": "memory",
+      "minutes": 120,
+      "weather": "mixed",
+      "stops": [
+        "torino-012",
+        "torino-022"
+      ],
+      "indoorStops": [
+        "torino-012"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "torino-012",
+            "torino-022"
+          ],
+          "walkingMinutes": 20,
+          "visitMinutes": 70,
+          "pauseMinutes": 25,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "torino-012",
+            "torino-022"
+          ],
+          "walkingMinutes": 20,
+          "visitMinutes": 100,
+          "pauseMinutes": 25,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "seniors"
+      ],
+      "audiencePlan": {
+        "pace": "Poche tappe, pause frequenti|Few stops, frequent breaks",
+        "logistics": "Due tappe e pause frequenti: ritmo tranquillo non significa assenza di barriere. Verifica dislivelli, scale, sedute e bagni sui canali dei luoghi; posti a sedere non prenotati.|Two stops and frequent breaks: gentle pace does not mean barrier-free. Check slopes, steps, seating and toilets with venues; seats are not reserved.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "torino-012",
+            "prompt": "Scegli una parte della visita e concorda subito dove fermarti; sedute non garantite.|Choose one part of the visit and decide where to pause; seating is not guaranteed."
+          },
+          {
+            "stopId": "torino-022",
+            "prompt": "Dopo una pausa, dedica il tempo restante a pochi dettagli. Puoi terminare senza altre tappe.|After a break, spend the remaining time on a few details. You can finish without further stops."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Due tappe vicine e pausa da concordare al caffè; sedute e accessi vanno controllati.|Two nearby stops and a cafe break to arrange; check seating and access.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "torino-tour-23",
+      "title": "Una pagina sul cinema e Torino|A page on cinema and Turin",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "torino-002",
+        "torino-005",
+        "torino-004"
+      ],
+      "indoorStops": [
+        "torino-002"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "torino-002",
+            "torino-005"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "torino-002",
+            "torino-005",
+            "torino-004"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "torino-002",
+            "torino-005",
+            "torino-004"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "torino-002",
+            "torino-005",
+            "torino-004"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "solo"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "torino-002",
+            "prompt": "Scegli un dettaglio e scrivi tre righe nel tuo taccuino, senza dover condividere il risultato.|Choose a detail and write three notebook lines, with no need to share the result."
+          },
+          {
+            "stopId": "torino-005",
+            "prompt": "Trova una forma o un materiale che risponde alla prima osservazione, durante il giorno.|Find a shape or material answering your first observation, during daylight."
+          },
+          {
+            "stopId": "torino-004",
+            "prompt": "Se prosegui, chiudi la pagina con una domanda sulla città.|If continuing, close the page with a question about the city."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Scrivi tre righe su un’inquadratura e confrontala con una vista dalla strada.|Write three lines about a frame and compare it with a street view.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
       "createdAt": "2026-10-16"
     }
   ],

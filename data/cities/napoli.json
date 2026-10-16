@@ -3095,7 +3095,17 @@
       "original": true,
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
       "focus": "Scendi a piedi seguendo scale e cambi di quota: a ogni sosta scegli una soglia, un suono e una vista. Il percorso richiede mobilità sulle scale e fondo asciutto.|Walk downhill following stairs and changes in elevation: at each stop choose a threshold, a sound and a view. This route requires stair mobility and dry surfaces.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "napoli-tour-2",
@@ -3115,6 +3125,16 @@
       "createdAt": "2026-10-16",
       "indoorStops": [
         "napoli-106"
+      ],
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
       ]
     },
     {
@@ -3132,7 +3152,17 @@
       "original": true,
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
       "focus": "Leggi la riva come spazio pubblico: osserva il passaggio fra giardino, passeggiata e castello dal mare. Nessun ingresso al castello è incluso.|Read the waterfront as public space: observe the transition from garden to promenade and castle seen from the sea. No castle admission is included.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "napoli-tour-4",
@@ -3197,7 +3227,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Confronta facciata a bugne, chiostro e strada senza pretendere una visita completa.|Compare the rusticated facade, cloister and street through focused visits.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "napoli-tour-5",
@@ -3262,7 +3302,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Leggi il rapporto fra spazio religioso e cortili osservabili dalla strada.|Read the relationship between religious space and courtyards visible from the street.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "napoli-tour-6",
@@ -3327,7 +3377,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Scegli un colore nel chiostro e ritrovalo nelle vetrine delle botteghe.|Choose a cloister colour and find it again in workshop windows.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "napoli-tour-7",
@@ -3392,7 +3452,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Dedica la visita a pochi oggetti e confronta le loro forme con la città esterna.|Focus on a few objects and compare their shapes with the streets outside.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "napoli-tour-8",
@@ -3460,7 +3530,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Osserva ombra, piante e maioliche nel chiostro; usa il museo come tappa interna.|Observe shade, plants and tiles in the cloister; use the museum as the indoor stop.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "napoli-tour-9",
@@ -3526,7 +3606,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Confronta vento, ombra e linea del mare lungo la passeggiata.|Compare wind, shade and the sea horizon along the walk.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "napoli-tour-10",
@@ -3591,7 +3681,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Leggi il menu del caffè e confronta modi e prezzi prima di ordinare.|Read the cafe menu and compare service and prices before ordering.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "napoli-tour-11",
@@ -3654,7 +3754,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Segui impasti e ingredienti; nessuna degustazione è inclusa.|Follow doughs and ingredients; no tasting is included.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "napoli-tour-12",
@@ -3722,7 +3832,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Confronta facciate abitate e memoria sotterranea; accessi secondo calendario.|Compare inhabited facades and underground memory; admissions follow the venue calendar.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "napoli-tour-13",
@@ -3790,7 +3910,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Annota come cambia il rumore attraversando tre soglie urbane.|Note how sound changes across three urban thresholds.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "napoli-tour-14",
@@ -3856,7 +3986,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Leggi le scale come infrastruttura: percorso in discesa con gradini.|Read stairways as infrastructure: a downhill route with steps.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "napoli-tour-15",
@@ -3922,6 +4062,702 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Cerca cornici, statue e riflessi nel paesaggio del lungomare.|Look for frames, statues and reflections along the seafront.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
+    },
+    {
+      "id": "napoli-tour-16",
+      "title": "Napoli in tre dettagli inattesi|Naples in three unexpected details",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "napoli-021",
+        "napoli-022",
+        "napoli-006"
+      ],
+      "indoorStops": [
+        "napoli-021"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "napoli-021",
+            "napoli-022"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "napoli-021",
+            "napoli-022",
+            "napoli-006"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "napoli-021",
+            "napoli-022",
+            "napoli-006"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "napoli-021",
+            "napoli-022",
+            "napoli-006"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "young-adults"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "napoli-021",
+            "prompt": "Scegli un dettaglio e crea un’inquadratura personale, dove le foto sono consentite.|Choose a detail and make your own frame where photography is allowed."
+          },
+          {
+            "stopId": "napoli-022",
+            "prompt": "Metti a confronto la prima immagine con una forma trovata qui, senza fotografare persone senza consenso.|Compare your first image with a shape found here, without photographing people without consent."
+          },
+          {
+            "stopId": "napoli-006",
+            "prompt": "Se prosegui, completa una sequenza di tre immagini e scegli una didascalia.|If continuing, complete a three-image sequence and choose a caption."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Maioliche, pietra a diamante e strada: costruisci una sequenza fotografica personale.|Tiles, diamond stonework and street: build your own photographic sequence.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "napoli-tour-17",
+      "title": "Sanità: chi racconta il quartiere?|Sanità: who tells the neighbourhood story?",
+      "mood": "memory",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "napoli-106",
+        "napoli-104",
+        "napoli-105"
+      ],
+      "indoorStops": [
+        "napoli-106"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "napoli-106",
+            "napoli-104"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "napoli-106",
+            "napoli-104",
+            "napoli-105"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "napoli-106",
+            "napoli-104",
+            "napoli-105"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "napoli-106",
+            "napoli-104",
+            "napoli-105"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "students"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "napoli-106",
+            "prompt": "Formula una domanda sul rapporto fra luogo e città, distinguendo fonti e impressioni.|Frame a question about place and city, separating sources and impressions."
+          },
+          {
+            "stopId": "napoli-104",
+            "prompt": "Annota due indizi a favore o contro la tua ipotesi e confrontali con chi viaggia con te.|Note two clues for or against your idea and discuss them with your companions."
+          },
+          {
+            "stopId": "napoli-105",
+            "prompt": "Concludi con una breve mappa delle persone che usano questi spazi.|Finish with a small map of the people using these spaces."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Confronta patrimonio, abitazioni e memoria senza ridurre il quartiere a uno sfondo.|Compare heritage, homes and memory without reducing the neighbourhood to a backdrop.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "napoli-tour-18",
+      "title": "Un caffè e il mare, in due|Coffee and the sea, together",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "napoli-016",
+        "napoli-034",
+        "napoli-107"
+      ],
+      "indoorStops": [
+        "napoli-016"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "napoli-016",
+            "napoli-034"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "napoli-016",
+            "napoli-034",
+            "napoli-107"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "napoli-016",
+            "napoli-034",
+            "napoli-107"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "napoli-016",
+            "napoli-034",
+            "napoli-107"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "couples"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "napoli-016",
+            "prompt": "Ognuno sceglie in silenzio un dettaglio e lo descrive senza indicarlo.|Each quietly chooses a detail and describes it without pointing."
+          },
+          {
+            "stopId": "napoli-034",
+            "prompt": "Provate a riconoscere la scelta dell’altro, poi prendetevi una pausa per raccontarvi cosa avete notato.|Try to recognise each other’s choice, then pause to share what you noticed."
+          },
+          {
+            "stopId": "napoli-107",
+            "prompt": "Se continuate, scegliete insieme il dettaglio che riassume la passeggiata.|If continuing, jointly choose the detail that sums up the walk."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Scegliete un dettaglio del caffè e una vista sul mare da raccontarvi a turno.|Choose a cafe detail and a sea view to describe to each other in turn.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "napoli-tour-19",
+      "title": "Decumani: la squadra dei dettagli|Decumani: the detail team",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "napoli-021",
+        "napoli-022",
+        "napoli-036"
+      ],
+      "indoorStops": [
+        "napoli-021"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "napoli-021",
+            "napoli-022"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "napoli-021",
+            "napoli-022",
+            "napoli-036"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "napoli-021",
+            "napoli-022",
+            "napoli-036"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "napoli-021",
+            "napoli-022",
+            "napoli-036"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "friends"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "napoli-021",
+            "prompt": "Assegnate ruoli diversi: chi trova forme, chi parole, chi materiali; non bloccate i passaggi.|Share roles: shapes, words and materials; keep passages clear."
+          },
+          {
+            "stopId": "napoli-022",
+            "prompt": "Confrontate le scoperte e scegliete un racconto comune. Acquisti e assaggi sono facoltativi e a parte.|Compare discoveries and choose a shared story. Purchases and tastings are optional and separate."
+          },
+          {
+            "stopId": "napoli-036",
+            "prompt": "Alla fine, ciascuno propone un dettaglio per una piccola guida del gruppo.|At the end, each proposes one detail for a small group guide."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Dividetevi tre temi visivi e confrontateli alla fine, senza intralciare la strada.|Share three visual themes and compare them at the end, without blocking streets.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "napoli-tour-20",
+      "title": "Il giardino di maiolica a colori|The coloured tile garden",
+      "mood": "nature",
+      "minutes": 180,
+      "weather": "mixed",
+      "stops": [
+        "napoli-021",
+        "napoli-022",
+        "napoli-006"
+      ],
+      "indoorStops": [
+        "napoli-021"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "napoli-021",
+            "napoli-022"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 20,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "napoli-021",
+            "napoli-022",
+            "napoli-006"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 20,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "napoli-021",
+            "napoli-022",
+            "napoli-006"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 20,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "families"
+      ],
+      "audiencePlan": {
+        "pace": "Gioco e pause|Play and breaks",
+        "logistics": "Gioco redazionale pensato indicativamente dai 6 anni con un adulto, non laboratorio organizzato. Per bambini più piccoli accorcia la visita e verifica passeggino, bagni e accessi.|Editorial game suggested for ages around 6 and up with an adult, not an organised workshop. For younger children shorten the visit and check pushchair access, toilets and entrances.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "napoli-021",
+            "prompt": "Con un adulto, scegli una forma e inventa un nome o una storia; non toccare opere o attrezzature.|With an adult, choose a shape and invent a name or story; do not touch works or equipment."
+          },
+          {
+            "stopId": "napoli-022",
+            "prompt": "Dopo una pausa, cerca un colore o una forma della prima tappa. Puoi concludere qui la versione breve.|After a break, find a colour or shape from the first stop. You can finish the short version here."
+          },
+          {
+            "stopId": "napoli-006",
+            "prompt": "Solo se resta energia, aggiungi un nuovo capitolo alla storia inventata insieme.|Only if energy remains, add a new chapter to the story you invented together."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Con un adulto, cerca colori, animali raffigurati e forme geometriche senza toccare le opere.|With an adult, find colours, pictured animals and geometric shapes without touching works.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "napoli-tour-21",
+      "title": "Pochi oggetti, molte storie|Few objects, many stories",
+      "mood": "architecture",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "napoli-003",
+        "napoli-104",
+        "napoli-106"
+      ],
+      "indoorStops": [
+        "napoli-003"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "napoli-003",
+            "napoli-104"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "napoli-003",
+            "napoli-104",
+            "napoli-106"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "napoli-003",
+            "napoli-104",
+            "napoli-106"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "napoli-003",
+            "napoli-104",
+            "napoli-106"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "adults"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "napoli-003",
+            "prompt": "Scegli pochi dettagli da approfondire leggendo la fonte del luogo, invece di visitare tutto.|Choose a few details to explore through the place source rather than trying to see everything."
+          },
+          {
+            "stopId": "napoli-104",
+            "prompt": "Confronta il dettaglio scelto con il contesto e tieni tempo per una pausa.|Compare your chosen detail with its surroundings and allow time for a break."
+          },
+          {
+            "stopId": "napoli-106",
+            "prompt": "Se prosegui, annota una trasformazione della città da approfondire dopo il viaggio.|If continuing, note one city transformation to explore after the trip."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Una selezione del MANN e una passeggiata nella Sanità per collegare oggetti e città.|Selected MANN objects and a Sanità walk connect collection and city.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "napoli-tour-22",
+      "title": "Due soglie, una pausa nel centro|Two thresholds and a central break",
+      "mood": "memory",
+      "minutes": 120,
+      "weather": "mixed",
+      "stops": [
+        "napoli-022",
+        "napoli-021"
+      ],
+      "indoorStops": [
+        "napoli-022"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "napoli-022",
+            "napoli-021"
+          ],
+          "walkingMinutes": 20,
+          "visitMinutes": 70,
+          "pauseMinutes": 25,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "napoli-022",
+            "napoli-021"
+          ],
+          "walkingMinutes": 20,
+          "visitMinutes": 100,
+          "pauseMinutes": 25,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "seniors"
+      ],
+      "audiencePlan": {
+        "pace": "Poche tappe, pause frequenti|Few stops, frequent breaks",
+        "logistics": "Due tappe e pause frequenti: ritmo tranquillo non significa assenza di barriere. Verifica dislivelli, scale, sedute e bagni sui canali dei luoghi; posti a sedere non prenotati.|Two stops and frequent breaks: gentle pace does not mean barrier-free. Check slopes, steps, seating and toilets with venues; seats are not reserved.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "napoli-022",
+            "prompt": "Scegli una parte della visita e concorda subito dove fermarti; sedute non garantite.|Choose one part of the visit and decide where to pause; seating is not guaranteed."
+          },
+          {
+            "stopId": "napoli-021",
+            "prompt": "Dopo una pausa, dedica il tempo restante a pochi dettagli. Puoi terminare senza altre tappe.|After a break, spend the remaining time on a few details. You can finish without further stops."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Gesù Nuovo e Santa Chiara sono vicini: resta nella zona e prevedi una pausa.|Gesù Nuovo and Santa Chiara are close: stay in the area and plan a break.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "napoli-tour-23",
+      "title": "Napoli fra chiostro e taccuino|Naples between cloister and notebook",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "napoli-021",
+        "napoli-022",
+        "napoli-006"
+      ],
+      "indoorStops": [
+        "napoli-021"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "napoli-021",
+            "napoli-022"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "napoli-021",
+            "napoli-022",
+            "napoli-006"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "napoli-021",
+            "napoli-022",
+            "napoli-006"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "napoli-021",
+            "napoli-022",
+            "napoli-006"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "solo"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "napoli-021",
+            "prompt": "Scegli un dettaglio e scrivi tre righe nel tuo taccuino, senza dover condividere il risultato.|Choose a detail and write three notebook lines, with no need to share the result."
+          },
+          {
+            "stopId": "napoli-022",
+            "prompt": "Trova una forma o un materiale che risponde alla prima osservazione, durante il giorno.|Find a shape or material answering your first observation, during daylight."
+          },
+          {
+            "stopId": "napoli-006",
+            "prompt": "Se prosegui, chiudi la pagina con una domanda sulla città.|If continuing, close the page with a question about the city."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Registra tre cambiamenti di suono e luce, visitando in autonomia durante il giorno.|Record three changes in sound and light, exploring independently during daylight.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
       "createdAt": "2026-10-16"
     }
   ],

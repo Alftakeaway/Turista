@@ -2731,6 +2731,16 @@
       "createdAt": "2026-10-16",
       "indoorStops": [
         "palermo-101"
+      ],
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
       ]
     },
     {
@@ -2748,7 +2758,17 @@
       "original": true,
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
       "focus": "Accosta Zisa, Cantieri Culturali e Villino Florio: osserva acqua, produzione e abitare attraverso facciate e spazi pubblici. Le visite interne restano facoltative.|Connect the Zisa, Cantieri Culturali and Villino Florio: observe water, production and housing through facades and public space. Indoor visits remain optional.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "palermo-tour-3",
@@ -2768,6 +2788,16 @@
       "createdAt": "2026-10-16",
       "indoorStops": [
         "palermo-107"
+      ],
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
       ]
     },
     {
@@ -2833,7 +2863,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Confronta cupole, mosaici e volumi dalla piazza e dagli interni accessibili.|Compare domes, mosaics and volumes from the square and accessible interiors.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "palermo-tour-5",
@@ -2898,7 +2938,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Segui corti, ingressi e trasformazioni; lo Spasimo è senza tetto e non ripara dalla pioggia.|Follow courts, entrances and transformations; Spasimo is roofless and gives no rain shelter.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "palermo-tour-6",
@@ -2963,7 +3013,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Scegli un gesto dipinto e confrontalo con un dettaglio in stucco.|Choose a painted gesture and compare it with a stucco detail.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "palermo-tour-7",
@@ -3028,7 +3088,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Confronta un motivo della collezione con le forme della piazza; prenota se richiesto.|Compare a collection motif with square shapes; book if required.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "palermo-tour-8",
@@ -3093,7 +3163,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Osserva una chioma e cerca un paesaggio nelle opere; le parti verdi sono all’aperto.|Observe a tree canopy and look for a landscape in the works; green sections are outdoors.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "palermo-tour-9",
@@ -3158,7 +3238,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Accosta il racconto del mare all’osservazione del lungomare e degli alberi.|Pair the museum sea narrative with observation of seafront and trees.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "palermo-tour-10",
@@ -3223,7 +3313,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Confronta ingredienti dei banchi e ricette della dolceria; consumazioni a parte.|Compare market ingredients and monastery bakery recipes; purchases are separate.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "palermo-tour-11",
@@ -3288,7 +3388,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Annota tre parole dai banchi e confrontale con i dolci del monastero.|Note three market words and compare them with monastery sweets.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "palermo-tour-12",
@@ -3356,7 +3466,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Confronta memoria orale, prato pubblico e architettura senza copertura.|Compare oral memory, public lawn and roofless architecture.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "palermo-tour-13",
@@ -3421,7 +3541,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Leggi un oggetto di uso quotidiano e ritrova i suoi colori nelle strade.|Read an everyday object and find its colours in the streets.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "palermo-tour-14",
@@ -3487,7 +3617,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Confronta palazzo, spazi culturali e villino osservabili dagli esterni.|Compare palace, cultural spaces and villa viewed from outside.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "palermo-tour-15",
@@ -3552,6 +3692,702 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Scegli un dettaglio antico e confrontalo con forme del teatro e del mercato.|Choose an ancient detail and compare it with theatre and market shapes.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
+    },
+    {
+      "id": "palermo-tour-16",
+      "title": "Kalsa: il tuo rullino di dettagli|Kalsa: your detail camera roll",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "palermo-008",
+        "palermo-108",
+        "palermo-107"
+      ],
+      "indoorStops": [
+        "palermo-008"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "palermo-008",
+            "palermo-108"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "palermo-008",
+            "palermo-108",
+            "palermo-107"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "palermo-008",
+            "palermo-108",
+            "palermo-107"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "palermo-008",
+            "palermo-108",
+            "palermo-107"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "young-adults"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "palermo-008",
+            "prompt": "Scegli un dettaglio e crea un’inquadratura personale, dove le foto sono consentite.|Choose a detail and make your own frame where photography is allowed."
+          },
+          {
+            "stopId": "palermo-108",
+            "prompt": "Metti a confronto la prima immagine con una forma trovata qui, senza fotografare persone senza consenso.|Compare your first image with a shape found here, without photographing people without consent."
+          },
+          {
+            "stopId": "palermo-107",
+            "prompt": "Se prosegui, completa una sequenza di tre immagini e scegli una didascalia.|If continuing, complete a three-image sequence and choose a caption."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Metti in dialogo un dettaglio della GAM, la piazza e una maiolica.|Connect a GAM detail, the square and a tile.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "palermo-tour-17",
+      "title": "Il mare come bene comune|The sea as a common good",
+      "mood": "memory",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "palermo-101",
+        "palermo-102",
+        "palermo-019"
+      ],
+      "indoorStops": [
+        "palermo-101"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "palermo-101",
+            "palermo-102"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "palermo-101",
+            "palermo-102",
+            "palermo-019"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "palermo-101",
+            "palermo-102",
+            "palermo-019"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "palermo-101",
+            "palermo-102",
+            "palermo-019"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "students"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "palermo-101",
+            "prompt": "Formula una domanda sul rapporto fra luogo e città, distinguendo fonti e impressioni.|Frame a question about place and city, separating sources and impressions."
+          },
+          {
+            "stopId": "palermo-102",
+            "prompt": "Annota due indizi a favore o contro la tua ipotesi e confrontali con chi viaggia con te.|Note two clues for or against your idea and discuss them with your companions."
+          },
+          {
+            "stopId": "palermo-019",
+            "prompt": "Concludi con una breve mappa delle persone che usano questi spazi.|Finish with a small map of the people using these spaces."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Confronta le memorie del museo e gli usi attuali del lungomare con un piccolo taccuino di ricerca.|Compare museum memories and present seafront uses in a small research notebook.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "palermo-tour-18",
+      "title": "Kalsa: due dettagli da regalarsi|Kalsa: two details to give each other",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "palermo-003",
+        "palermo-109",
+        "palermo-007"
+      ],
+      "indoorStops": [
+        "palermo-003"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "palermo-003",
+            "palermo-109"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "palermo-003",
+            "palermo-109",
+            "palermo-007"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "palermo-003",
+            "palermo-109",
+            "palermo-007"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "palermo-003",
+            "palermo-109",
+            "palermo-007"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "couples"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "palermo-003",
+            "prompt": "Ognuno sceglie in silenzio un dettaglio e lo descrive senza indicarlo.|Each quietly chooses a detail and describes it without pointing."
+          },
+          {
+            "stopId": "palermo-109",
+            "prompt": "Provate a riconoscere la scelta dell’altro, poi prendetevi una pausa per raccontarvi cosa avete notato.|Try to recognise each other’s choice, then pause to share what you noticed."
+          },
+          {
+            "stopId": "palermo-007",
+            "prompt": "Se continuate, scegliete insieme il dettaglio che riassume la passeggiata.|If continuing, jointly choose the detail that sums up the walk."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Ognuno sceglie un gesto dipinto o scolpito e lo racconta all’altro senza mostrare subito l’opera.|Each chooses a painted or sculpted gesture and describes it before revealing the work.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "palermo-tour-19",
+      "title": "Ballarò e dolci: il menu del gruppo|Ballarò and sweets: the group menu",
+      "mood": "food",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "palermo-015",
+        "palermo-024",
+        "palermo-025"
+      ],
+      "indoorStops": [
+        "palermo-024"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "palermo-015",
+            "palermo-024"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "palermo-015",
+            "palermo-024",
+            "palermo-025"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "palermo-015",
+            "palermo-024",
+            "palermo-025"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "palermo-015",
+            "palermo-024",
+            "palermo-025"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "friends"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "palermo-015",
+            "prompt": "Assegnate ruoli diversi: chi trova forme, chi parole, chi materiali; non bloccate i passaggi.|Share roles: shapes, words and materials; keep passages clear."
+          },
+          {
+            "stopId": "palermo-024",
+            "prompt": "Confrontate le scoperte e scegliete un racconto comune. Acquisti e assaggi sono facoltativi e a parte.|Compare discoveries and choose a shared story. Purchases and tastings are optional and separate."
+          },
+          {
+            "stopId": "palermo-025",
+            "prompt": "Alla fine, ciascuno propone un dettaglio per una piccola guida del gruppo.|At the end, each proposes one detail for a small group guide."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Create un menu dalle parole dei banchi e della dolceria, senza acquisti obbligatori.|Build a menu from stall and bakery words, with no compulsory purchases.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "palermo-tour-20",
+      "title": "Il mare raccontato ai piccoli|The sea told to children",
+      "mood": "nature",
+      "minutes": 180,
+      "weather": "mixed",
+      "stops": [
+        "palermo-101",
+        "palermo-102",
+        "palermo-019"
+      ],
+      "indoorStops": [
+        "palermo-101"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "palermo-101",
+            "palermo-102"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 20,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "palermo-101",
+            "palermo-102",
+            "palermo-019"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 20,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "palermo-101",
+            "palermo-102",
+            "palermo-019"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 20,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "families"
+      ],
+      "audiencePlan": {
+        "pace": "Gioco e pause|Play and breaks",
+        "logistics": "Gioco redazionale pensato indicativamente dai 6 anni con un adulto, non laboratorio organizzato. Per bambini più piccoli accorcia la visita e verifica passeggino, bagni e accessi.|Editorial game suggested for ages around 6 and up with an adult, not an organised workshop. For younger children shorten the visit and check pushchair access, toilets and entrances.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "palermo-101",
+            "prompt": "Con un adulto, scegli una forma e inventa un nome o una storia; non toccare opere o attrezzature.|With an adult, choose a shape and invent a name or story; do not touch works or equipment."
+          },
+          {
+            "stopId": "palermo-102",
+            "prompt": "Dopo una pausa, cerca un colore o una forma della prima tappa. Puoi concludere qui la versione breve.|After a break, find a colour or shape from the first stop. You can finish the short version here."
+          },
+          {
+            "stopId": "palermo-019",
+            "prompt": "Solo se resta energia, aggiungi un nuovo capitolo alla storia inventata insieme.|Only if energy remains, add a new chapter to the story you invented together."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Con un adulto, scegli una storia del museo e disegna come vorresti il lungomare.|With an adult, choose a museum story and draw the seafront you would like.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "palermo-tour-21",
+      "title": "Arte e vita locale nella Kalsa|Art and local life in Kalsa",
+      "mood": "architecture",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "palermo-003",
+        "palermo-109",
+        "palermo-007"
+      ],
+      "indoorStops": [
+        "palermo-003"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "palermo-003",
+            "palermo-109"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "palermo-003",
+            "palermo-109",
+            "palermo-007"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "palermo-003",
+            "palermo-109",
+            "palermo-007"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "palermo-003",
+            "palermo-109",
+            "palermo-007"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "adults"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "palermo-003",
+            "prompt": "Scegli pochi dettagli da approfondire leggendo la fonte del luogo, invece di visitare tutto.|Choose a few details to explore through the place source rather than trying to see everything."
+          },
+          {
+            "stopId": "palermo-109",
+            "prompt": "Confronta il dettaglio scelto con il contesto e tieni tempo per una pausa.|Compare your chosen detail with its surroundings and allow time for a break."
+          },
+          {
+            "stopId": "palermo-007",
+            "prompt": "Se prosegui, annota una trasformazione della città da approfondire dopo il viaggio.|If continuing, note one city transformation to explore after the trip."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Una selezione di opere e un confronto fra soglie dei palazzi, con tempo per approfondire.|Selected works and a comparison of palace thresholds, with time to explore.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "palermo-tour-22",
+      "title": "Piazza Bellini, due interni e una pausa|Piazza Bellini, two interiors and a break",
+      "mood": "memory",
+      "minutes": 120,
+      "weather": "mixed",
+      "stops": [
+        "palermo-025",
+        "palermo-024"
+      ],
+      "indoorStops": [
+        "palermo-025"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "palermo-025",
+            "palermo-024"
+          ],
+          "walkingMinutes": 20,
+          "visitMinutes": 70,
+          "pauseMinutes": 25,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "palermo-025",
+            "palermo-024"
+          ],
+          "walkingMinutes": 20,
+          "visitMinutes": 100,
+          "pauseMinutes": 25,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "seniors"
+      ],
+      "audiencePlan": {
+        "pace": "Poche tappe, pause frequenti|Few stops, frequent breaks",
+        "logistics": "Due tappe e pause frequenti: ritmo tranquillo non significa assenza di barriere. Verifica dislivelli, scale, sedute e bagni sui canali dei luoghi; posti a sedere non prenotati.|Two stops and frequent breaks: gentle pace does not mean barrier-free. Check slopes, steps, seating and toilets with venues; seats are not reserved.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "palermo-025",
+            "prompt": "Scegli una parte della visita e concorda subito dove fermarti; sedute non garantite.|Choose one part of the visit and decide where to pause; seating is not guaranteed."
+          },
+          {
+            "stopId": "palermo-024",
+            "prompt": "Dopo una pausa, dedica il tempo restante a pochi dettagli. Puoi terminare senza altre tappe.|After a break, spend the remaining time on a few details. You can finish without further stops."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Resta intorno alla piazza, con una pausa da concordare e accessi da verificare.|Stay around the square, with a break to arrange and entrances to check.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "palermo-tour-23",
+      "title": "Palermo in un taccuino di maioliche|Palermo in a tile notebook",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "palermo-107",
+        "palermo-108",
+        "palermo-008"
+      ],
+      "indoorStops": [
+        "palermo-107"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "palermo-107",
+            "palermo-108"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "palermo-107",
+            "palermo-108",
+            "palermo-008"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "palermo-107",
+            "palermo-108",
+            "palermo-008"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "palermo-107",
+            "palermo-108",
+            "palermo-008"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "solo"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "palermo-107",
+            "prompt": "Scegli un dettaglio e scrivi tre righe nel tuo taccuino, senza dover condividere il risultato.|Choose a detail and write three notebook lines, with no need to share the result."
+          },
+          {
+            "stopId": "palermo-108",
+            "prompt": "Trova una forma o un materiale che risponde alla prima osservazione, durante il giorno.|Find a shape or material answering your first observation, during daylight."
+          },
+          {
+            "stopId": "palermo-008",
+            "prompt": "Se prosegui, chiudi la pagina con una domanda sulla città.|If continuing, close the page with a question about the city."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Scegli un motivo della collezione e cerca un’eco nelle strade, senza entrare in spazi privati.|Choose a collection motif and look for an echo in the streets, without entering private spaces.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
       "createdAt": "2026-10-16"
     }
   ],

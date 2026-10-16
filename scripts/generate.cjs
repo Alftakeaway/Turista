@@ -31,7 +31,7 @@ for(const data of cities) {
  data.PHOTOS=Object.fromEntries([...data.ESPERIENZE,...data.TOUR_STOPS].map(item=>{if(!itemPhotos[item.id])throw Error('Missing item photo: '+item.id);return[item.id,itemPhotos[item.id]];}));
  const values={city,name,count:data.ESPERIENZE.length,tourCount:data.TOURS.length,portal:escape(data.city.portal),transport:escape(data.city.transportUrl),access:escape(data.city.accessibilityUrl),photo:figure(city),
   experienceLinks:data.ESPERIENZE.map(e=>`<li><a href="esperienze/${e.id}.html">${escape(italian(e.t))}</a></li>`).join(''),
-  scripts:scripts(['storage','ui','photos','trip','experiences','catalogue','planner','faq','tour-rules','travel','guide','cities/'+city])};
+  scripts:scripts(['storage','ui','photos','trip','experiences','catalogue','planner','faq','tour-audiences','tour-rules','travel','guide','cities/'+city])};
  for(const key of ['heroK','heroH1','heroP','info1p','info2p','info3p']) values[key]=key==='heroH1'?italian(texts[key]):escape(italian(texts[key]));
  writePage(city+'.html','<!-- Generated from templates/city.html and data/cities/'+city+'.json -->\n'+render(template,values));
  fs.writeFileSync(path.join(root,'assets/js/cities',city+'.js'),'// Generated from data/cities/'+city+'.json\nGuide.init('+JSON.stringify(data)+');\n');

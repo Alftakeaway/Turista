@@ -1,6 +1,6 @@
 # Tour e copertura delle preferenze
 
-120 tour editoriali: 15 in ciascuna delle otto città. I tre percorsi precedenti mantengono identificatori e link; dodici proposte aggiuntive per città riutilizzano luoghi documentati, schede e fotografie già attribuite. Ogni città ha almeno dodici combinazioni diverse di tappe, senza contare le varianti di durata come tour aggiuntivi.
+Prima espansione: 120 tour editoriali, 15 in ciascuna delle otto città. L’espansione successiva porta il totale a 184 proposte, 23 per città: vedi `TOUR-AUDIENCES.md`. I tre percorsi precedenti mantengono identificatori e link; dodici proposte aggiuntive per città riutilizzano luoghi documentati, schede e fotografie già attribuite. Ogni città ha almeno dodici combinazioni diverse di tappe, senza contare le varianti di durata come tour aggiuntivi.
 
 Le nuove proposte hanno varianti esplicite da 90, 120, 180 e 240 minuti. Il filtro indica un **tempo massimo** e sceglie la variante più lunga che rientra nel limite. Non taglia automaticamente il percorso né elimina la tappa al coperto. Le varianti brevi prevedono osservazioni mirate, non visite integrali ai musei. Le versioni lunghe possono aggiungere una quarta tappa e dedicare più tempo a collezioni, taccuino e soste. I tempi distinguono visite/soste e cammino, sono stime editoriali, ed escludono code, attese e viaggio al punto iniziale.
 

@@ -30,6 +30,22 @@ test('all cities cover every time, interest and indoor combination with curated 
  assert.equal(GuideTourRules.select([{mood:'art',weather:'mixed',minutes:180,stops:['a','b','c']}],{time:90}).length,0,'Never truncate a route without an authored variant');
 });
 
+test('every audience has exact matches across time, interest and indoor preferences',()=>{
+ const {GuideTourRules}=component('tour-rules'),audiences=Object.keys(component('tour-audiences').GuideTourAudiences);let checked=0;
+ for(const file of fs.readdirSync(path.join(root,'data/cities'))){
+  const data=JSON.parse(fs.readFileSync(path.join(root,'data/cities',file),'utf8'));
+  for(const audience of audiences)for(const time of [90,120,180,240])for(const weather of ['','mixed'])for(const mood of ['architecture','art','nature','food','memory']){
+   const exact=GuideTourRules.select(data.TOURS,{audience,time,weather,mood});
+   assert(exact.length,file+' has an exact audience and interest match');assert(exact.every(t=>t.mood===mood));
+   const selected=exact.length?exact:GuideTourRules.select(data.TOURS,{audience,time,weather,mood:''});
+   assert(selected.length,file+' '+JSON.stringify({audience,time,weather,mood}));
+   for(const t of selected){assert(t.audiences.includes(audience));assert(t.minutes<=time);if(weather==='mixed')assert.equal(t.weather,'mixed');}
+   checked++;
+  }
+ }
+ assert.equal(checked,2560);
+});
+
 test('photo rendering escapes captions and preserves linked attribution',()=>{
  const {GuideUI}=component('ui');const {GuidePhotos}=component('photos',{GuideUI});
  const photo={src:'assets/images/place.jpg',alt:'A "place" <view>|A view',author:'A & B',source:'https://commons.wikimedia.org/wiki/File:Test.jpg',license:'CC BY-SA 4.0',licenseUrl:'https://creativecommons.org/licenses/by-sa/4.0/',width:960,height:640};

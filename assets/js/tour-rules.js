@@ -1,6 +1,7 @@
 window.GuideTourRules = {
-  select(tours, {time = 0, mood = '', weather = ''} = {}) {
+  select(tours, {time = 0, mood = '', weather = '', audience = ''} = {}) {
     return tours.flatMap(tour => {
+      if (audience && !tour.audiences?.includes(audience)) return [];
       if (mood && tour.mood !== mood) return [];
       if (weather === 'mixed' && tour.weather !== 'mixed') return [];
       const variants = tour.variants || [{minutes:tour.minutes,stops:tour.stops}];

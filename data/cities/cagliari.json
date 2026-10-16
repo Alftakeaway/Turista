@@ -3101,7 +3101,17 @@
       "original": true,
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
       "focus": "Esplora Villanova all’altezza dei portoni: cerca tre diversi rapporti fra casa, strada e vegetazione, poi rileggili dalla pausa nei giardini.|Explore Villanova at doorway height: find three relationships between homes, streets and plants, then reconsider them during a garden break.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "cagliari-tour-2",
@@ -3118,7 +3128,17 @@
       "original": true,
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
       "focus": "Confronta il paesaggio del sale con quello della spiaggia fra Molentargius e Poetto. Osserva da sentieri autorizzati, senza avvicinarti agli animali.|Compare salt and beach landscapes between Molentargius and Poetto. Observe from permitted paths without approaching wildlife.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "cagliari-tour-3",
@@ -3138,6 +3158,16 @@
       "createdAt": "2026-10-16",
       "indoorStops": [
         "cagliari-108"
+      ],
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
       ]
     },
     {
@@ -3203,7 +3233,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Confronta portali, mura e aperture sul paesaggio; ci sono pendenze.|Compare portals, walls and landscape openings; there are slopes.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "cagliari-tour-5",
@@ -3271,7 +3311,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Confronta facciate e livelli sotterranei senza contare due volte la stessa cripta.|Compare facades and underground levels; the final stop deepens the same crypt visit.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "cagliari-tour-6",
@@ -3336,7 +3386,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Scegli pochi oggetti delle collezioni e cerca forme simili negli edifici.|Choose a few collection objects and look for similar shapes in buildings.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "cagliari-tour-7",
@@ -3402,7 +3462,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Raccogli colori, cornici e portoni senza fotografare dentro le abitazioni.|Collect colours, frames and doors without photographing inside homes.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "cagliari-tour-8",
@@ -3467,7 +3537,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Osserva il verde e poi il rapporto fra materiali, territorio e oggetti nel museo.|Observe greenery, then the relationship between materials, territory and museum objects.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "cagliari-tour-9",
@@ -3535,7 +3615,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Accosta una forma vegetale a una superficie della cripta; giardino all’aperto.|Pair a plant shape with a crypt surface; the garden is outdoors.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "cagliari-tour-10",
@@ -3600,7 +3690,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Visita la sede coperta di piazza Nazzari e leggi ingredienti e stagioni sui banchi.|Visit the covered Piazza Nazzari site and read ingredients and seasons at the stalls.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "cagliari-tour-11",
@@ -3665,7 +3765,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Componi una lista della spesa dai prodotti esposti e confrontala con le insegne.|Build a shopping list from displayed products and compare it with shop signs.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "cagliari-tour-12",
@@ -3733,7 +3843,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Confronta devozione, spazi scavati e giardino lungo la stessa zona.|Compare devotion, excavated spaces and garden within the same district.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "cagliari-tour-13",
@@ -3801,7 +3921,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Confronta un oggetto antico con un dettaglio del quartiere attuale.|Compare an ancient object with a detail of the present neighbourhood.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "cagliari-tour-14",
@@ -3864,7 +3994,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Segui il cambio di scala dai vicoli allo spazio aperto dei giardini.|Follow the change in scale from lanes to open gardens.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "cagliari-tour-15",
@@ -3932,6 +4072,700 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Scegli tre cornici del panorama e disegnale invece di inseguire ogni belvedere.|Choose three landscape frames and sketch them instead of chasing every viewpoint.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
+    },
+    {
+      "id": "cagliari-tour-16",
+      "title": "Villanova: colori e contrasti|Villanova: colours and contrasts",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "outdoor",
+      "stops": [
+        "cagliari-101",
+        "cagliari-102",
+        "cagliari-103"
+      ],
+      "indoorStops": [],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "cagliari-101",
+            "cagliari-102"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "cagliari-101",
+            "cagliari-102",
+            "cagliari-103"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "cagliari-101",
+            "cagliari-102",
+            "cagliari-103"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "cagliari-101",
+            "cagliari-102",
+            "cagliari-103"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "young-adults"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "cagliari-101",
+            "prompt": "Scegli un dettaglio e crea un’inquadratura personale, dove le foto sono consentite.|Choose a detail and make your own frame where photography is allowed."
+          },
+          {
+            "stopId": "cagliari-102",
+            "prompt": "Metti a confronto la prima immagine con una forma trovata qui, senza fotografare persone senza consenso.|Compare your first image with a shape found here, without photographing people without consent."
+          },
+          {
+            "stopId": "cagliari-103",
+            "prompt": "Se prosegui, completa una sequenza di tre immagini e scegli una didascalia.|If continuing, complete a three-image sequence and choose a caption."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Costruisci un racconto di porte, ombre e verde senza fotografare dentro le case.|Build a story of doors, shadows and greenery without photographing inside homes.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "cagliari-tour-17",
+      "title": "Il mercato come ricerca sul campo|The market as field research",
+      "mood": "memory",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "cagliari-016",
+        "cagliari-101",
+        "cagliari-102"
+      ],
+      "indoorStops": [
+        "cagliari-016"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "cagliari-016",
+            "cagliari-101"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "cagliari-016",
+            "cagliari-101",
+            "cagliari-102"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "cagliari-016",
+            "cagliari-101",
+            "cagliari-102"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "cagliari-016",
+            "cagliari-101",
+            "cagliari-102"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "students"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "cagliari-016",
+            "prompt": "Formula una domanda sul rapporto fra luogo e città, distinguendo fonti e impressioni.|Frame a question about place and city, separating sources and impressions."
+          },
+          {
+            "stopId": "cagliari-101",
+            "prompt": "Annota due indizi a favore o contro la tua ipotesi e confrontali con chi viaggia con te.|Note two clues for or against your idea and discuss them with your companions."
+          },
+          {
+            "stopId": "cagliari-102",
+            "prompt": "Concludi con una breve mappa delle persone che usano questi spazi.|Finish with a small map of the people using these spaces."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Confronta prodotti, provenienze e parole chiedendo prima il permesso ai venditori.|Compare products, origins and words, asking sellers permission first.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "cagliari-tour-18",
+      "title": "Castello: un oggetto per due|Castello: one object for two",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "cagliari-006",
+        "cagliari-020",
+        "cagliari-001"
+      ],
+      "indoorStops": [
+        "cagliari-006"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "cagliari-006",
+            "cagliari-020"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "cagliari-006",
+            "cagliari-020",
+            "cagliari-001"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "cagliari-006",
+            "cagliari-020",
+            "cagliari-001"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "cagliari-006",
+            "cagliari-020",
+            "cagliari-001"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "couples"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "cagliari-006",
+            "prompt": "Ognuno sceglie in silenzio un dettaglio e lo descrive senza indicarlo.|Each quietly chooses a detail and describes it without pointing."
+          },
+          {
+            "stopId": "cagliari-020",
+            "prompt": "Provate a riconoscere la scelta dell’altro, poi prendetevi una pausa per raccontarvi cosa avete notato.|Try to recognise each other’s choice, then pause to share what you noticed."
+          },
+          {
+            "stopId": "cagliari-001",
+            "prompt": "Se continuate, scegliete insieme il dettaglio che riassume la passeggiata.|If continuing, jointly choose the detail that sums up the walk."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Ognuno sceglie un oggetto delle collezioni e lo collega a un dettaglio del quartiere.|Each chooses a collection object and links it to a neighbourhood detail.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "cagliari-tour-19",
+      "title": "Una spesa sarda immaginaria|An imaginary Sardinian shopping basket",
+      "mood": "food",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "cagliari-016",
+        "cagliari-102",
+        "cagliari-101"
+      ],
+      "indoorStops": [
+        "cagliari-016"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "cagliari-016",
+            "cagliari-102"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "cagliari-016",
+            "cagliari-102",
+            "cagliari-101"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "cagliari-016",
+            "cagliari-102",
+            "cagliari-101"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "cagliari-016",
+            "cagliari-102",
+            "cagliari-101"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "friends"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "cagliari-016",
+            "prompt": "Assegnate ruoli diversi: chi trova forme, chi parole, chi materiali; non bloccate i passaggi.|Share roles: shapes, words and materials; keep passages clear."
+          },
+          {
+            "stopId": "cagliari-102",
+            "prompt": "Confrontate le scoperte e scegliete un racconto comune. Acquisti e assaggi sono facoltativi e a parte.|Compare discoveries and choose a shared story. Purchases and tastings are optional and separate."
+          },
+          {
+            "stopId": "cagliari-101",
+            "prompt": "Alla fine, ciascuno propone un dettaglio per una piccola guida del gruppo.|At the end, each proposes one detail for a small group guide."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Decidete un menu dai banchi e confrontate ingredienti e stagioni senza acquisti obbligati.|Build a menu from stalls and compare ingredients and seasons with no compulsory purchases.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "cagliari-tour-20",
+      "title": "Oggetti antichi, storie nuove|Old objects, new stories",
+      "mood": "nature",
+      "minutes": 180,
+      "weather": "mixed",
+      "stops": [
+        "cagliari-006",
+        "cagliari-103",
+        "cagliari-001"
+      ],
+      "indoorStops": [
+        "cagliari-006"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "cagliari-006",
+            "cagliari-103"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 20,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "cagliari-006",
+            "cagliari-103",
+            "cagliari-001"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 20,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "cagliari-006",
+            "cagliari-103",
+            "cagliari-001"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 20,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "families"
+      ],
+      "audiencePlan": {
+        "pace": "Gioco e pause|Play and breaks",
+        "logistics": "Gioco redazionale pensato indicativamente dai 6 anni con un adulto, non laboratorio organizzato. Per bambini più piccoli accorcia la visita e verifica passeggino, bagni e accessi.|Editorial game suggested for ages around 6 and up with an adult, not an organised workshop. For younger children shorten the visit and check pushchair access, toilets and entrances.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "cagliari-006",
+            "prompt": "Con un adulto, scegli una forma e inventa un nome o una storia; non toccare opere o attrezzature.|With an adult, choose a shape and invent a name or story; do not touch works or equipment."
+          },
+          {
+            "stopId": "cagliari-103",
+            "prompt": "Dopo una pausa, cerca un colore o una forma della prima tappa. Puoi concludere qui la versione breve.|After a break, find a colour or shape from the first stop. You can finish the short version here."
+          },
+          {
+            "stopId": "cagliari-001",
+            "prompt": "Solo se resta energia, aggiungi un nuovo capitolo alla storia inventata insieme.|Only if energy remains, add a new chapter to the story you invented together."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Con un adulto, inventa la storia di un oggetto osservato e cercane una forma nel verde.|With an adult, invent a story for an observed object and find its shape in the greenery.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "cagliari-tour-21",
+      "title": "Castello fra collezioni e vita locale|Castello between collections and local life",
+      "mood": "architecture",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "cagliari-006",
+        "cagliari-020",
+        "cagliari-002"
+      ],
+      "indoorStops": [
+        "cagliari-006"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "cagliari-006",
+            "cagliari-020"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "cagliari-006",
+            "cagliari-020",
+            "cagliari-002"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "cagliari-006",
+            "cagliari-020",
+            "cagliari-002"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "cagliari-006",
+            "cagliari-020",
+            "cagliari-002"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "adults"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "cagliari-006",
+            "prompt": "Scegli pochi dettagli da approfondire leggendo la fonte del luogo, invece di visitare tutto.|Choose a few details to explore through the place source rather than trying to see everything."
+          },
+          {
+            "stopId": "cagliari-020",
+            "prompt": "Confronta il dettaglio scelto con il contesto e tieni tempo per una pausa.|Compare your chosen detail with its surroundings and allow time for a break."
+          },
+          {
+            "stopId": "cagliari-002",
+            "prompt": "Se prosegui, annota una trasformazione della città da approfondire dopo il viaggio.|If continuing, note one city transformation to explore after the trip."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Una selezione delle collezioni e pochi scorci del quartiere, con tempo per approfondire.|Selected collection objects and a few neighbourhood views, with time to explore.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "cagliari-tour-22",
+      "title": "Collezioni e giardino, due soste|Collections and garden, two pauses",
+      "mood": "memory",
+      "minutes": 120,
+      "weather": "mixed",
+      "stops": [
+        "cagliari-006",
+        "cagliari-103"
+      ],
+      "indoorStops": [
+        "cagliari-006"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "cagliari-006",
+            "cagliari-103"
+          ],
+          "walkingMinutes": 20,
+          "visitMinutes": 70,
+          "pauseMinutes": 25,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "cagliari-006",
+            "cagliari-103"
+          ],
+          "walkingMinutes": 20,
+          "visitMinutes": 100,
+          "pauseMinutes": 25,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "seniors"
+      ],
+      "audiencePlan": {
+        "pace": "Poche tappe, pause frequenti|Few stops, frequent breaks",
+        "logistics": "Due tappe e pause frequenti: ritmo tranquillo non significa assenza di barriere. Verifica dislivelli, scale, sedute e bagni sui canali dei luoghi; posti a sedere non prenotati.|Two stops and frequent breaks: gentle pace does not mean barrier-free. Check slopes, steps, seating and toilets with venues; seats are not reserved.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "cagliari-006",
+            "prompt": "Scegli una parte della visita e concorda subito dove fermarti; sedute non garantite.|Choose one part of the visit and decide where to pause; seating is not guaranteed."
+          },
+          {
+            "stopId": "cagliari-103",
+            "prompt": "Dopo una pausa, dedica il tempo restante a pochi dettagli. Puoi terminare senza altre tappe.|After a break, spend the remaining time on a few details. You can finish without further stops."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Concentra la visita fra museo e giardino; il collegamento presenta pendenze da valutare.|Concentrate the visit between museum and garden; assess the connecting slopes.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "cagliari-tour-23",
+      "title": "Un diario di reperti e vicoli|A diary of artefacts and lanes",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "cagliari-006",
+        "cagliari-001",
+        "cagliari-020"
+      ],
+      "indoorStops": [
+        "cagliari-006"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "cagliari-006",
+            "cagliari-001"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "cagliari-006",
+            "cagliari-001",
+            "cagliari-020"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "cagliari-006",
+            "cagliari-001",
+            "cagliari-020"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "cagliari-006",
+            "cagliari-001",
+            "cagliari-020"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "solo"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "cagliari-006",
+            "prompt": "Scegli un dettaglio e scrivi tre righe nel tuo taccuino, senza dover condividere il risultato.|Choose a detail and write three notebook lines, with no need to share the result."
+          },
+          {
+            "stopId": "cagliari-001",
+            "prompt": "Trova una forma o un materiale che risponde alla prima osservazione, durante il giorno.|Find a shape or material answering your first observation, during daylight."
+          },
+          {
+            "stopId": "cagliari-020",
+            "prompt": "Se prosegui, chiudi la pagina con una domanda sulla città.|If continuing, close the page with a question about the city."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Scegli un reperto e rintraccia nelle strade un materiale o una forma che gli risponda.|Choose an artefact and look in the streets for a material or shape that answers it.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
       "createdAt": "2026-10-16"
     }
   ],

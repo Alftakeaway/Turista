@@ -3174,7 +3174,17 @@
       "original": true,
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
       "focus": "Dall’Arsenale a via Garibaldi e San Pietro, cerca tracce della città che costruisce e abita. Il percorso resta negli spazi pubblici, senza accessi all’Arsenale promessi.|From the Arsenale to Via Garibaldi and San Pietro, find traces of a city that builds and lives. Stay in public spaces; no Arsenale admission is promised.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "venezia-tour-2",
@@ -3191,7 +3201,17 @@
       "original": true,
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
       "focus": "Osserva lo squero dalla fondamenta pubblica, poi ascolta il cambiamento della riva verso Zattere e Mendicoli. Rispetta il lavoro dei cantieri e il passaggio dei residenti.|Observe the squero from the public canal-side street, then listen to changes along Zattere and Mendicoli. Respect boatyard work and residents’ passage.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "venezia-tour-3",
@@ -3208,7 +3228,17 @@
       "original": true,
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
       "focus": "Dal Ghetto alla Misericordia e a Sant’Alvise, confronta soglie, ponti e rive. Gli spazi di culto e di memoria richiedono attenzione e visite interne organizzate separatamente.|From the Ghetto to Misericordia and Sant’Alvise, compare thresholds, bridges and banks. Places of worship and memory require care and separately arranged indoor visits.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "venezia-tour-4",
@@ -3273,7 +3303,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Confronta soglie del palazzo, basilica e giardini senza pretendere visite integrali.|Compare palace, basilica and garden thresholds through focused visits.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "venezia-tour-5",
@@ -3338,7 +3378,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Leggi il rapporto fra cupola, fondamenta e squero osservato dall’esterno.|Read the relationship between dome, waterfront and squero viewed from outside.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "venezia-tour-6",
@@ -3403,7 +3453,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Scegli un dipinto e confrontane la luce con l’acqua alle Zattere.|Choose a painting and compare its light with the water at Zattere.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "venezia-tour-7",
@@ -3468,7 +3528,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Segui un gesto o colore fra due interni; seleziona poche opere.|Follow a gesture or colour across two interiors; select a few works.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "venezia-tour-8",
@@ -3536,7 +3606,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Osserva alberi e acqua, poi le immagini della natura nella basilica.|Observe trees and water, then images of nature inside the basilica.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "venezia-tour-9",
@@ -3601,7 +3681,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Confronta il paesaggio delle Zattere con una selezione della collezione.|Compare the Zattere landscape with selected collection works.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "venezia-tour-10",
@@ -3666,7 +3756,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Confronta menu e servizio prima di ordinare; eventuali supplementi vanno controllati.|Compare menu and service before ordering; check possible supplements.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "venezia-tour-11",
@@ -3729,7 +3829,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Leggi etichette e stagioni, poi confrontale con i menu dei bacari incontrati.|Read labels and seasons, then compare them with bacaro menus along the way.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "venezia-tour-12",
@@ -3797,7 +3907,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Confronta gli accessi del potere con quelli di culto e dello spazio pubblico.|Compare entrances of power with worship and public space.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "venezia-tour-13",
@@ -3865,7 +3985,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Leggi l’intreccio fra lavoro di barca, fondamenta e architettura religiosa.|Read the links between boat work, waterfront and religious architecture.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "venezia-tour-14",
@@ -3931,7 +4061,17 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Confronta la porta monumentale con soglie domestiche e campo di quartiere.|Compare the monumental gate with domestic thresholds and the neighbourhood square.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
     },
     {
       "id": "venezia-tour-15",
@@ -3997,6 +4137,702 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
       "focus": "Raccogli tre dettagli visivi rispettando residenti e luoghi di memoria.|Collect three visual details while respecting residents and places of memory.",
       "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16",
+      "audiences": [
+        "young-adults",
+        "students",
+        "couples",
+        "friends",
+        "families",
+        "adults",
+        "seniors",
+        "solo"
+      ]
+    },
+    {
+      "id": "venezia-tour-16",
+      "title": "Dorsoduro: luce senza cartolina|Dorsoduro: light beyond postcards",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "venezia-003",
+        "venezia-105",
+        "venezia-104"
+      ],
+      "indoorStops": [
+        "venezia-003"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "venezia-003",
+            "venezia-105"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "venezia-003",
+            "venezia-105",
+            "venezia-104"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "venezia-003",
+            "venezia-105",
+            "venezia-104"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "venezia-003",
+            "venezia-105",
+            "venezia-104"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "young-adults"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "venezia-003",
+            "prompt": "Scegli un dettaglio e crea un’inquadratura personale, dove le foto sono consentite.|Choose a detail and make your own frame where photography is allowed."
+          },
+          {
+            "stopId": "venezia-105",
+            "prompt": "Metti a confronto la prima immagine con una forma trovata qui, senza fotografare persone senza consenso.|Compare your first image with a shape found here, without photographing people without consent."
+          },
+          {
+            "stopId": "venezia-104",
+            "prompt": "Se prosegui, completa una sequenza di tre immagini e scegli una didascalia.|If continuing, complete a three-image sequence and choose a caption."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Una forma vista in museo diventa il tema di tre immagini delle Zattere.|A museum shape becomes the theme of three Zattere images.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "venezia-tour-17",
+      "title": "Acqua, lavoro e trasformazioni|Water, work and transformations",
+      "mood": "memory",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "venezia-023",
+        "venezia-105",
+        "venezia-104"
+      ],
+      "indoorStops": [
+        "venezia-023"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "venezia-023",
+            "venezia-105"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "venezia-023",
+            "venezia-105",
+            "venezia-104"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "venezia-023",
+            "venezia-105",
+            "venezia-104"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "venezia-023",
+            "venezia-105",
+            "venezia-104"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "students"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "venezia-023",
+            "prompt": "Formula una domanda sul rapporto fra luogo e città, distinguendo fonti e impressioni.|Frame a question about place and city, separating sources and impressions."
+          },
+          {
+            "stopId": "venezia-105",
+            "prompt": "Annota due indizi a favore o contro la tua ipotesi e confrontali con chi viaggia con te.|Note two clues for or against your idea and discuss them with your companions."
+          },
+          {
+            "stopId": "venezia-104",
+            "prompt": "Concludi con una breve mappa delle persone che usano questi spazi.|Finish with a small map of the people using these spaces."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Confronta architettura e lavoro sull’acqua senza avvicinarti alle aree operative dello squero.|Compare architecture and water-based work without entering the working squero.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "venezia-tour-18",
+      "title": "Due sguardi sulla stessa laguna|Two views of the same lagoon",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "venezia-004",
+        "venezia-105",
+        "venezia-023"
+      ],
+      "indoorStops": [
+        "venezia-004"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "venezia-004",
+            "venezia-105"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "venezia-004",
+            "venezia-105",
+            "venezia-023"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "venezia-004",
+            "venezia-105",
+            "venezia-023"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "venezia-004",
+            "venezia-105",
+            "venezia-023"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "couples"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "venezia-004",
+            "prompt": "Ognuno sceglie in silenzio un dettaglio e lo descrive senza indicarlo.|Each quietly chooses a detail and describes it without pointing."
+          },
+          {
+            "stopId": "venezia-105",
+            "prompt": "Provate a riconoscere la scelta dell’altro, poi prendetevi una pausa per raccontarvi cosa avete notato.|Try to recognise each other’s choice, then pause to share what you noticed."
+          },
+          {
+            "stopId": "venezia-023",
+            "prompt": "Se continuate, scegliete insieme il dettaglio che riassume la passeggiata.|If continuing, jointly choose the detail that sums up the walk."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Ognuno sceglie una forma in collezione e una vista alle Zattere da confrontare.|Each chooses a collection shape and a Zattere view to compare.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "venezia-tour-19",
+      "title": "Venezia: la squadra delle forme|Venice: the shapes team",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "venezia-021",
+        "venezia-022",
+        "venezia-032"
+      ],
+      "indoorStops": [
+        "venezia-021"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "venezia-021",
+            "venezia-022"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "venezia-021",
+            "venezia-022",
+            "venezia-032"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "venezia-021",
+            "venezia-022",
+            "venezia-032"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "venezia-021",
+            "venezia-022",
+            "venezia-032"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "friends"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "venezia-021",
+            "prompt": "Assegnate ruoli diversi: chi trova forme, chi parole, chi materiali; non bloccate i passaggi.|Share roles: shapes, words and materials; keep passages clear."
+          },
+          {
+            "stopId": "venezia-022",
+            "prompt": "Confrontate le scoperte e scegliete un racconto comune. Acquisti e assaggi sono facoltativi e a parte.|Compare discoveries and choose a shared story. Purchases and tastings are optional and separate."
+          },
+          {
+            "stopId": "venezia-032",
+            "prompt": "Alla fine, ciascuno propone un dettaglio per una piccola guida del gruppo.|At the end, each proposes one detail for a small group guide."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Confrontate tre dettagli senza occupare ponti o passaggi e rispettando il silenzio negli interni.|Compare three details without blocking bridges or passages and respect quiet interiors.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "venezia-tour-20",
+      "title": "Un leone, un albero, una storia|A lion, a tree, a story",
+      "mood": "nature",
+      "minutes": 180,
+      "weather": "mixed",
+      "stops": [
+        "venezia-001",
+        "venezia-026",
+        "venezia-020"
+      ],
+      "indoorStops": [
+        "venezia-001"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "venezia-001",
+            "venezia-026"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 20,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "venezia-001",
+            "venezia-026",
+            "venezia-020"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 20,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "venezia-001",
+            "venezia-026",
+            "venezia-020"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 20,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "families"
+      ],
+      "audiencePlan": {
+        "pace": "Gioco e pause|Play and breaks",
+        "logistics": "Gioco redazionale pensato indicativamente dai 6 anni con un adulto, non laboratorio organizzato. Per bambini più piccoli accorcia la visita e verifica passeggino, bagni e accessi.|Editorial game suggested for ages around 6 and up with an adult, not an organised workshop. For younger children shorten the visit and check pushchair access, toilets and entrances.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "venezia-001",
+            "prompt": "Con un adulto, scegli una forma e inventa un nome o una storia; non toccare opere o attrezzature.|With an adult, choose a shape and invent a name or story; do not touch works or equipment."
+          },
+          {
+            "stopId": "venezia-026",
+            "prompt": "Dopo una pausa, cerca un colore o una forma della prima tappa. Puoi concludere qui la versione breve.|After a break, find a colour or shape from the first stop. You can finish the short version here."
+          },
+          {
+            "stopId": "venezia-020",
+            "prompt": "Solo se resta energia, aggiungi un nuovo capitolo alla storia inventata insieme.|Only if energy remains, add a new chapter to the story you invented together."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Con un adulto, cerca un animale raffigurato e inventa una storia da continuare nel giardino.|With an adult, find a pictured animal and invent a story to continue in the garden.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "venezia-tour-21",
+      "title": "Pittura e vita alle Zattere|Painting and everyday Zattere",
+      "mood": "architecture",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "venezia-003",
+        "venezia-105",
+        "venezia-104"
+      ],
+      "indoorStops": [
+        "venezia-003"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "venezia-003",
+            "venezia-105"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "venezia-003",
+            "venezia-105",
+            "venezia-104"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "venezia-003",
+            "venezia-105",
+            "venezia-104"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "venezia-003",
+            "venezia-105",
+            "venezia-104"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "adults"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "venezia-003",
+            "prompt": "Scegli pochi dettagli da approfondire leggendo la fonte del luogo, invece di visitare tutto.|Choose a few details to explore through the place source rather than trying to see everything."
+          },
+          {
+            "stopId": "venezia-105",
+            "prompt": "Confronta il dettaglio scelto con il contesto e tieni tempo per una pausa.|Compare your chosen detail with its surroundings and allow time for a break."
+          },
+          {
+            "stopId": "venezia-104",
+            "prompt": "Se prosegui, annota una trasformazione della città da approfondire dopo il viaggio.|If continuing, note one city transformation to explore after the trip."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Dedica tempo a poche opere e confrontale con materiali e luce della fondamenta.|Spend time with a few works and compare them with waterfront materials and light.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "venezia-tour-22",
+      "title": "Frari e San Rocco, due tappe vicine|Frari and San Rocco, two nearby stops",
+      "mood": "memory",
+      "minutes": 120,
+      "weather": "mixed",
+      "stops": [
+        "venezia-021",
+        "venezia-022"
+      ],
+      "indoorStops": [
+        "venezia-021"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "venezia-021",
+            "venezia-022"
+          ],
+          "walkingMinutes": 20,
+          "visitMinutes": 70,
+          "pauseMinutes": 25,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "venezia-021",
+            "venezia-022"
+          ],
+          "walkingMinutes": 20,
+          "visitMinutes": 100,
+          "pauseMinutes": 25,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "seniors"
+      ],
+      "audiencePlan": {
+        "pace": "Poche tappe, pause frequenti|Few stops, frequent breaks",
+        "logistics": "Due tappe e pause frequenti: ritmo tranquillo non significa assenza di barriere. Verifica dislivelli, scale, sedute e bagni sui canali dei luoghi; posti a sedere non prenotati.|Two stops and frequent breaks: gentle pace does not mean barrier-free. Check slopes, steps, seating and toilets with venues; seats are not reserved.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "venezia-021",
+            "prompt": "Scegli una parte della visita e concorda subito dove fermarti; sedute non garantite.|Choose one part of the visit and decide where to pause; seating is not guaranteed."
+          },
+          {
+            "stopId": "venezia-022",
+            "prompt": "Dopo una pausa, dedica il tempo restante a pochi dettagli. Puoi terminare senza altre tappe.|After a break, spend the remaining time on a few details. You can finish without further stops."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Resta nella stessa zona, con pause previste. Ponti, pavimentazioni e ingressi vanno verificati.|Stay in one area with planned breaks. Check bridges, paving and entrances.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "venezia-tour-23",
+      "title": "Dorsoduro in una pagina|Dorsoduro on one page",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "venezia-003",
+        "venezia-105",
+        "venezia-104"
+      ],
+      "indoorStops": [
+        "venezia-003"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "venezia-003",
+            "venezia-105"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "venezia-003",
+            "venezia-105",
+            "venezia-104"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "venezia-003",
+            "venezia-105",
+            "venezia-104"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 135,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "venezia-003",
+            "venezia-105",
+            "venezia-104"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 195,
+          "pauseMinutes": 15,
+          "note": "Visite selettive e pause incluse nel tempo di sosta; code e attese escluse. La pausa va organizzata sul posto.|Focused visits and breaks included in visit time; queues and waits excluded. Arrange the break locally."
+        }
+      ],
+      "audiences": [
+        "solo"
+      ],
+      "audiencePlan": {
+        "pace": "Visita selettiva|Focused visit",
+        "logistics": "Attività autonoma proposta dalla redazione, senza guida o servizi inclusi. Visite durante il giorno; aperture, accessi e prenotazioni da verificare.|Independent editorial activity, with no guide or services included. Visit during daylight; check opening times, access and bookings.",
+        "budget": "Ingressi, pasti e consumazioni non inclusi; nessuno sconto per età o status studente è garantito. Consulta i gestori prima di acquistare.|Admission, meals and drinks are not included; no age or student discount is guaranteed. Check with operators before buying.",
+        "steps": [
+          {
+            "stopId": "venezia-003",
+            "prompt": "Scegli un dettaglio e scrivi tre righe nel tuo taccuino, senza dover condividere il risultato.|Choose a detail and write three notebook lines, with no need to share the result."
+          },
+          {
+            "stopId": "venezia-105",
+            "prompt": "Trova una forma o un materiale che risponde alla prima osservazione, durante il giorno.|Find a shape or material answering your first observation, during daylight."
+          },
+          {
+            "stopId": "venezia-104",
+            "prompt": "Se prosegui, chiudi la pagina con una domanda sulla città.|If continuing, close the page with a question about the city."
+          }
+        ]
+      },
+      "original": true,
+      "authorship": "Percorso e attività originali della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route and activities; places documented by the stop sources.",
+      "focus": "Scrivi una pagina da un’opera scelta e da una vista dell’acqua, durante il giorno.|Write one page from a chosen artwork and a water view, during daylight.",
+      "terrain": "Cammino stimato, non misurato in tempo reale. Controlla distanze, ponti, scale e accessi sulla mappa e con i gestori.|Walking estimated, not measured in real time. Check distances, bridges, steps and access on the map and with operators.",
       "createdAt": "2026-10-16"
     }
   ],

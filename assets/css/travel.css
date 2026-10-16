@@ -8,7 +8,7 @@ header{background:var(--card)}
 .grid .card{animation:none}
 .experience-kind{font-size:.72rem;color:var(--muted)}
 #tour-lab{background:var(--card);scroll-margin-top:120px}
-.tour-controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 18px;margin:28px 0}
+.tour-controls{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px 18px;margin:28px 0}
 .tour-controls label{grid-row:1;font-weight:700;font-size:.85rem}
 .tour-controls select{grid-row:2;width:100%;padding:12px 8px;background:var(--card);color:var(--ink);border:1px solid var(--terra);border-radius:6px;font:inherit}
 #tour-results>p{color:var(--muted);font-size:.9rem}
@@ -17,3 +17,5 @@ header{background:var(--card)}
 .travel-columns{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:28px 0}.travel-panel{padding:24px;background:var(--card);border:1px solid var(--sabbia);border-radius:8px}.travel-panel h3{font-size:1.35rem;margin:0 0 16px}.travel-panel p{font-size:.87rem;color:var(--muted)}.travel-panel ul{padding-left:18px}.travel-panel li{margin:10px 0}.nearby-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}.nearby-grid a{border:1px solid var(--sabbia);padding:12px;color:var(--terra-dark)}.travel-checklist{display:flex;flex-direction:column;gap:12px}.travel-checklist input{accent-color:var(--terra);min-width:18px;min-height:18px}.emergency a{font-weight:700;color:var(--terra-dark)}.plan-date{display:flex;align-items:center;gap:12px;margin:22px 0}.plan-date input{font:inherit;padding:8px;border:1px solid var(--terra);background:var(--card);color:var(--ink)}.budget-summary{font-size:.87rem;color:var(--muted);max-width:85ch}.plan-maps{margin:16px 0;font-size:.88rem}.evidence-list{padding-left:20px;font-size:.86rem}.evidence-list li{margin:8px 0}
 @media(max-width:740px){.tour-controls{display:flex;flex-direction:column}.tour-controls label{margin-top:8px}.tour-card{display:block}.tour-card>*{margin-bottom:18px}.travel-columns{grid-template-columns:1fr}.tour-heading h3{max-width:none}.tour-actions{display:flex}.plan-date{flex-wrap:wrap}}
 @media print{#tour-lab,#travel-kit-section,.plan-date,.budget-summary,.plan-maps,.tour-card,.travel-columns{display:none!important}}
+
+.tour-practical,.tour-audience-note{grid-column:1/-1;max-width:80ch}.tour-practical{padding:14px;border-left:3px solid var(--terra);background:var(--crema)}.tour-activity{padding:12px 0;font-size:1rem}.tour-audience-note{margin-bottom:18px}#tour-other-interests{padding:10px 14px;border:1px solid var(--terra);background:var(--card);color:var(--terra-dark);font:inherit;border-radius:6px;cursor:pointer}

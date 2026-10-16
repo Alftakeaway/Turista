@@ -69,7 +69,7 @@ const server=http.createServer((request,response)=>{
   const travel=await travelContext.newPage();travel.on('pageerror',e=>errors.push(e.message));
   await travel.goto(base+'/'+city+'.html');await travel.waitForFunction(()=>window.guideReady);
   palette.add(await travel.evaluate(()=>getComputedStyle(document.body).getPropertyValue('--terra').trim()));
-  assert.equal(await travel.locator('.tour-card').count(),15);
+  assert.equal(await travel.locator('.tour-card').count(),JSON.parse(fs.readFileSync(path.join(__dirname,'../data/cities',city+'.json'),'utf8')).TOURS.length);
   await travel.locator('.tour-card details').evaluateAll(nodes=>nodes.forEach(node=>node.open=true));
   assert(await travel.locator('.tour-card .item-photo img').count()>=45);
   await travel.locator('.tour-card .item-photo img').evaluateAll(async images=>{await Promise.all(images.map(image=>{image.loading='eager';return image.decode();}));});
@@ -87,8 +87,16 @@ const server=http.createServer((request,response)=>{
   await travel.locator('[data-tour-add]').first().click();assert.equal(await travel.locator('#personal-plan li').count(),2,'Only the two selected short-variant stops are added');
   await travel.locator('[data-tour-add]').first().click();assert.equal(await travel.locator('#personal-plan li').count(),2);
   while(await travel.locator('[data-plan="remove"]').count())await travel.locator('[data-plan="remove"]').first().click();
-  await travel.reload();await travel.waitForFunction(()=>window.guideReady);assert.equal(await travel.locator('#tour-time').inputValue(),'90');
-  await travel.locator('#tour-reset').click();assert.equal(await travel.locator('.tour-card').count(),15);
+  await travel.locator('#tour-mood').selectOption('');
+  for(const audience of ['young-adults','students','couples','friends','families','adults','seniors','solo']){
+   await travel.locator('#tour-audience').selectOption(audience);assert(await travel.locator('.tour-card').count()>0,city+' '+audience+' indoor 90');
+  }
+  await travel.locator('#tour-audience').selectOption('families');await travel.locator('#tour-mood').selectOption('food');
+  assert(await travel.locator('.tour-card').count()>0,city+' families and food exact match');
+  assert.equal(await travel.locator('#tour-other-interests').count(),0);
+  await travel.locator('.tour-card details').first().evaluate(node=>node.open=true);assert(await travel.locator('.tour-activity').count()>0);
+  await travel.reload();await travel.waitForFunction(()=>window.guideReady);assert.equal(await travel.locator('#tour-time').inputValue(),'90');assert.equal(await travel.locator('#tour-audience').inputValue(),'families');
+  await travel.locator('#tour-reset').click();assert.equal(await travel.locator('.tour-card').count(),JSON.parse(fs.readFileSync(path.join(__dirname,'../data/cities',city+'.json'),'utf8')).TOURS.length);
   await travel.locator('[data-tour-add]').first().click();await travel.locator('#trip-date').fill('2028-02-29');await travel.locator('#trip-date').dispatchEvent('change');
   async function download(button){const pending=travel.waitForEvent('download');await travel.locator(button).click();const file=await pending;const stream=await file.createReadStream();const chunks=[];for await(const chunk of stream)chunks.push(chunk);return Buffer.concat(chunks).toString('utf8');}
   const calendar=await download('#download-calendar');assert(calendar.includes('DTSTART;VALUE=DATE:20280229'));assert(calendar.includes('DTEND;VALUE=DATE:20280301'));
