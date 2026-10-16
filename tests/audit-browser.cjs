@@ -17,6 +17,16 @@ const server=http.createServer((req,res)=>{let name=new URL(req.url,'http://loca
   }
   await page.goto(base+'/en/esperienze/palermo-001.html');assert((await page.locator('#detail-content').textContent()).includes('Booking'));assert(await page.locator('picture source[type="image/webp"]').count());await raw.close();
   console.log('English city/detail content is present without JavaScript.');
+  const homeContext=await browser.newContext(),home=await homeContext.newPage();
+  await home.goto(base+'/');await home.waitForFunction(()=>window.guideReady&&document.body.classList.contains('atmosphere-running'));
+  assert.equal(await home.locator('.travel-atmosphere').getAttribute('aria-hidden'),'true');
+  assert.equal(await home.locator('.travel-atmosphere').evaluate(node=>getComputedStyle(node).pointerEvents),'none');
+  if(process.env.HOME_PREVIEW_PATH){await home.setViewportSize({width:1440,height:1000});await home.locator('.destination-card img').evaluateAll(async imgs=>{await Promise.all(imgs.map(img=>{img.loading='eager';return img.decode();}));});await home.screenshot({path:process.env.HOME_PREVIEW_PATH});}
+  await home.locator('#motion-toggle').click();assert.equal(await home.locator('#motion-toggle').getAttribute('aria-pressed'),'true');
+  await home.reload();await home.waitForFunction(()=>window.guideReady);assert.equal(await home.locator('.travel-atmosphere span').first().evaluate(node=>getComputedStyle(node).animationPlayState),'paused');
+  await home.emulateMedia({reducedMotion:'reduce'});assert.equal(await home.locator('.travel-atmosphere span').first().evaluate(node=>getComputedStyle(node).animationName),'none');
+  for(const width of [320,390,1280]){await home.setViewportSize({width,height:844});assert.equal(await home.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'Homepage overflow '+width);}
+  await homeContext.close();console.log('Homepage atmosphere, saved pause, reduced motion, mobile layout and click-through decoration OK.');
   const context=await browser.newContext(),live=await context.newPage(),errors=[];
   await context.addInitScript(()=>{window.visitCached=false;navigator.serviceWorker?.addEventListener('message',e=>{if(e.data?.type==='VISIT_CACHED')window.visitCached=true;});});
   live.on('pageerror',e=>errors.push(e.message));live.on('console',m=>{if(m.type()==='error'&&/Content Security Policy|Refused to/.test(m.text()))errors.push(m.text());});

@@ -162,3 +162,64 @@ footer p {
 }
 
 .app-tools{max-width:1200px;margin:20px auto 0;padding:12px 0;border-top:1px solid var(--sabbia,var(--line));font-size:.82rem}.app-tools p{max-width:80ch}.app-tools button{font:inherit;color:var(--ink);background:var(--card,var(--paper));border:1px solid var(--terra,var(--line));border-radius:6px;padding:10px 16px;cursor:pointer}
+
+/* A travel notebook: colour in the paper, quiet marks in its margins. */
+.landing-home {
+  --paper:#EAF1E9;
+  --line:#BACCC3;
+  isolation:isolate;
+  min-height:100vh;
+}
+.landing-home>header,.landing-home>main,.landing-home>footer {
+  position:relative;
+  z-index:1;
+}
+.travel-atmosphere {
+  position:fixed;
+  inset:0;
+  z-index:0;
+  overflow:hidden;
+  pointer-events:none;
+  background:
+    radial-gradient(ellipse at 88% 12%,#DFE4F4 0,transparent 44%),
+    radial-gradient(ellipse at 5% 66%,#F2E6CD 0,transparent 38%),
+    radial-gradient(ellipse at 76% 94%,#D3E9E0 0,transparent 45%);
+}
+.travel-atmosphere span {
+  position:absolute;
+  color:#416B61;
+  opacity:.16;
+  font-family:Georgia,'Segoe UI Symbol',serif;
+  line-height:1;
+  user-select:none;
+  animation:travel-drift 19s ease-in-out infinite alternate;
+  animation-play-state:paused;
+}
+.travel-atmosphere span:nth-child(1){left:83%;top:15%;font-size:128px;--turn:13deg}
+.travel-atmosphere span:nth-child(2){left:7%;top:5%;font-size:44px;animation-delay:-7s;--turn:-16deg}
+.travel-atmosphere span:nth-child(3){left:94%;top:48%;font-size:76px;animation-delay:-11s;--turn:9deg}
+.travel-atmosphere span:nth-child(4){left:-2%;top:30%;font-size:140px;animation-delay:-3s;--turn:-12deg}
+.travel-atmosphere span:nth-child(5){left:40%;top:90%;font-size:100px;animation-delay:-14s;--turn:8deg}
+.travel-atmosphere span:nth-child(6){left:89%;top:82%;font-size:68px;animation-delay:-5s;--turn:-14deg}
+.travel-atmosphere span:nth-child(7){left:3%;top:77%;font-size:100px;animation-delay:-9s;--turn:10deg}
+.travel-atmosphere span:nth-child(8){left:65%;top:3%;font-size:42px;animation-delay:-16s;--turn:12deg}
+@keyframes travel-drift {
+  from{transform:translate3d(0,0,0) rotate(-5deg)}
+  to{transform:translate3d(10px,-18px,0) rotate(var(--turn))}
+}
+.atmosphere-running .travel-atmosphere span{animation-play-state:running}
+.atmosphere-paused .travel-atmosphere span{animation-play-state:paused}
+.landing-controls{display:flex;align-items:center;gap:16px}
+#motion-toggle{padding:6px 0;border:0;border-bottom:1px dotted currentColor;background:transparent;color:#405C55;font:inherit;font-size:.78rem;cursor:pointer}
+#motion-toggle[hidden]{display:none}
+.landing-home #langBtn{background:#F7FAF5}
+@media(max-width:540px){
+  .landing-home>header{flex-wrap:wrap;gap:12px}
+  .landing-controls{margin-left:auto}
+  .landing-controls{gap:12px}
+  #motion-toggle{font-size:.7rem;max-width:76px;line-height:1.4}
+  .travel-atmosphere span{opacity:.11}
+  .travel-atmosphere span:nth-child(1){left:78%;top:16%;font-size:90px}
+  .travel-atmosphere span:nth-child(3){left:89%;font-size:55px}
+}
+@media(prefers-reduced-motion:reduce){.travel-atmosphere span{animation:none!important}}

@@ -1,5 +1,5 @@
 const CACHE='guide-poliedriche-__REVISION__';
-const shell=['index.html','offline.html','assets/css/landing.css','assets/css/themes.css','assets/js/storage.js','assets/js/simple-page.js','assets/js/app.js','assets/icons/favicon.png','assets/icons/globe-map.svg','assets/js/favicon.js','assets/js/offline.js','assets/icons/app-192.png','assets/icons/app-512.png','manifest.webmanifest'];
+const shell=['index.html','offline.html','assets/css/landing.css','assets/css/themes.css','assets/js/storage.js','assets/js/simple-page.js','assets/js/landing-atmosphere.js','assets/js/app.js','assets/icons/favicon.png','assets/icons/globe-map.svg','assets/js/favicon.js','assets/js/offline.js','assets/icons/app-192.png','assets/icons/app-512.png','manifest.webmanifest'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(shell))));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const name of await caches.keys())if(name.startsWith('guide-poliedriche-')&&name!==CACHE)await caches.delete(name);await self.clients.claim();})()));
 function key(url){const parsed=new URL(url);return parsed.origin+parsed.pathname;}
