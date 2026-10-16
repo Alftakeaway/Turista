@@ -7,7 +7,7 @@ const text=file=>fs.readFileSync(file,'utf8').replace(/\r\n/g,'\n');
 function digest(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true}).sort((a,b)=>a.name.localeCompare(b.name))){if(e.isDirectory())digest(path.join(dir,e.name));else if(/\.(?:html|js|css)$/.test(e.name))hash.update(text(path.join(dir,e.name)));}}
 for(const dir of ['assets/js','assets/css','en','esperienze'])digest(path.join(root,dir));
 for(const file of [...fs.readdirSync(root).filter(f=>f.endsWith('.html')).sort(),'manifest.webmanifest','data/image-variants.json'])hash.update(text(path.join(root,file)));
-for(const file of fs.readdirSync(path.join(root,'assets/icons')).sort())hash.update(fs.readFileSync(path.join(root,'assets/icons',file)));
+for(const file of fs.readdirSync(path.join(root,'assets/icons')).sort()){const icon=path.join(root,'assets/icons',file);hash.update(file.endsWith('.svg')?text(icon):fs.readFileSync(icon));}
 const template=text(path.join(root,'scripts/service-worker-template.js'));hash.update(template);
 const version=hash.digest('hex').slice(0,16);
 fs.writeFileSync(path.join(root,'service-worker.js'),template.replace('__REVISION__',version));
