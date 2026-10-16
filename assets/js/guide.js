@@ -1,5 +1,5 @@
 window.Guide = { init(data) {
-const { storageKey, pageTitle, TESTI, PROFILI, SOTTO, TIPI, ESPERIENZE, ITINERARI, FOTO, IMMAGINI, MARCO, MARCO_FALLBACK, CHAT_QUICK } = data;
+const { storageKey, pageTitle, TESTI, PROFILI, SOTTO, TIPI, ESPERIENZE, FOTO, MARCO, MARCO_FALLBACK, CHAT_QUICK } = data;
 const params = new URLSearchParams(location.search);
 let LINGUA = params.get("lang") || GuideStorage.read(storageKey + "_lingua", "it");
 if (!["it", "en"].includes(LINGUA)) LINGUA = "it";
@@ -7,19 +7,17 @@ const allItems = [...ESPERIENZE, ...(data.TOUR_STOPS || [])];
 const saved = GuideStorage.read(storageKey + "_preferiti", []);
 let preferiti = Array.isArray(saved) ? allItems.filter(e => saved.some(f => f && (f.id === e.id || f.id === e.legacyId))).map(e => ({id:e.id,t:e.t,z:e.z,emo:FOTO[e.tags[0]].emo})) : [];
 let profiloAttivo = PROFILI.some(p => p.id === params.get("profile")) ? params.get("profile") : null;
-let sottoAttivo = SOTTO[profiloAttivo]?.some(s => s.id === params.get("category")) ? params.get("category") : null;
-let tipoAttivo = TIPI.some(t => t.id === params.get("type")) ? params.get("type") : null;
+// Old category/type links become a visible search, never hidden filters.
+const legacyCategory=Object.values(SOTTO).flat().some(value=>value.id===params.get('category'))?params.get('category'):'';
+const legacyType=TIPI.some(value=>value.id===params.get('type'))?params.get('type'):'';
+if(!params.get('search')&&(legacyCategory||legacyType))params.set('search',[legacyCategory,legacyType].filter(Boolean).join(' '));
 const ix = () => LINGUA === "it" ? 0 : 1;
 const tr = value => { const parts = String(value).split("|"); return parts[ix()] ?? parts[0]; };
 const base = value => String(value).split("|")[0];
 /* ============ RIFERIMENTI DOM ============ */
 const grid = document.getElementById("gridEsperienze");
 const conteggio = document.getElementById("conteggio");
-const itBox = document.getElementById("itinerarioBox");
-const itSotto = document.getElementById("itinerarioSotto");
 const chipGrid = document.getElementById("chipGrid");
-const sottoSelect = document.getElementById("sottoSelect");
-const tipoSelect = document.getElementById("tipoSelect");
 const langBtn = document.getElementById("langBtn");
 const chatBtn = document.getElementById("chatBtn");
 const chatPanel = document.getElementById("chatPanel");
@@ -40,109 +38,35 @@ const favLista = document.getElementById("favLista");
 const favTitolo = document.getElementById("favTitolo");
 const favSvuota = document.getElementById("favSvuota");
 
-/* ============ PROFILI (chip) ============ */
-function creaChips(){
-  PROFILI.forEach(p=>{
-    const b = document.createElement("button");
-    b.className = "chip";
-    b.dataset.id = p.id;
-    b.setAttribute("aria-pressed", p.id === profiloAttivo ? "true" : "false");
-    b.innerHTML = `<span class="emoji" aria-hidden="true">${p.emoji}</span>
-      <span><b>${tr(p.nome)}</b><small>${tr(p.claim)}</small></span>`;
-    b.addEventListener("click", ()=> toggle(p.id));
-    chipGrid.appendChild(b);
-  });
+const interestNames={cultura:'Arte e musei|Art and museums',business:'Fiere e gite|Fairs and day trips',food:'Mangiare e bere|Eat and drink',religioso:'Chiese|Churches',benessere:'Parchi e relax|Parks and relaxation',sport:'Sport ed eventi|Sport and events',lento:'Quartieri e passeggiate|Neighbourhoods and walks',formativo:'Visite e taccuini|Visits and notebooks'};
+function nomeTag(id){return tr(interestNames[id]||PROFILI.find(p=>p.id===id)?.nome||id);}
+function creaChips(items){
+  const focused=document.activeElement?.dataset.interest;
+  chipGrid.replaceChildren(...[{id:'',label:'Tutte|All',count:items.length},...PROFILI.map(p=>({id:p.id,label:interestNames[p.id]||p.nome,count:items.filter(e=>e.tags.includes(p.id)).length}))].map(option=>{
+    const button=document.createElement('button');button.type='button';button.className='interest-chip';button.dataset.interest=option.id;
+    button.setAttribute('aria-pressed',String((profiloAttivo||'')===option.id));button.disabled=Boolean(option.id&&option.count===0&&profiloAttivo!==option.id);
+    button.textContent=tr(option.label)+' ('+option.count+')';
+    button.addEventListener('click',()=>{profiloAttivo=option.id&&profiloAttivo!==option.id?option.id:null;render();});return button;
+  }));
+  if(focused!==undefined){const button=[...chipGrid.children].find(button=>button.dataset.interest===focused);if(button&&!button.disabled)button.focus();}
 }
-function toggle(id){
-  profiloAttivo = (profiloAttivo === id) ? null : id;
-  sottoAttivo = null;
-  tipoAttivo = null;
-  document.querySelectorAll(".chip").forEach(c=>{
-    c.setAttribute("aria-pressed", c.dataset.id === profiloAttivo ? "true" : "false");
-  });
-  aggiornaSelect();
-  aggiornaTipo();
-  render();
-}
-function nomeTag(id){
-  const p = PROFILI.find(x=>x.id===id);
-  return p.emoji + " " + tr(p.nome);
-}
-
-/* ============ MENU A TENDINA (2° e 3° LIVELLO) ============ */
-function aggiornaSelect(){
-  sottoSelect.innerHTML = "";
-  if(!profiloAttivo){
-    sottoSelect.disabled = true;
-    const o = document.createElement("option");
-    o.textContent = tr(TESTI.selProfilo);
-    sottoSelect.appendChild(o);
-    return;
-  }
-  sottoSelect.disabled = false;
-  const tutte = document.createElement("option");
-  tutte.value = "";
-  tutte.textContent = tr(TESTI.tutteSotto);
-  sottoSelect.appendChild(tutte);
-  SOTTO[profiloAttivo].forEach(s=>{
-    const n = ESPERIENZE.filter(e =>
-      e.tags.includes(profiloAttivo) && e.sub === s.id).length;
-    const o = document.createElement("option");
-    o.value = s.id;
-    o.textContent = `${s.emoji} ${tr(s.nome)} (${n})`;
-    sottoSelect.appendChild(o);
-  });
-  sottoSelect.value = sottoAttivo || "";
-}
-function aggiornaTipo(){
-  if(profiloAttivo !== "food"){
-    tipoSelect.style.display = "none";
-    return;
-  }
-  tipoSelect.style.display = "inline-block";
-  const baseFood = ESPERIENZE.filter(e =>
-    e.tags.includes("food") && (!sottoAttivo || e.sub === sottoAttivo));
-  const presenti = [...new Set(baseFood.map(e=>e.tipo).filter(Boolean))];
-  if(tipoAttivo && !presenti.includes(tipoAttivo)) tipoAttivo = null;
-  tipoSelect.innerHTML = "";
-  const tutte = document.createElement("option");
-  tutte.value = "";
-  tutte.textContent = `${tr(TESTI.tuttiTipi)} (${baseFood.length})`;
-  tipoSelect.appendChild(tutte);
-  presenti.forEach(tp=>{
-    const v = TIPI.find(x=>x.id===tp) || {emoji:"🍴", nome:tp};
-    const o = document.createElement("option");
-    o.value = tp;
-    o.textContent = `${v.emoji} ${tr(v.nome)} (${baseFood.filter(e=>e.tipo===tp).length})`;
-    tipoSelect.appendChild(o);
-  });
-  tipoSelect.value = tipoAttivo || "";
-}
-sottoSelect.addEventListener("change", ()=>{
-  sottoAttivo = sottoSelect.value || null;
-  tipoAttivo = null;
-  aggiornaTipo();
-  render();
-});
-tipoSelect.addEventListener("change", ()=>{
-  tipoAttivo = tipoSelect.value || null;
-  render();
-});
+function resetFilters(){catalogue.reset();profiloAttivo=null;render();}
 
 /* ============ RENDER CARD ============ */
 function render(){
   syncUrl();
-  const lista = catalogue.apply(GuideExperiences.filter(ESPERIENZE, profiloAttivo, sottoAttivo, tipoAttivo));
+  const available=catalogue.apply(ESPERIENZE);
+  const lista=GuideExperiences.filter(available,profiloAttivo);
+  creaChips(available);catalogue.renderActive();
 
   grid.innerHTML = "";
   if(lista.length === 0){
-    grid.innerHTML = `<div class="placeholder" style="grid-column:1/-1">${tr(TESTI.comboVuota)}</div>`;
+    grid.innerHTML = `<div class="empty-state"><h3>${tr('Nessuna proposta con questi filtri|No suggestions with these filters')}</h3><p>${tr('Allarga la ricerca con uno dei comandi qui sotto.|Broaden your search with one of the options below.')}</p><div class="empty-actions">${profiloAttivo?`<button data-empty="interest">${tr('Rimuovi interesse|Remove interest')}</button>`:''}${catalogue.hasSearch()?`<button data-empty="search">${tr('Cancella ricerca|Clear search')}</button>`:''}<button data-empty="all">${tr('Mostra tutte le esperienze|Show all experiences')}</button></div></div>`;
   }
   lista.forEach((e,i)=>{
     const c = document.createElement("article");
     c.className = "card";
     c.style.animationDelay = (i*35)+"ms";
-    const f = FOTO[e.tags[0]];
     const photo = data.PHOTOS[e.id];
     const salvato = preferiti.some(x => x.id === e.id);
     const etichetta = salvato ? TESTI.rimuovi : TESTI.salva;
@@ -166,35 +90,18 @@ function render(){
     grid.appendChild(c);
   });
 
-  let etichetta = tr(TESTI.etichettaTutti);
-  if(profiloAttivo){
-    etichetta = nomeTag(profiloAttivo);
-    if(sottoAttivo){
-      const s = SOTTO[profiloAttivo].find(x => x.id === sottoAttivo);
-      if(s) etichetta += " · " + s.emoji + " " + tr(s.nome);
-    }
-    if(tipoAttivo){
-      const v = TIPI.find(x => x.id === tipoAttivo);
-      if(v) etichetta += " · " + v.emoji + " " + tr(v.nome);
-    }
-  }
-  conteggio.textContent = `${lista.length} ${tr(TESTI.parolaEsp)} · ${etichetta}`;
-
-  if(!profiloAttivo){
-    itSotto.textContent = tr(TESTI.itin1);
-    itBox.innerHTML = `<div class="placeholder">${tr(TESTI.itin2)}</div>`;
-  } else {
-    const p = PROFILI.find(x=>x.id===profiloAttivo);
-    itSotto.textContent = `${tr(TESTI.giornata)} ${p.emoji} ${tr(p.nome)}.`;
-    itBox.innerHTML = `<div class="timeline">` + ITINERARI[profiloAttivo].map(s=>
-      `<div class="step"><span class="ora">${s.ora}</span><b>${tr(s.t)}</b><p>${tr(s.p)}</p><small>${tr(s.note)}</small></div>`
-    ).join("") + `</div>`;
-  }
+  conteggio.textContent=`${lista.length} ${tr(TESTI.parolaEsp)} · ${profiloAttivo?nomeTag(profiloAttivo):tr('Tutti gli interessi|All interests')}`;
   planner.render();
 }
 
 /* ============ PREFERITI ============ */
 grid.addEventListener("click", ev=>{
+  const recovery=ev.target.closest('[data-empty]');
+  if(recovery){
+    if(recovery.dataset.empty==='all')resetFilters();
+    else{if(recovery.dataset.empty==='search')catalogue.clearSearch();else profiloAttivo=null;render();}
+    document.getElementById('filter-search').focus();return;
+  }
   const add = ev.target.closest("[data-add-plan]");
   if(add) { planner.toggle(add.dataset.addPlan); return; }
   const b = ev.target.closest(".fav");
@@ -263,23 +170,22 @@ function toast(msg){
 
 const faq = GuideFAQ.create({answers: MARCO, quick: CHAT_QUICK, tr, sourceUrl: data.city.portal, texts: TESTI});
 const planner = GuidePlanner.create({items: allItems, storageKey, tr, city:data.city.name, transportUrl:data.city.transportUrl, initial: params, changed: syncUrl});
-const catalogue = GuideCatalogue.create({items: ESPERIENZE, tr, initial: params, changed: render});
+const catalogue = GuideCatalogue.create({items: ESPERIENZE, tr, initial: params, changed: render, profiles:PROFILI, categories:SOTTO, types:TIPI});
 const travel = GuideTravel.create({data, tr, planner});
 function syncUrl() {
   const url = new URL(location.href);
-  for (const [key, value] of [["profile", profiloAttivo], ["category", sottoAttivo], ["type", tipoAttivo], ["lang", LINGUA]]) {
+  for (const [key, value] of [["profile", profiloAttivo], ["lang", LINGUA]]) {
     if (value) url.searchParams.set(key, value); else url.searchParams.delete(key);
   }
+  url.searchParams.delete("category");url.searchParams.delete("type");
   catalogue.saveTo(url.searchParams); planner.saveTo(url.searchParams);
   try { history.replaceState(null, "", url); } catch {}
 }
 document.getElementById("share-filters").addEventListener("click", async () => {
   document.getElementById("share-status").textContent = await GuideUI.share(location.href, tr);
 });
-document.getElementById("reset-filters").addEventListener("click", () => {
-  document.querySelectorAll("[id^=filter-]").forEach(control => {control.value = "";});
-  profiloAttivo = sottoAttivo = tipoAttivo = null; applicaTutto();
-});
+document.getElementById("reset-filters").addEventListener("click",resetFilters);
+
 document.addEventListener("guide-storage-unavailable", () => GuideUI.storageWarning(tr));
 /* ============ LINGUA ============ */
 langBtn.addEventListener("click", ()=>{
@@ -300,14 +206,7 @@ function applicaTesti(){
   document.querySelectorAll(".stats span").forEach((s,n)=>{
     s.textContent = tr([TESTI.stat1, TESTI.stat2, TESTI.stat3][n]);
   });
-  document.querySelector("#profilo .kicker").textContent = tr(TESTI.step1k);
-  document.querySelector("#profilo h2").textContent = tr(TESTI.step1h);
-  document.querySelector("#profilo .sotto").textContent = tr(TESTI.step1p);
-  document.querySelector("#esperienze .kicker").textContent = tr(TESTI.step2k);
   document.querySelector("#esperienze h2").textContent = tr(TESTI.step2h);
-  document.querySelector(".legenda").textContent = tr(TESTI.legenda);
-  document.querySelector("#itinerario .kicker").textContent = tr(TESTI.step3k);
-  document.querySelector("#itinerario h2").textContent = tr(TESTI.step3h);
   document.querySelector("#info .kicker").textContent = tr(TESTI.infoK);
   document.querySelector("#info h2").textContent = tr(TESTI.infoH);
   document.querySelectorAll(".info-card h3").forEach((h,n)=>{
@@ -317,14 +216,12 @@ function applicaTesti(){
     p.textContent = tr([TESTI.info1p, TESTI.info2p, TESTI.info3p][n]);
   });
   document.querySelector("footer .wrap").innerHTML = tr(TESTI.footer);
-  sottoSelect.setAttribute("aria-label", tr(TESTI.ariaSotto));
-  tipoSelect.setAttribute("aria-label", tr(TESTI.ariaTipo));
   document.querySelectorAll("[data-alt]").forEach(node => {node.alt = tr(node.dataset.alt);});
   faq.translate();
   document.querySelector(".city-home").textContent = tr("← Tutte le città|← All cities");
   document.querySelector(".skip-link").textContent = tr("Salta alle esperienze|Skip to experiences");
   document.querySelector("nav.menu").setAttribute("aria-label", tr("Navigazione principale|Main navigation"));
-  chipGrid.setAttribute("aria-label", tr("Selettore profilo viaggiatore|Traveller profile selector"));
+  chipGrid.setAttribute("aria-label", tr("Interessi facoltativi|Optional interests"));
   document.getElementById("share-filters").textContent = tr("Condividi ricerca|Share search");
   document.getElementById("reset-filters").textContent = tr("Azzera filtri|Reset filters");
   document.querySelectorAll("[data-text]").forEach(node => { node.textContent = tr(node.dataset.text); });
@@ -337,10 +234,6 @@ function applicaTutto(){
   document.title = tr(pageTitle);
   langBtn.textContent = LINGUA === "it" ? "EN" : "IT";
   applicaTesti();
-  chipGrid.innerHTML = "";
-  creaChips();
-  aggiornaSelect();
-  aggiornaTipo();
   render();
 
   aggiornaFavUI();

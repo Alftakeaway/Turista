@@ -5,6 +5,15 @@ test('profile, category and venue type filters intersect',()=>{const {GuideExper
 test('storage recovers from corrupt data and keeps a memory fallback when blocked',()=>{let fail=false;const values=new Map([['city_preferiti','{broken']]);const {GuideStorage}=component('storage',{localStorage:{getItem:key=>{if(fail)throw Error();return values.get(key)??null;},setItem:(key,value)=>{if(fail)throw Error();values.set(key,value);}},document:{dispatchEvent(){}},Event:class{}});assert.equal(GuideStorage.read('city_preferiti','fallback'),'fallback');GuideStorage.write('city_lingua','en');assert.equal(GuideStorage.read('city_lingua','it'),'en');fail=true;assert.equal(GuideStorage.write('city_plan',['roma-001']),false);assert.equal(GuideStorage.read('city_plan',[])[0],'roma-001');assert.equal(GuideStorage.unavailable,true);});
 test('external links reject script and non-HTTPS schemes; HTML is escaped',()=>{const {GuideUI}=component('ui');assert.equal(GuideUI.safeUrl('javascript:alert(1)'),'#');assert.equal(GuideUI.safeUrl('https://example.com/'),'https://example.com/');assert(!GuideUI.escape('<img onerror="x">').includes('<'));});
 
+test('keyword search works without choosing an interest, with aliases and compound words',()=>{
+ const {GuideExperiences}=component('experiences');
+ const items=[{t:'Collezione archeologica|Archaeological collection',p:'Visita le sale|Visit the rooms',z:'Centro|Centre',sub:'musei',tags:['cultura']},{t:'Una pausa|A break',p:'Caffè|Coffee',z:'Nord|North',sub:'dolci',tags:['food']},{t:'Passeggiata|Walk',p:'Alberi|Trees',z:'Sud|South',sub:'parchi',tags:['lento']}];
+ assert.equal(GuideExperiences.search(items,'musei').length,1);assert.equal(GuideExperiences.search(items,'un museo in centro').length,1);
+ assert.equal(GuideExperiences.search(items,'cibo').length,1);assert.equal(GuideExperiences.search(items,'caffe').length,1);
+ assert.equal(GuideExperiences.search(items,'giardino').length,1);assert.equal(GuideExperiences.search(items,'museum nord').length,0);
+ assert.equal(GuideExperiences.search(items,'').length,3);
+});
+
 test('tour preferences respect time, interest and indoor options',()=>{
  const {GuideTourRules}=component('tour-rules');
  const tours=[{id:'a',mood:'art',weather:'mixed',minutes:180,stops:['a','b','c']}];

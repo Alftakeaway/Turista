@@ -1,12 +1,14 @@
 # Guide Poliedriche
 
-Otto città italiane, 292 esperienze, 24 tour originali con 72 tappe dedicate e otto profili per città. Sito statico bilingue IT/EN, senza backend, account o dipendenze in esecuzione. Include Palermo e otto palette distinte.
+Otto città italiane, 292 esperienze, 24 tour originali con 72 tappe dedicate e interessi facoltativi. Sito statico bilingue IT/EN, senza backend, account o dipendenze in esecuzione. Include Palermo e otto palette distinte.
 
 ## Utilizzo
 
-Apri `index.html` oppure servi la cartella `dist/` con un server statico. La home è bilingue; scegli una città, cerca per testo, zona e durata, e consulta le schede dettagliate con fonti e informazioni da confermare.
+Apri `index.html` oppure servi la cartella `dist/` con un server statico. La home è bilingue; scegli una città, esplora tutte le proposte oppure cerca per parole, zona e durata, e consulta le schede dettagliate con fonti e informazioni da confermare.
 
 I filtri distinguono biglietti, passeggiate esterne gratuite e costi variabili. Gli importi numerici hanno una fonte e condizioni specifiche; i prezzi variabili non vengono inventati. Le durate sono stime editoriali. I collegamenti mappa cercano un luogo o una zona e non certificano un ingresso preciso. La revisione delle fonti è descritta in `docs/RESEARCH-2026-10-16.md`.
+
+Il catalogo mostra tutte le esperienze prima dei tour. Gli interessi sono pulsanti facoltativi con conteggio; Tutte annulla la selezione. La ricerca indicizza testi, categorie, tipi e sinonimi controllati, senza generare nuove proposte. Tempo, costo e zona sono raccolti in un pannello richiudibile; i filtri attivi sono visibili e si rimuovono singolarmente. Gli stati vuoti offrono comandi per cancellare la ricerca, togliere l’interesse o mostrare tutto. I vecchi menu a livelli e il giorno precompilato per profilo sono stati rimossi dall’interfaccia. I link con categoria/tipo vengono convertiti in parole chiave visibili.
 
 Da una scheda puoi salvare un preferito o aggiungere una tappa al tuo giorno, riordinare le tappe, condividere il collegamento e stampare l’itinerario. Il link condiviso contiene le tappe e i filtri selezionati. Controlla separatamente tempi di spostamento, date e prenotazioni.
 

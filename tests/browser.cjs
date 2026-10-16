@@ -25,11 +25,26 @@ const server=http.createServer((request,response)=>{
   assert.equal(await page.locator('#gridEsperienze .card-photo-caption').count(),count);
   await page.locator('#gridEsperienze .foto img').evaluateAll(async images=>{await Promise.all(images.map(image=>{image.loading='eager';return image.decode();}));});
   await page.locator('.city-photo img').evaluate(image => image.decode());
-  const chips=page.locator('.chip');
-  for(let i=0;i<8;i++){await chips.nth(i).click();assert(await page.locator('.timeline .step').count()>0);const values=await page.locator('#sottoSelect option').evaluateAll(options=>options.map(o=>o.value));for(const value of values)await page.locator('#sottoSelect').selectOption(value);await chips.nth(i).click();}
+  assert.equal(await page.locator('#sottoSelect,#tipoSelect,#itinerarioBox').count(),0);
+  assert.equal(await page.locator('#catalogue-options').getAttribute('open'),null);
+  for(const interest of ['musei','cibo','parchi']){
+    await page.locator('#filter-search').fill(interest);assert(await page.locator('#gridEsperienze article').count()>0,city+' keyword '+interest);
+    assert.equal(await page.locator('[data-interest=""]').getAttribute('aria-pressed'),'true');
+  }
+  await page.locator('#reset-filters').click();
+  const chips=page.locator('.interest-chip[data-interest]:not([data-interest=""])');
+  for(let i=0;i<await chips.count();i++){
+    if(await chips.nth(i).isDisabled())continue;
+    await chips.nth(i).click();assert(await page.locator('#gridEsperienze article').count()>0);
+    await page.locator('[data-interest=""]').click();assert.equal(await page.locator('#gridEsperienze article').count(),count);
+  }
+  await page.locator('[data-interest="cultura"]').click();await page.locator('#filter-search').fill('zzzz-no-result');
+  await page.locator('[data-empty="interest"]').click();assert.equal(await page.locator('#filter-search').inputValue(),'zzzz-no-result');
+  await page.locator('[data-empty="search"]').click();assert.equal(await page.locator('#gridEsperienze article').count(),count);
   await page.locator('#filter-search').fill('zzzz-no-result');assert.equal(await page.locator('#gridEsperienze article').count(),0);
-  await page.locator('#reset-filters').click();assert.equal(await page.locator('#gridEsperienze article').count(),count);
-  await page.locator('#filter-duration').selectOption('120');assert.equal(await page.locator('#gridEsperienze article').count(),JSON.parse(fs.readFileSync(path.resolve(__dirname,'../data/cities',city+'.json'))).ESPERIENZE.filter(item=>item.duration.minutes!==null&&item.duration.minutes<=120).length);await page.reload();await page.waitForFunction(()=>window.guideReady);assert.equal(await page.locator('#filter-duration').inputValue(),'120');
+  await page.locator('[data-empty=all]').click();assert.equal(await page.locator('#gridEsperienze article').count(),count);
+  await page.locator('#catalogue-options summary').click();await page.locator('#filter-duration').selectOption('120');assert.equal(await page.locator('#gridEsperienze article').count(),JSON.parse(fs.readFileSync(path.resolve(__dirname,'../data/cities',city+'.json'))).ESPERIENZE.filter(item=>item.duration.minutes!==null&&item.duration.minutes<=120).length);await page.reload();await page.waitForFunction(()=>window.guideReady);assert.equal(await page.locator('#filter-duration').inputValue(),'120');
+  await page.locator('[data-clear-filter="duration"]').click();assert.equal(await page.locator('#gridEsperienze article').count(),count);
   await page.locator('#reset-filters').click();
   await page.locator('.fav').first().click();await page.locator('[data-add-plan]').first().click();await page.locator('[data-add-plan]').nth(1).click();
   assert.equal(await page.locator('#personal-plan li').count(),2);
@@ -45,7 +60,7 @@ const server=http.createServer((request,response)=>{
   await page.locator('#detail-favourite').click();assert.equal(await page.locator('#detail-favourite').getAttribute('aria-pressed'),'false');
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
   await page.emulateMedia({media:'print'});assert.equal(await page.locator('#personal-plan').isVisible(),true);assert.equal(await page.locator('#detail-content').isVisible(),false);await page.emulateMedia({media:'screen'});
-  console.log(city+': filters, 8 profiles, favourites, planner, share, FAQ, detail, languages and four viewports OK');
+  console.log(city+': keyword search, optional interests, empty-state recovery, favourites, planner, share, FAQ, detail, languages and four viewports OK');
  }
  const palette=new Set();
  for(const city of Object.keys(expected)){
@@ -79,6 +94,7 @@ const server=http.createServer((request,response)=>{
  }
  assert.equal(palette.size,8,'eight different city palettes');
  await page.goto(base+'/index.html?lang=en');await page.waitForFunction(()=>window.guideReady);assert.equal(await page.locator('html').getAttribute('lang'),'en');assert.equal(await page.locator('a[data-city-link]').count(),8);
+ await page.goto(base+'/roma.html?profile=cultura&category=musei');await page.waitForFunction(()=>window.guideReady);assert.equal(await page.locator('#filter-search').inputValue(),'musei');assert(!new URL(page.url()).searchParams.has('category'));assert(await page.locator('#gridEsperienze article').count()>0);
  await page.goto(base+'/roma.html?profile=invalid&category=bad&type=bad&plan=unknown&lang=bad');await page.waitForFunction(()=>window.guideReady);assert.equal(await page.locator('#gridEsperienze article').count(),36);assert.equal(await page.locator('#personal-plan li').count(),0);
  // HTTP storage is shared across city and detail pages; old title-based favourites migrate.
  await page.evaluate(()=>{localStorage.setItem('rp_preferiti','[{"id":"Colosseo, Foro e Palatino"}]');});await page.reload();await page.waitForFunction(()=>window.guideReady);assert.equal(await page.locator('.fav.salvato').count(),1);

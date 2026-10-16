@@ -2,23 +2,23 @@
   "storageKey": "pal",
   "pageTitle": "Palermo Poliedrica — una città da leggere|Palermo Poliedrica — a city to read",
   "TESTI": {
-    "nav1": "Profili|Profiles",
-    "nav2": "Esperienze|Experiences",
-    "nav3": "Tour originali|Original tours",
+    "nav1": "Esperienze|Experiences",
+    "nav2": "Tour originali|Original tours",
+    "nav3": "Il mio giorno|My day",
     "nav4": "In viaggio|On the go",
     "heroK": "Palermo|Palermo",
     "heroH1": "Segui le soglie, ritrova il mare|Follow the thresholds, rediscover the sea",
-    "heroP": "Una città, otto viaggiatori: scegli il tuo profilo e la guida si adatta a te — esperienze, consigli e un itinerario su misura.|One city, eight travellers: pick your profile and the guide adapts — experiences, tips and a tailor-made itinerary.",
-    "cta1": "Crea il tuo tour|Find your tour",
-    "cta2": "Esplora le esperienze|Explore experiences",
-    "stat1": "profili di viaggiatore|traveller profiles",
+    "heroP": "Scopri luoghi, sapori e passeggiate. Esplora le proposte, scegli un tour oppure componi il tuo giorno con le tappe che ti interessano.|Discover places, flavours and walks. Browse suggestions, choose a tour or build your day with the stops that interest you.",
+    "cta1": "Esplora le esperienze|Explore experiences",
+    "cta2": "Scopri i tour|Discover tours",
+    "stat1": "interessi facoltativi|optional interests",
     "stat2": "esperienze selezionate|curated experiences",
     "stat3": "tour originali|original tours",
     "step1k": "Passo 1|Step 1",
     "step1h": "Che tipo di viaggiatore sei?|What kind of traveller are you?",
     "step1p": "Tocca un profilo: esperienze e itinerario si filtrano subito. Nessuna selezione = vedi tutto.|Tap a profile: experiences and itinerary filter instantly. No selection = see everything.",
     "step2k": "Passo 2|Step 2",
-    "step2h": "Esperienze su misura|Tailored experiences",
+    "step2h": "Esplora le esperienze|Explore experiences",
     "legenda": "💡 Le esperienze con più tag appartengono a più profili: nel menu a tendina compaiono sotto la loro sotto-categoria principale.|💡 Multi-tag experiences belong to several profiles: they appear under their main subcategory.",
     "step3k": "Passo 3|Step 3",
     "step3h": "Il tuo giorno ideale|Your perfect day",
@@ -146,7 +146,7 @@
       {
         "id": "romana",
         "emoji": "🍝",
-        "nome": "Cucina tipica romana|Roman & typical cuisine"
+        "nome": "Cucina locale|Local cuisine"
       },
       {
         "id": "alta",
@@ -183,7 +183,7 @@
       {
         "id": "basiliche",
         "emoji": "⛪",
-        "nome": "Basiliche papali|Papal basilicas"
+        "nome": "Chiese monumentali|Monumental churches"
       },
       {
         "id": "chiese",
@@ -381,7 +381,7 @@
         "religioso",
         "cultura"
       ],
-      "sub": "basiliche",
+      "sub": "chiese",
       "duration": {
         "minutes": 60,
         "kind": "estimate"
@@ -654,7 +654,7 @@
         "benessere",
         "formativo"
       ],
-      "sub": "terme",
+      "sub": "parchi",
       "duration": {
         "minutes": 60,
         "kind": "estimate"
@@ -1116,9 +1116,10 @@
       "tip": "Percorso autoguidato: scegli sul posto solo gli accessi consentiti. Gli ingressi a musei e attività sono opzioni separate.|Self-guided itinerary: use only permitted access on site. Museum admission and activities are separate options.",
       "tags": [
         "formativo",
-        "lento"
+        "lento",
+        "cultura"
       ],
-      "sub": "cucina",
+      "sub": "musei",
       "duration": {
         "minutes": 60,
         "kind": "estimate"
@@ -1250,7 +1251,7 @@
         "food",
         "lento"
       ],
-      "sub": "romana",
+      "sub": "street",
       "duration": {
         "minutes": 45,
         "kind": "estimate"
@@ -1302,7 +1303,8 @@
         "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=24&tp=68",
         "verifiedAt": null
       },
-      "verifiedFields": []
+      "verifiedFields": [],
+      "tipo": "mercato"
     },
     {
       "id": "palermo-016",
@@ -1316,7 +1318,7 @@
         "food",
         "formativo"
       ],
-      "sub": "romana",
+      "sub": "street",
       "duration": {
         "minutes": 45,
         "kind": "estimate"
@@ -1368,7 +1370,8 @@
         "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=24&tp=68",
         "verifiedAt": null
       },
-      "verifiedFields": []
+      "verifiedFields": [],
+      "tipo": "mercato"
     },
     {
       "id": "palermo-017",
@@ -1382,7 +1385,7 @@
         "food",
         "lento"
       ],
-      "sub": "romana",
+      "sub": "street",
       "duration": {
         "minutes": 45,
         "kind": "estimate"
@@ -1434,7 +1437,8 @@
         "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=24&tp=68",
         "verifiedAt": null
       },
-      "verifiedFields": []
+      "verifiedFields": [],
+      "tipo": "mercato"
     },
     {
       "id": "palermo-018",
@@ -1448,7 +1452,7 @@
         "benessere",
         "sport"
       ],
-      "sub": "terme",
+      "sub": "parchi",
       "duration": {
         "minutes": 45,
         "kind": "estimate"
@@ -1514,7 +1518,7 @@
         "benessere",
         "lento"
       ],
-      "sub": "terme",
+      "sub": "parchi",
       "duration": {
         "minutes": 45,
         "kind": "estimate"
@@ -1580,7 +1584,7 @@
         "benessere",
         "sport"
       ],
-      "sub": "terme",
+      "sub": "parchi",
       "duration": {
         "minutes": 45,
         "kind": "estimate"
@@ -1646,7 +1650,7 @@
         "religioso",
         "lento"
       ],
-      "sub": "basiliche",
+      "sub": "chiese",
       "duration": {
         "minutes": 60,
         "kind": "estimate"
@@ -1712,7 +1716,7 @@
         "religioso",
         "cultura"
       ],
-      "sub": "basiliche",
+      "sub": "chiese",
       "duration": {
         "minutes": 60,
         "kind": "estimate"
@@ -1778,7 +1782,7 @@
         "religioso",
         "cultura"
       ],
-      "sub": "basiliche",
+      "sub": "chiese",
       "duration": {
         "minutes": 60,
         "kind": "estimate"
@@ -1844,7 +1848,7 @@
         "religioso",
         "food"
       ],
-      "sub": "basiliche",
+      "sub": "chiese",
       "duration": {
         "minutes": 60,
         "kind": "estimate"
@@ -1910,7 +1914,7 @@
         "religioso",
         "cultura"
       ],
-      "sub": "basiliche",
+      "sub": "chiese",
       "duration": {
         "minutes": 45,
         "kind": "estimate"
@@ -1976,7 +1980,7 @@
         "religioso",
         "lento"
       ],
-      "sub": "basiliche",
+      "sub": "chiese",
       "duration": {
         "minutes": 45,
         "kind": "estimate"
@@ -2306,7 +2310,7 @@
         "food",
         "formativo"
       ],
-      "sub": "romana",
+      "sub": "street",
       "duration": {
         "minutes": 45,
         "kind": "estimate"
@@ -2358,7 +2362,8 @@
         "sourceUrl": "https://turismo.comune.palermo.it/palermo-welcome-luoghi.php?det=24&tp=68",
         "verifiedAt": null
       },
-      "verifiedFields": []
+      "verifiedFields": [],
+      "tipo": "mercato"
     },
     {
       "id": "palermo-032",

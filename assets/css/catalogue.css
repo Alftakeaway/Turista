@@ -1,0 +1,20 @@
+.catalogue-intro{max-width:74ch;color:var(--muted);margin-bottom:24px}
+.catalogue-search{max-width:720px;margin:24px 0 18px}
+.catalogue-search label{display:block;font-weight:700;margin-bottom:7px}
+.catalogue-search input{width:100%;padding:14px 16px;font:inherit;border:1px solid var(--terra);border-radius:8px;color:var(--ink);background:var(--card)}
+#search-help{font-size:.84rem;color:var(--muted);margin-top:7px}
+.interest-options{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 24px}
+.interest-chip{font:inherit;font-size:.87rem;padding:8px 12px;border:1px solid var(--sabbia);border-radius:6px;background:var(--card);color:var(--ink);cursor:pointer}
+.interest-chip[aria-pressed=true]{background:var(--terra);border-color:var(--terra);color:white}
+.interest-chip:disabled{opacity:.55;cursor:default}.interest-chip span{font-size:.76rem;margin-left:5px}
+#catalogue-options{border-block:1px solid var(--sabbia);padding:14px 0;margin:16px 0}
+#catalogue-options summary{cursor:pointer;font-weight:600}
+#catalogue-options .advanced-filters{grid-template-columns:repeat(3,minmax(130px,1fr));margin-bottom:6px}
+.catalogue-results-bar{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:20px 0 8px}
+#active-filters{display:flex;gap:8px;flex-wrap:wrap}
+#active-filters button,.empty-actions button{font:inherit;font-size:.83rem;padding:7px 11px;border:1px solid var(--terra);border-radius:6px;color:var(--terra-dark);background:var(--card);cursor:pointer;overflow-wrap:anywhere}
+.empty-state{grid-column:1/-1;padding:32px 24px;border:1px solid var(--sabbia);background:var(--card)}
+.empty-state h3{margin-bottom:10px}.empty-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}
+#esperienze,#profilo,#tour-lab{scroll-margin-top:150px}
+@media(max-width:540px){#catalogue-options .advanced-filters{display:flex;flex-direction:column}.interest-options{gap:7px}.interest-chip{font-size:.82rem;padding:8px 10px}.catalogue-results-bar{align-items:flex-start;flex-direction:column}}
+@media print{#catalogue-options,.catalogue-search,.interest-options{display:none!important}}
