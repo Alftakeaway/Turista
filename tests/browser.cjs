@@ -2,7 +2,7 @@ const {chromium}=require('playwright');
 const assert=require('node:assert/strict');
 const fs=require('node:fs'),path=require('node:path'),http=require('node:http');
 const root=path.resolve(__dirname,'..','dist');
-const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.jpg':'image/jpeg','.png':'image/png','.svg':'image/svg+xml','.ico':'image/x-icon'};
+const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.webp':'image/webp','.webmanifest':'application/manifest+json','.xml':'application/xml','.txt':'text/plain','.jpg':'image/jpeg','.png':'image/png','.svg':'image/svg+xml','.ico':'image/x-icon'};
 const server=http.createServer((request,response)=>{
  let file=path.resolve(root,'.'+decodeURIComponent(new URL(request.url,'http://localhost').pathname));
  if(file===root)file=path.join(root,'index.html');
@@ -50,13 +50,13 @@ const server=http.createServer((request,response)=>{
   assert.equal(await page.locator('#personal-plan li').count(),2);
   const before=await page.locator('#personal-plan li a').allTextContents();await page.locator('[data-plan="down"]').first().click();const after=await page.locator('#personal-plan li a').allTextContents();assert.equal(before[0],after[1]);
   await page.reload();await page.waitForFunction(()=>window.guideReady);assert.equal(await page.locator('.fav.salvato').count(),1);assert.equal(await page.locator('#personal-plan li').count(),2);
-  await page.locator('#langBtn').click();assert.equal(await page.locator('html').getAttribute('lang'),'en');
+  await page.locator('#langBtn').click();await page.waitForURL(url=>url.pathname.includes('/en/'));await page.waitForFunction(()=>window.guideReady);assert.equal(await page.locator('html').getAttribute('lang'),'en');
   await page.locator('#chatBtn').click();await page.locator('#chatText').fill('airport');await page.locator('#chatForm button').click();assert(await page.locator('#chatMsgs a').count()>0);await page.keyboard.press('Escape');assert.equal(await page.locator('#chatBtn').getAttribute('aria-expanded'),'false');
   await page.locator('#favBtn').click();await page.keyboard.press('Escape');assert.equal(await page.locator('#favBtn').getAttribute('aria-expanded'),'false');
   const share=page.url();const shared=await context.newPage();await shared.goto(share);await shared.waitForFunction(()=>window.guideReady);assert.equal(await shared.locator('#personal-plan li').count(),2);await shared.close();
   for(const width of [320,390,768,1280]){await page.setViewportSize({width,height:844});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,city+' overflow '+width);}
   await page.locator('#gridEsperienze .card-actions a').first().click();await page.waitForFunction(()=>window.guideReady);assert(await page.locator('#detail-content h1').textContent());assert.equal(await page.locator('#detail-favourite').getAttribute('aria-pressed'),'true');
-  await page.locator('#langBtn').click();assert.equal(await page.locator('html').getAttribute('lang'),'it');
+  await page.locator('#langBtn').click();await page.waitForURL(url=>!url.pathname.includes('/en/'));await page.waitForFunction(()=>window.guideReady);assert.equal(await page.locator('html').getAttribute('lang'),'it');
   await page.locator('#detail-favourite').click();assert.equal(await page.locator('#detail-favourite').getAttribute('aria-pressed'),'false');
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
   await page.emulateMedia({media:'print'});assert.equal(await page.locator('#personal-plan').isVisible(),true);assert.equal(await page.locator('#detail-content').isVisible(),false);await page.emulateMedia({media:'screen'});

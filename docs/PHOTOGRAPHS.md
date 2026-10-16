@@ -23,3 +23,7 @@ Le didascalie identificano ciò che è effettivamente fotografato:
 - **Stanze al Genio:** non è stata reperita una fotografia del museo con licenza di riutilizzo verificabile. La [foto individuata nell’account Flickr del museo](https://www.flickr.com/photos/stanzealgenio/5399900713/) riporta tutti i diritti riservati ed è stata esclusa. Per le due schede corrispondenti è usata una foto libera delle maioliche della Scala di Santa Maria del Monte a Caltagirone, con didascalia esplicita “immagine di contesto, non del museo”. Potrà essere sostituita da una foto del museo con autorizzazione documentata.
 
 Gli originali restano consultabili per verificare il soggetto e le condizioni del singolo file. Una licenza aperta non costituisce approvazione del sito da parte del fotografo o del luogo raffigurato.
+
+## Derivati responsive
+
+`data/image-variants.json` collega ogni JPG ai WebP da 480 e fino a 960 pixel, con impronta SHA-256 e nome basato sul contenuto. Le licenze e attribuzioni del file sorgente valgono anche per questi derivati compressi. Gli originali locali non sono sovrascritti. Le didascalie e i crediti del sito segnalano compressione e ridimensionamento. Rigenerazione: `npm run images:optimize`.

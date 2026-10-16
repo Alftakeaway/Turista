@@ -4,7 +4,7 @@ window.Guide = {
     const item = allItems.find(e => e.id === document.body.dataset.id);
     if (!item) return;
     const params = new URLSearchParams(location.search);
-    let language = params.get('lang') || GuideStorage.read(data.storageKey + '_lingua', 'it');
+    let language = params.get('lang') || (document.documentElement.lang==='en'?'en':GuideStorage.read(data.storageKey + '_lingua', 'it'));
     if (!['it','en'].includes(language)) language = 'it';
     const tr = value => { const parts = String(value).split('|'); return parts[language === 'en' ? 1 : 0] ?? parts[0]; };
     const escape = GuideUI.escape;
@@ -49,6 +49,7 @@ window.Guide = {
     }
     document.getElementById('langBtn').addEventListener('click', () => {
       language = language === 'it' ? 'en' : 'it'; GuideStorage.write(data.storageKey + '_lingua', language);
+      if(window.GuideLocale?.navigate(language))return;
       const url = new URL(location.href); url.searchParams.set('lang', language); try { history.replaceState(null, '', url); } catch {} render();
     });
     document.addEventListener('guide-storage-unavailable', () => GuideUI.storageWarning(tr));

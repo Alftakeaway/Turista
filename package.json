@@ -1,1 +1,22 @@
-{"name":"guide-poliedriche","private":true,"version":"2.0.0","engines":{"node":">=22"},"scripts":{"generate":"node scripts/generate.cjs","check":"node scripts/check.cjs","test":"node --test tests/unit.test.cjs","test:browser":"node tests/browser.cjs","build":"npm run generate && npm run check && npm test && node scripts/build.cjs"},"devDependencies":{"playwright":"1.62.1"}}
+{
+  "name": "guide-poliedriche",
+  "private": true,
+  "version": "2.0.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "generate": "node scripts/generate.cjs",
+    "check": "node scripts/check.cjs && node scripts/check-publishing.cjs",
+    "test": "node --test tests/unit.test.cjs",
+    "test:browser": "node tests/browser.cjs",
+    "build": "npm run generate && npm run check && npm test && node scripts/build.cjs",
+    "images:optimize": "node scripts/optimize-images.cjs",
+    "test:audit": "node tests/audit-browser.cjs"
+  },
+  "devDependencies": {
+    "cheerio": "1.2.0",
+    "playwright": "1.62.1",
+    "sharp": "0.35.5"
+  }
+}

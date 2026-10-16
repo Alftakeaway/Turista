@@ -1,6 +1,6 @@
 # Guide Poliedriche
 
-Otto città italiane, 292 esperienze, 184 tour originali (23 per città), con varianti curate da 90 minuti a 4 ore e 72 tappe dedicate e interessi facoltativi. Sito statico bilingue IT/EN, senza backend, account o dipendenze in esecuzione. Include Palermo e otto palette distinte.
+Otto città italiane, 292 esperienze, 184 tour originali (23 per città), con varianti curate da 90 minuti a 4 ore e 72 tappe dedicate e interessi facoltativi. Sito statico bilingue IT/EN, con pagine inglesi reali in `/en/`, senza backend, account o dipendenze in esecuzione. Include Palermo e otto palette distinte.
 
 ## Utilizzo
 
@@ -21,7 +21,7 @@ I tour si filtrano per tempo, interesse, opzioni al coperto e compagnia/età fac
     npx playwright install chromium
     npm run test:browser
 
-La sola dipendenza di sviluppo è Playwright, fissata nel lockfile. Il sito distribuito non ha dipendenze JavaScript esterne. La build esegue generazione, controlli dati, test unitari e copia i file pubblici in `dist/`.
+Playwright verifica il browser; Cheerio genera le pagine statiche bilingui e i metadati; Sharp rigenera i derivati WebP su richiesta. Sono strumenti di sviluppo fissati nel lockfile. Il sito distribuito non carica librerie, font o servizi JavaScript esterni. La build esegue generazione, controlli dati, test unitari e copia i file pubblici in `dist/`.
 
 Su Windows puoi usare il browser installato impostando `PLAYWRIGHT_EXECUTABLE_PATH` al percorso del browser Chrome. I test browser avviano da soli un server HTTP temporaneo; `BASE_URL` permette di verificare un deployment esterno.
 
@@ -78,3 +78,7 @@ La workflow GitHub esegue i controlli in parallelo al deploy Vercel: non costitu
 ## Licenze
 
 Codice MIT, copyright 2026 Alftakeaway: vedi `LICENSE`. Le foto mantengono le rispettive licenze Creative Commons, con attribuzioni in `data/photos.json` e `crediti.html`.
+
+## Revisione audit: palette, prestazioni e pubblicazione
+
+Vedi `docs/AUDIT-APPLIED-2026-10-16.md` per decisioni, misure prima/dopo e suggerimenti rinviati. `npm run test:audit` controlla CSP, HTML inglese senza JavaScript, navigazione fra lingue e offline reale. `npm run images:optimize` rigenera i WebP; gli originali JPG restano disponibili. La cache offline contiene pagine recenti e immagini già caricate, non l’intero sito. Le risorse esterne richiedono rete.

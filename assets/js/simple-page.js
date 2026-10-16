@@ -1,6 +1,6 @@
 (function(){
  const params=new URLSearchParams(location.search);
- let language=params.get('lang')||GuideStorage.read('gp_lingua','it');
+ let language=params.get('lang')||(document.documentElement.lang==='en'?'en':GuideStorage.read('gp_lingua','it'));
  if(!['it','en'].includes(language))language='it';
  function render(){
   document.documentElement.lang=language;
@@ -10,6 +10,6 @@
   const title=document.querySelector('h1');if(title)document.title=title.textContent+' — Guide Poliedriche';
   document.getElementById('langBtn').textContent=language==='it'?'EN':'IT';
  }
- document.getElementById('langBtn').addEventListener('click',()=>{language=language==='it'?'en':'it';GuideStorage.write('gp_lingua',language);render();const url=new URL(location.href);url.searchParams.set('lang',language);try{history.replaceState(null,'',url);}catch{}});
+ document.getElementById('langBtn').addEventListener('click',()=>{language=language==='it'?'en':'it';GuideStorage.write('gp_lingua',language);if(window.GuideLocale?.navigate(language))return;render();const url=new URL(location.href);url.searchParams.set('lang',language);try{history.replaceState(null,'',url);}catch{}});
  render();window.guideReady=true;
 })();

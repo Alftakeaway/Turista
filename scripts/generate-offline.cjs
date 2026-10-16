@@ -1,0 +1,13 @@
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),root=path.resolve(__dirname,'..');
+const manifest={id:'/',name:'Guide Poliedriche',short_name:'Poliedriche',description:'Città italiane, tour originali e strumenti di viaggio. / Italian cities, original tours and travel tools.',lang:'it',start_url:'/',scope:'/',display:'standalone',background_color:'#F7F9FB',theme_color:'#34434E',icons:[{src:'assets/icons/app-192.png',sizes:'192x192',type:'image/png',purpose:'any'},{src:'assets/icons/app-512.png',sizes:'512x512',type:'image/png',purpose:'any'}]};
+fs.writeFileSync(path.join(root,'manifest.webmanifest'),JSON.stringify(manifest,null,2)+'\n');
+fs.writeFileSync(path.join(root,'offline.html'),`<!doctype html><html lang="it"><head><meta charset="UTF-8"><base href="/"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Offline — Guide Poliedriche</title><link rel="stylesheet" href="assets/css/landing.css"><link id="site-icon" rel="icon" href="assets/icons/favicon.png"><script defer src="assets/js/favicon.js"></script></head><body><main><section class="landing-intro"><h1>Sei offline / You are offline</h1><p>Questa pagina non è ancora salvata. Torna a una pagina già visitata o apri il taccuino HTML scaricato prima del viaggio.</p><p>This page has not been saved yet. Return to a previously visited page or open the HTML notebook downloaded before your trip.</p><h2>Pagine salvate / Saved pages</h2><ul id="offline-pages"></ul><p><a href="index.html">Tutte le città / All cities</a></p></section></main><script defer src="assets/js/offline.js"></script></body></html>`);
+const hash=crypto.createHash('sha256');
+const text=file=>fs.readFileSync(file,'utf8').replace(/\r\n/g,'\n');
+function digest(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true}).sort((a,b)=>a.name.localeCompare(b.name))){if(e.isDirectory())digest(path.join(dir,e.name));else if(/\.(?:html|js|css)$/.test(e.name))hash.update(text(path.join(dir,e.name)));}}
+for(const dir of ['assets/js','assets/css','en','esperienze'])digest(path.join(root,dir));
+for(const file of [...fs.readdirSync(root).filter(f=>f.endsWith('.html')).sort(),'manifest.webmanifest','data/image-variants.json'])hash.update(text(path.join(root,file)));
+for(const file of fs.readdirSync(path.join(root,'assets/icons')).sort())hash.update(fs.readFileSync(path.join(root,'assets/icons',file)));
+const template=text(path.join(root,'scripts/service-worker-template.js'));hash.update(template);
+const version=hash.digest('hex').slice(0,16);
+fs.writeFileSync(path.join(root,'service-worker.js'),template.replace('__REVISION__',version));

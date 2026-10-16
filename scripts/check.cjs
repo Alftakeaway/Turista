@@ -6,6 +6,7 @@ const crypto = require('node:crypto');
 const root = path.resolve(__dirname, '..');
 const bilingual = text => typeof text === 'string' && text.split('|').length === 2 && text.split('|').every(s=>s.trim());
 const itemPhotos=JSON.parse(fs.readFileSync(path.join(root,'data/item-photos.json'),'utf8'));
+const imageVariants=JSON.parse(fs.readFileSync(path.join(root,'data/image-variants.json'),'utf8'));
 const ids = new Set(); let total = 0, tourTotal = 0;
 const audienceContext={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'assets/js/tour-audiences.js'),'utf8'),audienceContext);
 const audienceIds=Object.keys(audienceContext.window.GuideTourAudiences);
@@ -13,8 +14,8 @@ for(const file of fs.readdirSync(path.join(root,'data/cities')).filter(f=>f.ends
  const data=JSON.parse(fs.readFileSync(path.join(root,'data/cities',file),'utf8'));
  const profiles=new Set(data.PROFILI.map(p=>p.id));
  let generated;vm.runInNewContext(fs.readFileSync(path.join(root,'assets/js/cities',file.replace('.json','.js')),'utf8'),{Guide:{init(value){generated=value;}}});
- const expectedPhotos=Object.fromEntries([...data.ESPERIENZE,...data.TOUR_STOPS].map(e=>[e.id,itemPhotos[e.id]]));
- assert.equal(JSON.stringify(generated),JSON.stringify({...data,PHOTOS:expectedPhotos}),'Generated data is stale: '+file);
+ const expectedPhotos=Object.fromEntries([...data.ESPERIENZE,...data.TOUR_STOPS].map(e=>[e.id,{...itemPhotos[e.id],variants:imageVariants[itemPhotos[e.id].src]}]));
+ const runtime={...data,PHOTOS:expectedPhotos};delete runtime.ITINERARI;delete runtime.IMMAGINI;assert.equal(JSON.stringify(generated),JSON.stringify(runtime),'Generated data is stale: '+file);
  assert(data.TOURS.length>=12);tourTotal+=data.TOURS.length;
  assert(new Set(data.TOURS.map(t=>[...t.stops].sort().join(','))).size>=12,'At least 12 different stop combinations: '+file);
  const allItems=[...data.ESPERIENZE,...data.TOUR_STOPS];
@@ -69,5 +70,5 @@ const themes=JSON.parse(fs.readFileSync(path.join(root,'data/themes.json'),'utf8
 function luminance(hex){const rgb=hex.match(/\w\w/g).map(v=>parseInt(v,16)/255).map(v=>v<=.04045?v/12.92:((v+.055)/1.055)**2.4);return rgb[0]*.2126+rgb[1]*.7152+rgb[2]*.0722;}
 function contrast(a,b){const x=luminance(a),y=luminance(b);return(Math.max(x,y)+.05)/(Math.min(x,y)+.05);}
 assert.equal(new Set(Object.values(themes).map(t=>t.brand)).size,8);assert.equal(new Set(Object.values(themes).map(t=>t.paper)).size,8);
-for(const [city,t]of Object.entries(themes)){assert(contrast(t.brand,'#FFFFFF')>=4.5,city+' primary contrast');assert(contrast(t.muted,t.paper)>=4.5,city+' body contrast');assert(contrast(t.accent,'#FFFFFF')>=4.5,city+' accent contrast');}
+for(const [city,t]of Object.entries(themes)){assert(contrast(t.brand,'#FFFFFF')>=4.5,city+' primary contrast');assert(contrast(t.muted,t.paper)>=4.5,city+' body contrast');assert(contrast(t.accent,'#FFFFFF')>=4.5,city+' accent contrast');for(const surface of [t.paper,t.surface])for(const color of [t.brand,t.accent,t.ink,t.muted])assert(contrast(color,surface)>=4.5,city+' text on surface');}
 console.log('OK: eight distinct palettes and text contrast.');

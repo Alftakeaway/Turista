@@ -1,7 +1,7 @@
 window.Guide = { init(data) {
 const { storageKey, pageTitle, TESTI, PROFILI, SOTTO, TIPI, ESPERIENZE, FOTO, MARCO, MARCO_FALLBACK, CHAT_QUICK } = data;
 const params = new URLSearchParams(location.search);
-let LINGUA = params.get("lang") || GuideStorage.read(storageKey + "_lingua", "it");
+let LINGUA = params.get("lang") || (document.documentElement.lang==='en'?'en':GuideStorage.read(storageKey + "_lingua", "it"));
 if (!["it", "en"].includes(LINGUA)) LINGUA = "it";
 const allItems = [...ESPERIENZE, ...(data.TOUR_STOPS || [])];
 const saved = GuideStorage.read(storageKey + "_preferiti", []);
@@ -191,6 +191,7 @@ document.addEventListener("guide-storage-unavailable", () => GuideUI.storageWarn
 langBtn.addEventListener("click", ()=>{
   LINGUA = LINGUA === "it" ? "en" : "it";
   GuideStorage.write(storageKey + "_lingua", LINGUA);
+  syncUrl();if(window.GuideLocale?.navigate(LINGUA))return;
   applicaTutto();
 });
 function applicaTesti(){

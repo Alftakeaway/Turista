@@ -59,7 +59,7 @@ footer a{color:#fff;text-decoration:underline}
  #personal-plan{display:block!important}#personal-plan .plan-actions,.plan-toolbar{display:none!important}
  #personal-plan li{break-inside:avoid;padding:12px 0}#personal-plan a{color:black;text-decoration:none}
 }
-.panel-close{position:absolute;right:8px;top:8px;border:0;background:white;color:#2A2724;border-radius:50%;width:28px;height:28px;z-index:1;font-size:1.2rem}
+.panel-close{position:absolute;right:8px;top:8px;border:0;background:var(--card);color:var(--ink);border-radius:50%;width:28px;height:28px;z-index:1;font-size:1.2rem}
 .chat-head{padding-right:44px}
 .fav-head{padding-right:44px}
 body{--oliva:#4E5B39}
