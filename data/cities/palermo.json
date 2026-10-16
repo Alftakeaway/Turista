@@ -2728,7 +2728,10 @@
       "original": true,
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
       "focus": "Dall’Ecomuseo al Foro Italico e allo Spasimo, confronta tre modi di restituire spazio alla città. Annota cosa cambia fra memoria del mare, prato e architettura aperta.|From the Ecomuseum to Foro Italico and the Spasimo, compare three ways of returning space to the city: sea memories, lawn and open architecture.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "indoorStops": [
+        "palermo-101"
+      ]
     },
     {
       "id": "palermo-tour-2",
@@ -2762,6 +2765,793 @@
       "original": true,
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
       "focus": "Dalle maioliche delle Stanze al Genio al Genio in piazza e agli stucchi dell’oratorio, cerca tre modi di raccontare una città attraverso piccoli dettagli.|From the tiles of Stanze al Genio to the Genio in the square and the oratory’s stucco, find three ways small details tell a city’s story.",
+      "createdAt": "2026-10-16",
+      "indoorStops": [
+        "palermo-107"
+      ]
+    },
+    {
+      "id": "palermo-tour-4",
+      "title": "Volumi arabi e normanni in centro|Arab and Norman volumes in the centre",
+      "mood": "architecture",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "palermo-025",
+        "palermo-024",
+        "palermo-026"
+      ],
+      "indoorStops": [
+        "palermo-025"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "palermo-025",
+            "palermo-024"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "palermo-025",
+            "palermo-024",
+            "palermo-026"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "palermo-025",
+            "palermo-024",
+            "palermo-026"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "palermo-025",
+            "palermo-024",
+            "palermo-026"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Confronta cupole, mosaici e volumi dalla piazza e dagli interni accessibili.|Compare domes, mosaics and volumes from the square and accessible interiors.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "palermo-tour-5",
+      "title": "Palazzi e soglie della Kalsa|Palaces and thresholds of Kalsa",
+      "mood": "architecture",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "palermo-003",
+        "palermo-007",
+        "palermo-014"
+      ],
+      "indoorStops": [
+        "palermo-003"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "palermo-003",
+            "palermo-007"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "palermo-003",
+            "palermo-007",
+            "palermo-014"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "palermo-003",
+            "palermo-007",
+            "palermo-014"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "palermo-003",
+            "palermo-007",
+            "palermo-014"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Segui corti, ingressi e trasformazioni; lo Spasimo è senza tetto e non ripara dalla pioggia.|Follow courts, entrances and transformations; Spasimo is roofless and gives no rain shelter.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "palermo-tour-6",
+      "title": "Una cornice nella Kalsa|A frame in Kalsa",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "palermo-003",
+        "palermo-109",
+        "palermo-007"
+      ],
+      "indoorStops": [
+        "palermo-003"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "palermo-003",
+            "palermo-109"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "palermo-003",
+            "palermo-109",
+            "palermo-007"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "palermo-003",
+            "palermo-109",
+            "palermo-007"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "palermo-003",
+            "palermo-109",
+            "palermo-007"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Scegli un gesto dipinto e confrontalo con un dettaglio in stucco.|Choose a painted gesture and compare it with a stucco detail.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "palermo-tour-7",
+      "title": "Maioliche e Genio di quartiere|Tiles and a neighbourhood Genius",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "palermo-107",
+        "palermo-108",
+        "palermo-008"
+      ],
+      "indoorStops": [
+        "palermo-107"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "palermo-107",
+            "palermo-108"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "palermo-107",
+            "palermo-108",
+            "palermo-008"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "palermo-107",
+            "palermo-108",
+            "palermo-008"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "palermo-107",
+            "palermo-108",
+            "palermo-008"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Confronta un motivo della collezione con le forme della piazza; prenota se richiesto.|Compare a collection motif with square shapes; book if required.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "palermo-tour-8",
+      "title": "Dal giardino al paesaggio dipinto|From garden to painted landscape",
+      "mood": "nature",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "palermo-019",
+        "palermo-003",
+        "palermo-018"
+      ],
+      "indoorStops": [
+        "palermo-003"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "palermo-019",
+            "palermo-003"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "palermo-019",
+            "palermo-003",
+            "palermo-018"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "palermo-019",
+            "palermo-003",
+            "palermo-018"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "palermo-019",
+            "palermo-003",
+            "palermo-018"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Osserva una chioma e cerca un paesaggio nelle opere; le parti verdi sono all’aperto.|Observe a tree canopy and look for a landscape in the works; green sections are outdoors.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "palermo-tour-9",
+      "title": "Il mare raccontato dal museo|The sea told by a museum",
+      "mood": "nature",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "palermo-101",
+        "palermo-102",
+        "palermo-019"
+      ],
+      "indoorStops": [
+        "palermo-101"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "palermo-101",
+            "palermo-102"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "palermo-101",
+            "palermo-102",
+            "palermo-019"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "palermo-101",
+            "palermo-102",
+            "palermo-019"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "palermo-101",
+            "palermo-102",
+            "palermo-019"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Accosta il racconto del mare all’osservazione del lungomare e degli alberi.|Pair the museum sea narrative with observation of seafront and trees.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "palermo-tour-10",
+      "title": "Dal mercato alla dolceria del monastero|From market to monastery sweets",
+      "mood": "food",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "palermo-015",
+        "palermo-024",
+        "palermo-025"
+      ],
+      "indoorStops": [
+        "palermo-024"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "palermo-015",
+            "palermo-024"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "palermo-015",
+            "palermo-024",
+            "palermo-025"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "palermo-015",
+            "palermo-024",
+            "palermo-025"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "palermo-015",
+            "palermo-024",
+            "palermo-025"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Confronta ingredienti dei banchi e ricette della dolceria; consumazioni a parte.|Compare market ingredients and monastery bakery recipes; purchases are separate.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "palermo-tour-11",
+      "title": "Parole dei mercati e cucina conventuale|Market words and convent cooking",
+      "mood": "food",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "palermo-016",
+        "palermo-024",
+        "palermo-017"
+      ],
+      "indoorStops": [
+        "palermo-024"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "palermo-016",
+            "palermo-024"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "palermo-016",
+            "palermo-024",
+            "palermo-017"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "palermo-016",
+            "palermo-024",
+            "palermo-017"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "palermo-016",
+            "palermo-024",
+            "palermo-017"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Annota tre parole dai banchi e confrontale con i dolci del monastero.|Note three market words and compare them with monastery sweets.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "palermo-tour-12",
+      "title": "Il mare e lo spazio restituito|The sea and reclaimed space",
+      "mood": "memory",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "palermo-101",
+        "palermo-102",
+        "palermo-103",
+        "palermo-019"
+      ],
+      "indoorStops": [
+        "palermo-101"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "palermo-101",
+            "palermo-102"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "palermo-101",
+            "palermo-102",
+            "palermo-103"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "palermo-101",
+            "palermo-102",
+            "palermo-103",
+            "palermo-019"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "palermo-101",
+            "palermo-102",
+            "palermo-103",
+            "palermo-019"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Confronta memoria orale, prato pubblico e architettura senza copertura.|Compare oral memory, public lawn and roofless architecture.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "palermo-tour-13",
+      "title": "Quartiere, collezioni e mestieri|Neighbourhood, collections and trades",
+      "mood": "memory",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "palermo-107",
+        "palermo-108",
+        "palermo-032"
+      ],
+      "indoorStops": [
+        "palermo-107"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "palermo-107",
+            "palermo-108"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "palermo-107",
+            "palermo-108",
+            "palermo-032"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "palermo-107",
+            "palermo-108",
+            "palermo-032"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "palermo-107",
+            "palermo-108",
+            "palermo-032"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Leggi un oggetto di uso quotidiano e ritrova i suoi colori nelle strade.|Read an everyday object and find its colours in the streets.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "palermo-tour-14",
+      "title": "La Zisa fuori dagli itinerari veloci|Zisa beyond hurried itineraries",
+      "mood": "architecture",
+      "minutes": 240,
+      "weather": "outdoor",
+      "stops": [
+        "palermo-104",
+        "palermo-105",
+        "palermo-106",
+        "palermo-010"
+      ],
+      "indoorStops": [],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "palermo-104",
+            "palermo-105"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "palermo-104",
+            "palermo-105",
+            "palermo-106"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "palermo-104",
+            "palermo-105",
+            "palermo-106",
+            "palermo-010"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "palermo-104",
+            "palermo-105",
+            "palermo-106",
+            "palermo-010"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Confronta palazzo, spazi culturali e villino osservabili dagli esterni.|Compare palace, cultural spaces and villa viewed from outside.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "palermo-tour-15",
+      "title": "Archeologia e scena urbana|Archaeology and the urban stage",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "palermo-004",
+        "palermo-005",
+        "palermo-016"
+      ],
+      "indoorStops": [
+        "palermo-004"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "palermo-004",
+            "palermo-005"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "palermo-004",
+            "palermo-005",
+            "palermo-016"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "palermo-004",
+            "palermo-005",
+            "palermo-016"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "palermo-004",
+            "palermo-005",
+            "palermo-016"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Scegli un dettaglio antico e confrontalo con forme del teatro e del mercato.|Choose an ancient detail and compare it with theatre and market shapes.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
       "createdAt": "2026-10-16"
     }
   ],

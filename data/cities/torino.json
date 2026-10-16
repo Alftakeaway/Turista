@@ -3075,6 +3075,803 @@
       "original": true,
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
       "focus": "Accosta il MAcA al Parco Dora: osserva come scienza, strutture industriali e vegetazione possono diventare strumenti per leggere l’ambiente urbano.|Connect MAcA with Parco Dora: observe how science, industrial structures and vegetation help read the urban environment.",
+      "createdAt": "2026-10-16",
+      "indoorStops": [
+        "torino-107"
+      ]
+    },
+    {
+      "id": "torino-tour-4",
+      "title": "Cupole e soglie del centro|Domes and thresholds in the centre",
+      "mood": "architecture",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "torino-021",
+        "torino-004",
+        "torino-019"
+      ],
+      "indoorStops": [
+        "torino-021"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "torino-021",
+            "torino-004"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "torino-021",
+            "torino-004",
+            "torino-019"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "torino-021",
+            "torino-004",
+            "torino-019"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "torino-021",
+            "torino-004",
+            "torino-019"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Confronta cupola, cancellata e facciata; rispetta gli accessi liturgici.|Compare dome, railings and facade; respect religious services.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "torino-tour-5",
+      "title": "Torino disegnata in Liberty|Turin drawn in Art Nouveau",
+      "mood": "architecture",
+      "minutes": 240,
+      "weather": "outdoor",
+      "stops": [
+        "torino-101",
+        "torino-102",
+        "torino-103",
+        "torino-016"
+      ],
+      "indoorStops": [],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "torino-101",
+            "torino-102"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "torino-101",
+            "torino-102",
+            "torino-103"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "torino-101",
+            "torino-102",
+            "torino-103",
+            "torino-016"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "torino-101",
+            "torino-102",
+            "torino-103",
+            "torino-016"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Cerca linee vegetali e ferri lavorati dalle sole aree pubbliche.|Look for plant lines and ironwork from public areas only.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "torino-tour-6",
+      "title": "Pietra scolpita e sale dipinte|Carved stone and painted rooms",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "torino-005",
+        "torino-004",
+        "torino-021"
+      ],
+      "indoorStops": [
+        "torino-005"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "torino-005",
+            "torino-004"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "torino-005",
+            "torino-004",
+            "torino-021"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "torino-005",
+            "torino-004",
+            "torino-021"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "torino-005",
+            "torino-004",
+            "torino-021"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Scegli un dettaglio della collezione e confrontalo con i prospetti della piazza.|Choose a collection detail and compare it with square facades.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "torino-tour-7",
+      "title": "Luce di cinema e città|Cinema light and city",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "torino-002",
+        "torino-005",
+        "torino-004"
+      ],
+      "indoorStops": [
+        "torino-002"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "torino-002",
+            "torino-005"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "torino-002",
+            "torino-005",
+            "torino-004"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "torino-002",
+            "torino-005",
+            "torino-004"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "torino-002",
+            "torino-005",
+            "torino-004"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Seleziona una parte del museo e confronta inquadrature e spazio urbano.|Select part of the museum and compare framing with urban space.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "torino-tour-8",
+      "title": "L’ambiente diventa museo|The environment becomes a museum",
+      "mood": "nature",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "torino-107",
+        "torino-108",
+        "torino-109",
+        "torino-016"
+      ],
+      "indoorStops": [
+        "torino-107"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "torino-107",
+            "torino-108"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "torino-107",
+            "torino-108",
+            "torino-109"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "torino-107",
+            "torino-108",
+            "torino-109",
+            "torino-016"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "torino-107",
+            "torino-108",
+            "torino-109",
+            "torino-016"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Collega un tema del MAcA a materiali, acqua e vegetazione del parco.|Connect a MAcA topic with park materials, water and vegetation.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "torino-tour-9",
+      "title": "Giardini dietro il palazzo|Gardens behind the palace",
+      "mood": "nature",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "torino-004",
+        "torino-019",
+        "torino-021",
+        "torino-005"
+      ],
+      "indoorStops": [
+        "torino-004"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "torino-004",
+            "torino-019"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "torino-004",
+            "torino-019",
+            "torino-021"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "torino-004",
+            "torino-019",
+            "torino-021",
+            "torino-005"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "torino-004",
+            "torino-019",
+            "torino-021",
+            "torino-005"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Alterna giardini e una selezione delle sale; conferma gli accessi alle singole aree.|Alternate gardens and selected rooms; check access to individual areas.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "torino-tour-10",
+      "title": "Bicerin, cioccolato e piazze|Bicerin, chocolate and squares",
+      "mood": "food",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "torino-012",
+        "torino-022",
+        "torino-016"
+      ],
+      "indoorStops": [
+        "torino-012"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "torino-012",
+            "torino-022"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "torino-012",
+            "torino-022",
+            "torino-016"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "torino-012",
+            "torino-022",
+            "torino-016"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "torino-012",
+            "torino-022",
+            "torino-016"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Leggi ingredienti e modalità di servizio; assaggi e consumazioni restano facoltativi.|Read ingredients and service options; tastings and purchases remain optional.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "torino-tour-11",
+      "title": "Dal mercato al caffè|From market to cafe",
+      "mood": "food",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "torino-016",
+        "torino-012",
+        "torino-022",
+        "torino-017"
+      ],
+      "indoorStops": [
+        "torino-012"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "torino-016",
+            "torino-012"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "torino-016",
+            "torino-012",
+            "torino-022"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "torino-016",
+            "torino-012",
+            "torino-022",
+            "torino-017"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "torino-016",
+            "torino-012",
+            "torino-022",
+            "torino-017"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Confronta pesi e stagioni del mercato con le misure di una bevanda storica.|Compare market weights and seasons with the measures of a historic drink.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "torino-tour-12",
+      "title": "Memoria industriale al Dora|Industrial memory at Dora",
+      "mood": "memory",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "torino-107",
+        "torino-108",
+        "torino-109",
+        "torino-105"
+      ],
+      "indoorStops": [
+        "torino-107"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "torino-107",
+            "torino-108"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "torino-107",
+            "torino-108",
+            "torino-109"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "torino-107",
+            "torino-108",
+            "torino-109",
+            "torino-105"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "torino-107",
+            "torino-108",
+            "torino-109",
+            "torino-105"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Cerca tracce di produzione e riuso e confrontale con il racconto del museo.|Find traces of production and reuse and compare them with the museum narrative.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "torino-tour-13",
+      "title": "Potere, piazze e culto|Power, squares and worship",
+      "mood": "memory",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "torino-004",
+        "torino-019",
+        "torino-021",
+        "torino-001"
+      ],
+      "indoorStops": [
+        "torino-004"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "torino-004",
+            "torino-019"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "torino-004",
+            "torino-019",
+            "torino-021"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "torino-004",
+            "torino-019",
+            "torino-021",
+            "torino-001"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "torino-004",
+            "torino-019",
+            "torino-021",
+            "torino-001"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Leggi i confini fra palazzo, piazza e chiese attraverso accessi e assi visivi.|Read boundaries between palace, square and churches through entrances and sightlines.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "torino-tour-14",
+      "title": "Il mercato oltre i banchi|The market beyond the stalls",
+      "mood": "architecture",
+      "minutes": 240,
+      "weather": "outdoor",
+      "stops": [
+        "torino-016",
+        "torino-104",
+        "torino-105"
+      ],
+      "indoorStops": [],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "torino-016",
+            "torino-104"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "torino-016",
+            "torino-104",
+            "torino-105"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "torino-016",
+            "torino-104",
+            "torino-105"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "torino-016",
+            "torino-104",
+            "torino-105"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Confronta tettoie, ponte e cortile; non è previsto accesso agli edifici privati.|Compare canopies, bridge and courtyard; private buildings are excluded.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "torino-tour-15",
+      "title": "Geometrie del barocco|Baroque geometries",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "torino-021",
+        "torino-005",
+        "torino-019"
+      ],
+      "indoorStops": [
+        "torino-021"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "torino-021",
+            "torino-005"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "torino-021",
+            "torino-005",
+            "torino-019"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "torino-021",
+            "torino-005",
+            "torino-019"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "torino-021",
+            "torino-005",
+            "torino-019"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Disegna un motivo ripetuto e cerca la sua variazione nella tappa successiva.|Sketch a repeated motif and look for its variation at the next stop.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
       "createdAt": "2026-10-16"
     }
   ],

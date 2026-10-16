@@ -3135,6 +3135,803 @@
       "original": true,
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
       "focus": "Dalla memoria sotterranea alla vegetazione: accosta Stampace, la cripta e l’Orto Botanico cercando differenze di luce, temperatura e materiali.|From underground memory to vegetation: connect Stampace, the crypt and the Botanical Garden through changes in light, temperature and materials.",
+      "createdAt": "2026-10-16",
+      "indoorStops": [
+        "cagliari-108"
+      ]
+    },
+    {
+      "id": "cagliari-tour-4",
+      "title": "Pietra e ombra a Castello|Stone and shade in Castello",
+      "mood": "architecture",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "cagliari-020",
+        "cagliari-001",
+        "cagliari-002"
+      ],
+      "indoorStops": [
+        "cagliari-020"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "cagliari-020",
+            "cagliari-001"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "cagliari-020",
+            "cagliari-001",
+            "cagliari-002"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "cagliari-020",
+            "cagliari-001",
+            "cagliari-002"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "cagliari-020",
+            "cagliari-001",
+            "cagliari-002"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Confronta portali, mura e aperture sul paesaggio; ci sono pendenze.|Compare portals, walls and landscape openings; there are slopes.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "cagliari-tour-5",
+      "title": "Sotto Stampace|Below Stampace",
+      "mood": "architecture",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "cagliari-108",
+        "cagliari-107",
+        "cagliari-109",
+        "cagliari-003"
+      ],
+      "indoorStops": [
+        "cagliari-108"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "cagliari-108",
+            "cagliari-107"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "cagliari-108",
+            "cagliari-107",
+            "cagliari-109"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "cagliari-108",
+            "cagliari-107",
+            "cagliari-109",
+            "cagliari-003"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "cagliari-108",
+            "cagliari-107",
+            "cagliari-109",
+            "cagliari-003"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Confronta facciate e livelli sotterranei senza contare due volte la stessa cripta.|Compare facades and underground levels; the final stop deepens the same crypt visit.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "cagliari-tour-6",
+      "title": "Oggetti e scorci di Castello|Objects and views in Castello",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "cagliari-006",
+        "cagliari-020",
+        "cagliari-001"
+      ],
+      "indoorStops": [
+        "cagliari-006"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "cagliari-006",
+            "cagliari-020"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "cagliari-006",
+            "cagliari-020",
+            "cagliari-001"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "cagliari-006",
+            "cagliari-020",
+            "cagliari-001"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "cagliari-006",
+            "cagliari-020",
+            "cagliari-001"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Scegli pochi oggetti delle collezioni e cerca forme simili negli edifici.|Choose a few collection objects and look for similar shapes in buildings.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "cagliari-tour-7",
+      "title": "Le facciate di Villanova|Villanova facades",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "outdoor",
+      "stops": [
+        "cagliari-101",
+        "cagliari-102",
+        "cagliari-103",
+        "cagliari-016"
+      ],
+      "indoorStops": [],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "cagliari-101",
+            "cagliari-102"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "cagliari-101",
+            "cagliari-102",
+            "cagliari-103"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "cagliari-101",
+            "cagliari-102",
+            "cagliari-103",
+            "cagliari-016"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "cagliari-101",
+            "cagliari-102",
+            "cagliari-103",
+            "cagliari-016"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Raccogli colori, cornici e portoni senza fotografare dentro le abitazioni.|Collect colours, frames and doors without photographing inside homes.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "cagliari-tour-8",
+      "title": "Dal giardino alle collezioni|From garden to collections",
+      "mood": "nature",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "cagliari-103",
+        "cagliari-006",
+        "cagliari-001"
+      ],
+      "indoorStops": [
+        "cagliari-006"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "cagliari-103",
+            "cagliari-006"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "cagliari-103",
+            "cagliari-006",
+            "cagliari-001"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "cagliari-103",
+            "cagliari-006",
+            "cagliari-001"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "cagliari-103",
+            "cagliari-006",
+            "cagliari-001"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Osserva il verde e poi il rapporto fra materiali, territorio e oggetti nel museo.|Observe greenery, then the relationship between materials, territory and museum objects.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "cagliari-tour-9",
+      "title": "Piante e pietra a Stampace|Plants and stone in Stampace",
+      "mood": "nature",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "cagliari-109",
+        "cagliari-108",
+        "cagliari-107",
+        "cagliari-003"
+      ],
+      "indoorStops": [
+        "cagliari-108"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "cagliari-109",
+            "cagliari-108"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "cagliari-109",
+            "cagliari-108",
+            "cagliari-107"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "cagliari-109",
+            "cagliari-108",
+            "cagliari-107",
+            "cagliari-003"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "cagliari-109",
+            "cagliari-108",
+            "cagliari-107",
+            "cagliari-003"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Accosta una forma vegetale a una superficie della cripta; giardino all’aperto.|Pair a plant shape with a crypt surface; the garden is outdoors.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "cagliari-tour-10",
+      "title": "Il mercato cambia indirizzo|The market changes address",
+      "mood": "food",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "cagliari-016",
+        "cagliari-032",
+        "cagliari-101"
+      ],
+      "indoorStops": [
+        "cagliari-016"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "cagliari-016",
+            "cagliari-032"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "cagliari-016",
+            "cagliari-032",
+            "cagliari-101"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "cagliari-016",
+            "cagliari-032",
+            "cagliari-101"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "cagliari-016",
+            "cagliari-032",
+            "cagliari-101"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Visita la sede coperta di piazza Nazzari e leggi ingredienti e stagioni sui banchi.|Visit the covered Piazza Nazzari site and read ingredients and seasons at the stalls.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "cagliari-tour-11",
+      "title": "Dal mercato ai vicoli|From market to lanes",
+      "mood": "food",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "cagliari-016",
+        "cagliari-102",
+        "cagliari-101"
+      ],
+      "indoorStops": [
+        "cagliari-016"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "cagliari-016",
+            "cagliari-102"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "cagliari-016",
+            "cagliari-102",
+            "cagliari-101"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "cagliari-016",
+            "cagliari-102",
+            "cagliari-101"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "cagliari-016",
+            "cagliari-102",
+            "cagliari-101"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Componi una lista della spesa dai prodotti esposti e confrontala con le insegne.|Build a shopping list from displayed products and compare it with shop signs.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "cagliari-tour-12",
+      "title": "Stampace, memoria sotto i piedi|Stampace, memory underfoot",
+      "mood": "memory",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "cagliari-108",
+        "cagliari-107",
+        "cagliari-109",
+        "cagliari-031"
+      ],
+      "indoorStops": [
+        "cagliari-108"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "cagliari-108",
+            "cagliari-107"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "cagliari-108",
+            "cagliari-107",
+            "cagliari-109"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "cagliari-108",
+            "cagliari-107",
+            "cagliari-109",
+            "cagliari-031"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "cagliari-108",
+            "cagliari-107",
+            "cagliari-109",
+            "cagliari-031"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Confronta devozione, spazi scavati e giardino lungo la stessa zona.|Compare devotion, excavated spaces and garden within the same district.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "cagliari-tour-13",
+      "title": "Castello, città e reperti|Castello, city and artefacts",
+      "mood": "memory",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "cagliari-006",
+        "cagliari-001",
+        "cagliari-020",
+        "cagliari-103"
+      ],
+      "indoorStops": [
+        "cagliari-006"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "cagliari-006",
+            "cagliari-001"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "cagliari-006",
+            "cagliari-001",
+            "cagliari-020"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "cagliari-006",
+            "cagliari-001",
+            "cagliari-020",
+            "cagliari-103"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "cagliari-006",
+            "cagliari-001",
+            "cagliari-020",
+            "cagliari-103"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Confronta un oggetto antico con un dettaglio del quartiere attuale.|Compare an ancient object with a detail of the present neighbourhood.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "cagliari-tour-14",
+      "title": "Villanova verso il verde|Villanova towards greenery",
+      "mood": "architecture",
+      "minutes": 240,
+      "weather": "outdoor",
+      "stops": [
+        "cagliari-101",
+        "cagliari-102",
+        "cagliari-026"
+      ],
+      "indoorStops": [],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "cagliari-101",
+            "cagliari-102"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "cagliari-101",
+            "cagliari-102",
+            "cagliari-026"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "cagliari-101",
+            "cagliari-102",
+            "cagliari-026"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "cagliari-101",
+            "cagliari-102",
+            "cagliari-026"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Segui il cambio di scala dai vicoli allo spazio aperto dei giardini.|Follow the change in scale from lanes to open gardens.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "cagliari-tour-15",
+      "title": "Le cornici del Bastione|The Bastione frames",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "cagliari-020",
+        "cagliari-002",
+        "cagliari-001",
+        "cagliari-032"
+      ],
+      "indoorStops": [
+        "cagliari-020"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "cagliari-020",
+            "cagliari-002"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "cagliari-020",
+            "cagliari-002",
+            "cagliari-001"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "cagliari-020",
+            "cagliari-002",
+            "cagliari-001",
+            "cagliari-032"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "cagliari-020",
+            "cagliari-002",
+            "cagliari-001",
+            "cagliari-032"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Scegli tre cornici del panorama e disegnale invece di inseguire ogni belvedere.|Choose three landscape frames and sketch them instead of chasing every viewpoint.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
       "createdAt": "2026-10-16"
     }
   ],

@@ -3174,7 +3174,10 @@
       "original": true,
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
       "focus": "Una raccolta domestica e due soglie urbane: osserva come cambiano le dimensioni della vita pubblica fra Casa Boschi, piazza Oberdan e Albergo Diurno.|A domestic collection and two urban thresholds: observe changes in public life between Casa Boschi, Piazza Oberdan and Albergo Diurno.",
-      "createdAt": "2026-10-16"
+      "createdAt": "2026-10-16",
+      "indoorStops": [
+        "milano-101"
+      ]
     },
     {
       "id": "milano-tour-2",
@@ -3208,6 +3211,798 @@
       "original": true,
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
       "focus": "Confronta Portello e CityLife attraverso curve, quote e percorsi pedonali. Disegna una mappa di forme osservate, invece di una lista di negozi.|Compare Portello and CityLife through curves, levels and pedestrian paths. Draw a map of observed shapes rather than a shopping list.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "milano-tour-4",
+      "title": "La galleria come strada coperta|The arcade as a covered street",
+      "mood": "architecture",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "milano-005",
+        "milano-001",
+        "milano-007"
+      ],
+      "indoorStops": [
+        "milano-005"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "milano-005",
+            "milano-001"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "milano-005",
+            "milano-001",
+            "milano-007"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "milano-005",
+            "milano-001",
+            "milano-007"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "milano-005",
+            "milano-001",
+            "milano-007"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Confronta la luce della galleria con facciata del Duomo e piazza della Scala.|Compare arcade light with the Duomo facade and Piazza della Scala.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "milano-tour-5",
+      "title": "Casa e soglie a Porta Venezia|Home and thresholds at Porta Venezia",
+      "mood": "architecture",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "milano-101",
+        "milano-102",
+        "milano-103",
+        "milano-017"
+      ],
+      "indoorStops": [
+        "milano-101"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "milano-101",
+            "milano-102"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "milano-101",
+            "milano-102",
+            "milano-103"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "milano-101",
+            "milano-102",
+            "milano-103",
+            "milano-017"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "milano-101",
+            "milano-102",
+            "milano-103",
+            "milano-017"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Leggi il passaggio dalla casa museo agli ingressi pubblici; Diurno solo esterni.|Read the transition from house museum to public entrances; Diurno exterior only.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "milano-tour-6",
+      "title": "Una casa piena di quadri|A home full of paintings",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "milano-026",
+        "milano-102",
+        "milano-103"
+      ],
+      "indoorStops": [
+        "milano-026"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "milano-026",
+            "milano-102"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "milano-026",
+            "milano-102",
+            "milano-103"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "milano-026",
+            "milano-102",
+            "milano-103"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "milano-026",
+            "milano-102",
+            "milano-103"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Scegli tre dialoghi fra quadri e arredi invece di correre fra tutte le opere.|Choose three conversations between paintings and furniture rather than rushing every work.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "milano-tour-7",
+      "title": "Dal castello alla pittura|From castle to painting",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "milano-004",
+        "milano-003",
+        "milano-034"
+      ],
+      "indoorStops": [
+        "milano-004"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "milano-004",
+            "milano-003"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "milano-004",
+            "milano-003",
+            "milano-034"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "milano-004",
+            "milano-003",
+            "milano-034"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "milano-004",
+            "milano-003",
+            "milano-034"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Concentrati su una sala e su un dettaglio urbano da confrontare con le immagini.|Focus on one room and an urban detail to compare with the pictures.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "milano-tour-8",
+      "title": "Il parco incontra il museo|The park meets the museum",
+      "mood": "nature",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "milano-034",
+        "milano-004",
+        "milano-003",
+        "milano-023"
+      ],
+      "indoorStops": [
+        "milano-004"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "milano-034",
+            "milano-004"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "milano-034",
+            "milano-004",
+            "milano-003"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "milano-034",
+            "milano-004",
+            "milano-003",
+            "milano-023"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "milano-034",
+            "milano-004",
+            "milano-003",
+            "milano-023"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Confronta ombra del parco e paesaggi delle collezioni; il verde è all’aperto.|Compare park shade and collection landscapes; the green space is outdoors.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "milano-tour-9",
+      "title": "Acqua lenta lungo la Martesana|Slow water along the Martesana",
+      "mood": "nature",
+      "minutes": 240,
+      "weather": "outdoor",
+      "stops": [
+        "milano-104",
+        "milano-105",
+        "milano-106",
+        "milano-033"
+      ],
+      "indoorStops": [],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "milano-104",
+            "milano-105"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "milano-104",
+            "milano-105",
+            "milano-106"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "milano-104",
+            "milano-105",
+            "milano-106",
+            "milano-033"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "milano-104",
+            "milano-105",
+            "milano-106",
+            "milano-033"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Segui acqua, ponti e vegetazione senza entrare nelle piste ciclabili.|Follow water, bridges and vegetation while keeping clear of cycle lanes.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "milano-tour-10",
+      "title": "Un aperitivo sotto il vetro|An aperitivo under glass",
+      "mood": "food",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "milano-014",
+        "milano-005",
+        "milano-018"
+      ],
+      "indoorStops": [
+        "milano-014"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "milano-014",
+            "milano-005"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "milano-014",
+            "milano-005",
+            "milano-018"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "milano-014",
+            "milano-005",
+            "milano-018"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "milano-014",
+            "milano-005",
+            "milano-018"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Confronta menu e servizio al banco o al tavolo prima di scegliere.|Compare menus and counter or table service before choosing.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "milano-tour-11",
+      "title": "Sarpi, sapori e città produttiva|Sarpi, flavours and the productive city",
+      "mood": "food",
+      "minutes": 240,
+      "weather": "outdoor",
+      "stops": [
+        "milano-016",
+        "milano-034",
+        "milano-004"
+      ],
+      "indoorStops": [],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "milano-016",
+            "milano-034"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "milano-016",
+            "milano-034",
+            "milano-004"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "milano-016",
+            "milano-034",
+            "milano-004"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "milano-016",
+            "milano-034",
+            "milano-004"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Leggi ingredienti e insegne, poi confronta il ritmo del parco e del castello.|Read ingredients and signs, then compare the pace of park and castle.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "milano-tour-12",
+      "title": "La casa e la città moderna|The home and the modern city",
+      "mood": "memory",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "milano-101",
+        "milano-102",
+        "milano-103",
+        "milano-003"
+      ],
+      "indoorStops": [
+        "milano-101"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "milano-101",
+            "milano-102"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "milano-101",
+            "milano-102",
+            "milano-103"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "milano-101",
+            "milano-102",
+            "milano-103",
+            "milano-003"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "milano-101",
+            "milano-102",
+            "milano-103",
+            "milano-003"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Cerca tracce della vita privata e dei servizi collettivi; Diurno solo esterni.|Look for traces of private life and shared services; Diurno exterior only.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "milano-tour-13",
+      "title": "Castello, verde e quartieri|Castle, green space and neighbourhoods",
+      "mood": "memory",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "milano-004",
+        "milano-034",
+        "milano-016",
+        "milano-021"
+      ],
+      "indoorStops": [
+        "milano-004"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "milano-004",
+            "milano-034"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "milano-004",
+            "milano-034",
+            "milano-016"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "milano-004",
+            "milano-034",
+            "milano-016",
+            "milano-021"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "milano-004",
+            "milano-034",
+            "milano-016",
+            "milano-021"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Osserva come cambiano confini e usi fra monumento, parco e strada commerciale.|Observe changing boundaries and uses between monument, park and shopping street.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "milano-tour-14",
+      "title": "Tre scale al Portello|Three scales at Portello",
+      "mood": "architecture",
+      "minutes": 240,
+      "weather": "outdoor",
+      "stops": [
+        "milano-107",
+        "milano-108",
+        "milano-109",
+        "milano-034"
+      ],
+      "indoorStops": [],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "milano-107",
+            "milano-108"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "milano-107",
+            "milano-108",
+            "milano-109"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "milano-107",
+            "milano-108",
+            "milano-109",
+            "milano-034"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "milano-107",
+            "milano-108",
+            "milano-109",
+            "milano-034"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Confronta colline artificiali, piazza e torri tramite tre fotografie dalla strada.|Compare artificial hills, square and towers through three street photographs.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "milano-tour-15",
+      "title": "Milano affrescata a passo lento|Frescoed Milan at a slow pace",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "milano-023",
+        "milano-021",
+        "milano-004"
+      ],
+      "indoorStops": [
+        "milano-023"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "milano-023",
+            "milano-021"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "milano-023",
+            "milano-021",
+            "milano-004"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "milano-023",
+            "milano-021",
+            "milano-004"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "milano-023",
+            "milano-021",
+            "milano-004"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Concentrati su un dettaglio dipinto e uno scolpito, rispettando le funzioni religiose.|Focus on a painted detail and a sculpted one, respecting religious services.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
       "createdAt": "2026-10-16"
     }
   ],

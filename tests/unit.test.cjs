@@ -14,14 +14,20 @@ test('keyword search works without choosing an interest, with aliases and compou
  assert.equal(GuideExperiences.search(items,'').length,3);
 });
 
-test('tour preferences respect time, interest and indoor options',()=>{
- const {GuideTourRules}=component('tour-rules');
- const tours=[{id:'a',mood:'art',weather:'mixed',minutes:180,stops:['a','b','c']}];
- assert.equal(GuideTourRules.select(tours,{time:90}).length,0);
- assert.equal(GuideTourRules.select(tours,{time:120})[0].stops.length,2);
- assert.equal(GuideTourRules.select(tours,{mood:'nature'}).length,0);
- assert.equal(GuideTourRules.select(tours,{time:120,weather:'mixed'}).length,0);
- assert.equal(GuideTourRules.select(tours,{time:180,weather:'mixed'})[0].shortened,false);
+test('all cities cover every time, interest and indoor combination with curated variants',()=>{
+ const {GuideTourRules}=component('tour-rules');let combinations=0;
+ for(const file of fs.readdirSync(path.join(root,'data/cities'))){
+  const data=JSON.parse(fs.readFileSync(path.join(root,'data/cities',file),'utf8'));
+  for(const time of [90,120,180,240])for(const mood of ['architecture','art','nature','food','memory'])for(const weather of ['','mixed']){
+   const selected=GuideTourRules.select(data.TOURS,{time,mood,weather});
+   assert(selected.length>=1,file+' '+JSON.stringify({time,mood,weather}));
+   assert(selected.some(t=>t.minutes===time),'A curated version for each duration');
+   for(const tour of selected){assert(tour.minutes<=time);assert.equal(tour.mood,mood);if(weather==='mixed'&&tour.variants)assert(tour.stops.some(id=>tour.indoorStops.includes(id)));}
+   combinations++;
+  }
+ }
+ assert.equal(combinations,320);
+ assert.equal(GuideTourRules.select([{mood:'art',weather:'mixed',minutes:180,stops:['a','b','c']}],{time:90}).length,0,'Never truncate a route without an authored variant');
 });
 
 test('photo rendering escapes captions and preserves linked attribution',()=>{

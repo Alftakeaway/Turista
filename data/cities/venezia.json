@@ -3209,6 +3209,795 @@
       "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti.|Original editorial route; places documented by the sources.",
       "focus": "Dal Ghetto alla Misericordia e a Sant’Alvise, confronta soglie, ponti e rive. Gli spazi di culto e di memoria richiedono attenzione e visite interne organizzate separatamente.|From the Ghetto to Misericordia and Sant’Alvise, compare thresholds, bridges and banks. Places of worship and memory require care and separately arranged indoor visits.",
       "createdAt": "2026-10-16"
+    },
+    {
+      "id": "venezia-tour-4",
+      "title": "Il potere fra portici e acqua|Power between arcades and water",
+      "mood": "architecture",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "venezia-001",
+        "venezia-020",
+        "venezia-026"
+      ],
+      "indoorStops": [
+        "venezia-001"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "venezia-001",
+            "venezia-020"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "venezia-001",
+            "venezia-020",
+            "venezia-026"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "venezia-001",
+            "venezia-020",
+            "venezia-026"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "venezia-001",
+            "venezia-020",
+            "venezia-026"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Confronta soglie del palazzo, basilica e giardini senza pretendere visite integrali.|Compare palace, basilica and garden thresholds through focused visits.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "venezia-tour-5",
+      "title": "Dorsoduro: fabbriche e cupole|Dorsoduro: workshops and domes",
+      "mood": "architecture",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "venezia-023",
+        "venezia-105",
+        "venezia-104"
+      ],
+      "indoorStops": [
+        "venezia-023"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "venezia-023",
+            "venezia-105"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "venezia-023",
+            "venezia-105",
+            "venezia-104"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "venezia-023",
+            "venezia-105",
+            "venezia-104"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "venezia-023",
+            "venezia-105",
+            "venezia-104"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Leggi il rapporto fra cupola, fondamenta e squero osservato dall’esterno.|Read the relationship between dome, waterfront and squero viewed from outside.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "venezia-tour-6",
+      "title": "Dal quadro alla luce della laguna|From painting to lagoon light",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "venezia-003",
+        "venezia-105",
+        "venezia-104"
+      ],
+      "indoorStops": [
+        "venezia-003"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "venezia-003",
+            "venezia-105"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "venezia-003",
+            "venezia-105",
+            "venezia-104"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "venezia-003",
+            "venezia-105",
+            "venezia-104"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "venezia-003",
+            "venezia-105",
+            "venezia-104"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Scegli un dipinto e confrontane la luce con l’acqua alle Zattere.|Choose a painting and compare its light with the water at Zattere.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "venezia-tour-7",
+      "title": "Un motivo fra Frari e San Rocco|A motif between Frari and San Rocco",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "venezia-021",
+        "venezia-022",
+        "venezia-032"
+      ],
+      "indoorStops": [
+        "venezia-021"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "venezia-021",
+            "venezia-022"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "venezia-021",
+            "venezia-022",
+            "venezia-032"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "venezia-021",
+            "venezia-022",
+            "venezia-032"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "venezia-021",
+            "venezia-022",
+            "venezia-032"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Segui un gesto o colore fra due interni; seleziona poche opere.|Follow a gesture or colour across two interiors; select a few works.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "venezia-tour-8",
+      "title": "Un giardino fra pietra e laguna|A garden between stone and lagoon",
+      "mood": "nature",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "venezia-026",
+        "venezia-020",
+        "venezia-001",
+        "venezia-017"
+      ],
+      "indoorStops": [
+        "venezia-020"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "venezia-026",
+            "venezia-020"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "venezia-026",
+            "venezia-020",
+            "venezia-001"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "venezia-026",
+            "venezia-020",
+            "venezia-001",
+            "venezia-017"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "venezia-026",
+            "venezia-020",
+            "venezia-001",
+            "venezia-017"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Osserva alberi e acqua, poi le immagini della natura nella basilica.|Observe trees and water, then images of nature inside the basilica.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "venezia-tour-9",
+      "title": "Acqua e arte a Dorsoduro|Water and art in Dorsoduro",
+      "mood": "nature",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "venezia-105",
+        "venezia-004",
+        "venezia-023"
+      ],
+      "indoorStops": [
+        "venezia-004"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "venezia-105",
+            "venezia-004"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "venezia-105",
+            "venezia-004",
+            "venezia-023"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "venezia-105",
+            "venezia-004",
+            "venezia-023"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "venezia-105",
+            "venezia-004",
+            "venezia-023"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Confronta il paesaggio delle Zattere con una selezione della collezione.|Compare the Zattere landscape with selected collection works.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "venezia-tour-10",
+      "title": "Caffè, piazza e rituali|Coffee, square and rituals",
+      "mood": "food",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "venezia-017",
+        "venezia-026",
+        "venezia-020"
+      ],
+      "indoorStops": [
+        "venezia-017"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "venezia-017",
+            "venezia-026"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "venezia-017",
+            "venezia-026",
+            "venezia-020"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "venezia-017",
+            "venezia-026",
+            "venezia-020"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "venezia-017",
+            "venezia-026",
+            "venezia-020"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Confronta menu e servizio prima di ordinare; eventuali supplementi vanno controllati.|Compare menu and service before ordering; check possible supplements.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "venezia-tour-11",
+      "title": "Rialto: ingredienti e parole|Rialto: ingredients and words",
+      "mood": "food",
+      "minutes": 240,
+      "weather": "outdoor",
+      "stops": [
+        "venezia-014",
+        "venezia-002",
+        "venezia-011"
+      ],
+      "indoorStops": [],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "venezia-014",
+            "venezia-002"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "venezia-014",
+            "venezia-002",
+            "venezia-011"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "venezia-014",
+            "venezia-002",
+            "venezia-011"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "venezia-014",
+            "venezia-002",
+            "venezia-011"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "3 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|3 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Leggi etichette e stagioni, poi confrontale con i menu dei bacari incontrati.|Read labels and seasons, then compare them with bacaro menus along the way.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "venezia-tour-12",
+      "title": "La Repubblica nelle soglie|The Republic through thresholds",
+      "mood": "memory",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "venezia-001",
+        "venezia-020",
+        "venezia-026",
+        "venezia-038"
+      ],
+      "indoorStops": [
+        "venezia-001"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "venezia-001",
+            "venezia-020"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "venezia-001",
+            "venezia-020",
+            "venezia-026"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "venezia-001",
+            "venezia-020",
+            "venezia-026",
+            "venezia-038"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "venezia-001",
+            "venezia-020",
+            "venezia-026",
+            "venezia-038"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Confronta gli accessi del potere con quelli di culto e dello spazio pubblico.|Compare entrances of power with worship and public space.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "venezia-tour-13",
+      "title": "Lavoro, acqua e devozione|Work, water and devotion",
+      "mood": "memory",
+      "minutes": 240,
+      "weather": "mixed",
+      "stops": [
+        "venezia-023",
+        "venezia-105",
+        "venezia-104",
+        "venezia-004"
+      ],
+      "indoorStops": [
+        "venezia-023"
+      ],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "venezia-023",
+            "venezia-105"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "venezia-023",
+            "venezia-105",
+            "venezia-104"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "venezia-023",
+            "venezia-105",
+            "venezia-104",
+            "venezia-004"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "venezia-023",
+            "venezia-105",
+            "venezia-104",
+            "venezia-004"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Leggi l’intreccio fra lavoro di barca, fondamenta e architettura religiosa.|Read the links between boat work, waterfront and religious architecture.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "venezia-tour-14",
+      "title": "Castello: porte e campi|Castello: gates and squares",
+      "mood": "architecture",
+      "minutes": 240,
+      "weather": "outdoor",
+      "stops": [
+        "venezia-101",
+        "venezia-102",
+        "venezia-103",
+        "venezia-025"
+      ],
+      "indoorStops": [],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "venezia-101",
+            "venezia-102"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "venezia-101",
+            "venezia-102",
+            "venezia-103"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "venezia-101",
+            "venezia-102",
+            "venezia-103",
+            "venezia-025"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "venezia-101",
+            "venezia-102",
+            "venezia-103",
+            "venezia-025"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Confronta la porta monumentale con soglie domestiche e campo di quartiere.|Compare the monumental gate with domestic thresholds and the neighbourhood square.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
+    },
+    {
+      "id": "venezia-tour-15",
+      "title": "Cannaregio: riflessi e segni|Cannaregio: reflections and signs",
+      "mood": "art",
+      "minutes": 240,
+      "weather": "outdoor",
+      "stops": [
+        "venezia-107",
+        "venezia-108",
+        "venezia-109",
+        "venezia-002"
+      ],
+      "indoorStops": [],
+      "variants": [
+        {
+          "minutes": 90,
+          "stops": [
+            "venezia-107",
+            "venezia-108"
+          ],
+          "walkingMinutes": 30,
+          "visitMinutes": 60,
+          "note": "Due tappe, osservazione mirata: non include visite complete, code o attese.|Two stops, focused observation: excludes full visits, queues and waits."
+        },
+        {
+          "minutes": 120,
+          "stops": [
+            "venezia-107",
+            "venezia-108",
+            "venezia-109"
+          ],
+          "walkingMinutes": 45,
+          "visitMinutes": 75,
+          "note": "Tre tappe con selezione di sale e dettagli; esclude code e attese.|Three stops with selected rooms and details; excludes queues and waits."
+        },
+        {
+          "minutes": 180,
+          "stops": [
+            "venezia-107",
+            "venezia-108",
+            "venezia-109",
+            "venezia-002"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 120,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        },
+        {
+          "minutes": 240,
+          "stops": [
+            "venezia-107",
+            "venezia-108",
+            "venezia-109",
+            "venezia-002"
+          ],
+          "walkingMinutes": 60,
+          "visitMinutes": 180,
+          "note": "4 tappe a passo lento, con tempo per osservazione, taccuino e soste. Visite selettive: code e attese escluse.|4 stops at a slow pace, with time for observation, notebook and breaks. Focused visits: queues and waits excluded."
+        }
+      ],
+      "original": true,
+      "authorship": "Percorso originale della redazione; luoghi documentati dalle fonti delle tappe.|Original editorial route; places documented by the stop sources.",
+      "focus": "Raccogli tre dettagli visivi rispettando residenti e luoghi di memoria.|Collect three visual details while respecting residents and places of memory.",
+      "terrain": "Percorso a piedi: i trasferimenti sono stimati, non misurati in tempo reale. Controlla la mappa per distanze, pendenze, ponti o scale. Interni secondo aperture, biglietti e prenotazioni.|Walking route: transfers are estimates, not measured in real time. Check the map for distances, slopes, bridges or steps. Indoors subject to opening times, tickets and bookings.",
+      "createdAt": "2026-10-16"
     }
   ],
   "TOUR_STOPS": [

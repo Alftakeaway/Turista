@@ -1,6 +1,6 @@
 # Guide Poliedriche
 
-Otto città italiane, 292 esperienze, 24 tour originali con 72 tappe dedicate e interessi facoltativi. Sito statico bilingue IT/EN, senza backend, account o dipendenze in esecuzione. Include Palermo e otto palette distinte.
+Otto città italiane, 292 esperienze, 120 tour originali (15 per città), con varianti curate da 90 minuti a 4 ore e 72 tappe dedicate e interessi facoltativi. Sito statico bilingue IT/EN, senza backend, account o dipendenze in esecuzione. Include Palermo e otto palette distinte.
 
 ## Utilizzo
 
@@ -47,7 +47,7 @@ Su Windows puoi usare il browser installato impostando `PLAYWRIGHT_EXECUTABLE_PA
 
 Gli identificatori `roma-001`, ecc. sono stabili e indipendenti dal titolo: non modificarli quando cambi i testi. I vecchi preferiti basati sui titoli vengono riconosciuti tramite `legacyId` e salvati con gli ID nuovi al successivo aggiornamento. Sono conservate le chiavi storage delle città.
 
-Per aggiungere una città, aggiungi un dataset conforme con tre tour e relative tappe, foto e palette in `data/themes.json`, quindi aggiorna lo schema degli ID. Home e test ricavano le città dai dati. La logica e il markup delle guide non vanno duplicati.
+Per aggiungere una città, aggiungi un dataset conforme con almeno dodici tour e copertura delle preferenze descritta in `docs/TOUR-COVERAGE.md`, e relative tappe, foto e palette in `data/themes.json`, quindi aggiorna lo schema degli ID. Home e test ricavano le città dai dati. La logica e il markup delle guide non vanno duplicati.
 
 ## Fonti e significato delle date
 

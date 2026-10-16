@@ -6,16 +6,19 @@ const crypto = require('node:crypto');
 const root = path.resolve(__dirname, '..');
 const bilingual = text => typeof text === 'string' && text.split('|').length === 2 && text.split('|').every(s=>s.trim());
 const itemPhotos=JSON.parse(fs.readFileSync(path.join(root,'data/item-photos.json'),'utf8'));
-const ids = new Set(); let total = 0;
+const ids = new Set(); let total = 0, tourTotal = 0;
 for(const file of fs.readdirSync(path.join(root,'data/cities')).filter(f=>f.endsWith('.json'))){
  const data=JSON.parse(fs.readFileSync(path.join(root,'data/cities',file),'utf8'));
  const profiles=new Set(data.PROFILI.map(p=>p.id));
  let generated;vm.runInNewContext(fs.readFileSync(path.join(root,'assets/js/cities',file.replace('.json','.js')),'utf8'),{Guide:{init(value){generated=value;}}});
  const expectedPhotos=Object.fromEntries([...data.ESPERIENZE,...data.TOUR_STOPS].map(e=>[e.id,itemPhotos[e.id]]));
  assert.equal(JSON.stringify(generated),JSON.stringify({...data,PHOTOS:expectedPhotos}),'Generated data is stale: '+file);
- assert.equal(data.TOURS.length,3);
+ assert(data.TOURS.length>=12);tourTotal+=data.TOURS.length;
+ assert(new Set(data.TOURS.map(t=>[...t.stops].sort().join(','))).size>=12,'At least 12 different stop combinations: '+file);
  const allItems=[...data.ESPERIENZE,...data.TOUR_STOPS];
- for(const tour of data.TOURS){assert(tour.original);assert(tour.stops.length>=3);assert(tour.stops.every(id=>allItems.some(e=>e.id===id)));assert(bilingual(tour.title));}
+ for(const tour of data.TOURS){assert(tour.original);assert(tour.stops.length>=3);assert(tour.stops.every(id=>allItems.some(e=>e.id===id)));assert(bilingual(tour.title));
+  for(const v of tour.variants||[]){assert(v.stops.length>=2);assert(v.stops.every(id=>tour.stops.includes(id)));assert.equal(new Set(v.stops).size,v.stops.length);assert.equal(v.visitMinutes+v.walkingMinutes,v.minutes);assert(bilingual(v.note));if(tour.weather==='mixed')assert(v.stops.some(id=>tour.indoorStops.includes(id)),'Variant lost its indoor stop');}
+ }
  for(const e of allItems){
   assert.match(e.id,new RegExp('^'+data.city.id+'-\\d{3}$'));assert(!ids.has(e.id),'Duplicate ID');ids.add(e.id);
   for(const key of ['t','z','d','p','tip'])assert(bilingual(e[key]),'Missing translation: '+e.id+'/'+key);
@@ -55,7 +58,7 @@ for(const file of walk(root)){
   assert(fs.existsSync(path.resolve(path.dirname(file),target)),'Broken link: '+file+' -> '+target);
  }
 }
-console.log('OK: '+total+' stable detail IDs, 8 cities, 24 original tours, bilingual data, generated pages, image credits, syntax and local references.');
+console.log('OK: '+total+' stable detail IDs, 8 cities, '+tourTotal+' original tours, bilingual data, generated pages, image credits, syntax and local references.');
 
 const themes=JSON.parse(fs.readFileSync(path.join(root,'data/themes.json'),'utf8'));
 function luminance(hex){const rgb=hex.match(/\w\w/g).map(v=>parseInt(v,16)/255).map(v=>v<=.04045?v/12.92:((v+.055)/1.055)**2.4);return rgb[0]*.2126+rgb[1]*.7152+rgb[2]*.0722;}
